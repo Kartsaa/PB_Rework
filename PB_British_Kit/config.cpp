@@ -75,10 +75,51 @@ class CfgVehicles
             "PB_British_Kit\data\TacGloves_khk_CO.paa"
         };
 	};
+	class PB_MTP_CTRG_U_B: B_Soldier_base_F
+	{
+		scope = 1;
+		author = "Kartsa";
+		model = "\A3\Characters_F_Exp\BLUFOR\B_CTRG_Soldier_01_F.p3d";
+		picture = "\PB_Main\UI\uniform_test.paa";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"\PB_British_Kit\data\MTP_CTRG_U_01_CO.paa"};
+	};
+	class PB_MTP_CTRG_U_B_R: B_Soldier_base_F
+	{
+		scope = 1;
+		author = "Kartsa";
+		model = "\A3\Characters_F_Exp\BLUFOR\B_CTRG_Soldier_02_F.p3d";
+		picture = "\PB_Main\UI\uniform_test.paa";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"\PB_British_Kit\data\MTP_CTRG_U_01_CO.paa"};
+	};
+	class PB_MTP_U_B: B_Soldier_base_F
+	{
+		scope = 1;
+		author = "Jakx2210 (Caboose), Kartsa";
+		model = "\A3\characters_f_beta\INDEP\ia_soldier_01.p3d";
+		picture = "\PB_Main\UI\uniform_test.paa";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"\PB_British_Kit\data\MTP_Uniform.paa"};
+	};
+	class PB_MTP_U_B_R: B_Soldier_base_F
+	{
+		scope = 1;
+		author = "Jakx2210 (Caboose), Kartsa";
+		model = "\A3\characters_f_beta\INDEP\ia_soldier_02.p3d";
+		picture = "\PB_Main\UI\uniform_test.paa";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"\PB_British_Kit\data\MTP_Uniform.paa"};
+	};
 };
 class cfgWeapons
 {
 /////INHERITANCE////
+	class ContainerSupply;
+	class Supply30: ContainerSupply
+	{
+		maximumLoad = 30;
+	};
 	class UniformItem;
 	class Uniform_Base;
 	class ItemCore;
@@ -127,6 +168,75 @@ class cfgWeapons
 			armor = 0;
 		};
 	};
+	class PB_MTP_CTRG_U: Uniform_Base
+	{
+		scope = 2;
+		author = "Kartsa";
+		displayName = "[MTP] Combat Uniform";
+		picture = "\PB_Main\ui\uniform_test.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "PB_MTP_CTRG_U_B";
+			containerClass = "Supply45";
+			mass = 50;
+			allowedSlots[] = {"701","801","901"};
+			armor = 0;
+		};
+	};
+	class PB_MTP_CTRG_U_R: Uniform_Base
+	{
+		scope = 2;
+		author = "Kartsa";
+		displayName = "[MTP] Combat Uniform (Rolled-Up)";
+		picture = "\PB_Main\ui\uniform_test.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "PB_MTP_CTRG_U_B_R";
+			containerClass = "Supply45";
+			mass = 50;
+			allowedSlots[] = {"701","801","901"};
+			armor = 0;
+		};
+	};
+	class PB_MTP_U: Uniform_Base
+	{
+		scope = 2;
+		author = "Kartsa";
+		displayName = "[MTP] Combat Fatigues";
+		picture = "\PB_Main\ui\uniform_test.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "PB_MTP_U_B";
+			containerClass = "Supply45";
+			mass = 50;
+			allowedSlots[] = {"701","801","901"};
+			armor = 0;
+		};
+	};
+	class PB_MTP_U_R: Uniform_Base
+	{
+		scope = 2;
+		author = "Kartsa";
+		displayName = "[MTP] Combat Fatigues (Rolled-Up)";
+		picture = "\PB_Main\ui\uniform_test.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "PB_MTP_U_B_R";
+			containerClass = "Supply45";
+			mass = 50;
+			allowedSlots[] = {"701","801","901"};
+			armor = 0;
+		};
+	};
+	
 ////HELMETS///
 	class PB_DDPM_MK7: Helmet_Base
 	{
@@ -153,6 +263,60 @@ class cfgWeapons
 				TWest,
 				TCivilian
 			};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitPointName = "HitHead";
+					armor = 8;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+	class PB_MTP_SF_H: Helmet_Base
+	{
+		author = "Jakx2210 (Caboose), Kartsa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[MTP] Helmet (SF)";
+		picture = "\PB_Main\ui\helmet_test.paa";
+		model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\PB_British_Kit\Data\mtp_helmet.paa"};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 30;
+			uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
+			modelSides[] = {3,1};
+			hiddenSelections[] = {"camo"};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitPointName = "HitHead";
+					armor = 8;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+	class PB_MTP_H: Helmet_Base
+	{
+		author = "Jakx2210 (Caboose), Kartsa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[MTP] Helmet";
+		picture = "\PB_Main\ui\helmet_test.paa";
+		model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_plain";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\PB_British_Kit\Data\mtp_helmet.paa"};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 30;
+			uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_plain";
+			modelSides[] = {3,1};
+			hiddenSelections[] = {"camo"};
 			class HitpointsProtectionInfo
 			{
 				class Head
@@ -215,6 +379,134 @@ class cfgWeapons
 				{
 					hitpointName = "HitBody";
 					passThrough = 0.1;
+				};
+			};
+		};
+	};
+	class PB_MTP_Modular_Lite: Vest_Camo_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		displayName = "[MTP] Modular Carrier Lite";
+		picture = "\PB_Main\ui\vest_test.paa";
+		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_light_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"PB_British_Kit\data\MTP_Modular.paa"};
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_light_F.p3d";
+			containerClass = "Supply130";
+			mass = 70;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 25;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+				};
+			};
+		};
+	};
+	class PB_MTP_Modular: Vest_Camo_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		displayName = "[MTP] Modular Carrier Vest";
+		picture = "\PB_Main\ui\vest_test.paa";
+		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"PB_British_Kit\data\MTP_Modular.paa"};
+		descriptionShort = "Armor Level III";
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_F.p3d";
+			containerClass = "Supply30";
+			mass = 50;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 25;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+				};
+			};
+		};
+	};
+	class PB_MTP_Modular_GL: Vest_Camo_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		displayName = "[MTP] Modular Carrier GL Rig";
+		picture = "\PB_Main\ui\vest_test.paa";
+		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_heavy_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"PB_British_Kit\data\MTP_Modular.paa"};
+		descriptionShort = "Armor Level III";
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_heavy_F.p3d";
+			containerClass = "Supply130";
+			mass = 90;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 35;
+					PassThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 35;
+					PassThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 35;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
 				};
 			};
 		};
