@@ -4,6 +4,8 @@ Rework of BLUFOR
 Folder ordering:
 
 - PB_M_Uniform/Vest/Headgear/Backpack/Weapons, for any models
+- PB_T_Weapons for weapon textures
+- PB_C_Weapons for Weapon configs
 - PB_Main is for UI icons
 - PB_EP will be for future Editorpreviews
 - PB_*Country*_Kit will be name of country kits
