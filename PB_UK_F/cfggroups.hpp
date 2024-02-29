@@ -6,198 +6,156 @@ class CfgGroups
 		side = 1;
 		class PB_UK_Faction
 		{
-			name = "Estonian Army";
-			class Estonian_Groups
+			name = "British Army";
+			class PB_British_Groups
 			{
+		///INFANTRY///
 				name = "Infantry";
-				class Estonian_Squad
+			////INF SECTIONS////
+				class PB_British_Section
 				{
-					faction = "Estonian_Faction";
-					name = "Squad";
+					faction = "PB_UK_Faction";
+					name = "Infantry Section";
 					side = 1;
 					scope = 2;
 					scopeCurator = 2;
-					editorCategory = "Estonian_Top";
-					editorSubcategory = "Estonian_Infantry";
+					editorCategory = "PB_British_Top";
+					editorSubcategory = "PB_British_Infantry";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					class Unit0
 					{
 						side = 1;
-						vehicle = "Estonian_teamlead";
-						rank = "LIEUTENANT";
+						vehicle = "PB_UK_SOL_SL";
+						rank = "Corporal";
 						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 1;
-						vehicle = "Estonian_riflemanat";
+						vehicle = "PB_UK_SOL_MK";
 						rank = "PRIVATE";
 						position[] = {5,-5,0};
 					};
 					class Unit2
 					{
 						side = 1;
-						vehicle = "Estonian_medic";
-						rank = "CORPORAL";
+						vehicle = "PB_UK_SOL_MED";
+						rank = "PRIVATE";
 						position[] = {-5,-5,0};
 					};
 					class Unit3
 					{
 						side = 1;
-						vehicle = "Estonian_autorifleman";
+						vehicle = "PB_UK_SOL_MG";
 						rank = "PRIVATE";
 						position[] = {10,-10,0};
 					};
 					class Unit4
 					{
 						side = 1;
-						vehicle = "Estonian_grenadier";
-						rank = "SERGEANT";
+						vehicle = "PB_UK_SOL_GRE";
+						rank = "PRIVATE";
 						position[] = {-10,-10,0};
 					};
 					class Unit5
 					{
 						side = 1;
-						vehicle = "Estonian_at";
+						vehicle = "PB_UK_SOL_RAT";
 						rank = "PRIVATE";
 						position[] = {15,-15,0};
 					};
 					class Unit6
 					{
 						side = 1;
-						vehicle = "Estonian_marksman";
-						rank = "PRIVATE";
+						vehicle = "PB_UK_SOL_SL";
+						rank = "CORPORAL";
 						position[] = {-15,-15,0};
 					};
 					class Unit7
 					{
 						side = 1;
-						vehicle = "Estonian_ammobearer";
+						vehicle = "PB_UK_SOL_GRE";
 						rank = "PRIVATE";
 						position[] = {20,-20,0};
 					};
 				};
-				class Estonian_Fireteam
+			///FIRETEAMS///
+				class PB_British_C_FT
 				{
-					faction = "Estonian_Faction";
-					name = "Fireteam";
+					faction = "PB_UK_Faction";
+					name = "Charlie Fireteam";
 					side = 1;
 					scope = 2;
 					scopeCurator = 2;
-					editorCategory = "Estonian_Top";
-					editorSubcategory = "Estonian_Infantry";
+					editorCategory = "PB_British_Top";
+					editorSubcategory = "PB_British_Infantry";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					class Unit0
 					{
 						side = 1;
-						vehicle = "Estonian_teamlead";
-						rank = "SERGEANT";
+						vehicle = "PB_UK_SOL_SL";
+						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 1;
-						vehicle = "Estonian_autorifleman";
+						vehicle = "PB_UK_SOL_R";
 						rank = "PRIVATE";
 						position[] = {5,-5,0};
 					};
 					class Unit2
 					{
 						side = 1;
-						vehicle = "Estonian_medic";
-						rank = "CORPORAL";
+						vehicle = "PB_UK_SOL_MK";
+						rank = "PRIVATE";
 						position[] = {-5,-5,0};
 					};
 					class Unit3
 					{
 						side = 1;
-						vehicle = "Estonian_ammobearer";
+						vehicle = "PB_UK_SOL_GRE";
 						rank = "PRIVATE";
 						position[] = {10,-10,0};
 					};
 				};
-				class Estonian_GPMGteam
+				class PB_British_D_FT
 				{
-					faction = "Estonian_Faction";
-					name = "GPMG Team";
+					faction = "PB_UK_Faction";
+					name = "Delta Fireteam";
 					side = 1;
 					scope = 2;
 					scopeCurator = 2;
-					editorCategory = "Estonian_Top";
-					editorSubcategory = "Estonian_Infantry";
+					editorCategory = "PB_British_Top";
+					editorSubcategory = "PB_British_Infantry";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					class Unit0
 					{
 						side = 1;
-						vehicle = "Estonian_machinegunner";
-						rank = "PRIVATE";
+						vehicle = "PB_UK_SOL_SL";
+						rank = "CORPORAL";
 						position[] = {0,0,0};
 					};
 					class Unit1
 					{
 						side = 1;
-						vehicle = "Estonian_ammobearer";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-				};
-				class Estonian_ATteam
-				{
-					faction = "Estonian_Faction";
-					name = "AT Team";
-					side = 1;
-					scope = 2;
-					scopeCurator = 2;
-					editorCategory = "Estonian_Top";
-					editorSubcategory = "Estonian_Infantry";
-					class Unit0
-					{
-						side = 1;
-						vehicle = "Estonian_teamlead";
-						rank = "SERGEANT";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 1;
-						vehicle = "Estonian_rifleman";
+						vehicle = "PB_UK_SOL_R";
 						rank = "PRIVATE";
 						position[] = {5,-5,0};
 					};
 					class Unit2
 					{
 						side = 1;
-						vehicle = "Estonian_medic";
-						rank = "CORPORAL";
+						vehicle = "PB_UK_SOL_MK";
+						rank = "PRIVATE";
 						position[] = {-5,-5,0};
 					};
 					class Unit3
 					{
 						side = 1;
-						vehicle = "Estonian_at";
+						vehicle = "PB_UK_SOL_MG";
 						rank = "PRIVATE";
 						position[] = {10,-10,0};
-					};
-				};
-				class Estonian_Sentry
-				{
-					faction = "Estonian_Faction";
-					name = "Sentry";
-					side = 1;
-					scope = 2;
-					scopeCurator = 2;
-					editorCategory = "Estonian_Top";
-					editorSubcategory = "Estonian_Infantry";
-					class Unit0
-					{
-						side = 1;
-						vehicle = "Estonian_grenadier";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 1;
-						vehicle = "Estonian_rifleman";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
 					};
 				};
 			};

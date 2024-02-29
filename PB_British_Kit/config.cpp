@@ -189,6 +189,17 @@ class CfgVehicles
 		maximumLoad = 200;
 		mass = 40;
 	};
+	class PB_Medbag_MTP: B_Kitbag_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		displayName = "[MTP] Medic Kitbag";
+		picture = "PB_Main\ui\kitbag_test.paa";
+		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast";
+		hiddenSelectionsTextures[] = {"PB_British_Kit\data\MTP_KB_MED_CO.paa"};	
+		maximumLoad = 200;
+		mass = 40;
+	};
 	class PB_CARRYALL_DPM: B_Kitbag_Base
 	{
 		author = "Kartsa";
@@ -453,6 +464,31 @@ class cfgWeapons
 		picture = "\PB_Main\ui\helmet_test.paa";
 		model = "\PB_M_Headgear\Mk7\H_Mk7_F.p3d";
 		hiddenSelections[] = { "Camo","Camo2","Camo3" };
+		allowedFacewear[] =
+		{
+			"rhs_googles_black", 1,  
+			"rhs_googles_clear", 1,
+			"rhs_googles_orange", 1,
+			"rhs_googles_yellow", 1,
+			"rhs_ess_black", 1,
+			"G_Bandanna_khk", 1,
+			"G_Bandanna_tan", 1,
+			"rhs_scarf", 1,
+			"rhsusf_shemagh_od", 1,
+			"rhsusf_shemagh2_od", 1,
+			"rhsusf_shemagh2_grn", 1,
+			"rhsusf_shemagh_tan", 1,
+			"rhsusf_shemagh2_tan", 1,
+			"rhsusf_shemagh2_gogg_grn", 1,
+			"rhsusf_shemagh_gogg_grn", 1,
+			"rhsusf_shemagh2_gogg_od", 1,
+			"rhsusf_shemagh_gogg_od", 1,
+			"rhsusf_shemagh_gogg_tan", 1,
+			"rhsusf_shemagh2_gogg_tan", 1,
+			"rhsusf_oakley_goggles_blk", 1,
+			"rhsusf_oakley_goggles_clr", 1,
+			"rhsusf_oakley_goggles_ylw", 1,
+		};
         hiddenSelectionsTextures[] =
         {
          	"\PB_British_Kit\data\DDPM_MK7_CO.paa",
@@ -489,6 +525,31 @@ class cfgWeapons
 		picture = "\PB_Main\ui\helmet_test.paa";
 		model = "\PB_M_Headgear\Mk7\H_Mk7_F.p3d";
 		hiddenSelections[] = { "Camo","Camo2","Camo3" };
+		allowedFacewear[] =
+		{
+			"rhs_googles_black", 1,  
+			"rhs_googles_clear", 1,
+			"rhs_googles_orange", 1,
+			"rhs_googles_yellow", 1,
+			"rhs_ess_black", 1,
+			"G_Bandanna_khk", 1,
+			"G_Bandanna_tan", 1,
+			"rhs_scarf", 1,
+			"rhsusf_shemagh_od", 1,
+			"rhsusf_shemagh2_od", 1,
+			"rhsusf_shemagh2_grn", 1,
+			"rhsusf_shemagh_tan", 1,
+			"rhsusf_shemagh2_tan", 1,
+			"rhsusf_shemagh2_gogg_grn", 1,
+			"rhsusf_shemagh_gogg_grn", 1,
+			"rhsusf_shemagh2_gogg_od", 1,
+			"rhsusf_shemagh_gogg_od", 1,
+			"rhsusf_shemagh_gogg_tan", 1,
+			"rhsusf_shemagh2_gogg_tan", 1,
+			"rhsusf_oakley_goggles_blk", 1,
+			"rhsusf_oakley_goggles_clr", 1,
+			"rhsusf_oakley_goggles_ylw", 1,
+		};
         hiddenSelectionsTextures[] =
         {
          	"\PB_British_Kit\data\DPM_MK7_CO.paa",
@@ -525,6 +586,31 @@ class cfgWeapons
 		picture = "\PB_Main\ui\helmet_test.paa";
 		model = "\PB_M_Headgear\Mk7\H_Mk7_F.p3d";
 		hiddenSelections[] = { "Camo","Camo2","Camo3" };
+		allowedFacewear[] =
+		{
+			"rhs_googles_black", 1,  
+			"rhs_googles_clear", 1,
+			"rhs_googles_orange", 1,
+			"rhs_googles_yellow", 1,
+			"rhs_ess_black", 1,
+			"G_Bandanna_khk", 1,
+			"G_Bandanna_tan", 1,
+			"rhs_scarf", 1,
+			"rhsusf_shemagh_od", 1,
+			"rhsusf_shemagh2_od", 1,
+			"rhsusf_shemagh2_grn", 1,
+			"rhsusf_shemagh_tan", 1,
+			"rhsusf_shemagh2_tan", 1,
+			"rhsusf_shemagh2_gogg_grn", 1,
+			"rhsusf_shemagh_gogg_grn", 1,
+			"rhsusf_shemagh2_gogg_od", 1,
+			"rhsusf_shemagh_gogg_od", 1,
+			"rhsusf_shemagh_gogg_tan", 1,
+			"rhsusf_shemagh2_gogg_tan", 1,
+			"rhsusf_oakley_goggles_blk", 1,
+			"rhsusf_oakley_goggles_clr", 1,
+			"rhsusf_oakley_goggles_ylw", 1,
+		};
         hiddenSelectionsTextures[] =
         {
          	"\PB_British_Kit\data\MTP_MK7_CO.paa",
@@ -562,6 +648,31 @@ class cfgWeapons
 		model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\PB_British_Kit\Data\mtp_helmet.paa"};
+		allowedFacewear[] =
+		{
+			"rhs_googles_black", 1,  
+			"rhs_googles_clear", 1,
+			"rhs_googles_orange", 1,
+			"rhs_googles_yellow", 1,
+			"rhs_ess_black", 1,
+			"G_Bandanna_khk", 1,
+			"G_Bandanna_tan", 1,
+			"rhs_scarf", 1,
+			"rhsusf_shemagh_od", 1,
+			"rhsusf_shemagh2_od", 1,
+			"rhsusf_shemagh2_grn", 1,
+			"rhsusf_shemagh_tan", 1,
+			"rhsusf_shemagh2_tan", 1,
+			"rhsusf_shemagh2_gogg_grn", 1,
+			"rhsusf_shemagh_gogg_grn", 1,
+			"rhsusf_shemagh2_gogg_od", 1,
+			"rhsusf_shemagh_gogg_od", 1,
+			"rhsusf_shemagh_gogg_tan", 1,
+			"rhsusf_shemagh2_gogg_tan", 1,
+			"rhsusf_oakley_goggles_blk", 1,
+			"rhsusf_oakley_goggles_clr", 1,
+			"rhsusf_oakley_goggles_ylw", 1,
+		};
 		class ItemInfo: HeadgearItem
 		{
 			mass = 30;
@@ -589,6 +700,31 @@ class cfgWeapons
 		model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_plain";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\PB_British_Kit\Data\mtp_helmet.paa"};
+		allowedFacewear[] =
+		{
+			"rhs_googles_black", 1,  
+			"rhs_googles_clear", 1,
+			"rhs_googles_orange", 1,
+			"rhs_googles_yellow", 1,
+			"rhs_ess_black", 1,
+			"G_Bandanna_khk", 1,
+			"G_Bandanna_tan", 1,
+			"rhs_scarf", 1,
+			"rhsusf_shemagh_od", 1,
+			"rhsusf_shemagh2_od", 1,
+			"rhsusf_shemagh2_grn", 1,
+			"rhsusf_shemagh_tan", 1,
+			"rhsusf_shemagh2_tan", 1,
+			"rhsusf_shemagh2_gogg_grn", 1,
+			"rhsusf_shemagh_gogg_grn", 1,
+			"rhsusf_shemagh2_gogg_od", 1,
+			"rhsusf_shemagh_gogg_od", 1,
+			"rhsusf_shemagh_gogg_tan", 1,
+			"rhsusf_shemagh2_gogg_tan", 1,
+			"rhsusf_oakley_goggles_blk", 1,
+			"rhsusf_oakley_goggles_clr", 1,
+			"rhsusf_oakley_goggles_ylw", 1,
+		};
 		class ItemInfo: HeadgearItem
 		{
 			mass = 30;
@@ -614,6 +750,31 @@ class cfgWeapons
 		displayName="[MTP] Helmet (Camo)";
 		model="\A3\Characters_F\BLUFOR\headgear_b_helmet_camo";
 		picture = "\PB_Main\ui\helmet_test.paa";
+		allowedFacewear[] =
+		{
+			"rhs_googles_black", 1,  
+			"rhs_googles_clear", 1,
+			"rhs_googles_orange", 1,
+			"rhs_googles_yellow", 1,
+			"rhs_ess_black", 1,
+			"G_Bandanna_khk", 1,
+			"G_Bandanna_tan", 1,
+			"rhs_scarf", 1,
+			"rhsusf_shemagh_od", 1,
+			"rhsusf_shemagh2_od", 1,
+			"rhsusf_shemagh2_grn", 1,
+			"rhsusf_shemagh_tan", 1,
+			"rhsusf_shemagh2_tan", 1,
+			"rhsusf_shemagh2_gogg_grn", 1,
+			"rhsusf_shemagh_gogg_grn", 1,
+			"rhsusf_shemagh2_gogg_od", 1,
+			"rhsusf_shemagh_gogg_od", 1,
+			"rhsusf_shemagh_gogg_tan", 1,
+			"rhsusf_shemagh2_gogg_tan", 1,
+			"rhsusf_oakley_goggles_blk", 1,
+			"rhsusf_oakley_goggles_clr", 1,
+			"rhsusf_oakley_goggles_ylw", 1,
+		};
 		hiddenSelections[]=
 		{
 			"camo1",
