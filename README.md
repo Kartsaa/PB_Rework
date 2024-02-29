@@ -6,7 +6,7 @@ Folder ordering:
 - PB_M_Uniform/Vest/Headgear/Backpack/Weapons, for any models
 - PB_T_Weapons for weapon textures
 - PB_C_Weapons for Weapon configs
-- PB_Main is for UI icons
+- PB_Main is for UI icons and a requiredaddon for *all* other .pbos
 - PB_EP will be for future Editorpreviews
 - PB_*Country*_Kit will be name of country kits
 - PB_*Country*_F will be faction files
