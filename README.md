@@ -10,7 +10,6 @@ Folder ordering:
 - PB_EP will be for future Editorpreviews
 - PB_*Country*_Kit will be name of country kits
 - PB_*Country*_F will be faction files
-- PB_*Country*_V will be faction vehicles
 - PB_3CB_*Country*_V will be for 3CB soft-dependency vehicles
 - PB_C_TFAR will be TFAR configs
 - PB_T_TFAR will be TFAR textures
