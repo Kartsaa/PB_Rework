@@ -67,7 +67,7 @@
 		{
 			"PB_MTP_H",1,
 			"PB_MTP_H_C",1,
-			"PB_MTP_SF_H",0.2
+			"PB_MTP_SF_H",0.5
 		};
 		class EventHandlers: EventHandlers
 		{
@@ -95,9 +95,9 @@
 		displayName = "Medic";
         icon = "iconManLeader";
         role = "iconManMedic";
+        attendant = "1";
 		uniformClass = "PB_MTP_ACU_R";
 		backpack = "PB_UK_MED_BAG";
-        attendant = "1";
         weapons[] = {"PB_RIF_F_L85A3",,"Throw","Put"};
 		respawnWeapons[] = {"PB_RIF_F_L85A3","Throw","Put"};
 		magazines[] = {"SmokeShell","SmokeShell","UK3CB_BAF_556_30Rnd_T","UK3CB_BAF_556_30Rnd_T","UK3CB_BAF_556_30Rnd_T","UK3CB_BAF_556_30Rnd_T","UK3CB_BAF_556_30Rnd_T","UK3CB_BAF_556_30Rnd_T"};
@@ -108,7 +108,7 @@
 		displayName = "Squadleader";
         icon = "iconManLeader";
 		uniformClass = "PB_MTP_ACU_R";
-		backpack = "PB_UK_SL_BAG";
+		backpack = "PB_UK_RADIO_BAG";
 		linkedItems[]=
 		{
 			"PB_MTP_Modular_Lite",
@@ -256,4 +256,107 @@
 		respawnWeapons[] = {"PB_RIF_F_L85A3","PB_AT_M3","Throw","Put"};
         magazines[] = {"rhs_mag_maaws_HEAT","UK3CB_BAF_556_30Rnd_T","UK3CB_BAF_556_30Rnd_T","UK3CB_BAF_556_30Rnd_T","UK3CB_BAF_556_30Rnd_T"};
 		respawnMagazines[] = {"rhs_mag_maaws_HEAT","UK3CB_BAF_556_30Rnd_T","UK3CB_BAF_556_30Rnd_T","UK3CB_BAF_556_30Rnd_T","UK3CB_BAF_556_30Rnd_T"};
+	};
+	class PB_UK_SOL_C: PB_UK_SOL_R
+	{
+		displayName = "Crewman";
+		role = "Crewman";
+		uniformClass = "PB_MTP_GoraG_RU";
+		backpack = "";
+		linkedItems[]=
+		{
+			"PB_MTP_Modular",
+			"H_HelmetCrew_I",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"ItemRadio",
+			"ItemGPS"
+		};
+		respawnLinkedItems[]=
+		{
+			"PB_MTP_Modular",
+			"H_HelmetCrew_I",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"ItemRadio",
+			"ItemGPS"
+		};
+		weapons[] = {"UK3CB_BAF_L22A2","Throw","Put"};
+		respawnWeapons[] = {"UK3CB_BAF_L22A2","Throw","Put"};
+        magazines[] = {"SmokeShellBlue","SmokeShellBlue","UK3CB_BAF_556_30Rnd_T","UK3CB_BAF_556_30Rnd_T","UK3CB_BAF_556_30Rnd_T","UK3CB_BAF_556_30Rnd_T"};
+		respawnMagazines[] = {"SmokeShellBlue","SmokeShellBlue","UK3CB_BAF_556_30Rnd_T","UK3CB_BAF_556_30Rnd_T","UK3CB_BAF_556_30Rnd_T","UK3CB_BAF_556_30Rnd_T"};
+	};
+	class PB_UK_SOL_JP: PB_UK_SOL_R
+	{
+		displayName = "Jet Pilot";
+		role = "Crewman";
+		uniformClass = "U_B_PilotCoveralls";
+		backpack = "";
+		linkedItems[]=
+		{
+			"H_PilotHelmetFighter_B",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"ItemRadio",
+			"ItemGPS"
+		};
+		respawnLinkedItems[]=
+		{
+			"H_PilotHelmetFighter_B",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"ItemRadio",
+			"ItemGPS"
+		};
+		weapons[] = {"UK3CB_BAF_L22A2","Throw","Put"};
+		respawnWeapons[] = {"UK3CB_BAF_L22A2","Throw","Put"};
+        magazines[] = {"SmokeShellBlue","SmokeShellBlue","UK3CB_BAF_556_30Rnd_T","UK3CB_BAF_556_30Rnd_T"};
+		respawnMagazines[] = {"SmokeShellBlue","SmokeShellBlue","UK3CB_BAF_556_30Rnd_T","UK3CB_BAF_556_30Rnd_T"};
+	};
+	class PB_UK_SOL_HP: PB_UK_SOL_JP
+	{
+		displayName = "Heli Pilot";
+		role = "Crewman";
+		uniformClass = "PB_MTP_GoraG_RU";
+		backpack = "";
+		linkedItems[]=
+		{
+			"H_PilotHelmetHeli_O",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"ItemRadio",
+			"ItemGPS"
+		};
+		respawnLinkedItems[]=
+		{
+			"H_PilotHelmetHeli_O",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"ItemRadio",
+			"ItemGPS"
+		};
+	};
+	class PB_UK_SOL_ENG: PB_UK_SOL_R
+	{
+		displayName = "Engineer";
+		role = "Sapper";
+		icon = "IconManEngineer";
+        backpack = "PB_UK_ENG_BAG";
+		engineer=1;
+	};
+	class PB_UK_SOL_EOD: PB_UK_SOL_R
+	{
+		displayName = "EOD";
+		role = "Sapper";
+		icon = "iconManExplosive";
+        backpack = "PB_UK_EOD_BAG";
+		engineer=1;
+		canDeactivateMines=1;
+		detectSkill=38;
 	};

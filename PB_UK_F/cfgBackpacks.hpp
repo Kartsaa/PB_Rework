@@ -1,6 +1,7 @@
 	class PB_Kitbag_MTP;
     class PB_CARRYALL_MTP;
     class PB_MedBag_MTP;
+	class PB_Radiobag_MTP;
 	class PB_UK_RIF_BAG: PB_Kitbag_MTP
 	{
 		scope = 1;
@@ -35,7 +36,7 @@
 			};
 		};
 	};
-    class PB_UK_SL_BAG: PB_Kitbag_MTP
+    class PB_UK_RADIO_BAG: PB_Radiobag_MTP
 	{
 		scope = 1;
 		class TransportItems
@@ -135,3 +136,37 @@
 			};
 		};
     };
+	class PB_UK_ENG_BAG: PB_Kitbag_MTP
+	{
+		scope = 1;
+		class TransportItems
+		{
+			class _xx_ToolKit
+			{
+				name = "ToolKit";
+				count = 1;
+			};
+		};
+	};
+	class PB_UK_EOD_BAG: PB_Kitbag_MTP
+	{
+		scope = 1;
+		class TransportItems
+		{
+			class _xx_ToolKit
+			{
+				name = "ToolKit";
+				count = 1;
+			};
+			class _xx_MineDetector
+			{
+				name = "MineDetector";
+				count = 1;
+			};
+			class _xx_DemoCharge_Remote_Mag
+			{
+				name = "DemoCharge_Remote_Mag";
+				count = 1;
+			};
+		};
+	};

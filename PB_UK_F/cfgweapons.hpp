@@ -23,14 +23,14 @@ class CfgWeapons
 				slot = "PointerSlot";
 				item = "UK3CB_BAF_LLM_IR_Tan";
 			};
-            class LinkedItemsUnder
+			class LinkedItemsUnder
 			{
-				slot = "UK3CB_UnderSlot_L85";
-				item = "UK3CB_underbarrel_acc_grippod_t";
+				slot = "UnderBarrelSlot";
+				item = "UK3CB_underbarrel_acc_grippod";
 			};
 		};
 	};
-    class PB_RIF_F_L85GL: UK3CB_BAF_L85A3
+    class PB_RIF_F_L85GL: UK3CB_BAF_L85A3_UGL
 	{
 		scope = 1;
 		class LinkedItems
@@ -57,9 +57,9 @@ class CfgWeapons
 				slot = "CowsSlot";
 				item = "UK3CB_BAF_TA648";
 			};
-            class LinkedItemsUnder
+			class LinkedItemsUnder
 			{
-				slot = "UK3CB_UnderSlot_L129";
+				slot = "UnderBarrelSlot";
 				item = "UK3CB_underbarrel_acc_fgrip_bipod";
 			};
 		};
@@ -76,7 +76,7 @@ class CfgWeapons
 			};
             class LinkedItemsUnder
 			{
-				slot = "UK3CB_UnderSLot_L115";
+				slot = "UnderBarrelSlot";
 				item = "UK3CB_underbarrel_acc_bipod";
 			};
 		};
