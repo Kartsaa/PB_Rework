@@ -28,11 +28,18 @@ class CfgPatches
 class CfgVehicles
 {
 	class Bag_Base;
-	class Item_Base_F;
+	class Bag_Base_2: Bag_Base
+	{
+		tf_hasLRradio = 1;
+		tf_range = 40000;
+		tf_encryptionCode = "tf_west_radio_code";
+		tf_dialog = "rt1523g_radio_dialog";
+		tf_subtype = "digital_lr";
+	};
+///BRITISH///
 	class PB_Radiobag_MTP: Bag_Base
 	{
-		tf_hasLRradio = 0;
-		scopeCurator = 2;
+		tf_hasLRradio = 1;
 		tf_range = 40000;
 		tf_encryptionCode = "tf_west_radio_code";
 		tf_dialog = "rt1523g_radio_dialog";
@@ -40,8 +47,7 @@ class CfgVehicles
 	};
 	class PB_Radiobag_DPM: Bag_Base
 	{
-		tf_hasLRradio = 0;
-		scopeCurator = 2;
+		tf_hasLRradio = 1;
 		tf_range = 40000;
 		tf_encryptionCode = "tf_west_radio_code";
 		tf_dialog = "rt1523g_radio_dialog";

@@ -98,7 +98,7 @@
         attendant = "1";
 		uniformClass = "PB_MTP_ACU_R";
 		backpack = "PB_UK_MED_BAG";
-        weapons[] = {"PB_RIF_F_L85A3",,"Throw","Put"};
+        weapons[] = {"PB_RIF_F_L85A3","Throw","Put"};
 		respawnWeapons[] = {"PB_RIF_F_L85A3","Throw","Put"};
 		magazines[] = {"SmokeShell","SmokeShell","UK3CB_BAF_556_30Rnd_T","UK3CB_BAF_556_30Rnd_T","UK3CB_BAF_556_30Rnd_T","UK3CB_BAF_556_30Rnd_T","UK3CB_BAF_556_30Rnd_T","UK3CB_BAF_556_30Rnd_T"};
 		respawnMagazines[] = {"SmokeShell","SmokeShell","UK3CB_BAF_556_30Rnd_T","UK3CB_BAF_556_30Rnd_T","UK3CB_BAF_556_30Rnd_T","UK3CB_BAF_556_30Rnd_T","UK3CB_BAF_556_30Rnd_T","UK3CB_BAF_556_30Rnd_T"};

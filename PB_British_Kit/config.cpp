@@ -242,7 +242,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[MTP] Kitbag";
+		displayName = "[MTP] Radiobag";
 		picture = "PB_Main\ui\Contact_LR.paa";
 		model = "a3\Supplies_F_Enoch\Bags\B_RadioBag_01_F.p3d";
 		hiddenSelections[] = {"camo1"};
@@ -254,7 +254,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[DPM] Kitbag";
+		displayName = "[DPM] Radiobag";
 		picture = "PB_Main\ui\Contact_LR.paa";
 		model = "a3\Supplies_F_Enoch\Bags\B_RadioBag_01_F.p3d";
 		hiddenSelections[] = {"camo1"};
