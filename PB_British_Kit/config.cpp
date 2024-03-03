@@ -1335,7 +1335,7 @@ class cfgWeapons
 		author="Kartsa";
 		scope=2;
 		displayName="[DDPM] Osprey Grenadier Rig";
-		picture="\PB_Main\UI\vest_test.paa";
+		picture = "\PB_Main\ui\vest_test.paa";
 		model="\PB_M_Vests\Osprey\Grenadier\PB_Osprey_GRE.p3d";
 		hiddenSelections[]=
 		{
@@ -1402,7 +1402,7 @@ class cfgWeapons
 		author="Kartsa";
 		scope=2;
 		displayName="[DDPM] Osprey Squadleader Rig";
-		picture="\PB_Main\UI\vest_test.paa";
+		picture = "\PB_Main\ui\vest_test.paa";
 		model="\PB_M_Vests\Osprey\SL\PB_Osprey_SL.p3d";
 		hiddenSelections[]=
 		{
@@ -1469,7 +1469,7 @@ class cfgWeapons
 		author="Kartsa";
 		scope=2;
 		displayName="[DDPM] Osprey Rig";
-		picture="\PB_Main\UI\vest_test.paa";
+		picture = "\PB_Main\ui\vest_test.paa";
 		model="\PB_M_Vests\Osprey\Rig\PB_Osprey_Rig.p3d";
 		hiddenSelections[]=
 		{
@@ -1536,7 +1536,7 @@ class cfgWeapons
 		author="Kartsa";
 		scope=2;
 		displayName="[DDPM] Osprey MG Rig";
-		picture="\PB_Main\UI\vest_test.paa";
+		picture = "\PB_Main\ui\vest_test.paa";
 		model="\PB_M_Vests\Osprey\MG\PB_Osprey_MG.p3d";
 		hiddenSelections[]=
 		{
@@ -1606,7 +1606,7 @@ class cfgWeapons
 		author="Kartsa";
 		scope=2;
 		displayName="[DPM] Osprey Grenadier Rig";
-		picture="\PB_Main\UI\vest_test.paa";
+		picture = "\PB_Main\ui\vest_test.paa";
 		model="\PB_M_Vests\Osprey\Grenadier\PB_Osprey_GRE.p3d";
 		hiddenSelections[]=
 		{
@@ -1673,7 +1673,7 @@ class cfgWeapons
 		author="Kartsa";
 		scope=2;
 		displayName="[DPM] Osprey Squadleader Rig";
-		picture="\PB_Main\UI\vest_test.paa";
+		picture = "\PB_Main\ui\vest_test.paa";
 		model="\PB_M_Vests\Osprey\SL\PB_Osprey_SL.p3d";
 		hiddenSelections[]=
 		{
@@ -1740,7 +1740,7 @@ class cfgWeapons
 		author="Kartsa";
 		scope=2;
 		displayName="[DPM] Osprey Rig";
-		picture="\PB_Main\UI\vest_test.paa";
+		picture = "\PB_Main\ui\vest_test.paa";
 		model="\PB_M_Vests\Osprey\Rig\PB_Osprey_Rig.p3d";
 		hiddenSelections[]=
 		{
@@ -1807,7 +1807,7 @@ class cfgWeapons
 		author="Kartsa";
 		scope=2;
 		displayName="[DPM] Osprey MG Rig";
-		picture="\PB_Main\UI\vest_test.paa";
+		picture = "\PB_Main\ui\vest_test.paa";
 		model="\PB_M_Vests\Osprey\MG\PB_Osprey_MG.p3d";
 		hiddenSelections[]=
 		{

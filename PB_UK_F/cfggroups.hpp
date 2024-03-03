@@ -254,7 +254,7 @@ class CfgGroups
 					class Unit4
 					{
 						side = 1;
-						vehicle = "PB_UK_SOL_R_MG";
+						vehicle = "PB_UK_SOL_MG";
 						rank = "PRIVATE";
 						position[] = {-10,-10,0};
 					};
@@ -603,7 +603,8 @@ class CfgGroups
 					};
 				};
 			};
-			class BP_British_Mech_Groups
+		////MECH INFANTRY////
+			class PB_British_Mech_Groups
 			{
 				name = "Mechanized Infantry";
 				class PB_UK_Warrior_Inf
@@ -681,7 +682,7 @@ class CfgGroups
 					};
 				};
 			};
-			class BP_British_Mech_D_Groups
+			class PB_British_Mech_D_Groups
 			{
 				name = "Mechanized Infantry (Desert)";
 				class PB_UK_Warrior_Inf_D
@@ -759,7 +760,8 @@ class CfgGroups
 					};
 				};
 			};
-			class BP_British_APC_Groups
+		////APCS////
+			class PB_British_APC_Groups
 			{
 				name = "APCs";
 				class PB_UK_Warrior_PLT
@@ -802,7 +804,7 @@ class CfgGroups
 					};
 				};
 			};
-			class BP_British_APC_D_Groups
+			class PB_British_APC_D_Groups
 			{
 				name = "APCs (Desert)";
 				class PB_UK_Warrior_PLT_D
@@ -843,6 +845,372 @@ class CfgGroups
 						rank = "CORPORAL";
 						position[] = {40,-60,3};
 					};
+				};
+			};
+		////MRAPS////
+			class PB_British_Mot_Groups
+			{
+				name = "Motorized Infantry";
+				class PB_UK_Mastiff_G
+				{
+					name = "Motorized Infantry (Mastiff)";
+					faction = "PB_UK_Faction";
+					side = 1;
+					scope = 2;
+					scopecurator = 2;
+					editorCategory = "PB_British_Top";
+					editorSubcategory = "PB_British_MRAP";
+					icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+					class Unit0
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_SL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_R";
+						rank = "SERGEANT";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_GRE";
+						rank = "PRIVATE";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "PB_UK_MASTIFF_M2_WD";
+						rank = "CORPORAL";
+						position[] = {10,10,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_MG";
+						rank = "PRIVATE";
+						position[] = {-10,-10,0};
+					};
+					class Unit5
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_ENG";
+						rank = "PRIVATE";
+						position[] = {15,-15,0};
+					};
+					class Unit6
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_MED";
+						rank = "PRIVATE";
+						position[] = {-15,-15,0};
+					};
+					class Unit7
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_MK";
+						rank = "PRIVATE";
+						position[] = {20,-20,0};
+					};
+					class Unit8
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_GRE";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+				};
+				class PB_UK_Ridgeback_G
+				{
+					name = "Motorized Infantry (Ridgeback)";
+					faction = "PB_UK_Faction";
+					side = 1;
+					scope = 2;
+					scopecurator = 2;
+					editorCategory = "PB_British_Top";
+					editorSubcategory = "PB_British_MRAP_D";
+					icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+					class Unit0
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_SL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_R";
+						rank = "SERGEANT";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_GRE";
+						rank = "PRIVATE";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "PB_UK_RIDGEBACK_M2_WD";
+						rank = "CORPORAL";
+						position[] = {10,10,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_MG";
+						rank = "PRIVATE";
+						position[] = {-10,-10,0};
+					};
+					class Unit5
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_ENG";
+						rank = "PRIVATE";
+						position[] = {15,-15,0};
+					};
+					class Unit6
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_MED";
+						rank = "PRIVATE";
+						position[] = {-15,-15,0};
+					};
+					class Unit7
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_MK";
+						rank = "PRIVATE";
+						position[] = {20,-20,0};
+					};
+					class Unit8
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_GRE";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+				};
+			};
+			class PB_British_Mot_D_Groups
+			{
+				name = "Motorized Infantry (Desert)";
+				class PB_UK_Mastiff_G_D
+				{
+					name = "Motorized Infantry (Mastiff)";
+					faction = "PB_UK_Faction";
+					side = 1;
+					scope = 2;
+					scopecurator = 2;
+					editorCategory = "PB_British_Top";
+					editorSubcategory = "PB_British_MRAP_D";
+					icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+					class Unit0
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_SL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_R";
+						rank = "SERGEANT";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_GRE";
+						rank = "PRIVATE";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "PB_UK_MASTIFF_M2_D";
+						rank = "CORPORAL";
+						position[] = {10,10,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_MG";
+						rank = "PRIVATE";
+						position[] = {-10,-10,0};
+					};
+					class Unit5
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_ENG";
+						rank = "PRIVATE";
+						position[] = {15,-15,0};
+					};
+					class Unit6
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_MED";
+						rank = "PRIVATE";
+						position[] = {-15,-15,0};
+					};
+					class Unit7
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_MK";
+						rank = "PRIVATE";
+						position[] = {20,-20,0};
+					};
+					class Unit8
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_GRE";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+				};
+				class PB_UK_Ridgeback_G_D
+				{
+					name = "Motorized Infantry (Ridgeback)";
+					faction = "PB_UK_Faction";
+					side = 1;
+					scope = 2;
+					scopecurator = 2;
+					editorCategory = "PB_British_Top";
+					editorSubcategory = "PB_British_MRAP_D";
+					icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+					class Unit0
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_SL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_R";
+						rank = "SERGEANT";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_GRE";
+						rank = "PRIVATE";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "PB_UK_RIDGEBACK_M2_D";
+						rank = "CORPORAL";
+						position[] = {10,10,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_MG";
+						rank = "PRIVATE";
+						position[] = {-10,-10,0};
+					};
+					class Unit5
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_ENG";
+						rank = "PRIVATE";
+						position[] = {15,-15,0};
+					};
+					class Unit6
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_MED";
+						rank = "PRIVATE";
+						position[] = {-15,-15,0};
+					};
+					class Unit7
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_MK";
+						rank = "PRIVATE";
+						position[] = {20,-20,0};
+					};
+					class Unit8
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_GRE";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+				};
+			};
+		///ARTILLERY///
+			class PB_British_AS90_P
+			{
+					name = "AS-90 Platoon";
+					faction = "PB_UK_Faction";
+					side = 1;
+					editorCategory = "PB_British_TOP";
+					editorSubcategory = "PB_British_ART";
+					icon = "\A3\ui_f\data\map\markers\nato\b_art.paa";
+					class Unit0
+					{
+						side = 1;
+						vehicle = "PB_UK_AS90";
+						rank = "SERGEANT";
+						position[] = {-15,-15,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "PB_UK_AS90";
+						rank = "CORPORAL";							
+						position[] = {0,0,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "PB_UK_AS90";
+						rank = "CORPORAL";
+						position[] = {15,-15,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "PB_UK_AS90";
+						rank = "CORPORAL";
+						position[] = {30,-15,0};
+					};
+			};
+			class PB_British_AS90_S
+			{
+				name = "AS-90 Section";
+				faction = "PB_UK_Faction";
+				side = 1;
+				editorCategory = "PB_British_TOP";
+				eitorSubcategory = "PB_British_ART";
+				icon = "\A3\ui_f\data\map\markers\nato\b_art.paa";
+				class Unit0
+				{
+					side = 1;
+					vehicle = "PB_UK_AS90";
+					rank = "SERGEANT";
+					position[] = {-15,-15,0};
+				};
+				class Unit1
+				{
+					side = 1;
+					vehicle = "PB_UK_AS90";
+					rank = "CORPORAL";							
+					position[] = {0,0,0};
 				};
 			};
 		};

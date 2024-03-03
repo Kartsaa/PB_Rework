@@ -6,7 +6,8 @@ class CfgPatches
 		{
 			"PB_UK_SOL_R","PB_UK_SOL_RAT","PB_UK_SOL_SL","PB_UK_SOL_MK","PB_UK_SOL_GRE","PB_UK_SOL_MG","PB_UK_SOL_SNI","PB_UK_SOL_R_NLAW","PB_UK_SOL_R_JAV",
 			"PB_UK_SOL_R_CG","PB_UK_SOL_MED","PB_UK_SOL_C","PB_UK_SOL_JP","PB_UK_SOL_HP","PB_UK_SOL_ENG","PB_UK_SOL_EOD",
-			"PB_UK_FV510_O","PB_UK_FV510_D"
+			"PB_UK_FV510_O","PB_UK_FV510_D", "PB_UK_MASTIFF_M2_D", "PB_UK_MASTIFF_M2_WD","PB_UK_RIDGEBACK_M2_D","PB_UK_RIDGEBACK_M2_WD","PB_UK_L118",
+			"PB_UK_AS90", "PB_UK_AH64E", "PB_UK_Speedboat"
 		};
 		weapons[] = {};
 		requiredAddons[] = {"rhsgref_infantry","rhsusf_infantry","rhsusf_infantry2","rhsusf_infantry3","PB_British_Kit","PB_Main","PB_M_Uniforms","PB_M_Vests"};
@@ -45,6 +46,10 @@ class CfgVehicleClasses
 	{
 		displayName = "Artillery";
 	};
+	class PB_British_Boats
+	{
+		displayName = "Boats";
+	};
 	class PB_British_Cars
 	{
 		displayName = "Cars";
@@ -68,6 +73,10 @@ class CfgVehicleClasses
 	class PB_British_MRAP
 	{
 		displayName = "MRAPs";
+	};
+	class PB_British_MRAP_D
+	{
+		displayName = "MRAPs (Desert)";
 	};
 	class PB_British_Planes
 	{
@@ -111,6 +120,10 @@ class CfgEditorSubcategories
 	{
 		displayName = "Artillery";
 	};
+	class PB_British_Boats
+	{
+		displayName = "Boats";
+	};
 	class PB_British_Cars
 	{
 		displayName = "Cars";
@@ -135,6 +148,10 @@ class CfgEditorSubcategories
 	{
 		displayName = "MRAPs";
 	};
+	class PB_British_MRAP_D
+	{
+		displayName = "MRAPs (Desert)";
+	};
 	class PB_British_Planes
 	{
 		displayName = "Planes";
@@ -154,6 +171,7 @@ class CfgEditorSubcategories
 };
 #include "cfggroups.hpp"
 #include "cfgweapons.hpp"
+class Eventhandlers;
 class CfgVehicles
 {
 	#include "cfgBackpacks.hpp"
