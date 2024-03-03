@@ -5,7 +5,8 @@ class CfgPatches
 		units[] = 
 		{
 			"PB_UK_SOL_R","PB_UK_SOL_RAT","PB_UK_SOL_SL","PB_UK_SOL_MK","PB_UK_SOL_GRE","PB_UK_SOL_MG","PB_UK_SOL_SNI","PB_UK_SOL_R_NLAW","PB_UK_SOL_R_JAV",
-			"PB_UK_SOL_R_CG","PB_UK_SOL_MED","PB_UK_SOL_C","PB_UK_SOL_JP","PB_UK_SOL_HP","PB_UK_SOL_END","PB_UK_SOL_EOD"
+			"PB_UK_SOL_R_CG","PB_UK_SOL_MED","PB_UK_SOL_C","PB_UK_SOL_JP","PB_UK_SOL_HP","PB_UK_SOL_ENG","PB_UK_SOL_EOD",
+			"PB_UK_FV510_O","PB_UK_FV510_D"
 		};
 		weapons[] = {};
 		requiredAddons[] = {"rhsgref_infantry","rhsusf_infantry","rhsusf_infantry2","rhsusf_infantry3","PB_British_Kit","PB_Main","PB_M_Uniforms","PB_M_Vests"};
@@ -15,7 +16,7 @@ class cfgFactionClasses
 {
 	class PB_UK_Faction
 	{
-		displayName = "British Army";
+		displayName = "British Armed Forces";
 		priority = 3;
 		side = 1;
 		icon = "";
@@ -35,6 +36,10 @@ class CfgVehicleClasses
 	class PB_British_APCs
 	{
 		displayName = "APCs";
+	};
+	class PB_British_APCs_D
+	{
+		displayName = "APCs (Desert)";
 	};
 	class PB_British_ART
 	{
@@ -85,7 +90,7 @@ class CfgEditorCategories
 {
 	class PB_British_Top
 	{
-		displayname = "British Army";
+		displayname = "British Armed Forces";
 	};
 };
 class CfgEditorSubcategories
@@ -97,6 +102,10 @@ class CfgEditorSubcategories
 	class PB_British_APCs
 	{
 		displayName = "APCs";
+	};
+	class PB_British_APCs_D
+	{
+		displayName = "APCs (Desert)";
 	};
 	class PB_British_ART
 	{

@@ -6,8 +6,8 @@ class CfgGroups
 		side = 1;
 		class PB_UK_Faction
 		{
-			name = "British Army";
-			class PB_British_Groups
+			name = "British Armed Forces";
+			class PB_British_INF_Groups
 			{
 		///INFANTRY///
 				name = "Infantry";
@@ -600,6 +600,248 @@ class CfgGroups
 						vehicle = "PB_UK_SOL_MG";
 						rank = "PRIVATE";
 						position[] = {5,-5,0};
+					};
+				};
+			};
+			class BP_British_Mech_Groups
+			{
+				name = "Mechanized Infantry";
+				class PB_UK_Warrior_Inf
+				{
+					name = "Mechanized Infantry (Warrior)";
+					faction = "PB_UK_Faction";
+					side = 1;
+					scope = 2;
+					scopecurator = 2;
+					editorCategory = "PB_British_Top";
+					editorSubcategory = "PB_British_APCs";
+					icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+					class Unit0
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_SL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_R";
+						rank = "SERGEANT";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_GRE";
+						rank = "PRIVATE";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "PB_UK_FV510_O";
+						rank = "CORPORAL";
+						position[] = {10,10,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_MG";
+						rank = "PRIVATE";
+						position[] = {-10,-10,0};
+					};
+					class Unit5
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_ENG";
+						rank = "PRIVATE";
+						position[] = {15,-15,0};
+					};
+					class Unit6
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_MED";
+						rank = "PRIVATE";
+						position[] = {-15,-15,0};
+					};
+					class Unit7
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_MK";
+						rank = "PRIVATE";
+						position[] = {20,-20,0};
+					};
+					class Unit8
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_GRE";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+				};
+			};
+			class BP_British_Mech_D_Groups
+			{
+				name = "Mechanized Infantry (Desert)";
+				class PB_UK_Warrior_Inf_D
+				{
+					name = "Mechanized Infantry (Warrior)";
+					faction = "PB_UK_Faction";
+					side = 1;
+					scope = 2;
+					scopecurator = 2;
+					editorCategory = "PB_British_Top";
+					editorSubcategory = "PB_British_APCs_D";
+					icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+					class Unit0
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_SL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_R";
+						rank = "SERGEANT";
+						position[] = {5,-5,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_GRE";
+						rank = "PRIVATE";
+						position[] = {-5,-5,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "PB_UK_FV510_D";
+						rank = "CORPORAL";
+						position[] = {10,10,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_MG";
+						rank = "PRIVATE";
+						position[] = {-10,-10,0};
+					};
+					class Unit5
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_ENG";
+						rank = "PRIVATE";
+						position[] = {15,-15,0};
+					};
+					class Unit6
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_MED";
+						rank = "PRIVATE";
+						position[] = {-15,-15,0};
+					};
+					class Unit7
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_MK";
+						rank = "PRIVATE";
+						position[] = {20,-20,0};
+					};
+					class Unit8
+					{
+						side = 1;
+						vehicle = "PB_UK_SOL_GRE";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+				};
+			};
+			class BP_British_APC_Groups
+			{
+				name = "APCs";
+				class PB_UK_Warrior_PLT
+				{
+					name = "FV510 Warrior Platoon";
+					faction = "PB_UK_Faction";
+					side = 1;
+					scope = 2;
+					scopecurator = 2;
+					editorCategory = "PB_British_Top";
+					editorSubcategory = "PB_British_APCs";
+					icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
+					class Unit0
+					{
+						side = 1;
+						vehicle = "PB_UK_FV510_O";
+						rank = "LIEUTENANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "PB_UK_FV510_O";
+						rank = "SERGEANT";
+						position[] = {20,-30,3};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "PB_UK_FV510_O";
+						rank = "SERGEANT";
+						position[] = {-20.1,-30,3};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "PB_UK_FV510_O";
+						rank = "CORPORAL";
+						position[] = {40,-60,3};
+					};
+				};
+			};
+			class BP_British_APC_D_Groups
+			{
+				name = "APCs (Desert)";
+				class PB_UK_Warrior_PLT_D
+				{
+					name = "FV510 Warrior Platoon";
+					faction = "PB_UK_Faction";
+					side = 1;
+					scope = 2;
+					scopecurator = 2;
+					editorCategory = "PB_British_Top";
+					editorSubcategory = "PB_British_APCs";
+					icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
+					class Unit0
+					{
+						side = 1;
+						vehicle = "PB_UK_FV510_D";
+						rank = "LIEUTENANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "PB_UK_FV510_D";
+						rank = "SERGEANT";
+						position[] = {20,-30,3};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "PB_UK_FV510_D";
+						rank = "SERGEANT";
+						position[] = {-20.1,-30,3};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "PB_UK_FV510_D";
+						rank = "CORPORAL";
+						position[] = {40,-60,3};
 					};
 				};
 			};

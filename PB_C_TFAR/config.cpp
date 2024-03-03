@@ -27,30 +27,93 @@ class CfgPatches
 };
 class CfgVehicles
 {
+///BASES///
 	class Bag_Base;
-	class Bag_Base_2: Bag_Base
+	class PB_Bag_Base_2: Bag_Base
 	{
 		tf_hasLRradio = 1;
 		tf_range = 40000;
 		tf_encryptionCode = "tf_west_radio_code";
 		tf_dialog = "rt1523g_radio_dialog";
 		tf_subtype = "digital_lr";
+	};
+	class PB_RT1523BIG_Base: Bag_Base
+	{
+		author = "Raspu, Gandi, Nkey";
+		displayName = "RT-1523G BIG (ASIP)";
+		descriptionShort = "RT-1523G BIG (ASIP) long range radio 40km";
+		picture = "\z\tfar\addons\backpacks\rt1523g\ui\rt1523g_icon.paa";
+		model = "\z\tfar\addons\backpacks\models\clf_nicecomm2";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\z\tfar\addons\backpacks\models\data\clf_nicecomm2_nato_multi_co.paa"};
+		maximumLoad = 140;
+		mass = 160;
+		scope = 0;
+		scopeCurator = 0;
+		tf_range = 40000;
+		tf_encryptionCode = "tf_west_radio_code";
+		tf_dialog = "rt1523g_radio_dialog";
+		tf_subtype = "airborne";
+	};
+	class PB_RT1523G_Base: Bag_Base
+	{
+		scope = 0;
+		scopeCurator = 0;
+		author = "Raspu, Gandi, Nkey";
+		displayName = "RT-1523G (ASIP)";
+		descriptionShort = "RT-1523G (ASIP) long range radio 40km";
+		picture = "\z\tfar\addons\backpacks\rt1523g\ui\rt1523g_icon.paa";
+		model = "\z\tfar\addons\backpacks\models\clf_prc117g_ap";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\z\tfar\addons\backpacks\models\data\clf_prc117g_ap_co.paa"};
+		maximumLoad = 80;
+		mass = 70;
+		tf_range = 40000;
+		tf_encryptionCode = "tf_west_radio_code";
+		tf_dialog = "rt1523g_radio_dialog";
+		tf_subtype = "airborne";
 	};
 ///BRITISH///
-	class PB_Radiobag_MTP: Bag_Base
+	class PB_Radiobag_MTP: PB_Bag_Base_2
 	{
-		tf_hasLRradio = 1;
 		tf_range = 40000;
-		tf_encryptionCode = "tf_west_radio_code";
-		tf_dialog = "rt1523g_radio_dialog";
-		tf_subtype = "digital_lr";
 	};
-	class PB_Radiobag_DPM: Bag_Base
+	class PB_Radiobag_DPM: PB_Bag_Base_2
 	{
-		tf_hasLRradio = 1;
 		tf_range = 40000;
-		tf_encryptionCode = "tf_west_radio_code";
-		tf_dialog = "rt1523g_radio_dialog";
-		tf_subtype = "digital_lr";
+	};
+	class PB_RT1523BIG_MTP: PB_RT1523BIG_Base
+	{
+		
+		displayName = "[MTP] RT-1523G BIG";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\MTP_NICECOMM2_co.paa"};
+		range = 40000;
+		scope = 2;
+		scopeCurator = 2;
+	};
+	class PB_RT1523BIG_DPM: PB_RT1523BIG_Base
+	{
+		displayName = "[DPM] RT-1523G BIG";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\DPM_NICECOMM2_co.paa"};
+		range = 40000;
+		scope = 2;
+		scopeCurator = 2;
+	};
+	class PB_RT1523_MTP: PB_RT1523G_Base
+	{
+		
+		displayName = "[MTP] RT-1523G";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\MTP_PRC177_CO.paa"};
+		range = 40000;
+		scope = 2;
+		scopeCurator = 2;
+	};
+	class PB_RT1523_DPM: PB_RT1523G_Base
+	{
+		displayName = "[DPM] RT-1523G";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\DPM_PRC177_CO.paa"};
+		range = 40000;
+		scope = 2;
+		scopeCurator = 2;
 	};
 };
