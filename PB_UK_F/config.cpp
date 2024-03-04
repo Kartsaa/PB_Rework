@@ -53,6 +53,10 @@ class CfgVehicleClasses
 	class PB_British_Cars
 	{
 		displayName = "Cars";
+	};	
+	class PB_British_Cars_D
+	{
+		displayName = "Cars (Desert)";
 	};
 	class PB_British_Drones
 	{
@@ -86,9 +90,13 @@ class CfgVehicleClasses
 	{
 		displayName = "Tanks";
 	};	
-	class PB_Bbritish_Trucks
+	class PB_British_Trucks
 	{
 		displayName = "Trucks";
+	};
+	class PB_British_Trucks_D
+	{
+		displayName = "Trucks (Desert)";
 	};
 	class PB_British_TUR
 	{
@@ -128,6 +136,10 @@ class CfgEditorSubcategories
 	{
 		displayName = "Cars";
 	};
+	class PB_British_Cars_D
+	{
+		displayName = "Cars (Desert)";
+	};
 	class PB_British_Drones
 	{
 		displayName = "Drones";
@@ -160,9 +172,13 @@ class CfgEditorSubcategories
 	{
 		displayName = "Tanks";
 	};	
-	class PB_Bbritish_Trucks
+	class PB_British_Trucks
 	{
 		displayName = "Trucks";
+	};
+	class PB_British_Trucks_D
+	{
+		displayName = "Trucks (Desert)";
 	};
 	class PB_British_TUR
 	{

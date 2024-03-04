@@ -9,7 +9,6 @@ class CfgGroups
 			name = "British Armed Forces";
 			class PB_British_INF_Groups
 			{
-		///INFANTRY///
 				name = "Infantry";
 			////INF SECTIONS////
 				class PB_British_Section
@@ -386,7 +385,7 @@ class CfgGroups
 					class Unit2
 					{
 						side = 1;
-						vehicle = "PB_UK_SOL_NLAW";
+						vehicle = "PB_UK_SOL_R_NLAW";
 						rank = "PRIVATE";
 						position[] = {-5,-5,0};
 					};
@@ -547,7 +546,7 @@ class CfgGroups
 					class Unit1
 					{
 						side = 1;
-						vehicle = "PB_UK_SOL_NLAW";
+						vehicle = "PB_UK_SOL_R_NLAW";
 						rank = "PRIVATE";
 						position[] = {5,-5,0};
 					};
@@ -1153,13 +1152,53 @@ class CfgGroups
 				};
 			};
 		///ARTILLERY///
-			class PB_British_AS90_P
+			class PB_British_ART_Groups
 			{
-					name = "AS-90 Platoon";
+				name = "Artillery Groups";
+				class PB_British_AS90_P
+				{
+						name = "AS-90 Platoon";
+						faction = "PB_UK_Faction";
+						side = 1;
+						editorCategory = "PB_British_TOP";
+						editorSubcategory = "PB_British_ART";
+						icon = "\A3\ui_f\data\map\markers\nato\b_art.paa";
+						class Unit0
+						{
+							side = 1;
+							vehicle = "PB_UK_AS90";
+							rank = "SERGEANT";
+							position[] = {-15,-15,0};
+						};
+						class Unit1
+						{
+							side = 1;
+							vehicle = "PB_UK_AS90";
+							rank = "CORPORAL";							
+							position[] = {0,0,0};
+						};
+						class Unit2
+						{
+							side = 1;
+							vehicle = "PB_UK_AS90";
+							rank = "CORPORAL";
+							position[] = {15,-15,0};
+						};
+						class Unit3
+						{
+							side = 1;
+							vehicle = "PB_UK_AS90";
+							rank = "CORPORAL";
+							position[] = {30,-15,0};
+						};
+				};
+				class PB_British_AS90_S
+				{
+					name = "AS-90 Section";
 					faction = "PB_UK_Faction";
 					side = 1;
 					editorCategory = "PB_British_TOP";
-					editorSubcategory = "PB_British_ART";
+					eitorSubcategory = "PB_British_ART";
 					icon = "\A3\ui_f\data\map\markers\nato\b_art.paa";
 					class Unit0
 					{
@@ -1175,42 +1214,6 @@ class CfgGroups
 						rank = "CORPORAL";							
 						position[] = {0,0,0};
 					};
-					class Unit2
-					{
-						side = 1;
-						vehicle = "PB_UK_AS90";
-						rank = "CORPORAL";
-						position[] = {15,-15,0};
-					};
-					class Unit3
-					{
-						side = 1;
-						vehicle = "PB_UK_AS90";
-						rank = "CORPORAL";
-						position[] = {30,-15,0};
-					};
-			};
-			class PB_British_AS90_S
-			{
-				name = "AS-90 Section";
-				faction = "PB_UK_Faction";
-				side = 1;
-				editorCategory = "PB_British_TOP";
-				eitorSubcategory = "PB_British_ART";
-				icon = "\A3\ui_f\data\map\markers\nato\b_art.paa";
-				class Unit0
-				{
-					side = 1;
-					vehicle = "PB_UK_AS90";
-					rank = "SERGEANT";
-					position[] = {-15,-15,0};
-				};
-				class Unit1
-				{
-					side = 1;
-					vehicle = "PB_UK_AS90";
-					rank = "CORPORAL";							
-					position[] = {0,0,0};
 				};
 			};
 		};

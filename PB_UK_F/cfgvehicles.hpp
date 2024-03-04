@@ -13,6 +13,7 @@ class PB_UK_FV510_O: I_APC_tracked_03_cannon_F
 	crew = "PB_UK_SOL_C";
 	displayname = "FV510 Warrior";
 	hiddenselections[] = { "camo1","camo2","CamoNet","CamoSlat"};
+    editorpreview = "PB_EP\ui\British\PB_UK_FV510_O.jpg";
 	class EventHandlers : EventHandlers
 	{
 		postInit = "if (local (_this select 0)) then { [(_this select 0), """", [], false] call BIS_fnc_initVehicle; };";
@@ -63,6 +64,7 @@ class PB_UK_FV510_D: PB_UK_FV510_O
 	editorSubcategory = "PB_British_APCs_D";
 	vehicleclass = "PB_British_APCs_D";
 	hiddenselections[] = { "camo1","camo2","CamoNet","CamoSlat"};
+    editorpreview = "PB_EP\ui\British\PB_UK_FV510_D.jpg";
 	textureList[] = 
 	{
 		"PB_Warrior_T_O",0,
@@ -85,6 +87,7 @@ class PB_UK_MASTIFF_M2_D: rhsusf_M1237_M2_usarmy_d
 	vehicleclass = "PB_British_MRAP_D";
 	crew = "PB_UK_SOL_R";
 	displayname = "6x6 Mastiff (M2)";
+    editorpreview = "PB_EP\ui\British\PB_UK_MASTIFF_M2_D.jpg";
 	hiddenSelections[] = {"camo","camo1","camo2","camo3","camo4","camo5","pintle","camo7","camo8","camo9"};
 	HiddenSelectionsTextures[] = {
 		"rhsusf\addons\rhsusf_RG33L\data\RG33_Body_CO.paa",
@@ -113,6 +116,7 @@ class PB_UK_MASTIFF_M2_WD: rhsusf_M1237_M2_usarmy_d
 	vehicleclass = "PB_British_MRAP";
 	crew = "PB_UK_SOL_R";
 	displayname = "6x6 Mastiff (M2)";
+    editorpreview = "PB_EP\ui\British\PB_UK_MASTIFF_M2_WD.jpg";
 	hiddenSelections[] = {"camo","camo1","camo2","camo3","camo4","camo5","pintle","camo7","camo8","camo9"};
 	HiddenSelectionsTextures[] = 
 	{
@@ -132,7 +136,7 @@ class PB_UK_MASTIFF_M2_WD: rhsusf_M1237_M2_usarmy_d
 	class TransportItems {};
 };
 class rhsusf_CGRCAT1A2_M2_usmc_d;
-class PB_UK_MASTIFF_M2_D: rhsusf_M1237_M2_usarmy_d
+class PB_UK_RIDGEBACK_M2_D: rhsusf_CGRCAT1A2_M2_usmc_d
 {
 	scope = 2;
 	scopeCurator = 2;
@@ -143,6 +147,7 @@ class PB_UK_MASTIFF_M2_D: rhsusf_M1237_M2_usarmy_d
 	vehicleclass = "PB_British_MRAP_D";
 	crew = "PB_UK_SOL_R";
 	displayname = "Ridgeback (M2)";
+    editorpreview = "PB_EP\ui\British\PB_UK_RIDGEBACK_M2_D.jpg";
 	hiddenSelections[] = {"camo","camo1","camo2","pintle"};
 	HiddenSelectionsTextures[] = 
 	{
@@ -155,7 +160,7 @@ class PB_UK_MASTIFF_M2_D: rhsusf_M1237_M2_usarmy_d
 	class TransportMagazines {};
 	class TransportItems {};
 };
-class PB_UK_MASTIFF_M2_WD: rhsusf_M1237_M2_usarmy_d
+class PB_UK_RIDGEBACK_M2_WD: rhsusf_CGRCAT1A2_M2_usmc_d
 {
 	scope = 2;
 	scopeCurator = 2;
@@ -167,6 +172,7 @@ class PB_UK_MASTIFF_M2_WD: rhsusf_M1237_M2_usarmy_d
 	crew = "PB_UK_SOL_R";
 	displayname = "Ridgeback (M2)";
 	hiddenSelections[] = {"camo","camo1","camo2","pintle"};
+    editorpreview = "PB_EP\ui\British\PB_UK_RIDGEBACK_M2_WD.jpg";
 	HiddenSelectionsTextures[] = 
 	{
 		"rhsusf\addons\rhsusf_cougar\data\CGR_Body_WD_CO.paa",
@@ -191,6 +197,7 @@ class PB_UK_L118: RHS_M119_D
 	vehicleclass = "PB_British_ART";
 	crew = "PB_UK_SOL_R";
 	displayname = "L118 Light Gun";
+    editorpreview = "PB_EP\ui\British\PB_UK_L118.jpg";
 	class TransportWeapons {};
 	class TransportMagazines {};
 	class TransportItems {};
@@ -207,6 +214,7 @@ class PB_UK_AS90: rhsusf_m109_usarmy
 	vehicleclass = "PB_British_ART";
 	crew = "PB_UK_SOL_C";
 	displayname = "AS-90";
+    editorpreview = "PB_EP\ui\British\PB_UK_AS90.jpg";
 	class TransportWeapons {};
 	class TransportMagazines {};
 	class TransportItems {};
@@ -224,6 +232,7 @@ class PB_UK_AH64E: RHS_AH64D_wd
 	vehicleclass = "PB_British_HELI";
 	crew = "PB_UK_SOL_HP";
 	displayname = "AH-64E";
+    editorpreview = "PB_EP\ui\British\PB_UK_AH64E.jpg";
 	hiddenSelections[] = {"camo1","camo2","camo3","Pilot_MFD_L","Pilot_MFD_R","Gunner_MFD_L","Gunner_MFD_R"};
 	hiddenSelectionsTextures[] = 
 	{
@@ -251,6 +260,7 @@ class PB_UK_Chinook: RHS_CH_47F_10
 	vehicleclass = "PB_British_HELI";
 	crew = "PB_UK_SOL_HP";
 	displayname = "Chinook";
+    editorpreview = "PB_EP\ui\British\PB_UK_Chinook.jpg";
 	hiddenSelections[] = {"camo1","camo2","camo3","camo4"};
 	hiddenSelectionsTextures[] = 
 	{
@@ -274,6 +284,7 @@ class PB_UK_Speedboat: B_Boat_Transport_01_F
 	editorCategory = "PB_British_Top";
 	editorSubcategory = "PB_British_Boats";
 	vehicleclass = "PB_British_Boats";
+    editorpreview = "PB_EP\ui\British\PB_UK_Speedboat.jpg";
 	crew = "PB_UK_SOL_R";
 	class TransportWeapons {};
 	class TransportMagazines {};

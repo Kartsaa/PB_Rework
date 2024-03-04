@@ -57,6 +57,7 @@
 		author = "Kartsa";
 		headgearProbability=100;
         icon= "iconMan";
+    	editorpreview = "PB_EP\ui\British\PB_UK_SOL_R.jpg";
 		allowedHeadgear[]=
 		{
 			"PB_MTP_H",
@@ -89,9 +90,11 @@
 		displayName = "Rifleman (M136)";
 		weapons[] = {"PB_RIF_F_L85A3","UK3CB_BAF_AT4_CS_AT_Launcher","Throw","Put"};
 		respawnWeapons[] = {"PB_RIF_F_L85A3","UK3CB_BAF_AT4_CS_AT_Launcher","Throw","Put"};
+    	editorpreview = "PB_EP\ui\British\PB_UK_SOL_RAT.jpg";
 	};
     class PB_UK_SOL_MED: PB_UK_SOL_R
 	{
+    	editorpreview = "PB_EP\ui\British\PB_UK_SOL_MED.jpg";
 		displayName = "Medic";
         icon = "iconManLeader";
         role = "iconManMedic";
@@ -109,6 +112,7 @@
         icon = "iconManLeader";
 		uniformClass = "PB_MTP_ACU_R";
 		backpack = "PB_UK_RADIO_BAG";
+    	editorpreview = "PB_EP\ui\British\PB_UK_SOL_SL.jpg";
 		linkedItems[]=
 		{
 			"PB_MTP_Modular_Lite",
@@ -140,6 +144,7 @@
 	};
     class PB_UK_SOL_MK: PB_UK_SOL_R
 	{
+    	editorpreview = "PB_EP\ui\British\PB_UK_SOL_MK.jpg";
 		displayName = "Marksman";
 		linkedItems[]=
 		{
@@ -175,6 +180,7 @@
 	{
 		displayName = "Grenadier";
 		uniformClass = "PB_MTP_ACU";
+    	editorpreview = "PB_EP\ui\British\PB_UK_SOL_GRE.jpg";
         weapons[] = {"PB_RIF_F_L85GL","Throw","Put"};
 		respawnWeapons[] = {"PB_RIF_F_L85GL","Throw","Put"};
         backpack = "PB_UK_GRE_BAG";
@@ -183,6 +189,7 @@
 	};
     class PB_UK_SOL_MG: PB_UK_SOL_R
 	{
+    	editorpreview = "PB_EP\ui\British\PB_UK_SOL_MG.jpg";
 		displayName = "Machinegunner";
         role = "MachineGunner";
         icon = "iconManMG";
@@ -195,6 +202,7 @@
 	};
     class PB_UK_SOL_SNI: PB_UK_SOL_R
 	{
+    	editorpreview = "PB_EP\ui\British\PB_UK_SOL_SNI.jpg";
 		displayName = "Sniper";
 		linkedItems[]=
 		{
@@ -228,6 +236,7 @@
 	};
     class PB_UK_SOL_R_NLAW: PB_UK_SOL_R
 	{
+    	editorpreview = "PB_EP\ui\British\PB_UK_SOL_R_NLAW.jpg";
 		displayName = "Rifleman (NLAW)";
         role = "MissileSpecialist";
         icon = "iconManAT";
@@ -237,6 +246,7 @@
 	};
     class PB_UK_SOL_R_JAV: PB_UK_SOL_R
 	{
+    	editorpreview = "PB_EP\ui\British\PB_UK_SOL_R_JAV.jpg";
 		displayName = "AT Rifleman (Javelin)";
         role = "MissileSpecialist";
         icon = "iconManAT";
@@ -248,6 +258,7 @@
 	};
     class PB_UK_SOL_R_CG: PB_UK_SOL_R
 	{
+    	editorpreview = "PB_EP\ui\British\PB_UK_SOL_R_CG.jpg";
 		displayName = "AT Rifleman (MAAWS)";
         role = "MissileSpecialist";
         icon = "iconManAT";
@@ -259,6 +270,7 @@
 	};
 	class PB_UK_SOL_C: PB_UK_SOL_R
 	{
+    	editorpreview = "PB_EP\ui\British\PB_UK_SOL_C.jpg";
 		displayName = "Crewman";
 		role = "Crewman";
 		uniformClass = "PB_MTP_GoraG_RU";
@@ -290,6 +302,7 @@
 	};
 	class PB_UK_SOL_JP: PB_UK_SOL_R
 	{
+    	editorpreview = "PB_EP\ui\British\PB_UK_SOL_JP.jpg";
 		displayName = "Jet Pilot";
 		role = "Crewman";
 		uniformClass = "U_B_PilotCoveralls";
@@ -319,6 +332,7 @@
 	};
 	class PB_UK_SOL_HP: PB_UK_SOL_JP
 	{
+    	editorpreview = "PB_EP\ui\British\PB_UK_SOL_HP.jpg";
 		displayName = "Heli Pilot";
 		role = "Crewman";
 		uniformClass = "PB_MTP_GoraG_RU";
@@ -344,6 +358,7 @@
 	};
 	class PB_UK_SOL_ENG: PB_UK_SOL_R
 	{
+    	editorpreview = "PB_EP\ui\British\PB_UK_SOL_ENG.jpg";
 		displayName = "Engineer";
 		role = "Sapper";
 		icon = "IconManEngineer";
@@ -352,6 +367,7 @@
 	};
 	class PB_UK_SOL_EOD: PB_UK_SOL_R
 	{
+    	editorpreview = "PB_EP\ui\British\PB_UK_SOL_EOD.jpg";
 		displayName = "EOD";
 		role = "Sapper";
 		icon = "iconManExplosive";
