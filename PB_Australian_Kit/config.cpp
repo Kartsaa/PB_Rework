@@ -48,6 +48,43 @@ class CfgVehicles
 	class B_AssaultPack_Base;
 	class B_Kitbag_Base;
 ///UNIS///
+	class PB_AMCU_Gora_B: B_Soldier_base_F
+	{
+		scope = 1;
+		author = "Kartsa";
+		model = "\PB_M_Uniforms\Gora\U_Afghanka_01.p3d";
+		picture = "\PB_Main\UI\uniform_test.paa";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"\PB_Australian_Kit\data\AMCU_Fatigues_co.paa"};
+	};
+	class PB_AMCU_Gora_B_RU: B_Soldier_base_F
+	{
+		scope = 1;
+		author = "Kartsa";
+		model = "\PB_M_Uniforms\Gora\U_Afghanka_02.p3d";
+		picture = "\PB_Main\UI\uniform_test.paa";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"\PB_Australian_Kit\data\AMCU_Fatigues_co.paa"};
+	};
+	class PB_AMCU_GoraG_B: B_Soldier_base_F
+	{
+		scope = 1;
+		author = "Kartsa";
+		model = "\PB_M_Uniforms\Gora\U_Afghanka_03.p3d";
+		picture = "\PB_Main\UI\uniform_test.paa";
+		hiddenSelections[] = {"camo","camo1","insignia"};
+		
+		hiddenSelectionsTextures[] = {"\PB_Australian_Kit\data\AMCU_Fatigues_co.paa","PB_Australian_Kit\data\TacGloves_khk_CO.paa"};
+	};
+	class PB_AMCU_GoraG_B_RU: B_Soldier_base_F
+	{
+		scope = 1;
+		author = "Kartsa";
+		model = "\PB_M_Uniforms\Gora\U_Afghanka_04.p3d";
+		picture = "\PB_Main\UI\uniform_test.paa";
+		hiddenSelections[] = {"camo","camo1","insignia"};
+		hiddenSelectionsTextures[] = {"\PB_Australian_Kit\data\AMCU_Fatigues_co.paa","PB_Australian_Kit\data\TacGloves_khk_CO.paa"};
+	};
 	class PB_AMCU_ACU_B: B_Soldier_base_F
 	{
 		scope = 1;
@@ -76,7 +113,67 @@ class CfgVehicles
             "PB_Australian_Kit\data\TacGloves_khk_CO.paa"
         };
 	};
+
 ///BACKPACKS////
+	class PB_Kitbag_AMCU: B_Kitbag_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		displayName = "[AMCU] Kitbag";
+		picture = "PB_Main\ui\kitbag_test.paa";
+		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast";
+		hiddenSelectionsTextures[] = {"PB_Australian_Kit\data\AMCU_KB_CO.paa"};	
+		maximumLoad = 200;
+		mass = 40;
+	};
+	class PB_Medbag_AMCU: B_Kitbag_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		displayName = "[AMCU] Medic Kitbag";
+		picture = "PB_Main\ui\kitbag_test.paa";
+		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast";
+		hiddenSelectionsTextures[] = {"PB_Australian_Kit\data\AMCU_KB_MED_CO.paa"};	
+		maximumLoad = 200;
+		mass = 40;
+	};
+	class PB_COMBATPB_AMCU: B_AssaultPack_Base
+	{
+		scope = 2;
+		author = "Kartsa";
+		scopeCurator = 2;
+		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Compact";
+		displayName = "[NBS] Combat Pack";
+		picture = "PB_Main\ui\assaultpack_test.paa";
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {"PB_Australian_Kit\Data\AMCU_ASS_BP_CO.paa"};
+		maximumLoad = 140;
+		mass = 20;
+	};
+	class PB_COMBATMPB_AMCU: B_AssaultPack_Base
+	{
+		scope = 2;
+		author = "Kartsa";
+		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Compact";
+		displayName = "[AMCU] Combat Pack (Medic)";
+		picture = "PB_Main\ui\assaultpack_test.paa";
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {"PB_Australian_Kit\Data\AMCU_ASS_MBP_CO.paa"};
+		maximumLoad = 180;
+		mass = 40;
+	};
+	class PB_Radiobag_AMCU: B_Kitbag_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		displayName = "[AMCU] Radiobag";
+		picture = "PB_Main\ui\Contact_LR.paa";
+		model = "a3\Supplies_F_Enoch\Bags\B_RadioBag_01_F.p3d";
+		hiddenSelections[] = {"camo1"};
+		hiddenSelectionsTextures[] = {"PB_Australian_Kit\data\AMCU_RB_CO.paa"};	
+		maximumLoad = 160;
+		mass = 70;
+	};
 };
 class cfgWeapons
 {
@@ -132,6 +229,74 @@ class cfgWeapons
 		{
 			uniformModel = "-";
 			uniformClass = "PB_AMCU_ACU_B_R";
+			containerClass = "Supply45";
+			mass = 50;
+			allowedSlots[] = {"701","801","901"};
+			armor = 0;
+		};
+	};
+	class PB_AMCU_Gora: Uniform_Base
+	{
+		scope = 2;
+		author = "Kartsa";
+		displayName = "[AMCU] Field Shirt";
+		picture = "\PB_Main\ui\uniform_test.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "PB_AMCU_Gora_B";
+			containerClass = "Supply45";
+			mass = 50;
+			allowedSlots[] = {"701","801","901"};
+			armor = 0;
+		};
+	};
+	class PB_AMCU_Gora_RU: Uniform_Base
+	{
+		scope = 2;
+		author = "Kartsa";
+		displayName = "[AMCU] Field Shirt (Rolled-Up)";
+		picture = "\PB_Main\ui\uniform_test.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "PB_AMCU_Gora_B_RU";
+			containerClass = "Supply45";
+			mass = 50;
+			allowedSlots[] = {"701","801","901"};
+			armor = 0;
+		};
+	};
+	class PB_AMCU_GoraG: Uniform_Base
+	{
+		scope = 2;
+		author = "Kartsa";
+		displayName = "[AMCU] Field Shirt with Gloves";
+		picture = "\PB_Main\ui\uniform_test.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "PB_AMCU_GoraG_B";
+			containerClass = "Supply45";
+			mass = 50;
+			allowedSlots[] = {"701","801","901"};
+			armor = 0;
+		};
+	};
+	class PB_AMCU_GoraG_RU: Uniform_Base
+	{
+		scope = 2;
+		author = "Kartsa";
+		displayName = "[AMCU] Field Shirt with Gloves (Rolled-Up)";
+		picture = "\PB_Main\ui\uniform_test.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "PB_AMCU_GoraG_B_RU";
 			containerClass = "Supply45";
 			mass = 50;
 			allowedSlots[] = {"701","801","901"};

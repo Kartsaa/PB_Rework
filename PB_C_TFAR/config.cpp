@@ -84,12 +84,10 @@ class CfgVehicles
 	};
 	class PB_RT1523BIG_MTP: PB_RT1523BIG_Base
 	{
-		
 		displayName = "[MTP] RT-1523G BIG";
 		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\MTP_NICECOMM2_co.paa"};
 		range = 40000;
 		scope = 2;
-		scopeCurator = 2;
 	};
 	class PB_RT1523BIG_DPM: PB_RT1523BIG_Base
 	{
@@ -106,7 +104,6 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\MTP_PRC177_CO.paa"};
 		range = 40000;
 		scope = 2;
-		scopeCurator = 2;
 	};
 	class PB_RT1523_DPM: PB_RT1523G_Base
 	{
@@ -114,6 +111,25 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\DPM_PRC177_CO.paa"};
 		range = 40000;
 		scope = 2;
-		scopeCurator = 2;
+	};
+///AUSSIE///
+	class PB_Radiobag_AMCU: PB_Bag_Base_2
+	{
+		tf_range = 40000;
+	};
+	class PB_RT1523BIG_AMCU: PB_RT1523BIG_Base
+	{
+		displayName = "[AMCU] RT-1523G BIG";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\AMCU_NICECOMM2_co.paa"};
+		range = 40000;
+		scope = 2;
+	};
+	class PB_RT1523_AMCU: PB_RT1523G_Base
+	{
+		
+		displayName = "[AMCU] RT-1523G";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\AMCU_PRC177_CO.paa"};
+		range = 40000;
+		scope = 2;
 	};
 };

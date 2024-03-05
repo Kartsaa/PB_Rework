@@ -260,7 +260,7 @@ class CfgVehicles
 		hiddenSelections[] = {"camo1"};
 		hiddenSelectionsTextures[] = {"PB_British_Kit\data\DPM_RB_CO.paa"};	
 		maximumLoad = 160;
-		mass = 50;
+		mass = 70;
 	};
 	class PB_CARRYALL_DPM: B_Kitbag_Base
 	{
