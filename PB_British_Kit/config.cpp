@@ -811,7 +811,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[DDPM] Mk7 Helmet";
-		picture = "\PB_Main\ui\helmet_test.paa";
+		picture = "\PB_Main\ui\cap_test.paa";
 		model = "\PB_M_Headgear\Mk7\H_Mk7_F.p3d";
 		hiddenSelections[] = { "Camo","Camo2","Camo3" };
 		allowedFacewear[] =
@@ -872,7 +872,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[DPM] Mk7 Helmet";
-		picture = "\PB_Main\ui\helmet_test.paa";
+		picture = "\PB_Main\ui\cap_test.paa";
 		model = "\PB_M_Headgear\Mk7\H_Mk7_F.p3d";
 		hiddenSelections[] = { "Camo","Camo2","Camo3" };
 		allowedFacewear[] =
@@ -933,7 +933,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[MTP] Mk7 Helmet";
-		picture = "\PB_Main\ui\helmet_test.paa";
+		picture = "\PB_Main\ui\cap_test.paa";
 		model = "\PB_M_Headgear\Mk7\H_Mk7_F.p3d";
 		hiddenSelections[] = { "Camo","Camo2","Camo3" };
 		allowedFacewear[] =

@@ -43,6 +43,7 @@ class cfgweapons
 		class WeaponSlotsInfo;
 		class GunParticles;
 	};
+    class UGL_F;
     class PB_EF88 : Rifle_Base_F {
 
         displayname = "Austeyr EF88";
@@ -191,5 +192,48 @@ class cfgweapons
         author = "Toadie";
         handanim[] = { "OFP2_ManSkeleton", "\PB_A_Weapons\EF88\a3\augA3_vfg.rtm" };
         inertia = (0.37 + 0.066);
-    };      
+    };
+    class PB_EF88_GL: PB_EF88
+    {
+        displayname = "Austeyr EF88 (ML40)";
+        model = "PB_M_Weapons\EF88\EF88_M203.p3d";
+        picture = "PB_Main\ui\EF88\gear_augglBLACK_x_ca.paa";
+        handanim[] = {"OFP2_ManSkeleton", "PB_A_Weapons\EF88\a3\auga3gl_hands"};
+        muzzles[] = { "this", "PB_ML40_AUG" };
+        class WeaponSlotsInfo : WeaponSlotsInfo {
+            mass = 85;
+            class UnderBarrelSlot {};
+            class GripodSlot {};
+        };
+        class PB_ML40_AUG : UGL_F {
+            cameradir = "GL_Look";
+            discreteDistance[] = { 50, 100, 150, 200, 250, 300, 350 };
+            discreteDistanceCameraPoint[] = { "gl_eye_50m", "gl_eye_100m", "gl_eye_150m", "gl_eye_200m", "gl_eye_250m", "gl_eye_300m", "gl_eye_350m" }; /// the angle of gun changes with zeroing
+            discreteDistanceInitIndex = 1;
+            displayname = "M203-2003";
+            useModelOptics = false;
+            useExternalOptic = false;
+            reloadAction = "GestureReloadTrgUGL";
+            reloadMagazineSound[] = { "PB_A_Weapons\gl\snd\M203_reload", 1.0, 1, 10 };
+            drySound[]=
+            {
+                "A3\Sounds_F\arsenal\weapons_static\Static_GMG\GMG20mm_static_dry",
+                1,
+                1,
+                10
+            };
+            magazineWell[] = { "CBA_40mm_M203" };
+            class Single : Mode_SemiAuto {
+                sounds[] = { "StandardSound" };
+                class StandardSound {
+                    weaponSoundEffect = "DefaultRifle";
+                    soundClosure[] = { closure1, 0.5, closure2, 0.5 };
+                    soundSetShot[] = { "UGL_Shot_SoundSet", "UGL_Tail_SoundSet" };
+                };
+                recoil = "M240Recoil";
+                recoilProne = "M240Recoil";
+            };
+        };
+        baseWeapon = "PB_EF88_GL";
+    };   
 };

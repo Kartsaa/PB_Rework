@@ -303,6 +303,61 @@ class cfgWeapons
 			armor = 0;
 		};
 	};
+///HATS///
+	class PB_AMCU_Boonie: Helmet_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[AMCU] Boonie Hat";
+		picture = "\PB_Main\UI\cap_test.paa";
+		model = "\A3\Characters_F\Common\booniehat";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\PB_Australian_Kit\Data\AMCU_boonie.paa"};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 5;
+			uniformModel = "\A3\Characters_F\Common\booniehat";
+			modelSides[] = {3,1};
+			hiddenSelections[] = {"camo"};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitPointName = "HitHead";
+					armor = 0;
+					passThrough = 1;
+				};
+			};
+		};
+	};
+	class PB_AMCU_Cap: Helmet_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[AMCU] Military Cap";
+		picture = "\PB_Main\UI\cap_test.paa";
+		model = "\A3\Characters_F\Common\cappatrol";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\PB_Australian_Kit\Data\AMCU_cap.paa"};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 5;
+			uniformModel = "\A3\Characters_F\Common\cappatrol";
+			modelSides[] = {3,1};
+			hiddenSelections[] = {"camo"};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitPointName = "HitHead";
+					armor = 0;
+					passThrough = 1;
+				};
+			};
+		};
+	};
 ///HELMETS
 	class PB_AMCU_H: Helmet_Base
 	{
