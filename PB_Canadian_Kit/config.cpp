@@ -140,60 +140,6 @@ class cfgWeapons
 			};
 		};
 	};
-	class PB_CADPATTW_ACH: Helmet_Base
-	{
-		author = "Kartsa";
-		scope = 2;
-		picture = "\PB_Main\ui\helmet_test.paa";
-		displayName = "[CADPAT-TW] CG634 Helmet";
-		allowedFacewear[] = {"",6,"rhs_googles_black",3,"rhs_googles_clear",1};
-		model = "\rhsusf\addons\rhsusf_infantry\gear\head\ach_camo";
-		hiddenSelections[] = {"Camo","Camo1"};
-		hiddenSelectionsTextures[] = {"\PB_Canadian_Kit\data\cadpattw_ach_co.paa","\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"};
-		class ItemInfo: HeadgearItem
-		{
-			mass = 5;
-			uniformModel = "\rhsusf\addons\rhsusf_infantry\gear\head\ach_camo";
-			modelSides[] = {3,1};
-			hiddenSelections[] = {"camo"};
-			class HitpointsProtectionInfo
-			{
-				class Head
-				{
-					hitPointName = "HitHead";
-					armor = 0;
-					passThrough = 1;
-				};
-			};
-		};
-	};
-	class PB_CADPATTW_ACH_HEADSET: Helmet_Base
-	{
-		author = "Kartsa";
-		scope = 2;
-		picture = "\PB_Main\ui\helmet_test.paa";
-		displayName = "[CADPAT-TW] CG634 Helmet (Headset)";
-		allowedFacewear[] = {"",6,"rhs_googles_black",3,"rhs_googles_clear",1};
-		model = "\rhsusf\addons\rhsusf_infantry\gear\head\ach_headset";
-		hiddenSelections[] = {"Camo","Camo1"};
-		hiddenSelectionsTextures[] = {"\PB_Canadian_Kit\data\cadpattw_ach_co.paa","\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"};
-		class ItemInfo: HeadgearItem
-		{
-			mass = 5;
-			uniformModel = "\rhsusf\addons\rhsusf_infantry\gear\head\ach_headset";
-			modelSides[] = {3,1};
-			hiddenSelections[] = {"camo"};
-			class HitpointsProtectionInfo
-			{
-				class Head
-				{
-					hitPointName = "HitHead";
-					armor = 0;
-					passThrough = 1;
-				};
-			};
-		};
-	};
 ////UNIS////
 	
 	class PB_CADPATTW_Gora: Uniform_Base
@@ -265,7 +211,7 @@ class cfgWeapons
 		};
 	};
 ////VESTS////
-class PB_CADPATTW_CARRIERLITE: Vest_Camo_Base
+	class PB_CADPATTW_CARRIERLITE: Vest_Camo_Base
 	{
 		scope = 2;
 		author = "Kartsa";
