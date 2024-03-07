@@ -48,6 +48,7 @@ class CfgVehicles
 	class B_AssaultPack_Base;
 	class B_Kitbag_Base;
 ///UNIS///
+	
 	class PB_AMCU_Gora_B: B_Soldier_base_F
 	{
 		scope = 1;
@@ -143,7 +144,7 @@ class CfgVehicles
 		author = "Kartsa";
 		scopeCurator = 2;
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Compact";
-		displayName = "[NBS] Combat Pack";
+		displayName = "[AMCU] Combat Pack";
 		picture = "PB_Main\ui\assaultpack_test.paa";
 		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {"PB_Australian_Kit\Data\AMCU_ASS_BP_CO.paa"};

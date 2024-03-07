@@ -4,7 +4,9 @@ class CfgPatches
 	{
 		units[] = 
 		{
-			"PB_AUS_SOL_R"
+			"PB_AUS_SOL_R", "PB_AUS_SOL_SL","PB_AUS_SOL_MED", "PB_AUS_SOL_MG", "PB_AUS_SOL_SNI", "PB_AUS_SOL_RAT", "PB_AUS_SOL_HAT", "PB_AUS_SOL_JAV",
+			"PB_AUS_SOL_C", "PB_AUS_SOL_JP", "PB_AUS_SOL_HP", "PB_AUS_SOL_ENG", "PB_AUS_SOL_EOD", "PB_AUS_SOL_GRE", "PB_AUS_M777", "PB_AUS_M1A1",
+			"PB_AUS_M113_MG", "PB_AUS_M113", "PB_AUS_HAWKEI", "PB_AUS_DAGOR", "PB_AUS_UH60M",
 		};
 		weapons[] = {};
 		requiredAddons[] = {"rhsgref_infantry","rhsusf_infantry","rhsusf_infantry2","rhsusf_infantry3","PB_Australian_Kit","PB_Main","PB_M_Uniforms","PB_M_Vests"};
@@ -67,10 +69,6 @@ class CfgVehicleClasses
 	{
 		displayName = "MRAPs";
 	};
-	class PB_AUS_MRAP_D
-	{
-		displayName = "MRAPs (Desert)";
-	};
 	class PB_AUS_Planes
 	{
 		displayName = "Planes";
@@ -96,7 +94,7 @@ class CfgEditorCategories
 {
 	class PB_AUS_Top
 	{
-		displayname = "AUS Armed Forces";
+		displayname = "Australian Defence Force";
 	};
 };
 class CfgEditorSubcategories

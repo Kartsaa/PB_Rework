@@ -197,7 +197,7 @@ class cfgweapons
     {
         displayname = "Austeyr EF88 (ML40)";
         model = "PB_M_Weapons\EF88\EF88_M203.p3d";
-        picture = "PB_Main\ui\EF88\gear_augglBLACK_x_ca.paa";
+        picture = "\PB_Main\ui\EF88\gear_augglBLACK_x_ca.paa";
         handanim[] = {"OFP2_ManSkeleton", "PB_A_Weapons\EF88\a3\auga3gl_hands"};
         muzzles[] = { "this", "PB_ML40_AUG" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
