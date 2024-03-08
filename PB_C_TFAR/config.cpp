@@ -20,7 +20,8 @@ class CfgPatches
 			"PB_Main",
 			"PB_British_Kit",
 			"PB_Australian_Kit", 
-			"PB_Canadian_Kit"
+			"PB_Canadian_Kit",
+			"PB_German_Kit"
 		};
 		skipWhenMissingDependencies = 1;
 	};
@@ -187,6 +188,64 @@ class CfgVehicles
 		
 		displayName = "[CADPAT-MT] RT-1523G";
 		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\CADPATMT_PRC177_CO.paa"};
+		range = 40000;
+		scope = 2;
+	};
+////GERMANY///
+	class PB_Radiobag_FLECK: PB_Bag_Base_2
+	{
+		tf_range = 40000;
+	};
+	class PB_RT1523BIG_FLECK: PB_RT1523BIG_Base
+	{
+		displayName = "[FLECKTARN] RT-1523G BIG";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\FLECK_NICECOMM2_co.paa"};
+		range = 40000;
+		scope = 2;
+	};
+	class PB_RT1523_FLECK: PB_RT1523G_Base
+	{
+		
+		displayName = "[FLECKTARN] RT-1523G";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\FLECK_PRC177_CO.paa"};
+		range = 40000;
+		scope = 2;
+	};
+	class PB_Radiobag_TROP: PB_Bag_Base_2
+	{
+		tf_range = 40000;
+	};
+	class PB_RT1523BIG_TROP: PB_RT1523BIG_Base
+	{
+		displayName = "[TROPENTARN] RT-1523G BIG";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\TROP_NICECOMM2_co.paa"};
+		range = 40000;
+		scope = 2;
+	};
+	class PB_RT1523_TROP: PB_RT1523G_Base
+	{
+		
+		displayName = "[TROPENTARN] RT-1523G";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\TROP_PRC177_CO.paa"};
+		range = 40000;
+		scope = 2;
+	};
+	class PB_Radiobag_SCHNEE: PB_Bag_Base_2
+	{
+		tf_range = 40000;
+	};
+	class PB_RT1523BIG_SCHNEE: PB_RT1523BIG_Base
+	{
+		displayName = "[SCHNEETARN] RT-1523G BIG";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\SCHEE_NICECOMM2_co.paa"};
+		range = 40000;
+		scope = 2;
+	};
+	class PB_RT1523_SCHNEE: PB_RT1523G_Base
+	{
+		
+		displayName = "[SCHNEETARN] RT-1523G";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\SCHNEE_PRC177_CO.paa"};
 		range = 40000;
 		scope = 2;
 	};
