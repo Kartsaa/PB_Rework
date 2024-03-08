@@ -21,6 +21,7 @@ class asdg_OpticRail;
 class asdg_OpticRail1913;
 class asdg_OpticRail1913_short;
 class nia_charms_slot;
+class rhs_western_rifle_gripod_slot;
 class rhs_rifle_gripod_slot: UnderBarrelSlot
 {
     displayName = "Gripod slot";
@@ -232,86 +233,13 @@ class cfgweapons
         };
         baseWeapon = "PB_EF88_GL";
     };
-    class PB_C7: Rifle_Base_F 
-	{
-		author="CapryCorn, Kartsa";
-		scope="2";
-		model = "hlc_wp_ar15\mesh\pbear\car15.p3d";
-        reloadAction = "NIA_GestureReload416";
-        picture = "\PB_Main\ui\C7\gear_vendimus_ca";
-		baseWeapon="PB_C7";
-		displayName="C7A1";
-		discreteDistanceCameraPoint[] = { "eye_100", "eye_200", "eye_300", "eye_400", "eye_500", "eye_600" };
-        discretedistanceinitindex = 0;
-        cameraDir = "look";
-		hiddenSelections[] = { "Main","Stock","Sights" };
-        hiddenSelectionsTextures[] = { "PB_T_Weapons\data\C7\C7.paa", "PB_T_Weapons\data\C7\m16furniture_co.paa", "PB_T_Weapons\data\C7\hb_co.paa"};
-		magazines[]=
-		{
-			"rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"
-		};
-		handAnim[] = {
-            "OFP2_ManSkeleton",
-            "hlc_wp_ar15\gesture\newgesture\handpose_STD.rtm"
-        };
-		bg_bipod = 0; 
-		modes[] = {"Single","FullAuto"};
-        drysound[] = {"\hlc_wp_ar15\snd\ar15_trigger", 1, 1, 10};
-        reloadMagazineSound[] = {"\hlc_wp_ar15\snd\ar15_reload",0.74,1,30};
-        changeFiremodeSound[] = { "\hlc_wp_ar15\snd\ar15_selector", 1, 1, 8 };
-		recoil = "recoil_spar";
-		
-		class WeaponSlotsInfo
-		{
-			mass = 73;
-            class CowsSlot: asdg_OpticRail1913_short {
-                iconPosition[] = { 0.5, 0.35 };
-                iconScale = 0.2;
-            };
-			class MuzzleSlot : asdg_MuzzleSlot_556 {
-                iconPosition[] = { 0.0, 0.45 };
-                iconScale = 0.2;
-            };
-            class PointerSlot {
-                iconPosition[] = { 0.2, 0.45 };
-                iconScale = 0.25;
-            };
-            class Charmslot : nia_charms_slot {};
-        };
-		class Single: Mode_SemiAuto
-		{
-			class StandardSound: StandardSound
-			{
-				soundSetShot[] = {"NIA_AR15_NEW_Shot_SoundSet","NIA_carbine_Tail_SoundSet"};
-			};
-			class SilencedSound: SilencedSound
-			{
-				soundSetShot[] = {"NIA_carbine_silencerShot_SoundSet","NIA_carbine_silencerTail_SoundSet"};
-			};
-			reloadTime = 60/600;
-			dispersion = 0.00043635;
-		};
-		class FullAuto: Mode_FullAuto
-		{
-			class StandardSound: StandardSound
-			{
-				soundSetShot[] = {"NIA_AR15_NEW_Shot_SoundSet","NIA_carbine_Tail_SoundSet"};
-			};
-			class SilencedSound: SilencedSound
-			{
-				soundSetShot[] = {"NIA_carbine_silencerShot_SoundSet","NIA_carbine_silencerTail_SoundSet"};
-			};
-			reloadTime = 60/600;
-			dispersion = 0.00043635;
-		};
-	};
     class PB_C8: Rifle_Base_F 
 	{
-		author="Kartsa";
+		author="CapryCorn, Kartsa";
 		hasBipod = 0;
 		scope="2";
 		model = "hlc_wp_ar15\mesh\mill_bushmaster\car15.p3d";
-        reloadAction = "NIA_GestureReload416";
+        reloadAction = "HLC_GestureReload_M16A1_Tactical";
         picture = "\PB_Main\ui\C8\PB_C8_CA.paa";
 		baseWeapon="PB_C8";
 		displayName="C8A3";
@@ -367,29 +295,29 @@ class cfgweapons
         };
 		class Single: Mode_SemiAuto
 		{
-			class StandardSound: StandardSound
+			class StandardSound
 			{
-				soundSetShot[] = {"NIA_AR15300_NEW_Shot_SoundSet","NIA_300blk_Tail_SoundSet"};
+				soundSetShot[] = {"RHSUSF_m4_Shot_SoundSet","RHSUSF_rifle_small_Tail_SoundSet","RHSUSF_m4_stereoLayer_SoundSet"};
 			};
-			class SilencedSound: SilencedSound
+			class SilencedSound
 			{
-				soundSetShot[] = {"NIA_300BLK_Shot_Silenced_SoundSet","NIA_300BLK_ShotTail_Silenced_SoundSet"};
+				soundSetShot[] = {"RHSUSF_sd_M4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_M4_stereoLayer_SoundSet"};
 			};
 			reloadTime = 60/750;
-			dispersion = 0.00043635;
+			dispersion = 0.00073635;
 		};
 		class FullAuto: Mode_FullAuto
 		{
-			class StandardSound: StandardSound
+			class StandardSound
 			{
-				soundSetShot[] = {"NIA_AR15300_NEW_Shot_SoundSet","NIA_300blk_Tail_SoundSet"};
+				soundSetShot[] = {"RHSUSF_m4_Shot_SoundSet","RHSUSF_rifle_small_Tail_SoundSet","RHSUSF_m4_stereoLayer_SoundSet"};
 			};
-			class SilencedSound: SilencedSound
+			class SilencedSound
 			{
-				soundSetShot[] = {"NIA_300BLK_Shot_Silenced_SoundSet","NIA_300BLK_ShotTail_Silenced_SoundSet"};
+				soundSetShot[] = {"RHSUSF_sd_M4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_M4_stereoLayer_SoundSet"};
 			};
 			reloadTime = 60/750;
-			dispersion = 0.00065271;
+			dispersion = 0.00073635;
 		};
 	};
     class PB_C9: Rifle_Base_F
@@ -422,30 +350,220 @@ class cfgweapons
 		};
 		class Single: Mode_SemiAuto
 		{
-			class StandardSound: StandardSound
+			class StandardSound
 			{
-					soundSetShot[] = {"NIA_AR15300_NEW_Shot_SoundSet","NIA_300blk_Tail_SoundSet"};
-				};
-				class SilencedSound: SilencedSound
-				{
-					soundSetShot[] = {"NIA_300BLK_Shot_Silenced_SoundSet","NIA_300BLK_ShotTail_Silenced_SoundSet"};
-				};
-				reloadTime = 60/700;
-				dispersion = 0.00043635;
+				soundSetShot[] = {"RHSUSF_m249_Shot_SoundSet","RHSUSF_rifle_small_Tail_SoundSet","RHSUSF_m249_stereoLayer_SoundSet"};
 			};
-			class FullAuto: Mode_FullAuto
+			class SilencedSound
 			{
-				class StandardSound: StandardSound
-				{
-					soundSetShot[] = {"NIA_AR15300_NEW_Shot_SoundSet","NIA_300blk_Tail_SoundSet"};
-				};
-				class SilencedSound: SilencedSound
-				{
-					soundSetShot[] = {"NIA_300BLK_Shot_Silenced_SoundSet","NIA_300BLK_ShotTail_Silenced_SoundSet"};
-				};
-				reloadTime = 60/700;
-				dispersion = 0.00065271;
+				soundSetShot[] = {"RHSUSF_sd_m4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_m4_stereoLayer_SoundSet"};
 			};
+			reloadTime = 60/700;
+			dispersion = 0.00085271;
+		};
+		class FullAuto: Mode_FullAuto
+		{
+			class StandardSound
+			{
+					soundSetShot[] = {"RHSUSF_m249_Shot_SoundSet","RHSUSF_rifle_small_Tail_SoundSet","RHSUSF_m249_stereoLayer_SoundSet"};
+			};
+			class SilencedSound
+			{
+				soundSetShot[] = {"RHSUSF_sd_m4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_m4_stereoLayer_SoundSet"};
+			};
+			reloadTime = 60/700;
+			dispersion = 0.00085271;
+		};
 		baseWeapon = "PB_C9";
-	};   
+	};  
+	class PB_c7_base: Rifle_Base_F
+	{
+		scope = 0;
+		author = "$STR_TFC_A3_AUTHOR";
+		editorCategory = "EdCat_TFC_CORE_Weapons";
+		editorSubcategory = "EdSubcat_TFC_CORE_RIFLES";
+		descriptionShort = "C7A2 made by Colt Canada";
+		reloadAction = "HLC_GestureReload_M16A1_Tactical";
+		handAnim[] = {"OFP2_ManSkeleton","TFC_CORE\addons\weapons_army\rifles\Shared\Anim\tfc_rifle_anim.rtm"};
+		picture = "TFC_CORE\addons\weapons_army\rifles\c7\Data\INV\tfc_w_c7a2_x_ca.paa";
+		discretedistance[] = {100,200,300,400};
+		discreteDistanceCameraPoint[] = {"eye","eye_200","eye_300","eye_400"};
+		discretedistanceinitindex = 0;
+		cameraDir = "eye_look";
+		magazineWell[] = {"CBA_556x45_STANAG", "STANAG_556x45"};
+		magazineReloadSwitchPhase = 0.5;
+        drysound[] = {"\hlc_wp_ar15\snd\ar15_trigger", 1, 1, 10};
+		reloadMagazineSound[] = {"\hlc_wp_M16A2\snd\NewSequences\ar15_reload_empty.ogg",0.85,1,15};
+        changeFiremodeSound[] = { "\hlc_wp_ar15\snd\ar15_selector", 1, 1, 8 };
+		modes[] = {"Single","FullAuto"};
+		ace_overheating_allowSwapBarrel = 0;
+		initSpeed = 924;
+		ACE_barrelTwist = 180;
+		ACE_barrelLength = 508.0;
+		class Single: Mode_SemiAuto
+		{
+			class StandardSound
+			{
+				soundSetShot[] = {"RHSUSF_m4_Shot_SoundSet","RHSUSF_rifle_small_Tail_SoundSet","RHSUSF_m4_stereoLayer_SoundSet"};
+			};
+			class SilencedSound
+			{
+				soundSetShot[] = {"RHSUSF_sd_M4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_M4_stereoLayer_SoundSet"};
+			};
+			reloadTime = 60/750;
+			dispersion = 0.00073635;
+		};
+		class FullAuto: Mode_FullAuto
+		{
+			class StandardSound
+			{
+				soundSetShot[] = {"RHSUSF_m4_Shot_SoundSet","RHSUSF_rifle_small_Tail_SoundSet","RHSUSF_m4_stereoLayer_SoundSet"};
+			};
+			class SilencedSound
+			{
+				soundSetShot[] = {"RHSUSF_sd_M4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_M4_stereoLayer_SoundSet"};
+			};
+			reloadTime = 60/750;
+			dispersion = 0.00073635;
+		};
+		class PB_C7_M203: UGL_F
+		{
+			cameradir = "OP_look";
+			discreteDistance[] = {100,150,200,250,300,350};
+			discreteDistanceCameraPoint[] = {"OP_eye_100","OP_eye_150","OP_eye_200","OP_eye_250","OP_eye_300","OP_eye_350"};
+			discreteDistanceInitIndex = 1;
+			displayname = "$STR_TFC_WEAPONS_ARMY_M203A1";
+			useModelOptics = 0;
+			useExternalOptic = 0;
+			cursoraim = "gl";
+			magazinereloadtime = 0;
+			reloadtime = 0.1;
+			reloadAction = "GestureReloadMk20UGL";
+			reloadMagazineSound[] = {"A3\Sounds_F\arsenal\weapons\Rifles\Mk20\MK20_UGL_reload",0.794328,1,10};
+			magazines[] = {"rhs_mag_M441_HE","rhs_mag_M433_HEDP","rhs_mag_M397_HET","rhs_mag_m576","rhs_mag_M4009","rhs_mag_M583A1_white","rhs_mag_M661_green","rhs_mag_M662_red","rhs_mag_M585_white_cluster","rhs_mag_M663_green_cluster","rhs_mag_M664_red_cluster","rhs_mag_M713_red","rhs_mag_M714_white","rhs_mag_M715_green","rhs_mag_M716_yellow","rhs_mag_M781_Practice","1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareGreen_F","UGL_FlareRed_F","UGL_FlareYellow_F","UGL_FlareCIR_F","1Rnd_Smoke_Grenade_shell","1Rnd_SmokeRed_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell","1Rnd_SmokeYellow_Grenade_shell","1Rnd_SmokePurple_Grenade_shell","1Rnd_SmokeBlue_Grenade_shell","1Rnd_SmokeOrange_Grenade_shell"};
+			magazineWell[] = {"UGL_40x36","CBA_40mm_M203"};
+			drySound[] = {"A3\sounds_f\Weapons\other\sfx5",1.0,1,30};
+			modes[] = {"Single"};
+			class Single: Mode_SemiAuto
+			{
+				sounds[] = {"StandardSound"};
+				class StandardSound
+				{
+					soundSetShot[] = {"M203A1_Shot_SoundSet","M203A1_Tail_SoundSet"};
+				};
+			};
+		};
+		aiDispersionCoefY = 10;
+		aiDispersionCoefX = 8;
+		class Library
+		{
+			libTextDesc = "Colt Canada C7A2";
+		};
+	};
+	class PB_C7M203: PB_c7_base
+	{
+		scope = 2;
+		scopeCurator = 2;
+		baseWeapon = "PB_C7M203";
+		model = "TFC_CORE\addons\weapons_army\rifles\c7\tfc_w_c7a2_m203.p3d";
+		handAnim[] = {"OFP2_ManSkeleton","TFC_CORE\addons\weapons_army\rifles\Shared\Anim\tfc_rifle_m203_anim.rtm"};
+		muzzles[] = {"this","PB_C7_M203"};
+		dexterity = 1.41;
+		displayName = "C7A2 (M203)";
+		descriptionShort = "C7A2 with M203 Undermount";
+		picture = "TFC_CORE\addons\weapons_army\rifles\c7\Data\INV\tfc_w_c7a2_m203_x_ca.paa";
+		UiPicture = "\A3\Weapons_F\Data\UI\icon_gl_CA.paa";
+		class Library
+		{
+			libTextDesc = "";
+		};
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+            class CowsSlot: asdg_OpticRail1913_short {
+                iconPosition[] = { 0.5, 0.35 };
+                iconScale = 0.2;
+            };
+			class MuzzleSlot : asdg_MuzzleSlot_556 {
+                iconPosition[] = { 0.0, 0.45 };
+                iconScale = 0.2;
+            };
+            class PointerSlot {
+                iconPosition[] = { 0.2, 0.45 };
+                iconScale = 0.25;
+            };
+			class UnderBarrelSlot{};
+			class GripodSlot{};
+			mass = 103;
+		};
+	};
+	class PB_C7: PB_C7_base
+	{
+		scope = 2;
+		scopeCurator = 2;
+		displayname = "C7A2";
+		model = "TFC_CORE\addons\weapons_army\rifles\c7\tfc_w_c7a2.p3d";
+		picture = "TFC_CORE\addons\weapons_army\rifles\c7\Data\INV\tfc_w_c7a2_x_ca.paa";
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+            class CowsSlot: asdg_OpticRail1913_short {
+                iconPosition[] = { 0.5, 0.35 };
+                iconScale = 0.2;
+            };
+			class MuzzleSlot : asdg_MuzzleSlot_556 {
+                iconPosition[] = { 0.0, 0.45 };
+                iconScale = 0.2;
+            };
+            class PointerSlot {
+                iconPosition[] = { 0.2, 0.45 };
+                iconScale = 0.25;
+            };
+			class UnderBarrelSlot: asdg_UnderSlot {
+				iconPosition[] = { 0.2, 0.45 };
+                iconScale = 0.25;
+			};
+			class GripodSlot: rhs_western_rifle_gripod_slot {
+				iconPosition[] = { 0.2, 0.45 };
+                iconScale = 0.25;
+			};
+			mass = 103;
+		};
+		rhs_grip1_change = "PB_C7_grip";
+		rhs_grip2_change = "PB_C7_grip2";
+		rhs_grip3_change = "PB_C7_grip3";
+		baseWeapon = "PB_C7";
+	};
+	class PB_C7_grip: PB_C7
+	{
+		scopeArsenal = 0;
+		displayName = "C7A2 V Grip";
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			mass = 61;
+			class UnderBarrelSlot{};
+		};
+		handAnim[] = {"OFP2_ManSkeleton","TFC_CORE\addons\weapons_army\rifles\Shared\Anim\tfc_rifle_anim_VHG.rtm"};
+	};
+	class PB_C7_grip2: PB_C7_grip
+	{
+		scopeArsenal = 0;
+		displayName = "C7A2 A Grip";
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			mass = 61;
+			class UnderBarrelSlot{};
+		};
+		handAnim[] = {"OFP2_ManSkeleton","TFC_CORE\addons\weapons_army\rifles\Shared\Anim\handpose_AFG.rtm"};
+	};
+	class PB_C7_grip3: PB_C7_grip
+	{
+		scopeArsenal = 0;
+		displayName = "C7A2 Grip";
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			mass = 61;
+			class UnderBarrelSlot{};
+		};
+		handAnim[] = {"OFP2_ManSkeleton","TFC_CORE\addons\weapons_army\rifles\Shared\Anim\tfc_rifle_anim_VHG.rtm"};
+	};
 };
+ 

@@ -11,16 +11,16 @@ class CfgPatches
 {
 	class PB_C_TFAR
 	{
-		version = "1.1.3";
 		units[] = {};
 		weapons[] = {};
-		requiredVersion = "1.1.3";
 		requiredAddons[] = 
 		{
 			"tfar_core",
 			"tfar_backpacks",
 			"PB_Main",
-			"PB_British_Kit"
+			"PB_British_Kit",
+			"PB_Australian_Kit", 
+			"PB_Canadian_Kit"
 		};
 		skipWhenMissingDependencies = 1;
 	};
@@ -129,6 +129,64 @@ class CfgVehicles
 		
 		displayName = "[AMCU] RT-1523G";
 		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\AMCU_PRC177_CO.paa"};
+		range = 40000;
+		scope = 2;
+	};
+///CANADA///
+	class PB_Radiobag_CADPATTW: PB_Bag_Base_2
+	{
+		tf_range = 40000;
+	};
+	class PB_RT1523BIG_CADPATTW: PB_RT1523BIG_Base
+	{
+		displayName = "[CADPAT-TW] RT-1523G BIG";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\CADPATTW_NICECOMM2_co.paa"};
+		range = 40000;
+		scope = 2;
+	};
+	class PB_RT1523_CADPATTW: PB_RT1523G_Base
+	{
+		
+		displayName = "[CADPAT-TW] RT-1523G";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\CADPATTW_PRC177_CO.paa"};
+		range = 40000;
+		scope = 2;
+	};
+	class PB_Radiobag_CADPATAR: PB_Bag_Base_2
+	{
+		tf_range = 40000;
+	};
+	class PB_RT1523BIG_CADPATAR: PB_RT1523BIG_Base
+	{
+		displayName = "[CADPAT-AR] RT-1523G BIG";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\CADPATTW_NICECOMM2_co.paa"};
+		range = 40000;
+		scope = 2;
+	};
+	class PB_RT1523_CADPATAR: PB_RT1523G_Base
+	{
+		
+		displayName = "[CADPAT-AR] RT-1523G";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\CADPATAR_PRC177_CO.paa"};
+		range = 40000;
+		scope = 2;
+	};
+	class PB_Radiobag_CADPATMT: PB_Bag_Base_2
+	{
+		tf_range = 40000;
+	};
+	class PB_RT1523BIG_CADPATMT: PB_RT1523BIG_Base
+	{
+		displayName = "[CADPAT-MT] RT-1523G BIG";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\CADPATTW_NICECOMM2_co.paa"};
+		range = 40000;
+		scope = 2;
+	};
+	class PB_RT1523_CADPATMT: PB_RT1523G_Base
+	{
+		
+		displayName = "[CADPAT-MT] RT-1523G";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\CADPATMT_PRC177_CO.paa"};
 		range = 40000;
 		scope = 2;
 	};
