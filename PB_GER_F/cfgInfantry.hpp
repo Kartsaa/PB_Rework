@@ -47,6 +47,7 @@
 	};
 	class PB_GER_SOL_R: PB_GER_SOL
 	{
+    	editorpreview = "PB_EP\ui\Germany\PB_GER_SOL_R.jpg";
 		vehicleClass = "PB_GER_Infantry";
 		editorCategory = "PB_GER_Top";
 		editorSubcategory = "PB_GER_Infantry";
@@ -67,6 +68,7 @@
 	};
 	class PB_GER_SOL_SL: PB_GER_SOL_R
 	{
+    	editorpreview = "PB_EP\ui\Germany\PB_GER_SOL_SL.jpg";
         icon= "iconManLeader";
 		displayName = "Squadleader";
 		linkedItems[]=
@@ -98,6 +100,7 @@
 	};
     class PB_GER_SOL_MED: PB_GER_SOL_R
 	{
+    	editorpreview = "PB_EP\ui\Germany\PB_GER_SOL_MED.jpg";
 		displayName = "Medic";
         icon = "iconManLeader";
         role = "iconManMedic";
@@ -106,6 +109,7 @@
 	};
     class PB_GER_SOL_MG: PB_GER_SOL_R
 	{
+    	editorpreview = "PB_EP\ui\Germany\PB_GER_SOL_MG.jpg";
 		displayName = "Machinegunner";
         role = "MachineGunner";
         icon = "iconManMG";
@@ -117,6 +121,7 @@
 	};
 	class PB_GER_SOL_SNI: PB_GER_SOL_R
 	{
+    	editorpreview = "PB_EP\ui\Germany\PB_GER_SOL_SNI.jpg";
 		displayName = "Sniper";
 		linkedItems[]=
 		{
@@ -148,17 +153,19 @@
 	};
 	class PB_GER_SOL_AT: PB_GER_SOL_R
 	{
+    	editorpreview = "PB_EP\ui\Germany\PB_GER_SOL_AT.jpg";
 		displayName = "AT Rifleman";
         role = "MissileSpecialist";
         icon = "iconManAT";
 		backpack = "PB_GER_AT_BP";
-		weapons[] = {"PB_GER_RIF_G36","RB_PZF3","Throw","Put"};
-		respawnWeapons[] = {"PB_GER_RIF_G36","RB_PZF3","Throw","Put"};
+		weapons[] = {"PB_GER_RIF_G36","PB_PZF3","Throw","Put"};
+		respawnWeapons[] = {"PB_GER_RIF_G36","PB_PZF3","Throw","Put"};
 		magazines[] = {"PB_DM12_HEAT_F","PB_M856A1_G36","PB_M856A1_G36","PB_M856A1_G36","PB_M856A1_G36","PB_M856A1_G36","PB_M856A1_G36"};
 		respawnMagazines[] = {"PB_DM12_HEAT_F","PB_M856A1_G36","PB_M856A1_G36","PB_M856A1_G36","PB_M856A1_G36","PB_M856A1_G36","PB_M856A1_G36"};
 	};
 	class PB_GER_SOL_AA: PB_GER_SOL_R
 	{
+    	editorpreview = "PB_EP\ui\Germany\PB_GER_SOL_AA.jpg";
 		displayName = "AA Rifleman";
         role = "MissileSpecialist";
         icon = "iconManAT";
@@ -170,6 +177,7 @@
 	};
 	class PB_GER_SOL_C: PB_GER_SOL_R
 	{
+    	editorpreview = "PB_EP\ui\Germany\PB_GER_SOL_C.jpg";
 		displayName = "Crewman";
 		role = "Crewman";
 		uniformclass = "PB_FLECK_GoraG_RU";
@@ -199,6 +207,7 @@
 	};
 	class PB_GER_SOL_JP: PB_GER_SOL_R
 	{
+    	editorpreview = "PB_EP\ui\Germany\PB_GER_SOL_JP.jpg";
 		displayName = "Jet Pilot";
 		role = "Crewman";
 		uniformClass = "U_B_pilotCoveralls";
@@ -228,6 +237,7 @@
 	};
 	class PB_GER_SOL_HP: PB_GER_SOL_C
 	{
+    	editorpreview = "PB_EP\ui\Germany\PB_GER_SOL_HP.jpg";
 		displayName = "Heli Pilot";
 		role = "Crewman";
 		uniformClass = "PB_Green_GoraG";
@@ -253,6 +263,7 @@
 	};
 	class PB_GER_SOL_ENG: PB_GER_SOL_R
 	{
+    	editorpreview = "PB_EP\ui\Germany\PB_GER_SOL_ENG.jpg";
 		displayName = "Engineer";
 		role = "Sapper";
 		icon = "IconManEngineer";
@@ -261,6 +272,7 @@
 	};
 	class PB_GER_SOL_EOD: PB_GER_SOL_R
 	{
+    	editorpreview = "PB_EP\ui\Germany\PB_GER_SOL_EOD.jpg";
 		displayName = "EOD";
 		role = "Sapper";
 		icon = "iconManExplosive";
@@ -271,6 +283,7 @@
 	};
 	class PB_GER_SOL_GRE: PB_GER_SOL_R
 	{
+    	editorpreview = "PB_EP\ui\Germany\PB_GER_SOL_GRE.jpg";
 		displayName = "Grenadier";
 		backpack = "PB_GER_GRE_BP";
 		weapons[] = {"PB_GER_RIF_G36GL","Throw","Put"};

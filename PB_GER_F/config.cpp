@@ -5,7 +5,8 @@ class CfgPatches
 		units[] = 
 		{
 			"PB_GER_SOL_R","PB_GER_SOL_SL","PB_GER_SOL_MED","PB_GER_SOL_MG","PB_GER_SOL_SNI","PB_GER_SOL_AT","PB_GER_SOL_C","PB_GER_SOL_JP",
-			"PB_GER_SOL_ENG", "PB_GER_SOL_HP","PB_GER_SOL_EOD","PB_GER_SOL_GRE","PB_GER_SOL_AA","PB_GER_LEO",
+			"PB_GER_SOL_ENG", "PB_GER_SOL_HP","PB_GER_SOL_EOD","PB_GER_SOL_GRE","PB_GER_SOL_AA","PB_GER_LEO", "PB_GER_FENNEK", "PB_GER_FENNEK_HMG",
+			"PB_GER_FENNEK_GMG","PB_Huey_FLK", "PB_Huey_gunship_FLK","PB_Huey_unarmed_FLK"
 		};
 		weapons[] = {};
 		requiredAddons[] = {"rhsgref_infantry","rhsusf_infantry","rhsusf_infantry2","rhsusf_infantry3","PB_German_Kit","PB_Main","PB_M_Uniforms","PB_M_Vests"};

@@ -564,6 +564,88 @@ class CfgGroups
 					};
 				};
 			};
+			class PB_GER_Mot_Groups
+			{
+				name = "Motorized Infantry";
+				class PB_GER_FEN_HMG_S
+				{
+					name = "Motorized Squad (HMG)";
+					faction = "PB_GER_Faction";
+					side = 1;
+					scope = 2;
+					scopecurator = 2;
+					editorCategory = "PB_GER_Top";
+					editorSubcategory = "PB_GER_Cars";
+					icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+					class Unit0
+					{
+						side = 1;
+						vehicle = "PB_GER_SOL_SL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "PB_GER_FENNEK_HMG";
+						rank = "CORPORAL";
+						position[] = {10,10,0};
+					};
+					class Unit7
+					{
+						side = 1;
+						vehicle = "PB_GER_SOL_RAT";
+						rank = "PRIVATE";
+						position[] = {20,-20,0};
+					};
+					class Unit8
+					{
+						side = 1;
+						vehicle = "PB_GER_SOL_GRE";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+				};
+				class PB_GER_FEN_GMG_S
+				{
+					name = "Motorized Squad (GMG)";
+					faction = "PB_GER_Faction";
+					side = 1;
+					scope = 2;
+					scopecurator = 2;
+					editorCategory = "PB_GER_Top";
+					editorSubcategory = "PB_GER_Cars";
+					icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+					class Unit0
+					{
+						side = 1;
+						vehicle = "PB_GER_SOL_SL";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "PB_GER_FENNEK_GMG";
+						rank = "CORPORAL";
+						position[] = {10,10,0};
+					};
+					class Unit7
+					{
+						side = 1;
+						vehicle = "PB_GER_SOL_RAT";
+						rank = "PRIVATE";
+						position[] = {20,-20,0};
+					};
+					class Unit8
+					{
+						side = 1;
+						vehicle = "PB_GER_SOL_GRE";
+						rank = "PRIVATE";
+						position[] = {10,-10,0};
+					};
+				};
+			};
 		};
 	};
 };
