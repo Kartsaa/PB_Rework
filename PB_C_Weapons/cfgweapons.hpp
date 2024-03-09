@@ -216,9 +216,9 @@ class cfgweapons
             displayname = "M203-2003";
             useModelOptics = false;
             useExternalOptic = false;
-            reloadAction = "HLC_GestureReloadACRGL";
-            reloadMagazineSound[] = { "hlc_core\sound\GL\M203_reload", 1.0, 1, 10 };
-            drySound[] = { "hlc_core\sound\GL\GL_drystrike", 1, 1, 10 };
+            reloadAction = "GestureReloadMk20UGL";
+			reloadMagazineSound[] = {"A3\Sounds_F\arsenal\weapons\Rifles\Mk20\MK20_UGL_reload",0.794328,1,10};
+			drySound[] = {"A3\sounds_f\weapons\other\dry6",0.0316228,1,10};
             magazineWell[] = { "CBA_40mm_M203" };
             class Single : Mode_SemiAuto {
                 sounds[] = { "StandardSound" };
@@ -235,11 +235,11 @@ class cfgweapons
     };
     class PB_C8: Rifle_Base_F 
 	{
-		author="CapryCorn, Kartsa";
+		author="CapryCorn, Kartsa, Millenia, Toadie2k";
 		hasBipod = 0;
 		scope="2";
-		model = "hlc_wp_ar15\mesh\mill_bushmaster\car15.p3d";
-        reloadAction = "HLC_GestureReload_M16A1_Tactical";
+		model = "\PB_M_Weapons\C8\C8.p3d";
+        reloadAction = "RHS_GestureReloadAR15";
         picture = "\PB_Main\ui\C8\PB_C8_CA.paa";
 		baseWeapon="PB_C8";
 		displayName="C8A3";
@@ -247,18 +247,18 @@ class cfgweapons
         discretedistanceinitindex = 0;
         cameraDir = "look";
 		hiddenSelections[] = {"Main"};
-		hiddenSelectionsTextures[] = {"PB_T_Weapons\data\C7\C7.paa"};
+		hiddenSelectionsTextures[] = {"PB_T_Weapons\data\C8\C7.paa", };
 		magazines[]=
 		{
 			"rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"
 		};
 		magazineWell[] = {"STANAG_556x45","CBA_556x45_STANAG","CBA_556x45_STANAG_L","CBA_556x45_STANAG_XL","CBA_556x45_STANAG_2D","CBA_556x45_STANAG_2D_XL"};
-		handAnim[] = {"OFP2_ManSkeleton","hlc_wp_ar15\gesture\newgesture\handpose_SMR.rtm"};
+		handAnim[] = {"OFP2_ManSkeleton","PB_A_Weapons\C8\handpose_C8.rtm"};
 		bg_bipod = 0; 
 		modes[] = {"Single","FullAuto"};
-        drysound[] = {"\hlc_wp_ar15\snd\ar15_trigger", 1, 1, 10};
-        reloadMagazineSound[] = {"\hlc_wp_ar15\snd\ar15_reload",0.74,1,30};
-        changeFiremodeSound[] = { "\hlc_wp_ar15\snd\ar15_selector", 1, 1, 8 };
+		drySound[] = {"A3\sounds_f\weapons\other\dry6",0.0316228,1,10};
+		changeFiremodeSound[] = {"rhsusf\addons\rhsusf_sounds\ar15_shared\firemode",0.6,1,5};
+		reloadMagazineSound[] = {"rhsusf\addons\rhsusf_sounds\ar15_shared\reload",1.0,1,10};
 		recoil = "recoil_spar";
 		
 		class WeaponSlotsInfo
@@ -328,20 +328,22 @@ class cfgweapons
 		ACE_barrelLength = 465;
 		aimTransitionSpeed = 0.66259724;
 		author = "Kartsa";
-		model = "\hlc_wp_saw\mesh\m249\m249e2_pip3.p3d";
+		model = "\PB_M_Weapons\C9\C9A2.p3d";
 		displayName = "C9A2";
 		picture = "PB_Main\ui\C9\PB_C9_CA.paa";
 		inertia = 0.69;
 		initspeed = -1;
 		modes[] = {"Single","FullAuto"};
-		handanim[] = {"OFP2_ManSkeleton","\hlc_wp_saw\anim\gesture\gesture_m249_STD.rtm"};
+		handanim[] = {"OFP2_ManSkeleton","\PB_A_Weapons\C9\handpose_c9.rtm"};
 		hiddenSelections[] = {"Reciever","Assembly_cover","Barrel","Misc","Foregrip","Stock","RearSight","Magazine","VFG"};
 		hiddenSelectionsTextures[] = {"PB_T_Weapons\data\c9\C9A2_CO.paa","hlc_wp_saw\tex\toadie_m249\assemblycover_co.paa","hlc_wp_saw\tex\toadie_m249\barrel_co.paa","PB_T_Weapons\data\c9\C9A2_misc_co.paa","PB_T_Weapons\data\c9\C9A2_fore_co.paa","PB_T_Weapons\data\c9\C9A2_stock_co.paa","hlc_wp_saw\tex\toadie_m249\rearsight_co.paa","PB_T_Weapons\data\c9\C9A2_pouch_co.paa","PB_T_Weapons\data\c9\C9A2_vert.paa"};
-		magazines[] = {"hlc_200rnd_556x45_M_SAW","hlc_200rnd_556x45_B_SAW","hlc_200rnd_556x45_T_SAW","hlc_200rnd_556x45_Mdim_SAW","200Rnd_556x45_Box_F","200Rnd_556x45_Box_Red_F","200Rnd_556x45_Box_Tracer_F","200Rnd_556x45_Box_Tracer_Red_F","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_SOST","hlc_30rnd_556x45_SPR","hlc_30rnd_556x45_S","hlc_30rnd_556x45_M","hlc_30rnd_556x45_t","hlc_30rnd_556x45_MDim","hlc_30rnd_556x45_TDim","hlc_50rnd_556x45_EPR","hlc_50rnd_556x45_SOST","hlc_50rnd_556x45_SPR","hlc_50rnd_556x45_M","hlc_50rnd_556x45_MDim","hlc_30rnd_556x45_EPR_PMAG","hlc_30rnd_556x45_SOST_PMAG","hlc_30rnd_556x45_SPR_PMAG","hlc_30rnd_556x45_S_PMAG","hlc_30rnd_556x45_M_PMAG","hlc_30rnd_556x45_t_PMAG","hlc_30rnd_556x45_MDim_PMAG","hlc_30rnd_556x45_TDim_PMAG","hlc_30rnd_556x45_EPR_STANAGHD","hlc_30rnd_556x45_SOST_STANAGHD","hlc_30rnd_556x45_SPR_STANAGHD","hlc_30rnd_556x45_S_STANAGHD","hlc_30rnd_556x45_M_STANAGHD","hlc_30rnd_556x45_t_STANAGHD","hlc_30rnd_556x45_MDim_STANAGHD","hlc_30rnd_556x45_TDim_STANAGHD","hlc_30rnd_556x45_EPR_L5","hlc_30rnd_556x45_SOST_L5","hlc_30rnd_556x45_SPR_L5","hlc_30rnd_556x45_S_L5","hlc_30rnd_556x45_M_L5","hlc_30rnd_556x45_t_L5","hlc_30rnd_556x45_MDim_L5","hlc_30rnd_556x45_TDim_L5","hlc_30rnd_556x45_EPR_EMAG","hlc_30rnd_556x45_SOST_EMAG","hlc_30rnd_556x45_SPR_EMAG","hlc_30rnd_556x45_S_EMAG","hlc_30rnd_556x45_M_EMAG","hlc_30rnd_556x45_t_EMAG","hlc_30rnd_556x45_MDim_EMAG","hlc_30rnd_556x45_TDim_EMAG","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Green","30Rnd_556x45_Stanag_Tracer_Yellow","30Rnd_556x45_Stanag_green","30Rnd_556x45_Stanag_red","150Rnd_556x45_Drum_Mag_F","150Rnd_556x45_Drum_Mag_Tracer_F"};
-		magazineWell[] = {"CBA_556x45_MINIMI","CBA_556x45_STANAG"};
+		magazines[] = {"rhsusf_200Rnd_556x45_soft_pouch"};
+		magazineWell[] = {"CBA_556x45_MINIMI"};
 		scope="2";
 		recoil = "rhs_recoil_m249";
-		reloadaction = "HLC_GestureReloadM249";
+        reloadaction = "PB_HLC_GestureReloadM249";
+		drysound[] = {"\rhsusf\addons\rhsusf_weapons2\M249\snd\empty_machineguns",1,1,10};
+        reloadmagazinesound[] = { "\PB_A_Weapons\C9\snd\saw_reload", 0.7, 1, 20 };
 		class WeaponSlotsInfo
 		{
 			mass = 142;
@@ -383,7 +385,7 @@ class cfgweapons
 		editorCategory = "EdCat_TFC_CORE_Weapons";
 		editorSubcategory = "EdSubcat_TFC_CORE_RIFLES";
 		descriptionShort = "C7A2 made by Colt Canada";
-		reloadAction = "HLC_GestureReload_M16A1_Tactical";
+		reloadAction = "RHS_GestureReloadAR15";
 		handAnim[] = {"OFP2_ManSkeleton","TFC_CORE\addons\weapons_army\rifles\Shared\Anim\tfc_rifle_anim.rtm"};
 		picture = "TFC_CORE\addons\weapons_army\rifles\c7\Data\INV\tfc_w_c7a2_x_ca.paa";
 		discretedistance[] = {100,200,300,400};
@@ -449,7 +451,7 @@ class cfgweapons
 				sounds[] = {"StandardSound"};
 				class StandardSound
 				{
-					soundSetShot[] = {"M203A1_Shot_SoundSet","M203A1_Tail_SoundSet"};
+                    soundSetShot[] = { "UGL_Shot_SoundSet", "UGL_Tail_SoundSet" };
 				};
 			};
 		};
@@ -564,6 +566,249 @@ class cfgweapons
 			class UnderBarrelSlot{};
 		};
 		handAnim[] = {"OFP2_ManSkeleton","TFC_CORE\addons\weapons_army\rifles\Shared\Anim\tfc_rifle_anim_VHG.rtm"};
+	};
+	class PB_G36: Rifle_Base_F 
+	{
+		author="Aegis Team";
+		hasBipod = 0;
+		scope="2";
+		model = "\PB_M_Weapons\G36\G36_F.p3d";
+        reloadAction = "RHS_GestureReloadAR15";
+        picture = "\PB_Main\ui\G36\icon_arifle_G36_F_X_CA.paa";
+		baseWeapon="PB_G36";
+		displayName="G36K";
+		discreteDistance[] =
+		{
+			100,
+			200,
+			300,
+			400,
+			500,
+			600
+		};
+		discreteDistanceInitIndex = 1;
+        cameraDir = "look";
+		initSpeed = 850;
+		inertia = 0.5;
+		dexterity = 1.6;
+		aimTransitionSpeed = 1.2;
+		maxZeroing = 800;
+		hiddenSelections[] =
+		{
+			camo1,
+			camo2
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"\PB_T_Weapons\data\G36\G36_F_01_CO.paa",
+			"\PB_T_Weapons\data\G36\G36_F_02_CO.paa"
+		};
+        magazines[] = { "PB_M855A1_G36" };
+        magazineWell[] = {"CBA_556x45_G36"};
+		handAnim[] = {"OFP2_ManSkeleton","\A3\Weapons_F_Exp\Rifles\SPAR_02\Data\Anim\SPAR_02.rtm"};
+		bg_bipod = 0; 
+		modes[] = {"Single","Burst","FullAuto"};
+		drySound[] = {"A3\sounds_f\weapons\other\dry6",0.0316228,1,10};
+		changeFiremodeSound[] = {"rhsusf\addons\rhsusf_sounds\ar15_shared\firemode",0.6,1,5};
+		magazineReloadSwitchPhase = 0.48;
+		reloadMagazineSound[] = {"rhsusf\addons\rhsusf_sounds\ar15_shared\reload",1.0,1,10};
+		recoil = "recoil_spar";
+		
+		class WeaponSlotsInfo
+		{
+			mass = 78.86;
+			class CowsSlot: asdg_OpticRail1913
+			{
+				iconPosition[] = {0,0};
+				iconScale = 1.0;
+				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
+				iconPinPoint = "Left";
+			};
+			class MuzzleSlot: asdg_MuzzleSlot_556
+			{
+				iconPosition[] = {0,0};
+				iconScale = 1.0;
+				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
+				iconPinPoint = "Left";
+			};
+			class PointerSlot: asdg_FrontSideRail
+			{
+				iconPosition[] = {0,0};
+				iconScale = 1.0;
+				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
+				iconPinPoint = "Left";
+			};
+			class UnderBarrelSlot: asdg_UnderSlot
+			{
+				iconPosition[] = {0,0};
+				iconScale = 1.0;
+				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
+				iconPinPoint = "Left";
+			};
+        };
+		class Single: Mode_SemiAuto
+		{
+			class StandardSound
+			{
+				soundSetShot[] = {"RHSUSF_m4_Shot_SoundSet","RHSUSF_rifle_small_Tail_SoundSet","RHSUSF_m4_stereoLayer_SoundSet"};
+			};
+			class SilencedSound
+			{
+				soundSetShot[] = {"RHSUSF_sd_M4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_M4_stereoLayer_SoundSet"};
+			};
+			
+			reloadTime = 0.08;
+			dispersion = 0.00102;
+			minRange = 2;
+			minRangeProbab = 0.5;
+			midRange = 150;
+			midRangeProbab = 0.7;
+			maxRange = 250;
+			maxRangeProbab = 0.2;
+		};
+		class Burst: Mode_Burst
+		{
+			class StandardSound
+			{
+				soundSetShot[] = {"RHSUSF_m4_Shot_SoundSet","RHSUSF_rifle_small_Tail_SoundSet","RHSUSF_m4_stereoLayer_SoundSet"};
+			};
+			class SilencedSound
+			{
+				soundSetShot[] = {"RHSUSF_sd_M4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_M4_stereoLayer_SoundSet"};
+			};
+			textureType = dual;
+			burst = 2;
+			reloadTime = 0.08;
+			dispersion = 0.00102;
+			minRange = 2;
+			minRangeProbab = 0.9;
+			midRange = 50;
+			midRangeProbab = 0.7;
+			maxRange = 100;
+			maxRangeProbab = 0.05;
+		};
+		class FullAuto: Mode_FullAuto
+		{
+			class StandardSound
+			{
+				soundSetShot[] = {"RHSUSF_m4_Shot_SoundSet","RHSUSF_rifle_small_Tail_SoundSet","RHSUSF_m4_stereoLayer_SoundSet"};
+			};
+			class SilencedSound
+			{
+				soundSetShot[] = {"RHSUSF_sd_M4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_M4_stereoLayer_SoundSet"};
+			};
+			reloadTime = 0.08;
+			dispersion = 0.00102;
+			minRange = 2;
+			minRangeProbab = 0.9;
+			midRange = 15;
+			midRangeProbab = 0.7;
+			maxRange = 30;
+			maxRangeProbab = 0.05;
+			aiRateOfFire = 1e-006;
+		};
+	};
+	class PB_G36_GL: PB_G36 
+	{
+		model = "\PB_M_Weapons\G36\G36_GL_F.p3d";
+        picture = "\PB_Main\ui\G36\icon_arifle_G36_GL_F_X_CA.paa";
+		baseWeapon="PB_G36_GL";
+		displayName="G36K (GL)";
+		UiPicture = "\A3\Weapons_F\Data\UI\icon_gl_CA.paa";
+		discreteDistance[] =
+		{
+			100,
+			200,
+			300,
+			400,
+			500,
+			600
+		};
+		discreteDistanceInitIndex = 1;
+        cameraDir = "look";
+		inertia = 0.6;
+		aimTransitionSpeed = 1;
+		hiddenSelections[] =
+		{
+			"camo1",
+			"camo2",
+			"camo3"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"\PB_T_Weapons\data\G36\G36_F_01_CO.paa",
+			"\PB_T_Weapons\data\G36\G36_F_02_CO.paa",
+			"\PB_T_Weapons\data\G36\G36_F_GL_CO.paa"
+		};
+		handAnim[] = {"OFP2_ManSkeleton","\A3\Weapons_F_Exp\Rifles\SPAR_01\Data\Anim\SPAR_01_GL.rtm"};
+		bg_bipod = 0; 
+		modes[] = {"Single","Burst","FullAuto"};
+		drySound[] = {"A3\sounds_f\weapons\other\dry6",0.0316228,1,10};
+		changeFiremodeSound[] = {"rhsusf\addons\rhsusf_sounds\ar15_shared\firemode",0.6,1,5};
+		magazineReloadSwitchPhase = 0.48;
+		reloadMagazineSound[] = {"rhsusf\addons\rhsusf_sounds\ar15_shared\reload",1.0,1,10};
+		recoil = "recoil_spar";
+		muzzles[] = {"this","PB_AG36"};
+		class WeaponSlotsInfo
+		{
+			mass = 110;
+			class CowsSlot: asdg_OpticRail1913
+			{
+				iconPosition[] = {0,0};
+				iconScale = 1.0;
+				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
+				iconPinPoint = "Left";
+			};
+			class MuzzleSlot: asdg_MuzzleSlot_556
+			{
+				iconPosition[] = {0,0};
+				iconScale = 1.0;
+				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
+				iconPinPoint = "Left";
+			};
+			class PointerSlot: asdg_FrontSideRail
+			{
+				iconPosition[] = {0,0};
+				iconScale = 1.0;
+				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
+				iconPinPoint = "Left";
+			};
+			class UnderBarrelSlot{};
+        };
+		class PB_AG36: UGL_F
+		{
+			displayName = "AG36";
+			useModelOptics = false;
+			useExternalOptic = false;
+			cameraDir = OP_look;
+			discreteDistance[] =
+			{
+				50,
+				75,
+				100,
+				150,
+				200,
+				250,
+				300,
+				350,
+				400
+			};
+			discreteDistanceCameraPoint[] =
+			{
+				OP_eye_50,
+				OP_eye_75,
+				OP_eye_100,
+				OP_eye_150,
+				OP_eye_200,
+				OP_eye_250,
+				OP_eye_300,
+				OP_eye_350,
+				OP_eye_400
+			};
+			discreteDistanceInitIndex = 1;
+			reloadAction = GestureReloadSPARUGL;
+			magazineReloadSwitchPhase = 0.4;
+		};
 	};
 };
  

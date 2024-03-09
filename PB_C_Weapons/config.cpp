@@ -13,7 +13,7 @@ class CfgPatches
 	{
 		version = "1.1.3";
 		units[] = {};
-		weapons[] = {"PB_EF88","PB_EF88_GL","PB_C7","PB_C8","PB_C9","PB_C7M203"};
+		weapons[] = {"PB_EF88","PB_EF88_GL","PB_C7","PB_C8","PB_C9","PB_C7M203","PB_G36_GL","PB_G36"};
 		requiredVersion = "1.1.3";
 		requiredAddons[] = {"PB_Main","PB_M_Weapons","PB_T_Weapons", "PB_A_Weapons", "rhsusf_c_weapons"};
 	};

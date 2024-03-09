@@ -1285,7 +1285,7 @@ class cfgWeapons
 	{
 		displayName = "[TROPENTARN] Combat Helmet (Headset)";
 		hiddenSelectionsTextures[] = {
-			"PB_German_Kit\data\FLECK_tch_co.paa"
+			"PB_German_Kit\data\TROP_tch_co.paa"
 		};
 	};
 	class PB_SCHNEE_TCH: PB_FLECK_TCH

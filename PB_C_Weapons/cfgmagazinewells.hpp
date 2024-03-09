@@ -8,4 +8,11 @@ class CfgMagazineWells
             "PB_M856A1_AUG"
 		};
 	};
+	class CBA_556x45_G36
+	{
+		PB_G36_Mags[] = {
+			"PB_M855A1_G36",
+            "PB_M856A1_G36"
+		};
+	};
 };

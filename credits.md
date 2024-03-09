@@ -5,8 +5,8 @@ These will be update everytime i add stuff that has someone new/else than me tha
  - Watching over me and being a bug tester
  - Textures
 - Kartsa
-- Aegis Mod for Uniforms, and Helmet
-- Toadie2k for some weapon models, anims and sounds
+- Aegis Mod for Uniforms, Helmet and Weapons. And for having an APL-SA github directory
+- Toadie2k, for having an open-source github, and making her stuff APL-SA
 - Mac and Task Force Canada for C7 models
 
 OG BLUFOR:
