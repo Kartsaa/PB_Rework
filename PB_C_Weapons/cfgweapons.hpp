@@ -46,6 +46,11 @@ class cfgweapons
 		class WeaponSlotsInfo;
 		class GunParticles;
 	};
+	class Launcher;
+	class Launcher_Base_F: Launcher
+	{
+		class WeaponSlotsInfo;
+	};
     class UGL_F;
     class PB_EF88 : Rifle_Base_F {
 
@@ -810,5 +815,350 @@ class cfgweapons
 			magazineReloadSwitchPhase = 0.4;
 		};
 	};
+	class PB_MG5: Rifle_Base_F
+	{
+		author="Kartsa, Bohemia";
+		baseWeapon="PB_MG5";
+		scope=2;
+		model="\A3\Weapons_F_Mark\Machineguns\MMG_01\MMG_01_F.p3d";
+		displayName="MG5";
+		descriptionShort="MG5 7.62x51";
+		picture="\A3\Weapons_F_Mark\Machineguns\MMG_01\Data\UI\gear_MMG_01_tan_X_co.paa";
+		UIPicture="\A3\weapons_f\data\UI\icon_mg_CA.paa";
+		handAnim[]=
+		{
+			"OFP2_ManSkeleton",
+			"\A3\Weapons_F_Mark\Machineguns\MMG_01\Data\Anim\mmg_01.rtm"
+		};
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\A3\Weapons_F_Mark\Machineguns\MMG_01\Data\MMG_01_01_sand_CO.paa",
+			"\A3\Weapons_F_Mark\Machineguns\MMG_01\Data\MMG_01_02_sand_CO.paa",
+			"\A3\Weapons_F_Mark\Machineguns\MMG_01\Data\MMG_01_03_sand_CO.paa"
+		};
+		hiddenSelectionsMaterials[]=
+		{
+			"\A3\Weapons_F_Mark\Machineguns\MMG_01\Data\MMG_01_01_sand.rvmat",
+			"\A3\Weapons_F_Mark\Machineguns\MMG_01\Data\MMG_01_02_sand.rvmat",
+			"\A3\Weapons_F_Mark\Machineguns\MMG_01\Data\MMG_01_03_sand.rvmat"
+		};
+		magazines[] = {"rhsusf_100Rnd_762x51","rhsusf_100Rnd_762x51_m61_ap","rhsusf_100Rnd_762x51_m62_tracer","rhsusf_100Rnd_762x51_m80a1epr","rhsusf_100Rnd_762x51_m82_blank","rhsusf_50Rnd_762x51","rhsusf_50Rnd_762x51_m61_ap","rhsusf_50Rnd_762x51_m62_tracer","rhsusf_50Rnd_762x51_m80a1epr","rhsusf_50Rnd_762x51_m82_blank","rhsusf_50Rnd_762x51_m993","rhsusf_100Rnd_762x51_m993"};
+		magazineWell[] = {"M240_762x51","CBA_762x51_LINKS"};
+		reloadAction="GestureReloadMMG01";
+		recoil="rhs_recoil_m240";
+		maxZeroing=1600;
+		inertia=1.2;
+		aimTransitionSpeed=0.5;
+		magazineReloadSwitchPhase=0.40000001;
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			mass=300;
+			class MuzzleSlot: asdg_MuzzleSlot_762
+			{
+				iconPosition[]={0.059999999,0.40000001};
+				iconScale=0.15000001;
+			};
+			class CowsSlot: asdg_OpticRail1913
+			{
+				iconPosition[]={0.56999999,0.28};
+				iconScale=0.15000001;
+			};
+			class PointerSlot: asdg_frontsiderail
+			{
+				iconPosition[]={0.38,0.41999999};
+				iconScale=0.2;
+			};
+			class UnderBarrelSlot: asdg_UnderSlot
+			{
+				iconPosition[]={0.34999999,0.85000002};
+				iconScale=0.30000001;
+			};
+		};
+		bullet1[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\metal_762_01",
+			0.50118721,
+			1,
+			15
+		};
+		bullet2[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\metal_762_02",
+			0.50118721,
+			1,
+			15
+		};
+		bullet3[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\metal_762_03",
+			0.50118721,
+			1,
+			15
+		};
+		bullet4[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\metal_762_04",
+			0.50118721,
+			1,
+			15
+		};
+		bullet5[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\dirt_762_01",
+			0.39810717,
+			1,
+			15
+		};
+		bullet6[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\dirt_762_02",
+			0.39810717,
+			1,
+			15
+		};
+		bullet7[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\dirt_762_03",
+			0.39810717,
+			1,
+			15
+		};
+		bullet8[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\dirt_762_04",
+			0.39810717,
+			1,
+			15
+		};
+		bullet9[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\grass_762_01",
+			0.25118864,
+			1,
+			15
+		};
+		bullet10[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\grass_762_02",
+			0.25118864,
+			1,
+			15
+		};
+		bullet11[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\grass_762_03",
+			0.25118864,
+			1,
+			15
+		};
+		bullet12[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\grass_762_04",
+			0.25118864,
+			1,
+			15
+		};
+		soundBullet[]=
+		{
+			"bullet1",
+			0.082999997,
+			"bullet2",
+			0.082999997,
+			"bullet3",
+			0.082999997,
+			"bullet4",
+			0.082999997,
+			"bullet5",
+			0.082999997,
+			"bullet6",
+			0.082999997,
+			"bullet7",
+			0.082999997,
+			"bullet8",
+			0.082999997,
+			"bullet9",
+			0.082999997,
+			"bullet10",
+			0.082999997,
+			"bullet11",
+			0.082999997,
+			"bullet12",
+			0.082999997
+		};
+		drySound[]=
+		{
+			"A3\Sounds_F_Mark\arsenal\weapons\Machineguns\MMG_01_Navid\MMG_01_Dry",
+			0.44668359,
+			1,
+			10
+		};
+		reloadMagazineSound[]=
+		{
+			"A3\Sounds_F_Mark\arsenal\weapons\Machineguns\MMG_01_Navid\MMG_01_reload",
+			1,
+			1,
+			10
+		};
+		changeFiremodeSound[]=
+		{
+			"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\firemode_TRG20",
+			0.31622776,
+			1,
+			5
+		};
+		modes[]=
+		{
+			"Single",
+			"FullAuto",
+		};
+		class FullAuto: Mode_FullAuto
+		{
+			sounds[]=
+			{
+				"StandardSound",
+				"SilencedSound"
+			};
+			class StandardSound
+			{
+				soundSetShot[] = {"RHSUSF_m240_Shot_SoundSet","RHSUSF_rifle_med_Tail_SoundSet","RHSUSF_m240_stereoLayer_SoundSet"};
+			};
+			class SilencedSound
+			{
+				soundSetShot[] = {"RHSUSF_sd_m4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_m4_stereoLayer_SoundSet"};
+			};
+			reloadTime=60/720;
+			dispersion=0.00145;
+		};
+		class Single: Mode_SemiAuto
+		{
+			sounds[]=
+			{
+				"StandardSound",
+				"SilencedSound"
+			};
+			class StandardSound
+			{
+				soundSetShot[] = {"RHSUSF_m240_Shot_SoundSet","RHSUSF_rifle_med_Tail_SoundSet","RHSUSF_m240_stereoLayer_SoundSet"};
+			};
+			class SilencedSound
+			{
+				soundSetShot[] = {"RHSUSF_sd_m4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_m4_stereoLayer_SoundSet"};
+			};
+			reloadTime=60/720;
+			dispersion=0.00145;
+		};
+	};
+	class PB_PZF3: Launcher_Base_F
+    {
+		author = "Aegis Team";
+		scope = 2; 
+		scopeArsenal = 2;
+		displayName = "Panzerfaust 3";
+		model = "\PB_M_Weapons\Pzf3\PzF3.p3d";
+		hiddenSelections[] = {Camo1,Camo2};
+		hiddenSelectionsTextures[] =
+		{
+			"\PB_T_Weapons\data\PzF3\PzF3_Trigger_CO.paa",
+			"\PB_T_Weapons\data\PzF3\PzF3_Tube_CO.paa"
+		};
+		hiddenSelectionsMaterials[] =
+		{
+			"\PB_T_Weapons\data\PzF3\PzF3_Trigger.rvmat",
+			"\PB_T_Weapons\data\PzF3\PzF3_Tube.rvmat"
+		};
+		picture = "\PB_Main\UI\PzF3\picture_PzF3_CA.paa";
+		magazines[] =
+		{
+			"PB_DM12_HEAT_F",
+			"PB_DM22_HEAT_F",
+			"PB_DM32_HEAT_MP_F"
+		};
+		magazineReloadSwitchPhase = 0.32;
+		recoil="recoil_rpg";
+		handAnim[] =
+		{
+			OFP2_ManSkeleton,
+			"\PB_A_Weapons\Pzf3\PzF3.rtm"
+		};
+		reloadAction = GestureReloadRPG7;
+		weaponInfoType = RscWeaponEmpty;
+		aimTransitionSpeed = 0.5;
+		dexterity = 1.1;
+		inertia = 1.0;
+		canLock = false;
+		maxZeroing = 900;
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			mass = 50;
+		};
+		modes[] = {Mode_SemiAuto_Player};
+		class Mode_SemiAuto_Player: Mode_SemiAuto
+		{
+			minRange = 15;	
+			minRangeProbab = 0.3;
+			midRange = 50;	
+			midRangeProbab = 0.7;
+			maxRange = 900;	
+			maxRangeProbab = 0.5;
+			aiRateOfFire = 5.0;
+			aiRateOfFireDistance = 700;
+			sounds[] = {StandardSound};
+			class BaseSoundModeType;
+			class StandardSound: BaseSoundModeType
+			{
+				soundSetShot[] =
+				{
+					Launcher_MRAWS_Shot_SoundSet,
+					Launcher_MRAWS_Tail_SoundSet
+				};
+			};
+		};
+		bullet1[] = {"\A3\Sounds_F\dummysound.wss",1,1,0};
+		soundBullet[] = {bullet1,1};
+		drySound[] = {"\PB_A_Weapons\Pzf3\snd\dry.ogg",0.4466836,1,15};
+		changeFiremodeSound[] = {"\PB_A_Weapons\Pzf3\snd\dry.ogg",0.4466836,1,15};
+		reloadMagazineSound[] = {"\PB_A_Weapons\Pzf3\snd\reload.ogg",0.25118864,1,30};
+		soundFly[] = {"\PB_A_Weapons\Pzf3\snd\fly.ogg",0.31622776,1.5,900};
+		class GunParticles
+		{
+			class FireSmoke
+			{
+				positionName = pos_fx_smoke;
+				directionName = pos_fx_smoke_dir;
+				effectName = RocketBackEffectsRPGNT;
+			};
+		};
+		optics = true;
+		modelOptics = "\PB_M_Weapons\Pzf3\PzF3_reticle.p3d";
+		class OpticsModes
+		{
+			class Scope
+			{
+				opticsID = 1;
+				useModelOptics = true;
+				memoryPointCamera = pos_view;
+				cameraDir = pos_view_dir;
+				visionMode[] = {Normal};
+				opticsFlare = true;
+				opticsDisablePeripherialVision = true;
+				opticsPPEffects[] =
+				{
+					OpticsCHAbera1,
+					OpticsBlur1
+				};
+				opticsZoomMin = 0.107;
+				opticsZoomMax = 0.107;
+				opticsZoomInit = 0.107;
+				distanceZoomMin = 200;
+				distanceZoomMax = 200;
+			};
+		};
+    };
 };
  

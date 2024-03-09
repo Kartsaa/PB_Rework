@@ -70,4 +70,51 @@ class CfgMagazines
         initspeed = 800;
         displaynameshort = "5.56x45 M856A1";
 	};
+	class PB_DM12_HEAT_F: CA_LauncherMagazine
+	{
+		author = "Aegis Team";
+		scope = 2; 
+		scopeArsenal = 2;
+		ammo = PB_R_DM12_HEAT;
+		modelSpecialIsProxy=1;
+		displayName = "DM12 HEAT Grenade";
+		displayNameShort = "HEAT";
+		descriptionShort = "Type: High Explosive Anti Tank<br />Caliber: 110mm";
+		model = "\PB_M_Weapons\Pzf3\DM12_HEAT.p3d";
+		modelSpecial = "\PB_M_Weapons\Pzf3\DM12_HEAT_proxy.p3d";
+		picture = "\PB_Main\UI\PzF3\picture_DM12_HEAT_CA.paa";
+		initSpeed = 220;
+		mass = 90;
+	};
+	class PB_DM22_HEAT_F: PB_DM12_HEAT_F
+	{
+		author = "Aegis Team";
+		scope = 2; 
+		scopeArsenal = 2;
+		modelSpecialIsProxy=1;
+		ammo = PB_R_DM22_HEAT;
+		displayName = "DM22 HEAT Grenade";
+		displayNameShort = "HEAT";
+		descriptionShort = "Type: High Explosive Anti Tank<br />Caliber: 110mm";
+		model = "\PB_M_Weapons\Pzf3\DM22_HEAT.p3d";
+		modelSpecial = "\PB_M_Weapons\Pzf3\DM22_HEAT_proxy.p3d";
+		picture = "\PB_Main\UI\PzF3\picture_DM22_HEAT_CA.paa";
+		mass = 100;
+	};
+	class PB_DM32_HEAT_MP_F: PB_DM12_HEAT_F
+	{
+		author = "Aegis Team";
+		scope = 2; 
+		scopeArsenal = 2;
+		ammo = PB_R_DM32_HEAT_MP;
+		modelSpecialIsProxy=1;
+		displayName = "DM32 HEAT-MP Grenade";
+		displayNameShort = "HEAT-MP";
+		descriptionShort = "Type: High Explosive Anti Tank - Multi Purpose<br />Caliber: 110mm";
+		model = "\PB_M_Weapons\Pzf3\DM32_HEAT_MP.p3d";
+		modelSpecial = "\PB_M_Weapons\Pzf3\DM32_HEAT_MP_proxy.p3d";
+		picture = "\PB_Main\UI\PzF3\picture_DM32_HEAT_MP_CA.paa";
+		mass = 100;
+	};
+
 };

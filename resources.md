@@ -62,3 +62,6 @@ Role additions:
 	Medics:	attendant=1;
     Mine defuser: canDeactivateMines=1;
 	Mine detection: detectSkill=38;
+
+Name script;
+Alright, open the list of names in vscode and hit Ctrl+H (search&replace), select the Use Regular Expressions (Alt+R), search for ^(.+)$ and replace with        $1 = "\u$1";
