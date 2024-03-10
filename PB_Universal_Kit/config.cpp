@@ -160,40 +160,6 @@ class cfgWeapons
 		class ItemInfo;
 	};
 ////UNIS////
-	class PB_Green_ACU: Uniform_Base
-	{
-		scope = 2;
-		author = "Kartsa";
-		displayName = "[Green] Combat Uniform";
-		picture = "\PB_Main\ui\uniform_test.paa";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
-		class ItemInfo: UniformItem
-		{
-			uniformModel = "-";
-			uniformClass = "PB_Green_ACU_B";
-			containerClass = "Supply45";
-			mass = 50;
-			allowedSlots[] = {"701","801","901"};
-			armor = 0;
-		};
-	};
-	class PB_Green_ACU_R: Uniform_Base
-	{
-		scope = 2;
-		author = "Kartsa";
-		displayName = "[Green] Combat Uniform (Rolled-Up)";
-		picture = "\PB_Main\ui\uniform_test.paa";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
-		class ItemInfo: UniformItem
-		{
-			uniformModel = "-";
-			uniformClass = "PB_Green_ACU_B_R";
-			containerClass = "Supply45";
-			mass = 50;
-			allowedSlots[] = {"701","801","901"};
-			armor = 0;
-		};
-	};
 	class PB_Green_Gora: Uniform_Base
 	{
 		scope = 2;
