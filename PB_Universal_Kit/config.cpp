@@ -129,6 +129,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		author = "Kartsa";
+		displayname = "[GREEN] Bergen Backpack";
 		scopeCurator = 2;
 		picture = "PB_Main\ui\kitbag_test.paa";
 		hiddenSelectionsTextures[] = {"\PB_Universal_Kit\data\GREEN_bergen_co.paa"};
