@@ -501,7 +501,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		picture = "\PB_Main\ui\helmet_test.paa";
-		displayName = "[M05] Helmet (ESS)";
+		displayName = "[M05W] Helmet (ESS)";
 		allowedFacewear[] =
 		{
 			"rhs_googles_black", 1,  
@@ -553,7 +553,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		picture = "\PB_Main\ui\helmet_test.paa";
-		displayName = "[M05] Helmet (Headset/ESS)";
+		displayName = "[M05W] Helmet (Headset/ESS)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\lwh_wd_headset";
 		allowedFacewear[] =
 		{
