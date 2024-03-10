@@ -48,6 +48,7 @@ class CfgVehicles
 	class B_Soldier_base_F;
 	class B_AssaultPack_Base;
 	class B_Kitbag_Base;
+	class B_Bergen_Base_F;
 ///UNIS///
 	class PB_Green_Gora_B: B_Soldier_base_F
 	{
@@ -85,6 +86,52 @@ class CfgVehicles
 		picture = "\PB_Main\UI\uniform_test.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
 		hiddenSelectionsTextures[] = {"\PB_Universal_Kit\data\Green_Fatigues_co.paa","PB_British_Kit\data\TacGloves_Clk_CO.paa"};
+	};
+	
+	class PB_Green_JP_B: B_Soldier_base_F
+	{
+		author = "kartsa";
+		scope = 1;
+		model="\A3\characters_F\Common\pilot_f.p3d";
+		picture = "\PB_Main\ui\uniform_test.paa";
+		hiddenSelections[]=
+		{
+			"Camo",
+			"insignia"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"PB_Universal_Kit\data\GR_JET_PILOT_CO.paa"
+		};
+	};
+	class PB_Green_HP_B: B_Soldier_base_F
+	{
+		scope = 2;
+		author = "kartsa";
+		model = "\a3\Characters_F_Enoch\Uniforms\I_E_Coveralls_01_F.p3d";
+		picture = "\PB_Main\ui\uniform_test.paa";
+		hiddenSelections[] = {"camo1","camo2","camo3","insignia"};
+		hiddenSelectionsTextures[] = {"\PB_Universal_Kit\data\GR_COVERALLS_CO.paa","a3\characters_f_enoch\uniforms\data\i_e_soldier_01_pants_co.paa","a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"};
+	};
+///BPS///
+	class PB_CARRYALL_GREEN: B_Kitbag_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		displayName = "[GREEN] Carryall Backpack";
+		picture = "PB_Main\ui\kitbag_test.paa";
+		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Tortila";
+		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\green_carryall_co.paa"};	
+		maximumLoad = 320;
+		mass = 70;
+	};
+	class PB_BERGEN_Green: B_Bergen_Base_F
+	{
+		scope = 2;
+		author = "Kartsa";
+		scopeCurator = 2;
+		picture = "PB_Main\ui\kitbag_test.paa";
+		hiddenSelectionsTextures[] = {"\PB_Universal_Kit\data\GREEN_bergen_co.paa"};
 	};
 };
 class cfgWeapons
@@ -213,6 +260,36 @@ class cfgWeapons
 			mass = 50;
 			allowedSlots[] = {"701","801","901"};
 			armor = 0;
+		};
+	};
+	class PB_Green_JP: Uniform_Base
+	{
+		author="Kartsa";
+		scope=2;
+		displayName="[GREEN] Jet Pilot Uniform";
+		picture="PB_Main\ui\Uniform_test.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="PB_Green_JP_B";
+			containerClass="Supply40";
+			mass=40;
+		};
+	};
+	class PB_Green_HP: Uniform_Base
+	{
+		author="Kartsa";
+		scope=2;
+		displayName="[GREEN] Heli Pilot Uniform";
+		picture="PB_Main\ui\Uniform_test.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="PB_Green_HP_B";
+			containerClass="Supply40";
+			mass=40;
 		};
 	};
 };

@@ -22,6 +22,8 @@ class asdg_OpticRail1913;
 class asdg_OpticRail1913_short;
 class nia_charms_slot;
 class rhs_western_rifle_gripod_slot;
+class rhs_weap_pkm;
+class rhs_weap_pkp;
 class rhs_rifle_gripod_slot: UnderBarrelSlot
 {
     displayName = "Gripod slot";
@@ -1160,5 +1162,429 @@ class cfgweapons
 			};
 		};
     };
+	class PB_RK62M2: Rifle_Base_F
+	{
+		author="Kartsa, Tuuttipingu";
+		scope=2;
+		cameraDir = "eye_look";
+        changeFiremodeSound[] = { "PB_A_Weapons\RK62M2\snd\ak_selector", 1, 1, 8 };
+		descriptionShort="RK62M2 7.62x39mm";
+		dexterity = 1.8;
+		discreteDistance[] = {100,200,300,400,500,600};
+		discreteDistanceCameraPoint[] = {"eye"};
+		displayName="RK62M2";
+		drySound[] = {"A3\Sounds_F_Exp\arsenal\weapons\Rifles\Rifle_AK74\AK74_dry",0.17782794,1,10};
+		maxZeroing=600;
+		model="PB_M_Weapons\RK62M2\RK62m2.p3d";
+		picture="\PB_Main\ui\RK62\RK62M2_UI_CA.paa";
+		hiddenSelections[]={"camo1","camo2","camo3","camo4"};
+		hiddenSelectionsTextures[]={"PB_T_Weapons\data\RK62M2\stock_co.paa","PB_T_Weapons\data\RK62M2\rails_co.paa","PB_T_Weapons\data\RK62M2\grip_co.paa","PB_T_Weapons\data\RK62M2\frame_co.paa"};
+		handAnim[]={
+			"OFP2_ManSkeleton",
+			"\PB_A_Weapons\RK62M2\handpose_VFG.rtm"
+		};
+		reloadAction = "PB_HLC_GestureReloadAK";
+        reloadMagazineSound[] = { "\PB_A_Weapons\RK62M2\snd\ak74m_reload", 0.8, 1, 20 };
+		magazineReloadSwitchPhase = 0.3;
+		magazines[]=
+		{
+			"PB_RK_Mag"
+		};
+		magazineWell[]=
+		{
+			"CBA_762x39_AK"
+		};
+		recoil="recoil_spar";
+		bullet1[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\metal_762_01",
+			0.50118721,
+			1,
+			15
+		};
+		bullet2[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\metal_762_02",
+			0.50118721,
+			1,
+			15
+		};
+		bullet3[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\metal_762_03",
+			0.50118721,
+			1,
+			15
+		};
+		bullet4[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\metal_762_04",
+			0.50118721,
+			1,
+			15
+		};
+		bullet5[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\dirt_762_01",
+			0.39810717,
+			1,
+			15
+		};
+		bullet6[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\dirt_762_02",
+			0.39810717,
+			1,
+			15
+		};
+		bullet7[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\dirt_762_03",
+			0.39810717,
+			1,
+			15
+		};
+		bullet8[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\dirt_762_04",
+			0.39810717,
+			1,
+			15
+		};
+		bullet9[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\grass_762_01",
+			0.25118864,
+			1,
+			15
+		};
+		bullet10[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\grass_762_02",
+			0.25118864,
+			1,
+			15
+		};
+		bullet11[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\grass_762_03",
+			0.25118864,
+			1,
+			15
+		};
+		bullet12[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\grass_762_04",
+			0.25118864,
+			1,
+			15
+		};
+		soundBullet[]=
+		{
+			"bullet1",
+			0.082999997,
+			"bullet2",
+			0.082999997,
+			"bullet3",
+			0.082999997,
+			"bullet4",
+			0.082999997,
+			"bullet5",
+			0.082999997,
+			"bullet6",
+			0.082999997,
+			"bullet7",
+			0.082999997,
+			"bullet8",
+			0.082999997,
+			"bullet9",
+			0.082999997,
+			"bullet10",
+			0.082999997,
+			"bullet11",
+			0.082999997,
+			"bullet12",
+			0.082999997
+		};
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class MuzzleSlot: asdg_MuzzleSlot_762{
+				iconPosition[] = {0,0};
+				iconScale = 1.0;
+				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
+				iconPinPoint = "Left";
+			};
+			class CowsSlot: asdg_OpticRail1913{
+				iconPosition[] = {0,0};
+				iconScale = 1.0;
+				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
+				iconPinPoint = "Left";
+			};
+			class PointerSlot: asdg_FrontSideRail{
+				iconPosition[] = {0,0};
+				iconScale = 1.0;
+				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
+				iconPinPoint = "Left";
+			};
+			class UnderBarrelSlot: asdg_UnderSlot{
+				iconPosition[] = {0,0};
+				iconScale = 1.0;
+				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
+				iconPinPoint = "Left";
+			};
+			mass=70;
+		};
+		distanceZoomMin=300;
+		distanceZoomMax=300;
+		modes[]={"FullAuto","Single",};
+		class Single: Mode_SemiAuto
+		{
+			
+			sounds[] = {"StandardSound","SilencedSound"};
+			class StandardSound
+			{
+				soundSetShot[] = {"RHS_AKM_Shot_SoundSet","RHS_MMG1_Tail_SoundSet"};
+			};
+			class SilencedSound
+			{
+				soundSetShot[] = {"RHS_sd_AKM_Shot_SoundSet","RHS_sd_MMG1_Tail_SoundSet"};
+			};
+			aiBurstTerminable = 1;
+			reloadTime = 0.0923;
+			dispersion = 0.00093;
+			minRange = 100;
+			minRangeProbab = 0.3;
+			midRange = 200;
+			midRangeProbab = 0.7;
+			maxRange = 400;
+			maxRangeProbab = 0.04;
+		};
+		class FullAuto: Mode_FullAuto
+		{
+			sounds[] = {"StandardSound","SilencedSound"};
+			class StandardSound
+			{
+				soundSetShot[] = {"RHS_AKM_Shot_SoundSet","RHS_MMG1_Tail_SoundSet"};
+			};
+			class SilencedSound
+			{
+				soundSetShot[] = {"RHS_sd_AKM_Shot_SoundSet","RHS_sd_MMG1_Tail_SoundSet"};
+			};
+			aiBurstTerminable = 1;
+			reloadTime = 0.0923;
+			dispersion = 0.00093;
+			minRange = 100;
+			minRangeProbab = 0.3;
+			midRange = 200;
+			midRangeProbab = 0.7;
+			maxRange = 400;
+			maxRangeProbab = 0.04;
+		};
+	};
+	class PB_RK62: PB_RK62M2
+	{
+		author="Kartsa, Tuuttipingu";
+		basweapon = "PB_RK62";
+		scope=2;
+		cameraDir = "eye_look";
+		descriptionShort="RK62 7.62x39mm";
+		dexterity = 1.8;
+		discreteDistance[] = {100,200,300,400,500,600};
+		discreteDistanceCameraPoint[] = {"eye"};
+		displayName="RK62";
+		drySound[]={"A3\Sounds_F_Exp\arsenal\weapons\Rifles\Rifle_AK47\AK47_dry",0.17782794,1,10};
+		maxZeroing=600;
+		model="PB_M_Weapons\RK62\KARRK62.p3d";
+		picture="\PB_Main\ui\RK62\RK62_UI_CA.paa";
+		hiddenSelections[]={"camo1","camo2"};
+		hiddenSelectionsTextures[]={"PB_T_Weapons\data\RK62\handguard_d_co.paa","PB_T_Weapons\data\RK62\rk62_d2_co.paa"};
+		handAnim[]={"OFP2_ManSkeleton","\PB_A_Weapons\RK62M2\handpose_ak12.rtm"};
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class MuzzleSlot{
+				iconPosition[] = {0,0};
+				iconScale = 1.0;
+				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
+				iconPinPoint = "Left";
+				};
+			class CowsSlot{
+				iconPosition[] = {0,0};
+				iconScale = 1.0;
+				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
+				iconPinPoint = "Left";
+				};
+			class PointerSlot{
+				iconPosition[] = {0,0};
+				iconScale = 1.0;
+				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
+				iconPinPoint = "Left";
+				};
+			class UnderBarrelSlot{
+				iconPosition[] = {0,0};
+				iconScale = 1.0;
+				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
+				iconPinPoint = "Left";
+				};
+			mass=70;
+		};
+		distanceZoomMin=300;
+		distanceZoomMax=300;
+		modes[]={"FullAuto","Single",};
+	};
+	class PB_PKM: rhs_weap_pkm
+	{
+		aimTransitionSpeed = 0.5;
+		author = "Kartsa, Bohemia";
+		baseWeapon = "PB_PKM";
+		dexterity = 1.2;
+		discreteDistance[] = {100,200,300,400,500,600};
+		discreteDistanceCameraPoint[] = {"eye"};
+		displayName = "PKM Plastic Stock";
+		handAnim[] = {"OFP2_ManSkeleton","\rhsafrf\addons\rhs_c_weapons\anims\pkm.rtm"};
+		deployedPivot = "bipod";
+		hasBipod = "true";
+		soundBipodDown[]= { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_down", db-3, 1, 20 };
+		soundBipodUp[]= { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_up", db-3, 1, 20 };
+		hiddenSelections[] = {"camo1","camo2"};
+		hiddenSelectionsTextures[] = {"PB_T_Weapons\data\PKM\PKM_co.paa","PB_T_Weapons\data\RK62M2\rails_co.paa"};
+		magazines[] = {"rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR_green","rhs_100Rnd_762x54mmR_7N13","rhs_100Rnd_762x54mmR_7N26","rhs_100Rnd_762x54mmR_7BZ3"};
+		maxZeroing=600;
+		model = "PB_M_Weapons\PKM\KAR_PKM.p3d";
+		recoil = "rhs_recoil_pkm";
+		inertia = 0.8;
+		magazineWell[] = {"PK_762x54R","CBA_762x54R_LINKS"};
+		scope = 2;
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class MuzzleSlot{
+				iconPosition[] = {0,0};
+				iconScale = 1.0;
+				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
+				iconPinPoint = "Left";
+			};
+			class CowsSlot: asdg_OpticRail1913{
+				iconPosition[] = {0,0};
+				iconScale = 1.0;
+				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
+				iconPinPoint = "Left";
+			};
+			class PointerSlot{
+				iconPosition[] = {0,0};
+				iconScale = 1.0;
+				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
+				iconPinPoint = "Left";
+			};
+			class UnderBarrelSlot{
+				iconPosition[] = {0,0};
+				iconScale = 1.0;
+				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
+				iconPinPoint = "Left";
+			};
+			mass = 155;
+		};
+		class Single: Mode_SemiAuto
+		{
+			sounds[] = {"StandardSound","SilencedSound"};
+			class StandardSound
+			{
+				soundSetShot[] = {"RHS_PK_Shot_SoundSet","RHS_MMG1_Tail_SoundSet"};
+			};
+			class SilencedSound
+			{
+				soundSetShot[] = {"RHS_sd_SVD_Shot_SoundSet","RHS_sd_mmg1_Tail_SoundSet"};
+			};
+			reloadTime = 60/600;
+			dispersion = 0.00133;
+		};
+		class FullAuto: Mode_FullAuto
+		{
+			sounds[] = {"StandardSound","SilencedSound"};
+			class StandardSound
+			{
+				soundSetShot[] = {"RHS_PK_Shot_SoundSet","RHS_MMG1_Tail_SoundSet"};
+			};
+			class SilencedSound
+			{
+				soundSetShot[] = {"RHS_sd_SVD_Shot_SoundSet","RHS_sd_mmg1_Tail_SoundSet"};
+			};
+			reloadTime = 60/600;
+			dispersion = 0.00133;
+		};
+	};
+	class PB_PKP: rhs_weap_pkp
+	{
+		aimTransitionSpeed = 0.5;
+		author = "Kartsa, Bohemia";
+		baseWeapon = "PB_PKP";
+		dexterity = 1.2;
+		discreteDistance[] = {100,200,300,400,500,600};
+		discreteDistanceCameraPoint[] = {"eye"};
+		displayName = "PKP (Rails)";
+		handAnim[] = {"OFP2_ManSkeleton","\rhsafrf\addons\rhs_c_weapons\anims\pkp.rtm"};
+		hasBipod = 1;
+		hiddenSelections[] = {"camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"rhsafrf\addons\rhs_weapons\pkp_bis\data\pecheneg_co.paa","PB_T_Weapons\data\RK62M2\rails_co.paa","PB_T_Weapons\data\RK62M2\stock_co.paa"};
+		magazines[] = {"rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR_green","rhs_100Rnd_762x54mmR_7N13","rhs_100Rnd_762x54mmR_7N26","rhs_100Rnd_762x54mmR_7BZ3"};
+		maxZeroing=600;
+		model = "PB_M_Weapons\PKP\KAR_PKP.p3d";
+		inertia = 0.8;
+		magazineWell[] = {"PK_762x54R","CBA_762x54R_LINKS"};
+		scope = 2;
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class MuzzleSlot: asdg_MuzzleSlot_762{
+				iconPosition[] = {0,0};
+				iconScale = 1.0;
+				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
+				iconPinPoint = "Left";
+			};
+			class CowsSlot: asdg_OpticRail1913{
+				iconPosition[] = {0,0};
+				iconScale = 1.0;
+				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
+				iconPinPoint = "Left";
+			};
+			class PointerSlot: asdg_FrontSideRail{
+				iconPosition[] = {0,0};
+				iconScale = 1.0;
+				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
+				iconPinPoint = "Left";
+			};
+			class UnderBarrelSlot: asdg_UnderSlot{
+				iconPosition[] = {0,0};
+				iconScale = 1.0;
+				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
+				iconPinPoint = "Left";
+			};
+		};
+		class Single: Mode_SemiAuto
+		{
+			sounds[] = {"StandardSound","SilencedSound"};
+			class StandardSound
+			{
+				soundSetShot[] = {"RHS_PK_Shot_SoundSet","RHS_MMG1_Tail_SoundSet"};
+			};
+			class SilencedSound
+			{
+				soundSetShot[] = {"RHS_sd_SVD_Shot_SoundSet","RHS_sd_mmg1_Tail_SoundSet"};
+			};
+			reloadTime = 60/700;
+			dispersion = 0.00113;
+		};
+		class FullAuto: Mode_FullAuto
+		{
+			sounds[] = {"StandardSound","SilencedSound"};
+			class StandardSound
+			{
+				soundSetShot[] = {"RHS_PK_Shot_SoundSet","RHS_MMG1_Tail_SoundSet"};
+			};
+			class SilencedSound
+			{
+				soundSetShot[] = {"RHS_sd_SVD_Shot_SoundSet","RHS_sd_mmg1_Tail_SoundSet"};
+			};
+			reloadTime = 60/700;
+			dispersion = 0.00113;
+		};
+	};
 };
  

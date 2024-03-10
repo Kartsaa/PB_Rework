@@ -21,7 +21,8 @@ class CfgPatches
 			"PB_British_Kit",
 			"PB_Australian_Kit", 
 			"PB_Canadian_Kit",
-			"PB_German_Kit"
+			"PB_German_Kit",
+			"PB_Finnish_Kit"
 		};
 		skipWhenMissingDependencies = 1;
 	};
@@ -246,6 +247,45 @@ class CfgVehicles
 		
 		displayName = "[SCHNEETARN] RT-1523G";
 		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\SCHNEE_PRC177_CO.paa"};
+		range = 40000;
+		scope = 2;
+	};
+////FINNISH////
+	class PB_Radiobag_M05: PB_Bag_Base_2
+	{
+		tf_range = 40000;
+	};
+	class PB_RT1523BIG_M05: PB_RT1523BIG_Base
+	{
+		displayName = "[M05] RT-1523G BIG";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\M05_NICECOMM2_co.paa"};
+		range = 40000;
+		scope = 2;
+	};
+	class PB_RT1523_M05: PB_RT1523G_Base
+	{
+		
+		displayName = "[M05] RT-1523G";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\M05_PRC177_CO.paa"};
+		range = 40000;
+		scope = 2;
+	};
+	class PB_Radiobag_M04: PB_Bag_Base_2
+	{
+		tf_range = 40000;
+	};
+	class PB_RT1523BIG_M04: PB_RT1523BIG_Base
+	{
+		displayName = "[M04] RT-1523G BIG";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\M04_NICECOMM2_co.paa"};
+		range = 40000;
+		scope = 2;
+	};
+	class PB_RT1523_M04: PB_RT1523G_Base
+	{
+		
+		displayName = "[M04] RT-1523G";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\M04_PRC177_CO.paa"};
 		range = 40000;
 		scope = 2;
 	};

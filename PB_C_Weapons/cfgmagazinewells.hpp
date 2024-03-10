@@ -15,4 +15,10 @@ class CfgMagazineWells
             "PB_M856A1_G36"
 		};
 	};
+	class CBA_762x39_AK
+	{
+		PB_AK_Mags[] = {
+			"PB_RK_Mag"
+		};
+	};
 };

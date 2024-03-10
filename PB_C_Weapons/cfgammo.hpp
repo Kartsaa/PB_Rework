@@ -5,6 +5,7 @@ class CfgAmmo
 	class ammo_Penetrator_Base;
 	class B_20mm;
 	class B_25mm;
+	class B_762x51_Ball;
 	class PB_R_DM12_HEAT: RocketBase
 	{
 		model = "\PB_M_Weapons\Pzf3\DM12_HEAT_fly.p3d";
@@ -108,4 +109,27 @@ class CfgAmmo
 		craterEffects = ArtyShellCrater;
 		explosionEffects = MortarExplosion;
 	};
+	class PB_RK_762x39_Ball : B_762x51_Ball {
+        airFriction = -0.0014104;
+        caliber = 0.628;
+        deflecting = 23;
+        model = "\A3\Weapons_f\Data\bullettracer\tracer_green";
+        tracerStartTime = 0.073;
+        tracerEndTime = 1.7;
+        hit = 10.034;
+        typicalspeed = 739.1;
+        nvgonly = 1;
+        class CamShakeExplode {
+            distance = "((6^0.5)*3)";
+            duration = "((round (6^0.5))*0.2 max 0.2)";
+            frequency = 20;
+            power = "(6^0.5)";
+        };
+        class CamShakeHit {
+            distance = 1;
+            duration = "((round (6^0.25))*0.2 max 0.2)";
+            frequency = 20;
+            power = 6;
+        };
+    };
 };

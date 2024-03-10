@@ -6,6 +6,7 @@ class CfgMagazines
 	class CA_LauncherMagazine;
 	class FakeMagazine;
 	class 30Rnd_556x45_Stanag;
+	class 30Rnd_762x39_Mag_F;
 	class PB_M855A1_AUG: 30Rnd_556x45_Stanag
 	{
         author = "Kartsa";
@@ -116,5 +117,21 @@ class CfgMagazines
 		picture = "\PB_Main\UI\PzF3\picture_DM32_HEAT_MP_CA.paa";
 		mass = 100;
 	};
-
+	class PB_RK_Mag: 30Rnd_762x39_Mag_F
+	{
+        author = "Kartsa";
+        ammo = "PB_RK_762x39_Ball";
+        descriptionshort = 7.62x39mm;
+        displayname = 7.62x39mm 30 Round RK Magazine;
+		hiddenSelections[] = {"camo2"};
+		hiddenSelectionsTextures[] = {"PB_T_Weapons\data\RK62M2\stock_co.paa"};
+        modelSpecial = PB_M_Weapons\RK62_Mag\KARRK62_mag;
+        modelSpecialIsProxy = 1;
+		picture = "\PB_Main\ui\RK62\RK62MAG_UI_CA.paa";
+        lastroundstracer = 3;
+        count = 30;
+        scope = 2;
+        initspeed = 800;
+        displaynameshort = 7.62x39mm;
+	};
 };
