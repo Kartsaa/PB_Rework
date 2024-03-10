@@ -8,6 +8,7 @@ These will be update everytime i add stuff that has someone new/else than me tha
 - Aegis Mod for Uniforms, Helmet and Weapons. And for having an APL-SA github directory
 - Toadie2k, for having an open-source github, and making her stuff APL-SA
 - Mac and Task Force Canada for C7 models
+- Tuuttipingu for RK62M2 and RK62 models
 
 OG BLUFOR:
 - Whitey
