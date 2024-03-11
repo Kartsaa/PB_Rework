@@ -259,4 +259,181 @@ class cfgWeapons
 			mass=40;
 		};
 	};
+///VESTS///
+	class PB_vest_spc_radio_TAN: Vest_Camo_Base
+	{
+		scope = 2;
+		author = "Jakx2210 (Caboose), Kartsa";
+		displayName = "[TAN] SPC Vest (Rifleman w/Radio)";
+		picture = "\PB_Main\ui\vest_test.paa";
+		model = "rhsusf\addons\rhsusf_infantry\gear\vests\rhs_spc_squadleader";
+		hiddenSelections[] = {"camo","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\TAN_spc_vest_base.paa","PB_Universal_Kit\data\TAN_spc_vest_pouches.paa","PB_Universal_Kit\data\TAN_spc_vest_radio.paa","PB_Universal_Kit\data\TAN_spc_vest_camelb.paa"};
+		class ItemInfo: VestItem
+		{
+			uniformModel = "rhsusf\addons\rhsusf_infantry\gear\vests\rhs_spc_squadleader";
+			containerClass = "Supply110";
+			mass = 100;
+			allowedSlots[] = {"901"};
+			hiddenSelections[] = {"camo","camo1","camo2","camo3"};
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 25;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+				};
+			};
+		};
+	};
+	class PB_vest_spc_TAN: Vest_Camo_Base
+	{
+		scope = 2;
+		author = "Jakx2210 (Caboose), Kartsa";
+		displayName = "[TAN] SPC Vest";
+		picture = "\PB_Main\ui\vest_test.paa";
+		model = "rhsusf\addons\rhsusf_infantry\gear\vests\rhs_spc";
+		hiddenSelections[] = {"camo","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\TAN_spc_vest_base.paa","PB_Universal_Kit\data\TAN_spc_vest_pouches.paa","PB_Universal_Kit\data\TAN_spc_vest_radio.paa","PB_Universal_Kit\data\TAN_spc_vest_camelb.paa"};
+		class ItemInfo: VestItem
+		{
+			uniformModel = "rhsusf\addons\rhsusf_infantry\gear\vests\rhs_spc";
+			containerClass = "Supply0";
+			mass = 80;
+			allowedSlots[] = {"901"};
+			hiddenSelections[] = {"camo","camo1","camo2","camo3"};
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 25;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+				};
+			};
+		};
+	};
+	class PB_vest_spc_crewman_TAN: Vest_Camo_Base
+	{
+		scope = 2;
+		author = "Jakx2210 (Caboose), Kartsa";
+		displayName = "[TAN] SPC Vest (Crewman)";
+		picture = "\PB_Main\ui\vest_test.paa";
+		model = "rhsusf\addons\rhsusf_infantry\gear\vests\rhs_spc_crewman";
+		hiddenSelections[] = {"camo","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\TAN_spc_vest_base.paa","PB_Universal_Kit\data\TAN_spc_vest_pouches.paa","PB_Universal_Kit\data\TAN_spc_vest_radio.paa","PB_Universal_Kit\data\TAN_spc_vest_camelb.paa"};
+		class ItemInfo: VestItem
+		{
+			uniformModel = "rhsusf\addons\rhsusf_infantry\gear\vests\rhs_spc_crewman";
+			containerClass = "Supply31";
+			mass = 80;
+			allowedSlots[] = {"901"};
+			hiddenSelections[] = {"camo","camo1","camo2","camo3"};
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 25;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+				};
+			};
+		};
+	};
+	class PB_vest_spc_rifleman_TAN: Vest_Camo_Base
+	{
+		scope = 2;
+		author = "Jakx2210 (Caboose), Kartsa";
+		displayName = "[TAN] SPC Vest (Rifleman)";
+		picture = "\PB_Main\ui\vest_test.paa";
+		model = "rhsusf\addons\rhsusf_infantry\gear\vests\rhs_spc_light";
+		hiddenSelections[] = {"camo","camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\TAN_spc_vest_base.paa","PB_Universal_Kit\data\TAN_spc_vest_pouches.paa","PB_Universal_Kit\data\TAN_spc_vest_radio.paa","PB_Universal_Kit\data\TAN_spc_vest_camelb.paa"};
+		class ItemInfo: VestItem
+		{
+			uniformModel = "rhsusf\addons\rhsusf_infantry\gear\vests\rhs_spc_light";
+			containerClass = "Supply93";
+			mass = 90;
+			allowedSlots[] = {"901"};
+			hiddenSelections[] = {"camo","camo1","camo2","camo3"};
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 25;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+				};
+			};
+		};
+	};
 };

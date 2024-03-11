@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project name="CZ BREN 2">
+  <Package name="CZ BREN 2">
+    <Container name="Vsechno">
+      <Key ID="STR_QIN_CZBREN2_556_14">
+        <Original>CZ BREN 2 (14")</Original>
+        <English>CZ BREN 2 (14")</English>
+        <Czech>CZ BREN 2 (14")</Czech>
+      </Key>
+      <Key ID="STR_QIN_CZBREN2_556_14_GL">
+        <Original>CZ BREN 2 (14") GL</Original>
+        <English>CZ BREN 2 (14") GL</English>
+        <Czech>CZ BREN 2 (14") GL</Czech>
+      </Key>
+      <Key ID="STR_QIN_CZBREN2_556_11">
+        <Original>CZ BREN 2 (11")</Original>
+        <English>CZ BREN 2 (11")</English>
+        <Czech>CZ BREN 2 (11")</Czech>
+      </Key>
+      <Key ID="STR_QIN_CZBREN2_556_11_GL">
+        <Original>CZ BREN 2 (11") GL</Original>
+        <English>CZ BREN 2 (11") GL</English>
+        <Czech>CZ BREN 2 (11") GL</Czech>
+      </Key>
+      <Key ID="STR_QIN_CZBREN2_556_8">
+        <Original>CZ BREN 2 (8")</Original>
+        <English>CZ BREN 2 (8")</English>
+        <Czech>CZ BREN 2 (8")</Czech>
+      </Key>
+      <Key ID="STR_QIN_CZBREN2_556_8_GL">
+        <Original>CZ BREN 2 (8") GL</Original>
+        <English>CZ BREN 2 (8") GL</English>
+        <Czech>CZ BREN 2 (8") GL</Czech>
+      </Key>
+      <Key ID="STR_QIN_CZBREN2_762_14">
+        <Original>CZ 807 (14")</Original>
+        <English>CZ 807 (14")</English>
+        <Czech>CZ 807 (14")</Czech>
+      </Key>
+      <Key ID="STR_QIN_CZBREN2_762_14_GL">
+        <Original>CZ 807 (14") GL</Original>
+        <English>CZ 807 (14") GL</English>
+        <Czech>CZ 807 (14") GL</Czech>
+      </Key>
+      <Key ID="STR_QIN_CZBREN2_762_8">
+        <Original>CZ 807 (8")</Original>
+        <English>CZ 807 (8")</English>
+        <Czech>CZ 807 (8")</Czech>
+      </Key>
+    </Container>
+  </Package>
+</Project>

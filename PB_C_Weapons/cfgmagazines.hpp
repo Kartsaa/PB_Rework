@@ -134,4 +134,138 @@ class CfgMagazines
         initspeed = 800;
         displaynameshort = 7.62x39mm;
 	};
+	class PB_M855_Famas: 30Rnd_556x45_Stanag
+	{
+        author = "Kartsa";
+        ammo = "rhs_ammo_556x45_M855_Ball";
+        descriptionshort = "5.56x45 M855";
+        displayname = "5.56x45mm M855 25-Round Famas Magazine";
+        modelSpecial = PB_M_Weapons\famas\PB_famas_25Rnd;
+        modelSpecialIsProxy = 1;
+        lastroundstracer = 0;
+        count = 25;
+        scope = 2;
+        initspeed = 930;
+        displaynameshort = "5.56x45 M855";
+	};
+    class PB_M855_Famas_Red: PB_M855_Famas
+	{
+        ammo = "rhs_ammo_556x45_M855_Ball_Red";
+        descriptionshort = "5.56x45 M855 RT";
+        displayname = "5.56x45mm M855 Red Tracer 25-Round Famas Magazine";
+        tracersevery = 1;
+        initspeed = 930;
+	};
+	class PB_M855_Famas_Yellow: PB_M855_Famas
+	{
+        ammo = "rhs_ammo_556x45_M855_Ball_Yellow";
+        descriptionshort = "5.56x45 M855 YT";
+        displayname = "5.56x45mm M855 Yellow Tracer 25-Round Famas Magazine";
+        tracersevery = 1;
+	};
+	class PB_M855_Famas_Green: PB_M855_Famas
+	{
+        ammo = "rhs_ammo_556x45_M855_Ball_Green";
+        descriptionshort = "5.56x45 M855 GT";
+        displayname = "5.56x45mm M855 Green Tracer 25-Round Famas Magazine";
+        tracersevery = 1;
+	};
+	class PB_M855_Famas_Orange: PB_M855_Famas
+	{
+        ammo = "rhs_ammo_556x45_M855_Ball_Green";
+        descriptionshort = "5.56x45 M855 OT";
+        displayname = "5.56x45mm M855 Orange Tracer 25-Round Famas Magazine";
+        tracersevery = 1;
+	};
+	class PB_M855A1_Famas: 30Rnd_556x45_Stanag
+	{
+        author = "Kartsa";
+        ammo = "rhs_ammo_556x45_M855A1_Ball";
+        descriptionshort = "5.56x45 M855A1";
+        displayname = "5.56x45mm M855A1 25-Round Famas Magazine";
+        modelSpecial = PB_M_Weapons\famas\PB_famas_25Rnd;
+        modelSpecialIsProxy = 1;
+        lastroundstracer = 0;
+        count = 25;
+        scope = 2;
+        initspeed = 930;
+        displaynameshort = "5.56x45 M855A1";
+	};
+	class PB_M855A1_Famas_Red: 30Rnd_556x45_Stanag
+	{
+        ammo = "rhs_ammo_556x45_M855A1_Ball_Red";
+        displayname = "5.56x45mm M855A1 Red Tracer 25-Round Famas Magazine";
+        lastroundstracer = 1;
+	};
+	class PB_M855A1_Famas_Green: 30Rnd_556x45_Stanag
+	{
+        ammo = "rhs_ammo_556x45_M855A1_Ball_Green";
+        displayname = "5.56x45mm M855A1 Green Tracer 25-Round Famas Magazine";
+        lastroundstracer = 1;
+	};
+	class PB_M855A1_Famas_Yellow: 30Rnd_556x45_Stanag
+	{
+        ammo = "rhs_ammo_556x45_M855A1_Ball_Yellow";
+        displayname = "5.56x45mm M855A1 Yellow Tracer 25-Round Famas Magazine";
+        lastroundstracer = 1;
+	};
+	class PB_M855A1_Famas_Orange: 30Rnd_556x45_Stanag
+	{
+        ammo = "rhs_ammo_556x45_M855A1_Ball_Orange";
+        displayname = "5.56x45mm M855A1 ORange Tracer 25-Round Famas Magazine";
+        lastroundstracer = 1;
+	};
+	class PB_30Rnd_556x45_AK_M855A1: 30Rnd_556x45_Stanag
+	{
+		ammo = "rhs_ammo_556x45_M855A1_Ball";
+        author = "Kartsa";
+		picture = "\rhsgref\addons\rhsgref_weapons\icons\m_m21mag_icon_ca.paa";
+		displayName = "5.56x45mm M855A1 30 Round AK Magazine";
+		displayNameShort = "M855A1";
+        initSpeed = 960;
+		mass = 9.35;
+		tracersEvery = 0;
+		lastRoundsTracer = 0;
+		modelSpecial = "\rhsafrf\addons\rhs_weapons\mag_proxies\rhs_mag_545x39_6l23_30rnd.p3d";
+		modelSpecialIsProxy = 1;
+		model = "\rhsafrf\addons\rhs_weapons3\magazines\rhs_ak_bklt_mag_green.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"PB_ARM1\data\ARM1_mag.paa"};
+	};
+    class PB_30Rnd_556x45_AK_M856A1: PB_30Rnd_556x45_AK_M855A1
+	{
+		author = "$Kartsa";
+		ammo = "rhs_ammo_556x45_M855A1_Ball_Red";
+		displayName = "5.56x45mm M856A1 (Tracer) 30 Round AK Magazine";
+		displayNameShort = "M856A1";
+		tracersEvery = 1;
+	};
+	class PB_30Rnd_556x45_AK_M855: PB_30Rnd_556x45_AK_M855A1
+	{
+		author = "$Kartsa";
+		picture = "\rhsgref\addons\rhsgref_weapons\icons\m_m21mag_icon_ca.paa";
+		ammo = "rhs_ammo_556x45_M855_Ball";
+		displayName = "5.56x45mm M855 30 Round AK Magazine";
+		displayNameShort = "M855";
+        initSpeed = 948.8424;
+	};
+	class PB_30Rnd_556x45_AK_M855_TR: PB_30Rnd_556x45_AK_M855A1
+	{
+		author = "$Kartsa";
+		picture = "\rhsgref\addons\rhsgref_weapons\icons\m_m21mag_icon_ca.paa";
+		ammo = "rhs_ammo_556x45_M855_Ball_Red";
+		displayName = "5.56x45mm M855 (Red Tracer) 30 Round AK Magazine";
+		displayNameShort = "M855";
+        initSpeed = 948.8424;
+		tracersEvery = 1;
+	};
+	class PB_30Rnd_556x45_AK_M855_TG: PB_30Rnd_556x45_AK_M855A1
+	{
+		author = "$Kartsa";
+		picture = "\rhsgref\addons\rhsgref_weapons\icons\m_m21mag_icon_ca.paa";
+		ammo = "rhs_ammo_556x45_M855_Ball_Green";
+		displayName = "5.56x45mm M855 (Green Tracer) 30 Round AK Magazine";
+		displayNameShort = "M855";
+        initSpeed = 948.8424;
+	};
 };

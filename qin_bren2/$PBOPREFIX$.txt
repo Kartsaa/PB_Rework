@@ -1,0 +1,6 @@
+//<'qin_bren2.pbo' properties via Mikero's dos tools, dll version 9.10>
+prefix=qin_bren2;
+Mikero=DePbo.dll.6.44;
+version=19030621;
+//PboType=Arma Addon;
+//</properties>
