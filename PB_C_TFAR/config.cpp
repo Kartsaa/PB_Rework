@@ -309,4 +309,24 @@ class CfgVehicles
 		range = 40000;
 		scope = 2;
 	};
+///GREEN///
+	class PB_Radiobag_GREEN: PB_Bag_Base_2
+	{
+		tf_range = 40000;
+	};
+	class PB_RT1523BIG_GREEN: PB_RT1523BIG_Base
+	{
+		displayName = "[GREEN] RT-1523G BIG";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\GREEN_NICECOMM2_co.paa"};
+		range = 40000;
+		scope = 2;
+	};
+	class PB_RT1523_GREEN: PB_RT1523G_Base
+	{
+		
+		displayName = "[GREEN] RT-1523G";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\GREEN_PRC177_CO.paa"};
+		range = 40000;
+		scope = 2;
+	};
 };

@@ -134,6 +134,29 @@ class CfgVehicles
 		picture = "PB_Main\ui\kitbag_test.paa";
 		hiddenSelectionsTextures[] = {"\PB_Universal_Kit\data\GREEN_bergen_co.paa"};
 	};
+	class PB_Kitbag_GREEN: B_Kitbag_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		displayName = "[GREEN] Kitbag";
+		picture = "PB_Main\ui\kitbag_test.paa";
+		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast";
+		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\GREEN_KB_CO.paa"};	
+		maximumLoad = 200;
+		mass = 40;
+	};
+	class PB_Radiobag_GREEN: B_Kitbag_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		displayName = "[GREEN] Radiobag";
+		picture = "PB_Main\ui\Contact_LR.paa";
+		model = "a3\Supplies_F_Enoch\Bags\B_RadioBag_01_F.p3d";
+		hiddenSelections[] = {"camo1"};
+		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\GREEN_RB_CO.paa"};	
+		maximumLoad = 160;
+		mass = 70;
+	};
 };
 class cfgWeapons
 {
@@ -432,6 +455,416 @@ class cfgWeapons
 				{
 					hitpointName = "HitBody";
 					passThrough = 0.2;
+				};
+			};
+		};
+	};
+///HELMETS///
+	class PB_GRN_mich_bare: Helmet_Base
+	{
+		author = "$STR_RHSUSF_AUTHOR_FULL";
+		dlc = "RHS_USAF";
+		picture = "\rhsusf\addons\rhsusf_inventoryicons\data\headgear\rhsusf_mich_bare_ca.paa";
+		scope = 2;
+		displayName = "[GREEN] MICH 2000";
+		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01";
+		hiddenSelections[] = {"Camo","Camo1","Camo2"};
+		hiddenSelectionsTextures[] = 
+		{
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\bare_mich_od_rhino_co.paa",
+			"\PB_Universal_Kit\data\GRN_mich_acc_co.paa",
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa"
+		};
+		allowedFacewear[] =
+		{
+			"rhs_googles_black", 1,  
+			"rhs_googles_clear", 1,
+			"rhs_googles_orange", 1,
+			"rhs_googles_yellow", 1,
+			"rhs_ess_black", 1,
+			"G_Bandanna_khk", 1,
+			"G_Bandanna_tan", 1,
+			"rhs_scarf", 1,
+			"rhsusf_shemagh_od", 1,
+			"rhsusf_shemagh2_od", 1,
+			"rhsusf_shemagh2_grn", 1,
+			"rhsusf_shemagh_tan", 1,
+			"rhsusf_shemagh2_tan", 1,
+			"rhsusf_shemagh2_gogg_grn", 1,
+			"rhsusf_shemagh_gogg_grn", 1,
+			"rhsusf_shemagh2_gogg_od", 1,
+			"rhsusf_shemagh_gogg_od", 1,
+			"rhsusf_shemagh_gogg_tan", 1,
+			"rhsusf_shemagh2_gogg_tan", 1,
+			"rhsusf_oakley_goggles_blk", 1,
+			"rhsusf_oakley_goggles_clr", 1,
+			"rhsusf_oakley_goggles_ylw", 1,
+		};
+		class ItemInfo: HeadgearItem
+		{
+			hiddenSelections[] = {"Camo","Camo1","Camo2"};
+			uniformModel = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01";
+			allowedSlots[] = {801,901,701,605};
+			modelSides[] = {6};
+			mass = 40;
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 6;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+	class PB_GRN_mich_bare_headset: Helmet_Base
+	{
+		author = "$STR_RHSUSF_AUTHOR_FULL";
+		dlc = "RHS_USAF";
+		picture = "\rhsusf\addons\rhsusf_inventoryicons\data\headgear\rhsusf_mich_bare_ca.paa";
+		scope = 2;
+		displayName = "[GREEN] MICH 2000 (Headset)";
+		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_bowman";
+		hiddenSelections[] = {"Camo","Camo1","Camo2", "bowman"};
+		hiddenSelectionsTextures[] = 
+		{
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\bare_mich_od_rhino_co.paa",
+			"\PB_Universal_Kit\data\GRN_mich_acc_co.paa",
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa",
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\bowman_base_co.paa"
+		};
+		allowedFacewear[] =
+		{
+			"rhs_googles_black", 1,  
+			"rhs_googles_clear", 1,
+			"rhs_googles_orange", 1,
+			"rhs_googles_yellow", 1,
+			"rhs_ess_black", 1,
+			"G_Bandanna_khk", 1,
+			"G_Bandanna_tan", 1,
+			"rhs_scarf", 1,
+			"rhsusf_shemagh_od", 1,
+			"rhsusf_shemagh2_od", 1,
+			"rhsusf_shemagh2_grn", 1,
+			"rhsusf_shemagh_tan", 1,
+			"rhsusf_shemagh2_tan", 1,
+			"rhsusf_shemagh2_gogg_grn", 1,
+			"rhsusf_shemagh_gogg_grn", 1,
+			"rhsusf_shemagh2_gogg_od", 1,
+			"rhsusf_shemagh_gogg_od", 1,
+			"rhsusf_shemagh_gogg_tan", 1,
+			"rhsusf_shemagh2_gogg_tan", 1,
+			"rhsusf_oakley_goggles_blk", 1,
+			"rhsusf_oakley_goggles_clr", 1,
+			"rhsusf_oakley_goggles_ylw", 1,
+		};
+		class ItemInfo: HeadgearItem
+		{
+			hiddenSelections[] = {"Camo","Camo1","Camo2","bowman"};
+			uniformModel = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_bowman";
+			allowedSlots[] = {801,901,701,605};
+			modelSides[] = {6};
+			mass = 40;
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 6;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+	class PB_GRN_mich_bare_alt: Helmet_Base
+	{
+		author = "$STR_RHSUSF_AUTHOR_FULL";
+		dlc = "RHS_USAF";
+		picture = "\rhsusf\addons\rhsusf_inventoryicons\data\headgear\rhsusf_mich_bare_ca.paa";
+		scope = 2;
+		displayName = "[GREEN] MICH 2000 (Alt)";
+		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_alt";
+		hiddenSelections[] = {"Camo","Camo1","Camo2"};
+		hiddenSelectionsTextures[] = 
+		{
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\bare_mich_od_rhino_co.paa",
+			"\PB_Universal_Kit\data\GRN_mich_acc_co.paa",
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa",
+		};
+		allowedFacewear[] =
+		{
+			"rhs_googles_black", 1,  
+			"rhs_googles_clear", 1,
+			"rhs_googles_orange", 1,
+			"rhs_googles_yellow", 1,
+			"rhs_ess_black", 1,
+			"G_Bandanna_khk", 1,
+			"G_Bandanna_tan", 1,
+			"rhs_scarf", 1,
+			"rhsusf_shemagh_od", 1,
+			"rhsusf_shemagh2_od", 1,
+			"rhsusf_shemagh2_grn", 1,
+			"rhsusf_shemagh_tan", 1,
+			"rhsusf_shemagh2_tan", 1,
+			"rhsusf_shemagh2_gogg_grn", 1,
+			"rhsusf_shemagh_gogg_grn", 1,
+			"rhsusf_shemagh2_gogg_od", 1,
+			"rhsusf_shemagh_gogg_od", 1,
+			"rhsusf_shemagh_gogg_tan", 1,
+			"rhsusf_shemagh2_gogg_tan", 1,
+			"rhsusf_oakley_goggles_blk", 1,
+			"rhsusf_oakley_goggles_clr", 1,
+			"rhsusf_oakley_goggles_ylw", 1,
+		};
+		class ItemInfo: HeadgearItem
+		{
+			hiddenSelections[] = {"Camo","Camo1","Camo2"};
+			uniformModel = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_alt";
+			allowedSlots[] = {801,901,701,605};
+			modelSides[] = {6};
+			mass = 40;
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 6;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+	class PB_GRN_mich_bare_norotos: Helmet_Base
+	{
+		author = "$STR_RHSUSF_AUTHOR_FULL";
+		dlc = "RHS_USAF";
+		picture = "\rhsusf\addons\rhsusf_inventoryicons\data\headgear\rhsusf_mich_bare_ca.paa";
+		scope = 2;
+		displayName = "[GREEN] MICH 2000 (Norotos)";
+		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_nor1";
+		hiddenSelections[] = {"Camo","Camo1","Camo2"};
+		hiddenSelectionsTextures[] = 
+		{
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\bare_mich_od_rhino_co.paa",
+			"\PB_Universal_Kit\data\GRN_mich_acc_co.paa",
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa",
+		};
+		allowedFacewear[] =
+		{
+			"rhs_googles_black", 1,  
+			"rhs_googles_clear", 1,
+			"rhs_googles_orange", 1,
+			"rhs_googles_yellow", 1,
+			"rhs_ess_black", 1,
+			"G_Bandanna_khk", 1,
+			"G_Bandanna_tan", 1,
+			"rhs_scarf", 1,
+			"rhsusf_shemagh_od", 1,
+			"rhsusf_shemagh2_od", 1,
+			"rhsusf_shemagh2_grn", 1,
+			"rhsusf_shemagh_tan", 1,
+			"rhsusf_shemagh2_tan", 1,
+			"rhsusf_shemagh2_gogg_grn", 1,
+			"rhsusf_shemagh_gogg_grn", 1,
+			"rhsusf_shemagh2_gogg_od", 1,
+			"rhsusf_shemagh_gogg_od", 1,
+			"rhsusf_shemagh_gogg_tan", 1,
+			"rhsusf_shemagh2_gogg_tan", 1,
+			"rhsusf_oakley_goggles_blk", 1,
+			"rhsusf_oakley_goggles_clr", 1,
+			"rhsusf_oakley_goggles_ylw", 1,
+		};
+		class ItemInfo: HeadgearItem
+		{
+			hiddenSelections[] = {"Camo","Camo1","Camo2"};
+			uniformModel = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_nor1";
+			allowedSlots[] = {801,901,701,605};
+			modelSides[] = {6};
+			mass = 40;
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 6;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+	class PB_GRN_mich_bare_norotos_headset: Helmet_Base
+	{
+		author = "$STR_RHSUSF_AUTHOR_FULL";
+		dlc = "RHS_USAF";
+		picture = "\rhsusf\addons\rhsusf_inventoryicons\data\headgear\rhsusf_mich_bare_ca.paa";
+		scope = 2;
+		displayName = "[GREEN] MICH 2000 (Norotos/Headset)";
+		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_nor1_bowman";
+		hiddenSelections[] = {"Camo","Camo1","Camo2", "bowman"};
+		hiddenSelectionsTextures[] = 
+		{
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\bare_mich_od_rhino_co.paa",
+			"\PB_Universal_Kit\data\GRN_mich_acc_co.paa",
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa",
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\bowman_base_co.paa"
+		};
+		allowedFacewear[] =
+		{
+			"rhs_googles_black", 1,  
+			"rhs_googles_clear", 1,
+			"rhs_googles_orange", 1,
+			"rhs_googles_yellow", 1,
+			"rhs_ess_black", 1,
+			"G_Bandanna_khk", 1,
+			"G_Bandanna_tan", 1,
+			"rhs_scarf", 1,
+			"rhsusf_shemagh_od", 1,
+			"rhsusf_shemagh2_od", 1,
+			"rhsusf_shemagh2_grn", 1,
+			"rhsusf_shemagh_tan", 1,
+			"rhsusf_shemagh2_tan", 1,
+			"rhsusf_shemagh2_gogg_grn", 1,
+			"rhsusf_shemagh_gogg_grn", 1,
+			"rhsusf_shemagh2_gogg_od", 1,
+			"rhsusf_shemagh_gogg_od", 1,
+			"rhsusf_shemagh_gogg_tan", 1,
+			"rhsusf_shemagh2_gogg_tan", 1,
+			"rhsusf_oakley_goggles_blk", 1,
+			"rhsusf_oakley_goggles_clr", 1,
+			"rhsusf_oakley_goggles_ylw", 1,
+		};
+		class ItemInfo: HeadgearItem
+		{
+			hiddenSelections[] = {"Camo","Camo1","Camo2","bowman"};
+			uniformModel = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_nor1_bowman";
+			allowedSlots[] = {801,901,701,605};
+			modelSides[] = {6};
+			mass = 40;
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 6;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+	class PB_GRN_mich_bare_norotos_alt: Helmet_Base
+	{
+		author = "$STR_RHSUSF_AUTHOR_FULL";
+		dlc = "RHS_USAF";
+		picture = "\rhsusf\addons\rhsusf_inventoryicons\data\headgear\rhsusf_mich_bare_ca.paa";
+		scope = 2;
+		displayName = "[GREEN] MICH 2000 (Norotos/Alt)";
+		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_nor1_alt";
+		hiddenSelections[] = {"Camo","Camo1","Camo2"};
+		hiddenSelectionsTextures[] = 
+		{
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\bare_mich_od_rhino_co.paa",
+			"\PB_Universal_Kit\data\GRN_mich_acc_co.paa",
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa",
+		};
+		allowedFacewear[] =
+		{
+			"rhs_googles_black", 1,  
+			"rhs_googles_clear", 1,
+			"rhs_googles_orange", 1,
+			"rhs_googles_yellow", 1,
+			"rhs_ess_black", 1,
+			"G_Bandanna_khk", 1,
+			"G_Bandanna_tan", 1,
+			"rhs_scarf", 1,
+			"rhsusf_shemagh_od", 1,
+			"rhsusf_shemagh2_od", 1,
+			"rhsusf_shemagh2_grn", 1,
+			"rhsusf_shemagh_tan", 1,
+			"rhsusf_shemagh2_tan", 1,
+			"rhsusf_shemagh2_gogg_grn", 1,
+			"rhsusf_shemagh_gogg_grn", 1,
+			"rhsusf_shemagh2_gogg_od", 1,
+			"rhsusf_shemagh_gogg_od", 1,
+			"rhsusf_shemagh_gogg_tan", 1,
+			"rhsusf_shemagh2_gogg_tan", 1,
+			"rhsusf_oakley_goggles_blk", 1,
+			"rhsusf_oakley_goggles_clr", 1,
+			"rhsusf_oakley_goggles_ylw", 1,
+		};
+		class ItemInfo: HeadgearItem
+		{
+			hiddenSelections[] = {"Camo","Camo1","Camo2"};
+			uniformModel = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_nor1_alt";
+			allowedSlots[] = {801,901,701,605};
+			modelSides[] = {6};
+			mass = 40;
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 6;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+	class PB_GRN_mich_bare_norotos_alt_headset: Helmet_Base
+	{
+		author = "$STR_RHSUSF_AUTHOR_FULL";
+		dlc = "RHS_USAF";
+		picture = "\rhsusf\addons\rhsusf_inventoryicons\data\headgear\rhsusf_mich_bare_ca.paa";
+		scope = 2;
+		displayName = "[GREEN] MICH 2000 (Norotos/Alt/Headset)";
+		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_nor1_alt_bowman";
+		hiddenSelections[] = {"Camo","Camo1","Camo2", "bowman"};
+		hiddenSelectionsTextures[] = 
+		{
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\bare_mich_od_rhino_co.paa",
+			"\PB_Universal_Kit\data\GRN_mich_acc_co.paa",
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\rhs_helmet_ach_acc_co.paa",
+			"\rhsusf\addons\rhsusf_infantry\gear\head\data\bowman_base_co.paa"
+		};
+		allowedFacewear[] =
+		{
+			"rhs_googles_black", 1,  
+			"rhs_googles_clear", 1,
+			"rhs_googles_orange", 1,
+			"rhs_googles_yellow", 1,
+			"rhs_ess_black", 1,
+			"G_Bandanna_khk", 1,
+			"G_Bandanna_tan", 1,
+			"rhs_scarf", 1,
+			"rhsusf_shemagh_od", 1,
+			"rhsusf_shemagh2_od", 1,
+			"rhsusf_shemagh2_grn", 1,
+			"rhsusf_shemagh_tan", 1,
+			"rhsusf_shemagh2_tan", 1,
+			"rhsusf_shemagh2_gogg_grn", 1,
+			"rhsusf_shemagh_gogg_grn", 1,
+			"rhsusf_shemagh2_gogg_od", 1,
+			"rhsusf_shemagh_gogg_od", 1,
+			"rhsusf_shemagh_gogg_tan", 1,
+			"rhsusf_shemagh2_gogg_tan", 1,
+			"rhsusf_oakley_goggles_blk", 1,
+			"rhsusf_oakley_goggles_clr", 1,
+			"rhsusf_oakley_goggles_ylw", 1,
+		};
+		class ItemInfo: HeadgearItem
+		{
+			hiddenSelections[] = {"Camo","Camo1","Camo2","bowman"};
+			uniformModel = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_nor1_alt_bowman";
+			allowedSlots[] = {801,901,701,605};
+			modelSides[] = {6};
+			mass = 40;
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 6;
+					passThrough = 0.5;
 				};
 			};
 		};

@@ -825,7 +825,7 @@ class cfgWeapons
 	};
 	class PB_M04_FAST: PB_M05_FAST
 	{
-		displayName = "[M05] Ops Core FAST";
+		displayName = "[M04] Ops Core FAST";
 		hiddenSelectionsTextures[] = 
 		{
 			"\PB_Finnish_Kit\data\M04_opscore_co.paa",
@@ -838,7 +838,7 @@ class cfgWeapons
 	};
 	class PB_M05W_FAST: PB_M05_FAST
 	{
-		displayName = "[M05] Ops Core FAST";
+		displayName = "[M04] Ops Core FAST (Headset)";
 		hiddenSelectionsTextures[] = 
 		{
 			"\PB_Finnish_Kit\data\M05W_opscore_co.paa",
@@ -915,7 +915,7 @@ class cfgWeapons
 	};
 	class PB_M04_FAST_H: PB_M05_FAST_H
 	{
-		displayName = "[M05] Ops Core FAST";
+		displayName = "[M05W] Ops Core FAST (Headset)";
 		hiddenSelectionsTextures[] = 
 		{
 			"\PB_Finnish_Kit\data\M04_opscore_co.paa",
@@ -928,7 +928,7 @@ class cfgWeapons
 	};
 	class PB_M05W_FAST_H: PB_M05_FAST_H
 	{
-		displayName = "[M05] Ops Core FAST";
+		displayName = "[M05W] Ops Core FAST (Headset)";
 		hiddenSelectionsTextures[] = 
 		{
 			"\PB_Finnish_Kit\data\M05W_opscore_co.paa",
@@ -1026,7 +1026,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[M05] Boonie Hat";
+		displayName = "[M04] Boonie Hat";
 		picture = "\PB_Main\UI\cap_test.paa";
 		model = "\A3\Characters_F\Common\booniehat";
 		hiddenSelections[] = {"camo"};
@@ -1052,7 +1052,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[M05] Military Cap";
+		displayName = "[M054] Military Cap";
 		picture = "\PB_Main\UI\cap_test.paa";
 		model = "\A3\Characters_F\Common\cappatrol";
 		hiddenSelections[] = {"camo"};
