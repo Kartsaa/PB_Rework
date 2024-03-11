@@ -33,6 +33,48 @@ class CfgUnitInsignia
 		texture = "\PB_INS\data\PB_ADF_F_CA.paa";
 		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
+	class PB_BAC_F_INS
+	{
+		displayName = "Belgian Air Component";
+		author = "Kartsa";
+		texture = "\PB_INS\data\PB_BAC_F_CA.paa";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+	};
+	class PB_BAF_F_INS
+	{
+		displayName = "Belgian Armed Forces";
+		author = "Kartsa";
+		texture = "\PB_INS\data\PB_BAF_F_CA.paa";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+	};
+	class PB_BEL_F_INS
+	{
+		displayName = "Belgium";
+		author = "Kartsa";
+		texture = "\PB_INS\data\PB_BEL_F_CA.paa";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+	};	
+	class PB_BMC_F_INS
+	{
+		displayName = "Belgian Medical Component";
+		author = "Kartsa";
+		texture = "\PB_INS\data\PB_BMC_F_CA.paa";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+	};
+	class PB_BNC_F_INS
+	{
+		displayName = "Belgian Naval Component";
+		author = "Kartsa";
+		texture = "\PB_INS\data\PB_BNC_F_CA.paa";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+	};
+	class PB_BLC_F_INS
+	{
+		displayName = "Belgian Land Component";
+		author = "Kartsa";
+		texture = "\PB_INS\data\PB_BLC_F_CA.paa";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+	};
 	class PB_CAN_F_INS
 	{
 		displayName = "Canada";
@@ -73,6 +115,41 @@ class CfgUnitInsignia
 		displayName = "Bundeswehr";
 		author = "Kartsa";
 		texture = "\PB_INS\data\PB_BW_F_CA.paa";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+	};
+	class PB_FAF_F_INS
+	{
+		displayName = "Finnish Airforce";
+		author = "Kartsa";
+		texture = "\PB_INS\data\PB_FAF_F_CA.paa";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+	};
+	class PB_FDF_F_INS
+	{
+		displayName = "Finnish Defence Forces";
+		author = "Kartsa";
+		texture = "\PB_INS\data\PB_FDF_F_CA.paa";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+	};
+	class PB_FGF_F_INS
+	{
+		displayName = "Finnish Ground Forces";
+		author = "Kartsa";
+		texture = "\PB_INS\data\PB_FGF_F_CA.paa";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+	};
+	class PB_FN_F_INS
+	{
+		displayName = "Finnish Navy";
+		author = "Kartsa";
+		texture = "\PB_INS\data\PB_FN_F_CA.paa";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+	};
+	class PB_FIN_F_INS
+	{
+		displayName = "Finland";
+		author = "Kartsa";
+		texture = "\PB_INS\data\PB_FIN_F_CA.paa";
 		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
 	class PB_GER_F_INS
