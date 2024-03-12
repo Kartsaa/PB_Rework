@@ -7,6 +7,7 @@ class CfgMagazines
 	class FakeMagazine;
 	class 30Rnd_556x45_Stanag;
 	class 30Rnd_762x39_Mag_F;
+	class rhs_200rnd_556x45_M_SAW;
 	class PB_M855A1_AUG: 30Rnd_556x45_Stanag
 	{
         author = "Kartsa";
@@ -226,11 +227,11 @@ class CfgMagazines
 		mass = 9.35;
 		tracersEvery = 0;
 		lastRoundsTracer = 0;
-		modelSpecial = "\rhsafrf\addons\rhs_weapons\mag_proxies\rhs_mag_545x39_6l23_30rnd.p3d";
+		modelSpecial = "\rhsafrf\addons\rhs_weapons\mag_proxies\rhs_mag_545x39_6l23_30rnd";
 		modelSpecialIsProxy = 1;
 		model = "\rhsafrf\addons\rhs_weapons3\magazines\rhs_ak_bklt_mag_green.p3d";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"PB_ARM1\data\ARM1_mag.paa"};
+		hiddenSelectionsTextures[] = {"PB_T_Weapons\data\ARM\ARM1_mag.paa"};
 	};
     class PB_30Rnd_556x45_AK_M856A1: PB_30Rnd_556x45_AK_M855A1
 	{
@@ -267,5 +268,50 @@ class CfgMagazines
 		displayName = "5.56x45mm M855 (Green Tracer) 30 Round AK Magazine";
 		displayNameShort = "M855";
         initSpeed = 948.8424;
+	};
+	class PB_200Rnd_762x51_M80: CA_Magazine
+	{
+		author = "Kartsa";
+		picture = "\rhsusf\addons\rhsusf_inventoryicons\data\magazines\rhsusf_200Rnd_556x45_box_ca.paa";
+		scope = 2;
+		scopeArsenal = 2;
+		ammo = "rhs_ammo_762x51_M80_Ball";
+		displayname = "200rnd 7.62x51 M80";
+		displaynameshort = "7.62x51 M80";
+		initSpeed = 838;
+		lastroundstracer = 5;
+		tracersevery = 5;
+		mass = 61.65;
+		hiddenSelections[] = {};
+		model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
+		modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
+		modelSpecialIsProxy = 1;
+	};
+	class PB_200Rnd_762x51_M61: PB_200Rnd_762x51_M80
+	{
+		ammo = "rhs_ammo_762x51_M61_AP";
+		displayname = "200rnd 7.62x51 M61 AP";
+		displaynameshort = "7.62x51 M61";
+		initSpeed = 838;
+		lastroundstracer = 5;
+		tracersevery = 5;
+	};
+	class PB_200Rnd_762x51_M62: PB_200Rnd_762x51_M80
+	{
+		ammo = "rhs_ammo_762x51_M62_tracer";
+		displayname = "200rnd 7.62x51 M62 Tracer";
+		displaynameshort = "7.62x51 M62";
+		initSpeed = 838;
+		lastroundstracer = 5;
+		tracersevery = 5;
+	};
+	class PB_200Rnd_762x51_M80_EPR: PB_200Rnd_762x51_M80
+	{
+		ammo = "rhs_ammo_762x51_M80A1EPR_Ball";
+		displayname = "200rnd 7.62x51 M80A1 EPR";
+		displaynameshort = "7.62x51 M80A1";
+		initSpeed = 838;
+		lastroundstracer = 5;
+		tracersevery = 5;
 	};
 };

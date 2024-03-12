@@ -47,4 +47,13 @@ class CfgMagazineWells
 			"PB_30Rnd_556x45_AK_M855_TG"
 		};
 	};
+	class PB_MINIMI_762_MW
+	{
+		PB_MINIMI_MAGS[] = {
+			"PB_200Rnd_762x51_M80",
+			"PB_200Rnd_762x51_M61",
+			"PB_200Rnd_762x51_M62",
+			"PB_200Rnd_762x51_M80_EPR"
+		};
+	};
 };

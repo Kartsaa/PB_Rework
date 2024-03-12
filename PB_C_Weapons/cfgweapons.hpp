@@ -24,6 +24,7 @@ class asdg_OpticRail1913_long;
 class nia_charms_slot;
 class rhs_weap_pkm;
 class rhs_weap_pkp;
+class rhs_weap_m24sws;
 class rhs_rifle_gripod_slot: UnderBarrelSlot
 {
     displayName = "Gripod slot";
@@ -71,6 +72,8 @@ class cfgweapons
 		class WeaponSlotsInfo;
 	};
     class UGL_F;
+	class rhs_weap_rpk74m;
+	class rhs_weap_m249_pip;
     class PB_EF88 : Rifle_Base_F {
 
         displayname = "Austeyr EF88";
@@ -2080,14 +2083,14 @@ class cfgweapons
 	class PB_ARM1_BASE: Rifle_Base_F
 	{
 		hiddenSelections[] = {"body","newfront","zenit1","zenit2","zenit3"};
-					magazines[]=
-			{
-				"PB_30Rnd_556x45_AK_M855A1", "PB_30Rnd_556x45_AK_M856A1","PB_30Rnd_556x45_AK_M855","PB_30Rnd_556x45_AK_M855_TR","PB_30Rnd_556x45_AK_M855_TG"
-			};
-			magazineWell[]=
-			{
-				"PB_AK_556x45"
-			};
+		magazines[]=
+		{
+			"PB_30Rnd_556x45_AK_M855A1", "PB_30Rnd_556x45_AK_M856A1","PB_30Rnd_556x45_AK_M855","PB_30Rnd_556x45_AK_M855_TR","PB_30Rnd_556x45_AK_M855_TG"
+		};
+		magazineWell[]=
+		{
+			"PB_AK_556x45"
+		};
 		hiddenSelectionsTextures[] = {"PB_T_Weapons\data\ARM\ARM1.paa","rhsafrf\addons\rhs_weapons\texture\ak105_barrel_co.paa","PB_T_Weapons\data\ARM\ARM_Z01.paa","PB_T_Weapons\data\ARM\ARM_z02.paa","PB_T_Weapons\data\ARM\ARM_B33.paa"};
 		class Single: Mode_SemiAuto
 		{
@@ -2190,6 +2193,87 @@ class cfgweapons
 			reloadTime = 0.0923;
 			dispersion = 0.00093;
 		};
+	};
+	class PB_LMG556: rhs_weap_rpk74m 
+	{
+		author="Kartsa";
+		scope="2";
+		baseWeapon="PB_LMG556";
+		displayName="Arsenal LMG 5.56x45";
+		magazines[]=
+		{
+			"PB_30Rnd_556x45_AK_M855A1"
+		};
+		magazineWell[]=
+		{
+			"PB_AK_556x45"
+		};
+		class Single: Mode_Semiauto
+		{
+			sounds[] = {"StandardSound","SilencedSound"};
+			class StandardSound
+			{
+				soundSetShot[] = {"RHSUSF_m249_Shot_SoundSet","RHSUSF_rifle_small_Tail_SoundSet","RHSUSF_m249_stereoLayer_SoundSet"};
+			};
+			class SilencedSound
+			{
+				soundSetShot[] = {"RHSUSF_sd_m4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_m4_stereoLayer_SoundSet"};
+			};
+			reloadTime = 60/600;
+			dispersion = 0.00113;
+		};
+		class FullAuto: Mode_FullAuto
+		{	
+			sounds[] = {"StandardSound","SilencedSound"};
+			class StandardSound
+			{
+				soundSetShot[] = {"RHSUSF_m249_Shot_SoundSet","RHSUSF_rifle_small_Tail_SoundSet","RHSUSF_m249_stereoLayer_SoundSet"};
+			};
+			class SilencedSound
+			{
+				soundSetShot[] = {"RHSUSF_sd_m4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_m4_stereoLayer_SoundSet"};
+			};
+			reloadTime = 60/600;
+			dispersion = 0.00113;
+		};
+	};
+	class PB_ARM1_GL: PB_ARM1 
+	{
+		model = "\rhsafrf\addons\rhs_weapons\rhs_ak74m_gp25.p3d";
+        reloadAction = "RHS_GestureReloadAK_1hand";
+		picture = "\rhsafrf\addons\rhs_inventoryicons\data\weapons\rhs_weap_ak74m_gp25_ca.paa";
+		baseWeapon="PB_ARM1_GL";
+		displayName="AR-M1 GP25";
+		weaponInfoType = "rhs_rscOptics_ak74m_gp25";
+		recoil = "rhs_recoil_ak74m";
+		handAnim[] = {"OFP2_ManSkeleton","\rhsafrf\addons\rhs_c_weapons\anims\rhs_hand_ak_gp.rtm"};
+		muzzles[] = {"this","GP25_40"};
+		class GP25_40: UGL_F
+		{
+			displayName = "$STR_RHS_GP25_NAME";
+			descriptionShort = "Grenade launcher<br/>Caliber: 40mm";
+			useModelOptics = 0;
+			useExternalOptic = 0;
+			reloadaction = "RHS_GestureReloadGP30";
+			reloadMagazineSound[] = {"A3\Sounds_F\arsenal\weapons\Rifles\MX\Mx_UGL_reload",1,1,10};
+			magazines[] = {"rhs_VOG25","rhs_VOG25p","rhs_vg40tb","rhs_vg40sz","rhs_vg40op_white","rhs_vg40op_green","rhs_vg40op_red","rhs_GRD40_white","rhs_GRD40_green","rhs_GRD40_red","rhs_VG40MD_White","rhs_VG40MD_Green","rhs_VG40MD_Red","rhs_GDM40"};
+			magazineWell[] = {"VOG_40mm","CBA_40mm_GP"};
+			modes[] = {"Single"};
+			recoil = "rhs_recoil_gp25";
+			cameraDir = "OP_look";
+			discreteDistance[] = {50,100,150,200,250,300,350,400};
+			discreteDistanceCameraPoint[] = {"OP_eye","OP_eye1","OP_eye2","OP_eye3","OP_eye4","OP_eye5","OP_eye6","OP_eye7"};
+			discreteDistanceInitIndex = 2;
+			magazineReloadSwitchPhase = 0.36;
+		};
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			mass = 107.5;
+			class PointerSlot{};
+		};
+		inertia = 0.6;
+		dexterity = 1.4;
+		rhs_npz = "rhs_weap_ak74m_gp25_npz";
 	};
 	class PB_ARM5: PB_ARM1_BASE 
 	{
@@ -3351,6 +3435,58 @@ class cfgweapons
 		{
 	    	mass = 110;
 	  	};
+	};
+	class PB_MINIMI_762: rhs_weap_m249_pip
+	{
+		author="Kartsa";
+		scope="2";
+		baseWeapon="PB_MINIMI_762";
+		displayName="FN Minimi 7.62";
+		magazines[]=
+		{
+			"PB_200Rnd_762x51_M80"
+		};
+		magazineWell[]=
+		{
+			"PB_MINIMI_762_MW"
+		};
+		class Single: Mode_Semiauto
+		{
+			sounds[] = {"StandardSound","SilencedSound"};
+			class StandardSound
+			{
+				soundSetShot[] = {"RHSUSF_m249_Shot_SoundSet","RHSUSF_rifle_small_Tail_SoundSet","RHSUSF_m249_stereoLayer_SoundSet"};
+			};
+			class SilencedSound
+			{
+				soundSetShot[] = {"RHSUSF_sd_m4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_m4_stereoLayer_SoundSet"};
+			};
+			reloadTime = 60/700;
+			dispersion = 0.00113;
+		};
+		class FullAuto: Mode_FullAuto
+		{	
+			sounds[] = {"StandardSound","SilencedSound"};
+			class StandardSound
+			{
+				soundSetShot[] = {"RHSUSF_m249_Shot_SoundSet","RHSUSF_rifle_small_Tail_SoundSet","RHSUSF_m249_stereoLayer_SoundSet"};
+			};
+			class SilencedSound
+			{
+				soundSetShot[] = {"RHSUSF_sd_m4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_m4_stereoLayer_SoundSet"};
+			};
+			reloadTime = 60/700;
+			dispersion = 0.00113;
+		};
+	};
+	class PB_FIN_TRG22: rhs_weap_m24sws
+	{
+		baseWeapon = "PB_FIN_TRG22";
+		scope = 2;
+		scopearsenal = 2;
+		displayname = "TRG-22";
+		magazines[] = {"rhs_5Rnd_338lapua_t5000"};
+		magazineWell[] = {"CBA_338LM_T5000"};
 	};
 };
  

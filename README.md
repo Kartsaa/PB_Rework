@@ -16,3 +16,4 @@ Folder ordering:
 - PB_C_TFAR will be TFAR configs
 - PB_T_TFAR will be TFAR textures
 - PB_Universal_Kit is for universal color outfists, I.E. Green, Blue, Black and so on
+- qin_bren and tfc_core are Bren and C7 files respectively, that cannot be repacked
