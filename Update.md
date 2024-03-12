@@ -4,6 +4,8 @@ BLUFOR REWORK UPDATE CHANGELOG:
 All factions redone
 - Each factions equipment, gear, camos and vehicles has been re-looked through, trying to get as close to IRL as possible with the assets we got
 
+Inventory icons for ALL equipment
+
 Reworked camos with new patterns:
 - FLECKTARN
 - CADPAT-TW/AR
