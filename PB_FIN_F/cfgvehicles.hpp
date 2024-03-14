@@ -13,10 +13,12 @@ class rhs_D30_vmf;
 class RHS_ZU23_base;
 class PB_FIN_ITK_A: RHS_ZU23_base
     {
+		scope = 0;
         class Turrets;
     };
    	class PB_FIN_ITK_B :PB_FIN_ITK_A
     {
+		scope = 0;
         class Turrets:Turrets
         {
             class MainTurret;
@@ -24,6 +26,7 @@ class PB_FIN_ITK_A: RHS_ZU23_base
     };
 class PB_FIN_ITK_C: PB_FIN_ITK_B
     {
+		scope = 0;
         class Turrets: Turrets
         {
             class MainTurret: MainTurret
@@ -36,11 +39,12 @@ class rhs_KORD_high_MSV;
 class B_APC_Tracked_01_AA_F;
 class PB_FIN_ITPSV_BASE: B_APC_Tracked_01_AA_F {
 		class turrets;
+		scope = 0;
 	};
 class PB_FIN_ITPSV_BASE_01: PB_FIN_ITPSV_BASE {
 		class Turrets: Turrets {
-			SCOPE = 1;
 			class MainTurret;
+			scope = 0;
 		};
 	};
 ///ARTILLERY///

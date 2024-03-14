@@ -329,4 +329,24 @@ class CfgVehicles
 		range = 40000;
 		scope = 2;
 	};
+///POLISH////
+	class PB_Radiobag_WZ93W: PB_Bag_Base_2
+	{
+		tf_range = 40000;
+	};
+	class PB_RT1523BIG_WZ93W: PB_RT1523BIG_Base
+	{
+		displayName = "[WZ93W] RT-1523G BIG";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\WZ93W_NICECOMM2_co.paa"};
+		range = 40000;
+		scope = 2;
+	};
+	class PB_RT1523_WZ93W: PB_RT1523G_Base
+	{
+		
+		displayName = "[WZ93W] RT-1523G";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\WZ93W_PRC177_CO.paa"};
+		range = 40000;
+		scope = 2;
+	};
 };

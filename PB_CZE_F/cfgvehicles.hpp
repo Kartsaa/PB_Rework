@@ -2,10 +2,12 @@
 class rhs_t72bd_tv;
 class PB_CZE_72_A: rhs_t72bd_tv
 {
+	scope = 0;
 	class Turrets;
 };
 class PB_CZE_72_B: PB_CZE_72_A
 {
+	scope = 0;
 	class Turrets: Turrets
 	{
 		class MainTurret;
@@ -13,6 +15,7 @@ class PB_CZE_72_B: PB_CZE_72_A
 };
 class PB_CZE_72_C: PB_CZE_72_B
 {
+	scope = 0;
 	class Turrets: Turrets
 	{
 		class MainTurret: MainTurret
@@ -23,6 +26,7 @@ class PB_CZE_72_C: PB_CZE_72_B
 };
 class PB_CZE_72_D: PB_CZE_72_C
 {
+	scope = 0;
 	class Turrets: Turrets
 	{
 		class MainTurret: MainTurret

@@ -1662,48 +1662,4 @@ class cfgWeapons
 			};
 		};
 	};
-	class PB_M04_TAN_GL: Vest_Camo_Base
-	{
-		author = "Kartsa";
-		scope = 2;
-		displayName = "[TAN] Plate Carrier GL";
-		picture = "\PB_Main\ui\vest_test.paa";
-		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_heavy_F.p3d";
-		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"PB_Finnish_Kit\data\M04_ISAF_VEST_CO.paa"};
-		class ItemInfo: VestItem
-		{
-			uniformModel = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_heavy_F.p3d";
-			containerClass = "Supply60";
-			mass = 80;
-			hiddenSelections[] = {"camo"};
-			hiddenSelectionsTextures[] = {"PB_Finnish_Kit\data\M04_ISAF_VEST_CO.paa"};
-			class HitpointsProtectionInfo
-			{
-				class Chest
-				{
-					HitpointName = "HitChest";
-					armor = 25;
-					PassThrough = 0.2;
-				};
-				class Diaphragm
-				{
-					HitpointName = "HitDiaphragm";
-					armor = 25;
-					PassThrough = 0.2;
-				};
-				class Abdomen
-				{
-					hitpointName = "HitAbdomen";
-					armor = 25;
-					passThrough = 0.2;
-				};
-				class Body
-				{
-					hitpointName = "HitBody";
-					passThrough = 0.2;
-				};
-			};
-		};
-	};
 };

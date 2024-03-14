@@ -10,10 +10,12 @@ class RHS_UH60M_d;
 class B_T_APC_Wheeled_01_cannon_F;
 class PB_AUS_UH60M_A: RHS_UH60M_d
 {
+	scope = 0;
     class Turrets;
 };
 class PB_AUS_UH60M_B: PB_AUS_UH60M_A
 {
+	scope = 0;
     class Turrets: Turrets
     {
         class CopilotTurret;

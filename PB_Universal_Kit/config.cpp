@@ -50,25 +50,25 @@ class CfgVehicles
 	class B_Kitbag_Base;
 	class B_Bergen_Base_F;
 ///UNIS///
-	class PB_Green_Gora_B: B_Soldier_base_F
+	class PB_GREEN_Gora_B: B_Soldier_base_F
 	{
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_01.p3d";
 		picture = "\PB_Main\UI\uniform_test.paa";
 		hiddenSelections[] = {"camo","insignia"};
-		hiddenSelectionsTextures[] = {"\PB_Universal_Kit\data\Green_Fatigues_co.paa"};
+		hiddenSelectionsTextures[] = {"\PB_Universal_Kit\data\GREEN_Fatigues_co.paa"};
 	};
-	class PB_Green_Gora_B_RU: B_Soldier_base_F
+	class PB_GREEN_Gora_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_02.p3d";
 		picture = "\PB_Main\UI\uniform_test.paa";
 		hiddenSelections[] = {"camo","insignia"};
-		hiddenSelectionsTextures[] = {"\PB_Universal_Kit\data\Green_Fatigues_co.paa"};
+		hiddenSelectionsTextures[] = {"\PB_Universal_Kit\data\GREEN_Fatigues_co.paa"};
 	};
-	class PB_Green_GoraG_B: B_Soldier_base_F
+	class PB_GREEN_GoraG_B: B_Soldier_base_F
 	{
 		scope = 1;
 		author = "Kartsa";
@@ -76,19 +76,19 @@ class CfgVehicles
 		picture = "\PB_Main\UI\uniform_test.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
 		
-		hiddenSelectionsTextures[] = {"\PB_Universal_Kit\data\Green_Fatigues_co.paa","PB_British_Kit\data\TacGloves_Clk_CO.paa"};
+		hiddenSelectionsTextures[] = {"\PB_Universal_Kit\data\GREEN_Fatigues_co.paa","PB_British_Kit\data\TacGloves_Clk_CO.paa"};
 	};
-	class PB_Green_GoraG_B_RU: B_Soldier_base_F
+	class PB_GREEN_GoraG_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_04.p3d";
 		picture = "\PB_Main\UI\uniform_test.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
-		hiddenSelectionsTextures[] = {"\PB_Universal_Kit\data\Green_Fatigues_co.paa","PB_British_Kit\data\TacGloves_Clk_CO.paa"};
+		hiddenSelectionsTextures[] = {"\PB_Universal_Kit\data\GREEN_Fatigues_co.paa","PB_British_Kit\data\TacGloves_Clk_CO.paa"};
 	};
 	
-	class PB_Green_JP_B: B_Soldier_base_F
+	class PB_GREEN_JP_B: B_Soldier_base_F
 	{
 		author = "kartsa";
 		scope = 1;
@@ -104,7 +104,7 @@ class CfgVehicles
 			"PB_Universal_Kit\data\GR_JET_PILOT_CO.paa"
 		};
 	};
-	class PB_Green_HP_B: B_Soldier_base_F
+	class PB_GREEN_HP_B: B_Soldier_base_F
 	{
 		scope = 2;
 		author = "kartsa";
@@ -121,11 +121,11 @@ class CfgVehicles
 		displayName = "[GREEN] Carryall Backpack";
 		picture = "PB_Main\ui\kitbag_test.paa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Tortila";
-		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\green_carryall_co.paa"};	
+		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\GREEN_carryall_co.paa"};	
 		maximumLoad = 320;
 		mass = 70;
 	};
-	class PB_BERGEN_Green: B_Bergen_Base_F
+	class PB_BERGEN_GREEN: B_Bergen_Base_F
 	{
 		scope = 2;
 		author = "Kartsa";
@@ -184,75 +184,75 @@ class cfgWeapons
 		class ItemInfo;
 	};
 ////UNIS////
-	class PB_Green_Gora: Uniform_Base
+	class PB_GREEN_Gora: Uniform_Base
 	{
 		scope = 2;
 		author = "Kartsa";
-		displayName = "[Green] Field Shirt";
+		displayName = "[GREEN] Field Shirt";
 		picture = "\PB_Main\ui\uniform_test.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "PB_Green_Gora_B";
+			uniformClass = "PB_GREEN_Gora_B";
 			containerClass = "Supply45";
 			mass = 50;
 			allowedSlots[] = {"701","801","901"};
 			armor = 0;
 		};
 	};
-	class PB_Green_Gora_RU: Uniform_Base
+	class PB_GREEN_Gora_RU: Uniform_Base
 	{
 		scope = 2;
 		author = "Kartsa";
-		displayName = "[Green] Field Shirt (Rolled-Up)";
+		displayName = "[GREEN] Field Shirt (Rolled-Up)";
 		picture = "\PB_Main\ui\uniform_test.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "PB_Green_Gora_B_RU";
+			uniformClass = "PB_GREEN_Gora_B_RU";
 			containerClass = "Supply45";
 			mass = 50;
 			allowedSlots[] = {"701","801","901"};
 			armor = 0;
 		};
 	};
-	class PB_Green_GoraG: Uniform_Base
+	class PB_GREEN_GoraG: Uniform_Base
 	{
 		scope = 2;
 		author = "Kartsa";
-		displayName = "[Green] Field Shirt with Gloves";
+		displayName = "[GREEN] Field Shirt with Gloves";
 		picture = "\PB_Main\ui\uniform_test.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "PB_Green_GoraG_B";
+			uniformClass = "PB_GREEN_GoraG_B";
 			containerClass = "Supply45";
 			mass = 50;
 			allowedSlots[] = {"701","801","901"};
 			armor = 0;
 		};
 	};
-	class PB_Green_GoraG_RU: Uniform_Base
+	class PB_GREEN_GoraG_RU: Uniform_Base
 	{
 		scope = 2;
 		author = "Kartsa";
-		displayName = "[Green] Field Shirt with Gloves (Rolled-Up)";
+		displayName = "[GREEN] Field Shirt with Gloves (Rolled-Up)";
 		picture = "\PB_Main\ui\uniform_test.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "PB_Green_GoraG_B_RU";
+			uniformClass = "PB_GREEN_GoraG_B_RU";
 			containerClass = "Supply45";
 			mass = 50;
 			allowedSlots[] = {"701","801","901"};
 			armor = 0;
 		};
 	};
-	class PB_Green_JP: Uniform_Base
+	class PB_GREEN_JP: Uniform_Base
 	{
 		author="Kartsa";
 		scope=2;
@@ -262,12 +262,12 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="PB_Green_JP_B";
+			uniformClass="PB_GREEN_JP_B";
 			containerClass="Supply40";
 			mass=40;
 		};
 	};
-	class PB_Green_HP: Uniform_Base
+	class PB_GREEN_HP: Uniform_Base
 	{
 		author="Kartsa";
 		scope=2;
@@ -277,7 +277,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="PB_Green_HP_B";
+			uniformClass="PB_GREEN_HP_B";
 			containerClass="Supply40";
 			mass=40;
 		};
@@ -431,6 +431,396 @@ class cfgWeapons
 			mass = 90;
 			allowedSlots[] = {"901"};
 			hiddenSelections[] = {"camo","camo1","camo2","camo3"};
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 25;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+				};
+			};
+		};
+	};
+	class PB_TAN_Modular_Lite: Vest_Camo_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		displayName = "[TAN] Modular Carrier Lite";
+		picture = "\PB_Main\ui\vest_test.paa";
+		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_light_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\TAN_Modular.paa"};
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_light_F.p3d";
+			containerClass = "Supply130";
+			mass = 70;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 25;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+				};
+			};
+		};
+	};
+	class PB_TAN_Modular: Vest_Camo_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		displayName = "[TAN] Modular Carrier Vest";
+		picture = "\PB_Main\ui\vest_test.paa";
+		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\TAN_Modular.paa"};
+		descriptionShort = "Armor Level III";
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_F.p3d";
+			containerClass = "Supply30";
+			mass = 50;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 25;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+				};
+			};
+		};
+	};
+	class PB_TAN_Carrier_Lite: Vest_Camo_Base
+	{
+		scope = 2;
+		author = "Kartsa";
+		picture = "\PB_Main\ui\vest_test.paa";
+		Model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
+		displayName = "[TAN] Carrier Lite";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\TAN_carrierlite_co.paa"};
+		class ItemInfo: VestItem
+		{
+			uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
+			hiddenSelections[] = {"camo"};
+			hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\TAN_carrierlite_co.paa"};
+			containerClass = "Supply120";
+			mass = 80;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 25;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+				};
+			};
+		};
+	};
+	class PB_TAN_Carrier_Rig: Vest_Camo_Base
+	{
+		scope = 2;
+		author = "Kartsa";
+		picture = "\PB_Main\ui\vest_test.paa";
+		Model = "\A3\Characters_F\BLUFOR\equip_b_vest01";
+		displayName = "[TAN] Carrier Rig";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\TAN_carrierlite_co.paa"};
+		class ItemInfo: VestItem
+		{
+			uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
+			hiddenSelections[] = {"camo"};
+			hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\TAN_carrierlite_co.paa"};
+			containerClass = "Supply130";
+			mass = 100;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 25;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+				};
+			};
+		};
+	};
+	class PB_TAN_GL: Vest_Camo_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		displayName = "[TAN] Modular Carrier GL";
+		picture = "\PB_Main\ui\vest_test.paa";
+		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_heavy_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\Tan_Modular.paa"};
+		class ItemInfo: VestItem
+		{
+			uniformModel = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_heavy_F.p3d";
+			containerClass = "Supply60";
+			mass = 80;
+			hiddenSelections[] = {"camo"};
+			hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\Tan_Modular.paa"};
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 25;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+				};
+			};
+		};
+	};
+	class PB_GREEN_Modular_Lite: Vest_Camo_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		displayName = "[GREEN] Modular Carrier Lite";
+		picture = "\PB_Main\ui\vest_test.paa";
+		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_light_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\GREEN_Modular.paa"};
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_light_F.p3d";
+			containerClass = "Supply130";
+			mass = 70;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 25;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+				};
+			};
+		};
+	};
+	class PB_GREEN_Modular: Vest_Camo_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		displayName = "[GREEN] Modular Carrier Vest";
+		picture = "\PB_Main\ui\vest_test.paa";
+		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\GREEN_Modular.paa"};
+		descriptionShort = "Armor Level III";
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_F.p3d";
+			containerClass = "Supply30";
+			mass = 50;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 25;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+				};
+			};
+		};
+	};
+	class PB_GREEN_Carrier_Lite: Vest_Camo_Base
+	{
+		scope = 2;
+		author = "Kartsa";
+		picture = "\PB_Main\ui\vest_test.paa";
+		Model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
+		displayName = "[GREEN] Carrier Lite";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\GREEN_carrierlite_co.paa"};
+		class ItemInfo: VestItem
+		{
+			uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
+			hiddenSelections[] = {"camo"};
+			hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\GREEN_carrierlite_co.paa"};
+			containerClass = "Supply120";
+			mass = 80;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 25;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+				};
+			};
+		};
+	};
+	class PB_GREEN_Carrier_Rig: Vest_Camo_Base
+	{
+		scope = 2;
+		author = "Kartsa";
+		picture = "\PB_Main\ui\vest_test.paa";
+		Model = "\A3\Characters_F\BLUFOR\equip_b_vest01";
+		displayName = "[GREEN] Carrier Rig";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\GREEN_carrierlite_co.paa"};
+		class ItemInfo: VestItem
+		{
+			uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
+			hiddenSelections[] = {"camo"};
+			hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\GREEN_carrierlite_co.paa"};
+			containerClass = "Supply130";
+			mass = 100;
 			class HitpointsProtectionInfo
 			{
 				class Chest

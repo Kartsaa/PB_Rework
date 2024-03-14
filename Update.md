@@ -14,9 +14,10 @@ Reworked camos with new patterns:
 - MTP
 
 Completely new added patterns:
-- CADPAT-MT
-- DDPM and DPM
+- Canadian CADPAT-MT
+- British DDPM and DPM
 - Czech MAD21
+- Polish VZ93 Desert
 
 Extra additions:
 - Insignias for all countries
@@ -43,6 +44,6 @@ GenericNames config for following countries:
 - Czechia
 - Germany
 - Finland
--
+- Poland
  
 

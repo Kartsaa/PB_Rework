@@ -8,10 +8,12 @@ class B_T_LSV_01_unarmed_F;
 class RHS_UH60M_d;
 class PB_AUS_UH60M_A: RHS_UH60M_d
 {
+	scope = 0;
     class Turrets;
 };
 class PB_AUS_UH60M_B: PB_AUS_UH60M_A
 {
+	scope = 0;
     class Turrets: Turrets
     {
         class CopilotTurret;

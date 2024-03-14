@@ -3164,10 +3164,11 @@ class cfgweapons
 			OFP2_ManSkeleton,
 			"\A3\Weapons_F_Exp\Rifles\SPAR_01\Data\Anim\SPAR_01.rtm"
 		};
-		reloadAction = GestureReloadSPAR_01;
+		reloadAction = "RHS_GestureReloadAR15";
 		magazineReloadSwitchPhase = 0.47999999;
 		magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag"};
 		magazineWell[] = {"CBA_556x45_STANAG"};
+        reloadMagazineSound[] = {"A3\Sounds_F\weapons\Khaybar\reload_khaibar",1,1,10};
 		htMin = 8;
 		htMax = 920;
 		inertia = 0.5;
@@ -3488,5 +3489,147 @@ class cfgweapons
 		magazines[] = {"rhs_5Rnd_338lapua_t5000"};
 		magazineWell[] = {"CBA_338LM_T5000"};
 	};
+	class PB_MSBS_Grot : Rifle_Base_F 
+	{
+		scope = 2;
+		author = "Kartsa, Toadie2k";
+		displayname = "MSBS Grot";
+		ACE_barrelTwist = 177.8;
+		ACE_barrelLength = 292.1;
+		aidispersioncoefx = 4;
+		aidispersioncoefy = 6;
+		picture = "\PB_Main\ui\Grot\gear_rifle-black_ca.paa";
+		magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag"};
+		magazineWell[] = {"CBA_556x45_STANAG"};
+		model = "PB_M_Weapons\Grot\ACR.p3d";
+		reloadAction = "PB_HLC_GestureReloadAK";
+		maxRecoilSway = 0.0125;
+		swayDecaySpeed = 1.25;
+		recoil = "recoil_trg20";
+		discretedistance[] = { 100 };
+    	initspeed = -0.86667;
+		discretedistanceinitindex = 0;deployedPivot = "deploypivot";
+   		hasBipod = false; 
+		bg_bipod = 0;
+		opticszoominit = 0.75;
+		opticszoommax = 1.1;
+		opticszoommin = 0.25;
+		inertia = 0.36;
+		hiddenSelections[] = { "Map1", "Map2","Receiver" };
+		hiddenSelectionsTextures[] = 
+		{ 
+			"PB_T_Weapons\data\Grot\map1-black_co.paa", 
+			"PB_T_Weapons\data\Grot\map2-556black_co.paa", 
+			"PB_T_Weapons\data\Grot\map3-black_co.paa"
+		};
+		magazineReloadSwitchPhase = 0.5;
+        class WeaponSlotsInfo {
+            mass = 81;
+            class MuzzleSlot : asdg_MuzzleSlot_556 {
+				iconPosition[] = {0,0};
+				iconScale = 1.0;
+				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
+				iconPinPoint = "Left";
+            };
+            class CowsSlot : asdg_OpticRail1913 {
+				iconPosition[] = {0,0};
+				iconScale = 1.0;
+				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
+				iconPinPoint = "Left";
+            };
+            class PointerSlot : asdg_FrontSideRail {
+				iconPosition[] = {0,0};
+				iconScale = 1.0;
+				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
+				iconPinPoint = "Left";
+            };
+            class UnderBarrelSlot : asdg_UnderSlot {
+				iconPosition[] = {0,0};
+				iconScale = 1.0;
+				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
+				iconPinPoint = "Left";
+            };
+            class GripodSlot : PB_gripod_slot {
+				iconPosition[] = {0,0};
+				iconScale = 1.0;
+				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
+				iconPinPoint = "Left";
+            };
+        };
+		descriptionShort = "Polish 5.56 MSBS GRot";
+		handAnim[] = { "OFP2_ManSkeleton", "PB_A_Weapons\Grot\handpose_STD" };
+		dexterity = 1.8;
+		bullet1[] = { "A3\sounds_f\weapons\shells\7_62\metal_762_01", 0.398107, 1, 15 };
+		bullet10[] = { "A3\sounds_f\weapons\shells\7_62\grass_762_02", 0.281838, 1, 15 };
+		bullet11[] = { "A3\sounds_f\weapons\shells\7_62\grass_762_03", 0.281838, 1, 15 };
+		bullet12[] = { "A3\sounds_f\weapons\shells\7_62\grass_762_04", 0.281838, 1, 15 };
+		bullet2[] = { "A3\sounds_f\weapons\shells\7_62\metal_762_02", 0.398107, 1, 15 };
+		bullet3[] = { "A3\sounds_f\weapons\shells\7_62\metal_762_03", 0.398107, 1, 15 };
+		bullet4[] = { "A3\sounds_f\weapons\shells\7_62\metal_762_04", 0.398107, 1, 15 };
+		bullet5[] = { "A3\sounds_f\weapons\shells\7_62\dirt_762_01", 0.281838, 1, 15 };
+		bullet6[] = { "A3\sounds_f\weapons\shells\7_62\dirt_762_02", 0.281838, 1, 15 };
+		bullet7[] = { "A3\sounds_f\weapons\shells\7_62\dirt_762_03", 0.281838, 1, 15 };
+		bullet8[] = { "A3\sounds_f\weapons\shells\7_62\dirt_762_04", 0.281838, 1, 15 };
+		bullet9[] = { "A3\sounds_f\weapons\shells\7_62\grass_762_01", 0.281838, 1, 15 };
+		soundBullet[] = { "bullet1", 0.083, "bullet2", 0.083, "bullet3", 0.083, "bullet4", 0.083, "bullet5", 0.083, "bullet6", 0.083, "bullet7", 0.083, "bullet8", 0.083, "bullet9", 0.083, "bullet10", 0.083, "bullet11", 0.083, "bullet12", 0.083 };
+		modes[] = { "Single", "FullAuto" };
+		class Single : Mode_SemiAuto 
+		{
+			sounds[] = {"Standardsound","SilencedSound"};
+			class StandardSound
+			{
+				soundSetShot[] = {"RHSUSF_m16_Shot_SoundSet","RHSUSF_rifle_small_Tail_SoundSet","RHSUSF_m16_stereoLayer_SoundSet"};
+			};
+			class SilencedSound
+			{
+				soundSetShot[] = {"RHSUSF_sd_M4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_M4_stereoLayer_SoundSet"};
+			};
+			reloadTime = 60/700;
+			dispersion = 0.000347248;
+
+		};
+		class FullAuto : Mode_FullAuto 
+		{
+			sounds[] = {"Standardsound","SilencedSound"};
+			class StandardSound
+			{
+				soundSetShot[] = {"RHSUSF_m16_Shot_SoundSet","RHSUSF_rifle_small_Tail_SoundSet","RHSUSF_m16_stereoLayer_SoundSet"};
+			};
+			class SilencedSound
+			{
+				soundSetShot[] = {"RHSUSF_sd_M4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_M4_stereoLayer_SoundSet"};
+			};
+			reloadTime = 60/700;
+			dispersion = 0.000347248;
+		};
+		drySound[] = {"A3\Sounds_F\arsenal\weapons\Rifles\MX\dry_Mx",0.562341,1,10};
+		changeFiremodeSound[] = {"A3\sounds_f\weapons\closure\firemode_changer_2",0.551189,1,5};
+        reloadMagazineSound[] = { "\PB_A_Weapons\RK62M2\snd\ak74m_reload", 0.8, 1, 20 };
+        rhs_grip1_change = "PB_MSBS_Grot_grip";
+        rhs_grip2_change = "PB_MSBS_Grot_grip2";
+        rhs_grip3_change = "PB_MSBS_Grot_grip3";
+        baseWeapon = "PB_MSBS_Grot";
+	};
+    class PB_MSBS_Grot_grip : PB_MSBS_Grot
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "\PB_A_Weapons\Grot\handpose_RU556_VFG.rtm" };
+        inertia = (0.37 + 0.066);
+    };
+    class PB_MSBS_Grot_grip2 : PB_MSBS_Grot
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "\PB_A_Weapons\Grot\handpose_RU556_AFG.rtm" };
+        inertia = (0.37 + 0.066);
+    };
+    class PB_MSBS_Grot_grip3 : PB_MSBS_Grot
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "\PB_A_Weapons\Grot\handpose_RU556_VFG.rtm" };
+        inertia = (0.37 + 0.066);
+    };
 };
  

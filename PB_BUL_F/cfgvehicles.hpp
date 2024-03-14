@@ -25,6 +25,7 @@ class PB_BUL_M1117_B: PB_BUL_M1117_A
 {
 	class Turrets: Turrets
 	{
+		scope = 0;
 		class MainTurret;
 		class MainTurret_Out;
 		class MainTurret2_Out;
@@ -32,10 +33,12 @@ class PB_BUL_M1117_B: PB_BUL_M1117_A
 };
 class PB_BUL_72_A: rhs_t72ba_tv
 {
+	scope = 0;
 	class Turrets;
 };
 class PB_BUL_72_B: PB_BUL_72_A
 {
+	scope = 0;
 	class Turrets: Turrets
 	{
 		class MainTurret;
@@ -43,6 +46,7 @@ class PB_BUL_72_B: PB_BUL_72_A
 };
 class PB_BUL_72_C: PB_BUL_72_B
 {
+	scope = 0;
 	class Turrets: Turrets
 	{
 		class MainTurret: MainTurret
@@ -53,6 +57,7 @@ class PB_BUL_72_C: PB_BUL_72_B
 };
 class PB_BUL_72_D: PB_BUL_72_C
 {
+	scope = 0;
 	class Turrets: Turrets
 	{
 		class MainTurret: MainTurret
@@ -68,17 +73,20 @@ class PB_BUL_72_D: PB_BUL_72_C
 class rhs_2s1_tv;
 class PB_BUL_2S1_A: rhs_2s1_tv
 {
+	scope = 0;
      class Turrets;
 };
 class PB_BUL_2S1_B: PB_BUL_2S1_A
 {
+	scope = 0;
     class Turrets: Turrets
     {
         class MainTurret;
     };
 };
-    class PB_BUL_2S1_C: PB_BUL_2S1_B
+class PB_BUL_2S1_C: PB_BUL_2S1_B
 {
+	scope = 0;
     class Turrets: Turrets
     {
         class MainTurret: MainTurret
@@ -89,6 +97,7 @@ class PB_BUL_2S1_B: PB_BUL_2S1_A
 };
 class PB_BUL_2S1_D: PB_BUL_2S1_C
 {
+	scope = 0;
     class Turrets: Turrets
     {
         class MainTurret: MainTurret
@@ -104,10 +113,12 @@ class PB_BUL_2S1_D: PB_BUL_2S1_C
 class RHS_ZU23_MSV;
 class PB_BUL_ZU23_A: RHS_ZU23_MSV
 {
+	scope = 0;
     class Turrets;
 };
 class PB_BUL_ZU23_B: PB_BUL_ZU23_A
-    {
+{
+	scope = 0;
     class Turrets:Turrets
     {
         class MainTurret;

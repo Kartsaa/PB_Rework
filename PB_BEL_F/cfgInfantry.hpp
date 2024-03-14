@@ -12,7 +12,7 @@
 		faceType="Man_A3";
 		side=1;
 		faction="PB_BEL_Faction";
-		genericNames="BelgianMen";
+		genericNames="PB_BelgianMen";
 		vehicleClass="Men";
 		editorSubcategory="PB_BEL_Infantry";
 		nakedUniform = "BasicBody";
