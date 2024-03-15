@@ -1,0 +1,28 @@
+TODO LIST:
+
+Countries:
+ - Denmark
+ - Estonia
+ - France
+ - Greece
+ - Hungary
+ - Ireland
+ - Israel
+ - Japan
+ - Latvia
+ - Norway
+ - Slovakia
+ - Spain
+ - Sweden
+ - Turkey
+ - Ukraine
+
+Weapons:
+ - Type 20
+
+Extra:
+- Add Female Faces
+- Add Jamies Balaclavas
+
+Icons:
+- Make and add icons for all gear

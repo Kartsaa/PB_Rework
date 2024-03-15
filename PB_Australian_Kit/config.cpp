@@ -54,7 +54,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_01.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "\PB_Main\UI\AUS\PB_AMCU_Gora_ca.paa";
 		hiddenSelections[] = {"camo","insignia"};
 		hiddenSelectionsTextures[] = {"\PB_Australian_Kit\data\AMCU_Fatigues_co.paa"};
 	};
@@ -63,7 +63,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_02.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "\PB_Main\UI\AUS\PB_AMCU_Gora_RU_ca.paa";
 		hiddenSelections[] = {"camo","insignia"};
 		hiddenSelectionsTextures[] = {"\PB_Australian_Kit\data\AMCU_Fatigues_co.paa"};
 	};
@@ -72,7 +72,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_03.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "\PB_Main\UI\AUS\PB_AMCU_GoraG_ca.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
 		
 		hiddenSelectionsTextures[] = {"\PB_Australian_Kit\data\AMCU_Fatigues_co.paa","PB_Australian_Kit\data\TacGloves_khk_CO.paa"};
@@ -82,7 +82,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_04.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "\PB_Main\UI\AUS\PB_AMCU_GoraG_RU_ca.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
 		hiddenSelectionsTextures[] = {"\PB_Australian_Kit\data\AMCU_Fatigues_co.paa","PB_Australian_Kit\data\TacGloves_khk_CO.paa"};
 	};
@@ -91,7 +91,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_F.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "\PB_Main\UI\AUS\PB_AMCU_ACU_ca.paa";
 		hiddenSelections[] = {"camo","camo1","camo2"};
         hiddenSelectionsTextures[] = 
         {
@@ -105,7 +105,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_02_F.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "\PB_Main\UI\AUS\PB_AMCU_ACU_R_ca.paa";
 		hiddenSelections[] = {"camo","camo1","camo2"};
         hiddenSelectionsTextures[] = 
         {
@@ -121,7 +121,7 @@ class CfgVehicles
 		author = "Kartsa";
 		scope = 2;
 		displayName = "[AMCU] Kitbag";
-		picture = "PB_Main\ui\kitbag_test.paa";
+		picture = "\PB_Main\UI\AUS\PB_Kitbag_AMCU_ca.paa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast";
 		hiddenSelectionsTextures[] = {"PB_Australian_Kit\data\AMCU_KB_CO.paa"};	
 		maximumLoad = 200;
@@ -132,7 +132,7 @@ class CfgVehicles
 		author = "Kartsa";
 		scope = 2;
 		displayName = "[AMCU] Medic Kitbag";
-		picture = "PB_Main\ui\kitbag_test.paa";
+		picture = "\PB_Main\UI\AUS\PB_Medbag_AMCU_ca.paa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast";
 		hiddenSelectionsTextures[] = {"PB_Australian_Kit\data\AMCU_KB_MED_CO.paa"};	
 		maximumLoad = 200;
@@ -145,7 +145,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Compact";
 		displayName = "[AMCU] Combat Pack";
-		picture = "PB_Main\ui\assaultpack_test.paa";
+		picture = "\PB_Main\UI\AUS\PB_COMBATPB_AMCU_ca.paa";
 		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {"PB_Australian_Kit\Data\AMCU_ASS_BP_CO.paa"};
 		maximumLoad = 140;
@@ -157,7 +157,7 @@ class CfgVehicles
 		author = "Kartsa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Compact";
 		displayName = "[AMCU] Combat Pack (Medic)";
-		picture = "PB_Main\ui\assaultpack_test.paa";
+		picture = "\PB_Main\UI\AUS\PB_COMBATMPB_AMCU_ca.paa";
 		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {"PB_Australian_Kit\Data\AMCU_ASS_MBP_CO.paa"};
 		maximumLoad = 180;
@@ -168,7 +168,7 @@ class CfgVehicles
 		author = "Kartsa";
 		scope = 2;
 		displayName = "[AMCU] Radiobag";
-		picture = "PB_Main\ui\Contact_LR.paa";
+		picture = "\PB_Main\UI\AUS\PB_Radiobag_AMCU_ca.paa";
 		model = "a3\Supplies_F_Enoch\Bags\B_RadioBag_01_F.p3d";
 		hiddenSelections[] = {"camo1"};
 		hiddenSelectionsTextures[] = {"PB_Australian_Kit\data\AMCU_RB_CO.paa"};	
@@ -207,7 +207,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[AMCU] Combat Uniform";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "\PB_Main\UI\AUS\PB_AMCU_ACU_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -224,7 +224,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[AMCU] Combat Uniform (Rolled-Up)";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "\PB_Main\UI\AUS\PB_AMCU_ACU_R_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -241,7 +241,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[AMCU] Field Shirt";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "\PB_Main\UI\AUS\PB_AMCU_Gora_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -258,7 +258,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[AMCU] Field Shirt (Rolled-Up)";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "\PB_Main\UI\AUS\PB_AMCU_Gora_RU_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -275,7 +275,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[AMCU] Field Shirt with Gloves";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "\PB_Main\UI\AUS\PB_AMCU_GoraG_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -292,7 +292,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[AMCU] Field Shirt with Gloves (Rolled-Up)";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "\PB_Main\UI\AUS\PB_AMCU_GoraG_RU_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -311,7 +311,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[AMCU] Boonie Hat";
-		picture = "\PB_Main\UI\cap_test.paa";
+		picture = "\PB_Main\UI\AUS\PB_AMCU_Boonie_ca.paa";
 		model = "\A3\Characters_F\Common\booniehat";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\PB_Australian_Kit\Data\AMCU_boonie.paa"};
@@ -338,7 +338,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[AMCU] Military Cap";
-		picture = "\PB_Main\UI\cap_test.paa";
+		picture = "\PB_Main\UI\AUS\PB_AMCU_Cap_ca.paa";
 		model = "\A3\Characters_F\Common\cappatrol";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\PB_Australian_Kit\Data\AMCU_cap.paa"};
@@ -366,7 +366,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[AMCU] Helmet";
-		picture = "\PB_Main\ui\helmet_test.paa";
+		picture = "\PB_Main\UI\AUS\PB_AMCU_H_ca.paa";
 		model = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore.p3d";
 		hiddenSelections[] = {"opscore","comtac","NSW","contour","UNCOV_FLAG","ms2000"};
 		allowedFacewear[] =
@@ -430,7 +430,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[AMCU] Helmet (Headset)";
-		picture = "\PB_Main\ui\helmet_test.paa";
+		picture = "\PB_Main\UI\AUS\PB_AMCU_H_H_ca.paa";
 		model = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore.p3d";
 		hiddenSelections[] = {"opscore","comtac","NSW","contour","UNCOV_FLAG","ms2000"};
 		allowedFacewear[] =
@@ -494,7 +494,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[AMCU] Combat Helmet";
-		picture = "\PB_Main\ui\helmet_test.paa";
+		picture = "\PB_Main\UI\AUS\PB_AMCU_TCH_ca.paa";
 		model = "\A3\Characters_F_Enoch\Headgear\H_HelmetHBK_01_F.p3d";
 		hiddenSelections[] = {"camo"};
 		allowedFacewear[] =
@@ -552,7 +552,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[AMCU] Combat Helmet (Headset)";
-		picture = "\PB_Main\ui\helmet_test.paa";
+		picture = "\PB_Main\UI\AUS\PB_AMCU_TCH_H_ca.paa";
 		model = "\A3\Characters_F_Enoch\Headgear\H_HelmetHBK_01_headset_F.p3d";
 		hiddenSelections[] = {"camo"};
 		allowedFacewear[] =
@@ -610,7 +610,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		displayName = "[AMCU] Modular Carrier Lite";
-		picture = "\PB_Main\ui\vest_test.paa";
+		picture = "\PB_Main\UI\AUS\PB_AMCU_Modular_Lite_ca.paa";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_light_F.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_Australian_Kit\data\AMCU_Modular.paa"};
@@ -652,7 +652,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		displayName = "[AMCU] Modular Carrier Vest";
-		picture = "\PB_Main\ui\vest_test.paa";
+		picture = "\PB_Main\UI\AUS\PB_AMCU_Modular_ca.paa";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_F.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_Australian_Kit\data\AMCU_Modular.paa"};
@@ -694,7 +694,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		author = "Kartsa";
-		picture = "\PB_Main\ui\vest_test.paa";
+		picture = "\PB_Main\UI\AUS\PB_AMCU_Carrier_Lite_ca.paa";
 		Model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
 		displayName = "[AMCU] Carrier Lite";
 		hiddenSelections[] = {"camo"};
@@ -738,7 +738,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		author = "Kartsa";
-		picture = "\PB_Main\ui\vest_test.paa";
+		picture = "\PB_Main\UI\AUS\PB_AMCU_Carrier_Rig_ca.paa";
 		Model = "\A3\Characters_F\BLUFOR\equip_b_vest01";
 		displayName = "[AMCU] Carrier Rig";
 		hiddenSelections[] = {"camo"};

@@ -99,7 +99,7 @@
 					Zdravko = "Zdravko";
 					Zhelyazko = "Zhelyazko";
 					Zhivko = "Zhivko";
-					Zdravko = "Zdravko";
+					Zddravko = "Zdravko";
 					Zlatan = "Zlatan";
 					Zlatko = "Zlatko";
 				};

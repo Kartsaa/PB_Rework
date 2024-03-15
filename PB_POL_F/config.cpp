@@ -157,6 +157,7 @@ class CfgEditorSubcategories
 		displayName = "Turrets";
 	};
 };
+#include "cfgworlds.hpp"
 #include "cfggroups.hpp"
 #include "cfgweapons.hpp"
 class Eventhandlers;

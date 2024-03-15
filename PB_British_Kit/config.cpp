@@ -53,7 +53,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_01.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "";
 		hiddenSelections[] = {"camo","insignia"};
 		hiddenSelectionsTextures[] = {"\PB_British_Kit\data\MTP_Fatigues_co.paa"};
 	};
@@ -62,7 +62,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_02.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "";
 		hiddenSelections[] = {"camo","insignia"};
 		hiddenSelectionsTextures[] = {"\PB_British_Kit\data\MTP_Fatigues_co.paa"};
 	};
@@ -71,7 +71,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_03.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "";
 		hiddenSelections[] = {"camo","camo1","insignia"};
 		
 		hiddenSelectionsTextures[] = {"\PB_British_Kit\data\MTP_Fatigues_co.paa","PB_British_Kit\data\TacGloves_khk_CO.paa"};
@@ -81,7 +81,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_04.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "";
 		hiddenSelections[] = {"camo","camo1","insignia"};
 		hiddenSelectionsTextures[] = {"\PB_British_Kit\data\MTP_Fatigues_co.paa","PB_British_Kit\data\TacGloves_khk_CO.paa"};
 	};
@@ -90,7 +90,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_01.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "PB_Main\ui\UK\PB_DDPM_Gora_ca.paa";
 		hiddenSelections[] = {"camo","insignia"};
 		hiddenSelectionsTextures[] = {"\PB_British_Kit\data\DDPM_gora_co.paa"};
 	};
@@ -99,7 +99,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_02.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "PB_Main\ui\UK\PB_DDPM_Gora_RU_ca.paa";
 		hiddenSelections[] = {"camo","insignia"};
 		hiddenSelectionsTextures[] = {"\PB_British_Kit\data\DDPM_gora_co.paa"};
 	};
@@ -108,9 +108,8 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_03.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "PB_Main\ui\UK\PB_DDPM_GoraG_ca.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
-		
 		hiddenSelectionsTextures[] = {"\PB_British_Kit\data\DDPM_gora_co.paa","PB_British_Kit\data\TacGloves_khk_CO.paa"};
 	};
 	class PB_DDPM_GoraG_B_RU: B_Soldier_base_F
@@ -118,7 +117,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_04.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "PB_Main\ui\UK\PB_DDPM_GoraG_RU_ca.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
 		hiddenSelectionsTextures[] = {"\PB_British_Kit\data\DDPM_gora_co.paa","PB_British_Kit\data\TacGloves_khk_CO.paa"};
 	};
@@ -127,7 +126,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_01.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "";
 		hiddenSelections[] = {"camo","insignia"};
 		hiddenSelectionsTextures[] = {"\PB_British_Kit\data\DPM_gora_co.paa"};
 	};
@@ -136,7 +135,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_02.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "";
 		hiddenSelections[] = {"camo","insignia"};
 		hiddenSelectionsTextures[] = {"\PB_British_Kit\data\DPM_gora_co.paa"};
 	};
@@ -145,7 +144,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_03.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "";
 		hiddenSelections[] = {"camo","camo1","insignia"};
 		hiddenSelectionsTextures[] = {"\PB_British_Kit\data\DPM_gora_co.paa","PB_British_Kit\data\TacGloves_CLK_CO.paa"};
 	};
@@ -154,7 +153,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_04.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "";
 		hiddenSelections[] = {"camo","camo1","insignia"};
 		hiddenSelectionsTextures[] = {"\PB_British_Kit\data\DPM_gora_co.paa","PB_British_Kit\data\TacGloves_CLK_CO.paa"};
 	};
@@ -163,7 +162,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "PB_Main\ui\UK\PB_MTP_U_ca.paa";
 		hiddenSelections[] = {"camo","insignia"};
 		hiddenSelectionsTextures[] = {"\PB_British_Kit\data\MTP_U_01_CO.paa"};
 	};
@@ -172,7 +171,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\A3\characters_F\BLUFOR\b_soldier_03.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "PB_Main\ui\UK\PB_MTP_U_R_ca.paa";
 		hiddenSelections[] = {"camo","insignia"};
 		hiddenSelectionsTextures[] = {"\PB_British_Kit\data\MTP_U_01_CO.paa"};
 	};
@@ -181,7 +180,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_F.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "PB_Main\ui\UK\PB_MTP_ACU_ca.paa";
 		hiddenSelections[] = {"camo","camo1","camo2"};
         hiddenSelectionsTextures[] = 
         {
@@ -195,7 +194,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_02_F.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "PB_Main\ui\UK\PB_MTP_ACU_R_ca.paa";
 		hiddenSelections[] = {"camo","camo1","camo2"};
         hiddenSelectionsTextures[] = 
         {
@@ -210,7 +209,7 @@ class CfgVehicles
 		author = "Kartsa";
 		scope = 2;
 		displayName = "[MTP] Carryall Backpack";
-		picture = "PB_Main\ui\kitbag_test.paa";
+		picture = "PB_Main\ui\UK\PB_CARRYALL_MTP_ca.paa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Tortila";
 		hiddenSelectionsTextures[] = {"PB_British_Kit\data\MTP_CB_CO.paa"};	
 		maximumLoad = 320;
@@ -221,7 +220,7 @@ class CfgVehicles
 		author = "Kartsa";
 		scope = 2;
 		displayName = "[MTP] Kitbag";
-		picture = "PB_Main\ui\kitbag_test.paa";
+		picture = "PB_Main\ui\UK\PB_Kitbag_MTP_ca.paa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast";
 		hiddenSelectionsTextures[] = {"PB_British_Kit\data\MTP_KB_CO.paa"};	
 		maximumLoad = 200;
@@ -232,7 +231,7 @@ class CfgVehicles
 		author = "Kartsa";
 		scope = 2;
 		displayName = "[MTP] Medic Kitbag";
-		picture = "PB_Main\ui\kitbag_test.paa";
+		picture = "PB_Main\ui\UK\PB_Medbag_MTP_ca.paa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast";
 		hiddenSelectionsTextures[] = {"PB_British_Kit\data\MTP_KB_MED_CO.paa"};	
 		maximumLoad = 200;
@@ -243,7 +242,7 @@ class CfgVehicles
 		author = "Kartsa";
 		scope = 2;
 		displayName = "[MTP] Radiobag";
-		picture = "PB_Main\ui\Contact_LR.paa";
+		picture = "PB_Main\ui\UK\PB_Radiobag_MTP_ca.paa";
 		model = "a3\Supplies_F_Enoch\Bags\B_RadioBag_01_F.p3d";
 		hiddenSelections[] = {"camo1"};
 		hiddenSelectionsTextures[] = {"PB_British_Kit\data\MTP_RB_CO.paa"};	
@@ -255,7 +254,7 @@ class CfgVehicles
 		author = "Kartsa";
 		scope = 2;
 		displayName = "[DPM] Radiobag";
-		picture = "PB_Main\ui\Contact_LR.paa";
+		picture = "PB_Main\ui\UK\PB_Radiobag_DPM_ca.paa";
 		model = "a3\Supplies_F_Enoch\Bags\B_RadioBag_01_F.p3d";
 		hiddenSelections[] = {"camo1"};
 		hiddenSelectionsTextures[] = {"PB_British_Kit\data\DPM_RB_CO.paa"};	
@@ -267,7 +266,7 @@ class CfgVehicles
 		author = "Kartsa";
 		scope = 2;
 		displayName = "[DPM] Carryall Backpack";
-		picture = "PB_Main\ui\kitbag_test.paa";
+		picture = "PB_Main\ui\UK\PB_CARRYALL_DPM_ca.paa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Tortila";
 		hiddenSelectionsTextures[] = {"PB_British_Kit\data\DPM_CB_CO.paa"};	
 		maximumLoad = 320;
@@ -278,7 +277,7 @@ class CfgVehicles
 		author = "Kartsa";
 		scope = 2;
 		displayName = "[DPM] Kitbag";
-		picture = "PB_Main\ui\kitbag_test.paa";
+		picture = "PB_Main\ui\UK\PB_Kitbag_DPM_ca.paa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast";
 		hiddenSelectionsTextures[] = {"PB_British_Kit\data\DPM_KB_CO.paa"};	
 		maximumLoad = 200;
@@ -316,7 +315,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[MTP] Fatigues";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -333,7 +332,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[MTP] Fatigues (Rolled-Up)";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -350,7 +349,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[MTP] Fatigues with Gloves";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -367,7 +366,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[MTP] Fatigues with Gloves (Rolled-Up)";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -384,7 +383,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[DDPM] Fatigues";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "PB_Main\ui\UK\PB_DDPM_Gora_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -401,7 +400,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[DDPM] Fatigues (Rolled-Up)";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "PB_Main\ui\UK\PB_DDPM_Gora_RU_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -418,7 +417,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[DDPM] Fatigues with Gloves";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "PB_Main\ui\UK\PB_DDPM_GoraG_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -435,7 +434,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[DDPM] Fatigues with Gloves (Rolled-Up)";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "PB_Main\ui\UK\PB_DDPM_GoraG_RU_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -452,7 +451,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[DPM] Fatigues";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -469,7 +468,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[DPM] Fatigues (Rolled-Up)";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -486,7 +485,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[DPM] Fatigues with Gloves";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -503,7 +502,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[DPM] Fatigues with Gloves (Rolled-Up)";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -520,7 +519,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[MTP] Combat Fatigues";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "PB_Main\ui\UK\PB_MTP_U_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -537,7 +536,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[MTP] Combat Fatigues (Rolled-Up)";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "PB_Main\ui\UK\PB_MTP_U_R_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -554,7 +553,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[MTP] Combat Uniform";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "PB_Main\ui\UK\PB_MTP_ACU_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -571,7 +570,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[MTP] Combat Uniform (Rolled-Up)";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "PB_Main\ui\UK\PB_MTP_ACU_R_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -590,7 +589,7 @@ class cfgWeapons
 		scope = 2;
 		displayName = "[MTP] Beanie";
 		weaponPoolAvailable = 1;
-		picture = "\PB_Main\ui\cap_test.paa";
+		picture = "PB_Main\ui\UK\PB_MTP_beanie_ca.paa";
 		model = "\A3\Characters_F\Common\woolhat";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_British_Kit\data\MTP_beanie.paa"};
@@ -619,7 +618,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[MTP] Military Cap";
-		picture = "\PB_Main\UI\cap_test.paa";
+		picture = "PB_Main\ui\UK\PB_MTP_cap_ca.paa";
 		model = "\A3\Characters_F\Common\cappatrol";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\PB_British_Kit\Data\MTP_cap.paa"};
@@ -646,7 +645,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[MTP] Boonie Hat";
-		picture = "\PB_Main\UI\cap_test.paa";
+		picture = "PB_Main\ui\UK\PB_MTP_boonie_ca.paa";
 		model = "\A3\Characters_F\Common\booniehat";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\PB_British_Kit\Data\MTP_boonie.paa"};
@@ -673,7 +672,7 @@ class cfgWeapons
 		scope = 2;
 		displayName = "[DPM] Beanie";
 		weaponPoolAvailable = 1;
-		picture = "\PB_Main\ui\cap_test.paa";
+		picture = "PB_Main\ui\UK\PB_DPM_beanie_ca.paa";
 		model = "\A3\Characters_F\Common\woolhat";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_British_Kit\data\DPM_Beanie.paa"};
@@ -702,7 +701,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[DPM] Military Cap";
-		picture = "\PB_Main\UI\cap_test.paa";
+		picture = "PB_Main\ui\UK\PB_DPM_cap_ca.paa";
 		model = "\A3\Characters_F\Common\cappatrol";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\PB_British_Kit\Data\DPM_cap.paa"};
@@ -729,7 +728,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[DPM] Boonie Hat";
-		picture = "\PB_Main\UI\cap_test.paa";
+		picture = "PB_Main\ui\UK\PB_DPM_boonie_ca.paa";
 		model = "\A3\Characters_F\Common\booniehat";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\PB_British_Kit\Data\DPM_boonie.paa"};
@@ -756,7 +755,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[DDPM] Military Cap";
-		picture = "\PB_Main\UI\cap_test.paa";
+		picture = "PB_Main\ui\UK\PB_DDPM_cap_ca.paa";
 		model = "\A3\Characters_F\Common\cappatrol";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\PB_British_Kit\Data\DDPM_cap.paa"};
@@ -783,7 +782,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[DDPM] Boonie Hat";
-		picture = "\PB_Main\UI\cap_test.paa";
+		picture = "PB_Main\ui\UK\PB_DDPM_Boonie_ca.paa";
 		model = "\A3\Characters_F\Common\booniehat";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\PB_British_Kit\Data\DDPM_boonie.paa"};
@@ -811,7 +810,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[DDPM] Mk7 Helmet";
-		picture = "\PB_Main\ui\cap_test.paa";
+		picture = "PB_Main\ui\UK\PB_DDPM_MK7_ca.paa";
 		model = "\PB_M_Headgear\Mk7\H_Mk7_F.p3d";
 		hiddenSelections[] = { "Camo","Camo2","Camo3" };
 		allowedFacewear[] =
@@ -872,7 +871,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[DPM] Mk7 Helmet";
-		picture = "\PB_Main\ui\cap_test.paa";
+		picture = "PB_Main\ui\UK\PB_DPM_MK7_ca.paa";
 		model = "\PB_M_Headgear\Mk7\H_Mk7_F.p3d";
 		hiddenSelections[] = { "Camo","Camo2","Camo3" };
 		allowedFacewear[] =
@@ -933,7 +932,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[MTP] Mk7 Helmet";
-		picture = "\PB_Main\ui\cap_test.paa";
+		picture = "PB_Main\ui\UK\PB_MTP_MK7_ca.paa";
 		model = "\PB_M_Headgear\Mk7\H_Mk7_F.p3d";
 		hiddenSelections[] = { "Camo","Camo2","Camo3" };
 		allowedFacewear[] =
@@ -994,7 +993,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[MTP] Helmet (SF)";
-		picture = "\PB_Main\ui\helmet_test.paa";
+		picture = "PB_Main\ui\UK\PB_MTP_SF_H_ca.paa";
 		model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\PB_British_Kit\Data\mtp_helmet.paa"};
@@ -1046,7 +1045,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[MTP] Helmet";
-		picture = "\PB_Main\ui\helmet_test.paa";
+		picture = "PB_Main\ui\UK\PB_MTP_H_ca.paa";
 		model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_plain";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\PB_British_Kit\Data\mtp_helmet.paa"};
@@ -1099,7 +1098,7 @@ class cfgWeapons
 		weaponPoolAvailable = 1;
 		displayName="[MTP] Helmet (Camo)";
 		model="\A3\Characters_F\BLUFOR\headgear_b_helmet_camo";
-		picture = "\PB_Main\ui\helmet_test.paa";
+		picture = "PB_Main\ui\UK\PB_MTP_H_C_ca.paa";
 		allowedFacewear[] =
 		{
 			"rhs_googles_black", 1,  
@@ -1162,7 +1161,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		displayName = "[MTP] Modular Carrier Lite";
-		picture = "\PB_Main\ui\vest_test.paa";
+		picture = "PB_Main\ui\UK\PB_MTP_Modular_Lite_ca.paa";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_light_F.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_British_Kit\data\MTP_Modular.paa"};
@@ -1204,7 +1203,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		displayName = "[MTP] Modular Carrier Vest";
-		picture = "\PB_Main\ui\vest_test.paa";
+		picture = "PB_Main\ui\UK\PB_MTP_Modular_ca.paa";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_F.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_British_Kit\data\MTP_Modular.paa"};
@@ -1246,7 +1245,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		author = "Kartsa";
-		picture = "\PB_Main\ui\vest_test.paa";
+		picture = "PB_Main\ui\UK\PB_MTP_Carrier_Lite_ca.paa";
 		Model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
 		displayName = "[MTP] Carrier Lite";
 		hiddenSelections[] = {"camo"};
@@ -1290,7 +1289,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		author = "Kartsa";
-		picture = "\PB_Main\ui\vest_test.paa";
+		picture = "PB_Main\ui\UK\PB_MTP_Carrier_Rig_ca.paa";
 		Model = "\A3\Characters_F\BLUFOR\equip_b_vest01";
 		displayName = "[MTP] Carrier Rig";
 		hiddenSelections[] = {"camo"};
@@ -1335,7 +1334,7 @@ class cfgWeapons
 		author="Kartsa";
 		scope=2;
 		displayName="[DDPM] Osprey Grenadier Rig";
-		picture = "\PB_Main\ui\vest_test.paa";
+		picture = "PB_Main\ui\UK\PB_DDPM_Osprey_GRE_ca.paa";
 		model="\PB_M_Vests\Osprey\Grenadier\PB_Osprey_GRE.p3d";
 		hiddenSelections[]=
 		{
@@ -1402,7 +1401,7 @@ class cfgWeapons
 		author="Kartsa";
 		scope=2;
 		displayName="[DDPM] Osprey Squadleader Rig";
-		picture = "\PB_Main\ui\vest_test.paa";
+		picture = "PB_Main\ui\UK\PB_DDPM_Osprey_SL_ca.paa";
 		model="\PB_M_Vests\Osprey\SL\PB_Osprey_SL.p3d";
 		hiddenSelections[]=
 		{
@@ -1469,7 +1468,7 @@ class cfgWeapons
 		author="Kartsa";
 		scope=2;
 		displayName="[DDPM] Osprey Rig";
-		picture = "\PB_Main\ui\vest_test.paa";
+		picture = "PB_Main\ui\UK\PB_DDPM_Osprey_Rig_ca.paa";
 		model="\PB_M_Vests\Osprey\Rig\PB_Osprey_Rig.p3d";
 		hiddenSelections[]=
 		{
@@ -1536,7 +1535,7 @@ class cfgWeapons
 		author="Kartsa";
 		scope=2;
 		displayName="[DDPM] Osprey MG Rig";
-		picture = "\PB_Main\ui\vest_test.paa";
+		picture = "PB_Main\ui\UK\PB_DDPM_Osprey_MG_ca.paa";
 		model="\PB_M_Vests\Osprey\MG\PB_Osprey_MG.p3d";
 		hiddenSelections[]=
 		{
@@ -1606,7 +1605,7 @@ class cfgWeapons
 		author="Kartsa";
 		scope=2;
 		displayName="[DPM] Osprey Grenadier Rig";
-		picture = "\PB_Main\ui\vest_test.paa";
+		picture = "";
 		model="\PB_M_Vests\Osprey\Grenadier\PB_Osprey_GRE.p3d";
 		hiddenSelections[]=
 		{
@@ -1673,7 +1672,7 @@ class cfgWeapons
 		author="Kartsa";
 		scope=2;
 		displayName="[DPM] Osprey Squadleader Rig";
-		picture = "\PB_Main\ui\vest_test.paa";
+		picture = "PB_Main\ui\UK\PB_DPM_Osprey_SL_ca.paa";
 		model="\PB_M_Vests\Osprey\SL\PB_Osprey_SL.p3d";
 		hiddenSelections[]=
 		{
@@ -1740,7 +1739,7 @@ class cfgWeapons
 		author="Kartsa";
 		scope=2;
 		displayName="[DPM] Osprey Rig";
-		picture = "\PB_Main\ui\vest_test.paa";
+		picture = "PB_Main\ui\UK\PB_DPM_Osprey_Rig_ca.paa";
 		model="\PB_M_Vests\Osprey\Rig\PB_Osprey_Rig.p3d";
 		hiddenSelections[]=
 		{
@@ -1807,7 +1806,7 @@ class cfgWeapons
 		author="Kartsa";
 		scope=2;
 		displayName="[DPM] Osprey MG Rig";
-		picture = "\PB_Main\ui\vest_test.paa";
+		picture = "PB_Main\ui\UK\PB_DPM_Osprey_MG_ca.paa";
 		model="\PB_M_Vests\Osprey\MG\PB_Osprey_MG.p3d";
 		hiddenSelections[]=
 		{
@@ -1877,7 +1876,7 @@ class cfgWeapons
 		author="Kartsa";
 		scope=2;
 		displayName="[MTP] Osprey Grenadier Rig";
-		picture="\PB_Main\UI\vest_test.paa";
+		picture = "PB_Main\ui\UK\PB_MTP_Osprey_GRE_ca.paa";
 		model="\PB_M_Vests\Osprey\Grenadier\PB_Osprey_GRE.p3d";
 		hiddenSelections[]=
 		{
@@ -1944,7 +1943,7 @@ class cfgWeapons
 		author="Kartsa";
 		scope=2;
 		displayName="[MTP] Osprey Squadleader Rig";
-		picture="\PB_Main\UI\vest_test.paa";
+		picture = "PB_Main\ui\UK\PB_MTP_Osprey_SL_ca.paa";
 		model="\PB_M_Vests\Osprey\SL\PB_Osprey_SL.p3d";
 		hiddenSelections[]=
 		{
@@ -2011,7 +2010,7 @@ class cfgWeapons
 		author="Kartsa";
 		scope=2;
 		displayName="[MTP] Osprey Rig";
-		picture="\PB_Main\UI\vest_test.paa";
+		picture = "PB_Main\ui\UK\PB_MTP_Osprey_Rig_ca.paa";
 		model="\PB_M_Vests\Osprey\Rig\PB_Osprey_Rig.p3d";
 		hiddenSelections[]=
 		{
@@ -2078,7 +2077,7 @@ class cfgWeapons
 		author="Kartsa";
 		scope=2;
 		displayName="[MTP] Osprey MG Rig";
-		picture="\PB_Main\UI\vest_test.paa";
+		picture = "PB_Main\ui\UK\PB_MTP_Osprey_MG_ca.paa";
 		model="\PB_M_Vests\Osprey\MG\PB_Osprey_MG.p3d";
 		hiddenSelections[]=
 		{

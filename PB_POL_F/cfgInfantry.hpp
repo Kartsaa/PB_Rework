@@ -12,7 +12,7 @@
 		faceType="Man_A3";
 		side=1;
 		faction="PB_POL_Faction";
-		genericNames="PolishMen";
+		genericNames="PB_PolishMen";
 		vehicleClass="Men";
 		editorSubcategory="PB_POL_Infantry";
 		nakedUniform = "BasicBody";

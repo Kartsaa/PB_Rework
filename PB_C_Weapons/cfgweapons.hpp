@@ -60,6 +60,9 @@ class rhs_russian_rifle_afg_slot: rhs_rifle_gripod_slot
 };
 class cfgweapons
 {
+	class ItemCore;
+	class InventoryOpticsItem_Base_F;
+	#include "cfgscopes.hpp"
 	class Rifle;
 	class Rifle_Base_F: Rifle
 	{
@@ -3631,5 +3634,706 @@ class cfgweapons
         handanim[] = { "OFP2_ManSkeleton", "\PB_A_Weapons\Grot\handpose_RU556_VFG.rtm" };
         inertia = (0.37 + 0.066);
     };
+	class PB_K2: Rifle_Base_F
+	{
+		scope=2;
+		author="withered_maple";
+		displayName="Daewoo K2";
+		descriptionShort="5.56NATO Rifle made in South korea";
+		model="\BRM_K2\Models\BRM_k2.p3d";
+		picture="\BRM_K2\ui\BRM_K2ui.paa";
+		hiddenSelections[]=
+		{
+		    "camo1",
+			"camo2",
+			"camo3",
+			"camoB"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"brm_k2\data\brm_bbk2_co.paa",
+			"brm_k2\data\brm_lowerk2_co.paa",
+			"brm_k2\data\brm_upperk2_co.paa",
+			"brm_k2\data\brm_stockk2_co.paa"
+		};
+		handAnim[] = {"OFP2_ManSkeleton","\BRM_K2\Anims\K2_handpos.rtm"};
+		reloadAction="GestureReloadSPAR_01";
+		reloadMagazineSound[]=
+		{
+		"A3\Sounds_F_Exp\arsenal\weapons\Rifles\SPAR01\SPAR01_reload",1,1,10
+		};
+		magazineReloadSwitchPhase = 0.4;
+		weaponInfoType = "RscWeaponZeroing";
+	    discreteDistance[] = {50,150,250};
+	    discreteDistanceInitIndex = 1;
+		maxRecoilSway=0.0125;
+		swayDecaySpeed=1.25;
+		recoil="recoil_spar";
+		inertia = 0.5;
+		initSpeed = -1;
+		dexterity = 1.8;
+		opticsZoomMin=0.375;
+		opticsZoomMax=1.1;
+		opticsZoomInit=0.75;
+        distanceZoomMin = 300;
+		distanceZoomMax = 300;
+		deployedpivot = "deploypivot";
+		hasBipod = false;
+		selectionFireAnim = "muzzleFlash";
+		drySound[] = {"A3\Sounds_F_Exp\arsenal\weapons\Rifles\SPAR01\SPAR01_dry",0.562341,1,10};
+		changeFiremodeSound[] = {"A3\Sounds_F_Exp\arsenal\weapons\Rifles\SPAR01\SPAR01_firemode",0.177828,1,5};
+		zeroingSound[] = {"A3\Sounds_F\arsenal\sfx\shared\zeroing_knob_tick_metal",0.316228,1,5};
+		magazines[]=
+		{
+			"30Rnd_556x45_Stanag",
+			"30Rnd_556x45_Stanag_green",
+			"30Rnd_556x45_Stanag_red",
+			"30Rnd_556x45_Stanag_Tracer_Red",
+			"30Rnd_556x45_Stanag_Tracer_Green",
+			"30Rnd_556x45_Stanag_Tracer_Yellow"
+		};
+		magazineWell[]=
+		{
+			"STANAG_556x45","CBA_556x45_STANAG_L","CBA_556x45_STANAG_XL","CBA_556x45_STANAG_2D","CBA_556x45_STANAG_2D_XL"
+		};
+		class GunParticles: GunParticles
+		{
+			class SecondEffect
+			{
+				positionName="Nabojniceend";
+				directionName="Nabojnicestart";
+				effectName="RifleAssaultCloud";
+		 	};
+		};
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class MuzzleSlot: asdg_MuzzleSlot_556
+			{
+				iconPosition[]={0,0.40000001};
+				iconScale=0.2;
+			};
+			class CowsSlot: SlotInfo
+			{
+				iconPosition[]={0.44999999,0.28};
+				iconScale=0.2;
+				iconPicture="\A3\Weapons_F\Data\UI\attachment_top.paa";
+				iconPinpoint="Center";
+				linkProxy="\A3\data_f\proxies\weapon_slots\TOP";
+				displayName="$STR_A3_CowsSlot0";
+				class compatibleItems
+				{
+					PB_K2CQS=1;
+					PB_K2CS=1;
+					PB_K2ANPVS4=1;
+				};
+			};
+			mass=60;
+		};
+		bullet1[]=
+		{
+			"A3\sounds_f\weapons\shells\5_56\Shellcase_556_Metal_01",
+			0.44668359,
+			1,
+			15
+		};
+		bullet2[]=
+		{
+			"A3\sounds_f\weapons\shells\5_56\Shellcase_556_Metal_02",
+			0.44668359,
+			1,
+			15
+		};
+		bullet3[]=
+		{
+			"A3\sounds_f\weapons\shells\5_56\Shellcase_556_Metal_03",
+			0.44668359,
+			1,
+			15
+		};
+		bullet4[]=
+		{
+			"A3\sounds_f\weapons\shells\5_56\Shellcase_556_Metal_04",
+			0.44668359,
+			1,
+			15
+		};
+		bullet5[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\Shellcase_762_Dirt_01",
+			0.56234133,
+			1,
+			15
+		};
+		bullet6[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\Shellcase_762_Dirt_02",
+			0.56234133,
+			1,
+			15
+		};
+		bullet7[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\Shellcase_762_Dirt_03",
+			0.56234133,
+			1,
+			15
+		};
+		bullet8[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\Shellcase_762_Dirt_04",
+			0.56234133,
+			1,
+			15
+		};
+		bullet9[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\Shellcase_762_Grass_01",
+			0.56234133,
+			1,
+			15
+		};
+		bullet10[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\Shellcase_762_Grass_02",
+			0.56234133,
+			1,
+			15
+		};
+		bullet11[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\Shellcase_762_Grass_03",
+			0.56234133,
+			1,
+			15
+		};
+		bullet12[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\Shellcase_762_Grass_04",
+			0.56234133,
+			1,
+			15
+		};
+		soundBullet[]=
+		{
+			"bullet1",
+			0.082999997,
+			"bullet2",
+			0.082999997,
+			"bullet3",
+			0.082999997,
+			"bullet4",
+			0.082999997,
+			"bullet5",
+			0.086999997,
+			"bullet6",
+			0.082999997,
+			"bullet7",
+			0.082999997,
+			"bullet8",
+			0.082999997,
+			"bullet9",
+			0.082999997,
+			"bullet10",
+			0.082999997,
+			"bullet11",
+			0.082999997,
+			"bullet12",
+			0.082999997
+		};
+		modes[] = {"Single", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2"};
+		class Single: Mode_SemiAuto
+		{
+			
+			sounds[] = {"Standardsound","SilencedSound"};
+			class StandardSound
+			{
+				soundSetShot[] = {"RHSUSF_m16_Shot_SoundSet","RHSUSF_rifle_small_Tail_SoundSet","RHSUSF_m16_stereoLayer_SoundSet"};
+			};
+			class SilencedSound
+			{
+				soundSetShot[] = {"RHSUSF_sd_M4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_M4_stereoLayer_SoundSet"};
+			};
+			reloadTime = 60/800; /// means some 800 rounds per minute
+			dispersion = 0.00087;
+			recoil = "recoil_single_primary_3outof10";
+			recoilProne = "recoil_single_primary_prone_3outof10";
+            aiRateOfFire = 2;
+			aiRateOfFireDistance = 500;
+			aiRateOfFireDispersion = 1;
+			aiDispersionCoefY = 1.7;
+			aiDispersionCoefX = 1.4;
+			minRange = 2; minRangeProbab = 0.5; 	
+			midRange = 200; midRangeProbab = 0.7; 	
+			maxRange = 400; maxRangeProbab = 0.3; 	
+		};
+
+		class FullAuto: Mode_FullAuto 
+		{
+			sounds[] = {"Standardsound","SilencedSound"};
+			class StandardSound
+			{
+				soundSetShot[] = {"RHSUSF_m16_Shot_SoundSet","RHSUSF_rifle_small_Tail_SoundSet","RHSUSF_m16_stereoLayer_SoundSet"};
+			};
+			class SilencedSound
+			{
+				soundSetShot[] = {"RHSUSF_sd_M4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_M4_stereoLayer_SoundSet"};
+			};
+			reloadTime = 60/800;
+			dispersion = 0.00087;
+			recoil = "recoil_single_primary_3outof10";
+			recoilProne = "recoil_single_primary_prone_3outof10";
+			minRange = 0; minRangeProbab = 0.9;
+			midRange = 15; midRangeProbab = 0.7;
+			maxRange = 30; maxRangeProbab = 0.1;
+			aiRateOfFire = 0.000001;
+		};
+
+		class fullauto_medium: FullAuto /// Pew, pew, pew only for AI
+		{
+			showToPlayer = 0;
+			burst = 3;
+
+			minRange = 2; minRangeProbab = 0.5;
+			midRange = 75; midRangeProbab = 0.7;
+			maxRange = 150; maxRangeProbab = 0.05;
+
+			aiRateOfFire = 2.0;
+			aiRateOfFireDistance = 200;
+		};
+		class single_medium_optics1: Single /// Pew for AI with collimator sights
+		{
+			requiredOpticType = 1;
+			showToPlayer = 0;
+
+			minRange = 5; minRangeProbab = 0.2;
+			midRange = 350; midRangeProbab = 0.7;
+			maxRange = 525; maxRangeProbab = 0.2;
+
+			aiRateOfFire = 6;
+			aiRateOfFireDistance = 525;
+		};
+		class single_far_optics2: single_medium_optics1	/// Pew for AI with better sights
+		{
+			requiredOpticType = 2;
+			showToPlayer = 0;
+
+			minRange = 100; minRangeProbab = 0.1;
+			midRange = 500; midRangeProbab = 0.6;
+			maxRange = 750; maxRangeProbab = 0.05;
+
+			aiRateOfFire = 8;
+			aiRateOfFireDistance = 750;
+		};
+	};
+	class PB_K2GL: PB_K2
+	{
+		scope=2;
+		author="withered_maple";
+		displayName="Daewoo K2GL";
+		descriptionShort="5.56NATO Rifle made in South korea with M203 grenade launcher";
+		model="\BRM_K2\Models\BRM_k2GL.p3d";
+		picture="\BRM_K2\ui\BRM_K2ui.paa";
+		handAnim[] = {"OFP2_ManSkeleton","\BRM_K2\Anims\K2GL_handpos.rtm"};
+		muzzles[] = {this, EGLM};
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo2",
+			"camo3",
+			"camoB",
+			"camoC"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"brm_k2\data\brm_bbk2_co.paa",
+			"brm_k2\data\brm_lowerk2_co.paa",
+			"brm_k2\data\brm_upperk2_co.paa",
+			"brm_k2\data\brm_stockk2_co.paa",
+			"brm_k2\data\brm_M203_co.paa"
+		};
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			mass = 100; 
+		};
+		class EGLM: UGL_F
+		{
+			displayName="M203 grenade launcher";
+			descriptionShort = "M203";
+			useModelOptics= false;
+			useExternalOptic= false;
+			optics = 1;
+			cameraDir="OP_look";
+			discreteDistance[]={50,100,150,200,250,300,350};
+			changeFiremodeSound[] = {"A3\Sounds_F\arsenal\weapons\UGL\Firemode_ugl",0.316228,1,5};
+			discreteDistanceCameraPoint[]=
+			{
+				"OP_eye",
+				"OP_eye1",
+				"OP_eye2",
+				"OP_eye3",
+				"OP_eye4",
+				"OP_eye5",
+				"OP_eye6"
+			};
+			discreteDistanceInitIndex=1;
+			reloadAction = "GestureReloadMk20UGL";
+			reloadMagazineSound[] = {"A3\Sounds_F\arsenal\weapons\Rifles\Mk20\MK20_UGL_reload",0.794328,1,10};
+			magazines[] = {"1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareGreen_F","UGL_FlareRed_F","UGL_FlareYellow_F","UGL_FlareCIR_F","1Rnd_Smoke_Grenade_shell","1Rnd_SmokeRed_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell","1Rnd_SmokeYellow_Grenade_shell","1Rnd_SmokePurple_Grenade_shell","1Rnd_SmokeBlue_Grenade_shell","1Rnd_SmokeOrange_Grenade_shell"};
+			magazineWell[] = {"UGL_40x36","CBA_40mm_M203","CBA_40mm_EGLM"};
+			
+			aiDispersionCoefY=6.0; /// AI should have some degree of greater dispersion for initial shoots
+			aiDispersionCoefX=4.0; /// AI should have some degree of greater dispersion for initial shoots
+			drySound[]={"A3\sounds_f\weapons\Other\dry_1", db-5, 1, 10}; /// custom made sounds
+		};
+	};
+	class PB_K2C1: Rifle_Base_F
+	{
+		    scope=2;
+		    author="withered_maple";
+		    displayName="Daewoo K2C1";
+		    descriptionShort="5.56NATO Rifle made in South korea upgraded to new standard";
+		    model="\BRM_K2\Models\BRM_k2c1.p3d";
+			picture="\BRM_K2\ui\BRM_K2C1ui.paa";
+		    hiddenSelections[]=
+		    {
+			    "camo",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camoB",
+				"camoC"
+		    };
+		    hiddenSelectionsTextures[]=
+		    {
+			    "brm_k2\data\brm_k2c1l_co.paa",
+				"brm_k2\data\brm_k2c1u_co.paa",
+				"brm_k2\data\brm_bbk2_co.paa",
+				"brm_k2\data\brm_stockk2_co.paa",
+				"brm_k2\data\brm_k2c1s_co.paa",
+				"brm_k2\data\brm_k2c1h_co.paa"
+		    };
+		    handAnim[] = {"OFP2_ManSkeleton","\BRM_K2\Anims\K2C1_handpos.rtm"};
+			reloadAction="GestureReloadSPAR_01";
+			reloadMagazineSound[]=
+		    {
+			"A3\Sounds_F_Exp\arsenal\weapons\Rifles\SPAR01\SPAR01_reload",1,1,10
+		    };
+			magazineReloadSwitchPhase = 0.4;
+			weaponInfoType = "RscWeaponZeroing";
+	        discreteDistance[] = {50,150,250};
+	        discreteDistanceInitIndex = 1;
+		    maxRecoilSway=0.0125;
+		    swayDecaySpeed=1.25;
+			recoil="recoil_spar";
+			inertia = 0.5;
+			initSpeed = -1;
+			dexterity = 1.8;
+			opticsZoomMin=0.375;
+		    opticsZoomMax=1.1;
+		    opticsZoomInit=0.75;
+            distanceZoomMin = 300;
+		    distanceZoomMax = 300;
+			deployedpivot = "deploypivot";
+			hasBipod = false;
+			selectionFireAnim = "muzzleFlash";
+			drySound[] = {"A3\Sounds_F_Exp\arsenal\weapons\Rifles\SPAR01\SPAR01_dry",0.562341,1,10};
+		    changeFiremodeSound[] = {"A3\Sounds_F_Exp\arsenal\weapons\Rifles\SPAR01\SPAR01_firemode",0.177828,1,5};
+			zeroingSound[] = {"A3\Sounds_F\arsenal\sfx\shared\zeroing_knob_tick_metal",0.316228,1,5};
+		    magazines[]=
+		    {
+			    "30Rnd_556x45_Stanag",
+			    "30Rnd_556x45_Stanag_green",
+			    "30Rnd_556x45_Stanag_red",
+			    "30Rnd_556x45_Stanag_Tracer_Red",
+			    "30Rnd_556x45_Stanag_Tracer_Green",
+			    "30Rnd_556x45_Stanag_Tracer_Yellow"
+		    };
+		    magazineWell[]=
+		    {
+			    "STANAG_556x45","CBA_556x45_STANAG_L","CBA_556x45_STANAG_XL","CBA_556x45_STANAG_2D","CBA_556x45_STANAG_2D_XL"
+		    };
+			class GunParticles: GunParticles
+		    {
+			    class SecondEffect
+			    {
+				    positionName="Nabojniceend";
+				    directionName="Nabojnicestart";
+				    effectName="RifleAssaultCloud";
+		 	    };
+		    };
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class MuzzleSlot: asdg_MuzzleSlot_556
+			{
+				iconPosition[]={0,0.40000001};
+				iconScale=0.2;
+			};
+			class CowsSlot: asdg_OpticRail1913
+			{
+				iconPosition[]={0.44999999,0.28};
+                iconScale=0.2;
+			};
+			class PointerSlot: asdg_FrontSideRail
+			{
+				iconPosition[]={0.34999999,0.44999999};
+				iconScale=0.2;
+			};
+			mass=60;
+		};
+		bullet1[]=
+		{
+			"A3\sounds_f\weapons\shells\5_56\Shellcase_556_Metal_01",
+			0.44668359,
+			1,
+			15
+		};
+		bullet2[]=
+		{
+			"A3\sounds_f\weapons\shells\5_56\Shellcase_556_Metal_02",
+			0.44668359,
+			1,
+			15
+		};
+		bullet3[]=
+		{
+			"A3\sounds_f\weapons\shells\5_56\Shellcase_556_Metal_03",
+			0.44668359,
+			1,
+			15
+		};
+		bullet4[]=
+		{
+			"A3\sounds_f\weapons\shells\5_56\Shellcase_556_Metal_04",
+			0.44668359,
+			1,
+			15
+		};
+		bullet5[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\Shellcase_762_Dirt_01",
+			0.56234133,
+			1,
+			15
+		};
+		bullet6[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\Shellcase_762_Dirt_02",
+			0.56234133,
+			1,
+			15
+		};
+		bullet7[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\Shellcase_762_Dirt_03",
+			0.56234133,
+			1,
+			15
+		};
+		bullet8[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\Shellcase_762_Dirt_04",
+			0.56234133,
+			1,
+			15
+		};
+		bullet9[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\Shellcase_762_Grass_01",
+			0.56234133,
+			1,
+			15
+		};
+		bullet10[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\Shellcase_762_Grass_02",
+			0.56234133,
+			1,
+			15
+		};
+		bullet11[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\Shellcase_762_Grass_03",
+			0.56234133,
+			1,
+			15
+		};
+		bullet12[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\Shellcase_762_Grass_04",
+			0.56234133,
+			1,
+			15
+		};
+		soundBullet[]=
+		{
+			"bullet1",
+			0.082999997,
+			"bullet2",
+			0.082999997,
+			"bullet3",
+			0.082999997,
+			"bullet4",
+			0.082999997,
+			"bullet5",
+			0.086999997,
+			"bullet6",
+			0.082999997,
+			"bullet7",
+			0.082999997,
+			"bullet8",
+			0.082999997,
+			"bullet9",
+			0.082999997,
+			"bullet10",
+			0.082999997,
+			"bullet11",
+			0.082999997,
+			"bullet12",
+			0.082999997
+		};
+		modes[] = {"Single", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2"};
+		class Single: Mode_SemiAuto
+		{
+			sounds[] = {"Standardsound","SilencedSound"};
+			class StandardSound
+			{
+				soundSetShot[] = {"RHSUSF_m16_Shot_SoundSet","RHSUSF_rifle_small_Tail_SoundSet","RHSUSF_m16_stereoLayer_SoundSet"};
+			};
+			class SilencedSound
+			{
+				soundSetShot[] = {"RHSUSF_sd_M4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_M4_stereoLayer_SoundSet"};
+			};
+			reloadTime = 60/800; /// means some 800 rounds per minute
+			dispersion = 0.00087;
+			recoil = "recoil_single_primary_3outof10";
+			recoilProne = "recoil_single_primary_prone_3outof10";
+            aiRateOfFire = 2;
+			aiRateOfFireDistance = 500;
+			aiRateOfFireDispersion = 1;
+			aiDispersionCoefY = 1.7;
+			aiDispersionCoefX = 1.4;
+			minRange = 2; minRangeProbab = 0.5; 	
+			midRange = 200; midRangeProbab = 0.7; 	
+			maxRange = 400; maxRangeProbab = 0.3; 	
+		};
+		class FullAuto: Mode_FullAuto 
+		{
+			sounds[] = {"Standardsound","SilencedSound"};
+			class StandardSound
+			{
+				soundSetShot[] = {"RHSUSF_m16_Shot_SoundSet","RHSUSF_rifle_small_Tail_SoundSet","RHSUSF_m16_stereoLayer_SoundSet"};
+			};
+			class SilencedSound
+			{
+				soundSetShot[] = {"RHSUSF_sd_M4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_M4_stereoLayer_SoundSet"};
+			};
+			reloadTime = 60/800;
+			dispersion = 0.00087;
+			recoil = "recoil_single_primary_3outof10";
+			recoilProne = "recoil_single_primary_prone_3outof10";
+			minRange = 0; minRangeProbab = 0.9;
+			midRange = 15; midRangeProbab = 0.7;
+			maxRange = 30; maxRangeProbab = 0.1;
+			aiRateOfFire = 0.000001;
+		};
+		class fullauto_medium: FullAuto /// Pew, pew, pew only for AI
+		{
+			showToPlayer = 0;
+			burst = 3;
+
+			minRange = 2; minRangeProbab = 0.5;
+			midRange = 75; midRangeProbab = 0.7;
+			maxRange = 150; maxRangeProbab = 0.05;
+
+			aiRateOfFire = 2.0;
+			aiRateOfFireDistance = 200;
+		};
+		class single_medium_optics1: Single /// Pew for AI with collimator sights
+		{
+			requiredOpticType = 1;
+			showToPlayer = 0;
+
+			minRange = 5; minRangeProbab = 0.2;
+			midRange = 350; midRangeProbab = 0.7;
+			maxRange = 525; maxRangeProbab = 0.2;
+
+			aiRateOfFire = 6;
+			aiRateOfFireDistance = 525;
+		};
+		class single_far_optics2: single_medium_optics1	/// Pew for AI with better sights
+		{
+			requiredOpticType = 2;
+			showToPlayer = 0;
+
+			minRange = 100; minRangeProbab = 0.1;
+			midRange = 500; midRangeProbab = 0.6;
+			maxRange = 750; maxRangeProbab = 0.05;
+
+			aiRateOfFire = 8;
+			aiRateOfFireDistance = 750;
+		};
+	};
+	class PB_K2C1GL: PB_K2C1
+	{
+	        scope=2;
+		    author="withered_maple";
+		    displayName="Daewoo K2C1-M203";
+		    descriptionShort="5.56NATO Rifle made in South korea upgraded to new standard";
+		    model="\BRM_K2\Models\BRM_k2c1GL.p3d";
+			picture="\BRM_K2\ui\BRM_K2C1ui.paa";
+			muzzles[] = {this, EGLM};
+		    hiddenSelections[]=
+		    {
+			    "camo",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camoB",
+				"camoC",
+				"camoD"
+		    };
+		    hiddenSelectionsTextures[]=
+		    {
+			    "brm_k2\data\brm_k2c1l_co.paa",
+				"brm_k2\data\brm_k2c1u_co.paa",
+				"brm_k2\data\brm_bbk2_co.paa",
+				"brm_k2\data\brm_stockk2_co.paa",
+				"brm_k2\data\brm_k2c1s_co.paa",
+				"brm_k2\data\brm_k2c1h_co.paa",
+				"brm_k2\data\brm_m203p_co.paa"
+		    };
+		    handAnim[] = {"OFP2_ManSkeleton","\BRM_K2\Anims\K2C1GL_handpos.rtm"};
+		class WeaponSlotsInfo: WeaponSlotsInfo
+	    {
+		    mass = 100; 
+	    };
+		class EGLM: UGL_F
+		{
+			displayName="M203 grenade launcher";
+			descriptionShort = "M203";
+			useModelOptics= false;
+			useExternalOptic= false;
+			optics = 1;
+			cameraDir="OP_look";
+			discreteDistance[]={50,100,200,300,400};
+			changeFiremodeSound[] = {"A3\Sounds_F\arsenal\weapons\UGL\Firemode_ugl",0.316228,1,5};
+			discreteDistanceCameraPoint[]=
+			{
+				"OP_eye",
+				"OP_eye1",
+				"OP_eye2",
+				"OP_eye3",
+				"OP_eye4"
+			};
+			discreteDistanceInitIndex=1;
+			reloadAction = "GestureReloadMk20UGL";
+            reloadMagazineSound[] = {"A3\Sounds_F\arsenal\weapons\Rifles\Mk20\MK20_UGL_reload",0.794328,1,10};
+			magazines[] = {"1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareGreen_F","UGL_FlareRed_F","UGL_FlareYellow_F","UGL_FlareCIR_F","1Rnd_Smoke_Grenade_shell","1Rnd_SmokeRed_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell","1Rnd_SmokeYellow_Grenade_shell","1Rnd_SmokePurple_Grenade_shell","1Rnd_SmokeBlue_Grenade_shell","1Rnd_SmokeOrange_Grenade_shell"};
+			magazineWell[] = {"UGL_40x36","CBA_40mm_M203","CBA_40mm_EGLM"};
+			aiDispersionCoefY=6.0; /// AI should have some degree of greater dispersion for initial shoots
+		    aiDispersionCoefX=4.0; /// AI should have some degree of greater dispersion for initial shoots
+		    drySound[]={"A3\sounds_f\weapons\Other\dry_1", db-5, 1, 10}; /// custom made sounds
+		};
+	};
 };
  

@@ -11,6 +11,7 @@ These will be update everytime i add stuff that has someone new/else than me tha
 - Tuuttipingu for RK62M2 and RK62 models
 - Holm for MPT55 texture
 - Jackx2210 (Caboose) for SPC Vest config template
+- WitheredMaple for K2 and K2C1 weapons
 
 OG BLUFOR:
 - Whitey

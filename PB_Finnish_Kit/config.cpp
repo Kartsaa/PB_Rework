@@ -838,7 +838,7 @@ class cfgWeapons
 	};
 	class PB_M05W_FAST: PB_M05_FAST
 	{
-		displayName = "[M04] Ops Core FAST (Headset)";
+		displayName = "[M05W] Ops Core FAST (Headset)";
 		hiddenSelectionsTextures[] = 
 		{
 			"\PB_Finnish_Kit\data\M05W_opscore_co.paa",
@@ -915,7 +915,7 @@ class cfgWeapons
 	};
 	class PB_M04_FAST_H: PB_M05_FAST_H
 	{
-		displayName = "[M05W] Ops Core FAST (Headset)";
+		displayName = "[M04] Ops Core FAST (Headset)";
 		hiddenSelectionsTextures[] = 
 		{
 			"\PB_Finnish_Kit\data\M04_opscore_co.paa",
@@ -1052,7 +1052,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[M054] Military Cap";
+		displayName = "[M04] Military Cap";
 		picture = "\PB_Main\UI\cap_test.paa";
 		model = "\A3\Characters_F\Common\cappatrol";
 		hiddenSelections[] = {"camo"};
