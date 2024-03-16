@@ -54,7 +54,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_01.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "\PB_Main\ui\KOR\PB_GRANITEB_GORA_CA.PAA";
 		hiddenSelections[] = {"camo","insignia"};
 		hiddenSelectionsTextures[] = {"\PB_Korean_Kit\data\GRANITEB_Fatigues_co.paa"};
 	};
@@ -63,7 +63,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_02.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "\PB_Main\ui\KOR\PB_GRANITEB_GORA_RU_CA.PAA";
 		hiddenSelections[] = {"camo","insignia"};
 		hiddenSelectionsTextures[] = {"\PB_Korean_Kit\data\GRANITEB_Fatigues_co.paa"};
 	};
@@ -72,7 +72,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_03.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "\PB_Main\ui\KOR\PB_GRANITEB_GORAG_CA.PAA";
 		hiddenSelections[] = {"camo","camo1","insignia"};
 		
 		hiddenSelectionsTextures[] = {"\PB_Korean_Kit\data\GRANITEB_Fatigues_co.paa","PB_Korean_Kit\data\TacGloves_khk_CO.paa"};
@@ -82,14 +82,14 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_04.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "\PB_Main\ui\KOR\PB_GRANITEB_GORAG_RU_CA.PAA";
 		hiddenSelections[] = {"camo","camo1","insignia"};
 		hiddenSelectionsTextures[] = {"\PB_Korean_Kit\data\GRANITEB_Fatigues_co.paa","PB_Korean_Kit\data\TacGloves_khk_CO.paa"};
 	};
 ///BACKPACKS////
 	class PB_EAGLE_GRANITEB: B_AssaultPack_Base
 	{
-		picture = "PB_Main\ui\kitbag_test.paa";
+		picture = "\PB_Main\ui\KOR\PB_EAGLE_GRANITEB_CA.PAA";
 		dlc = "RHS_USAF";
 		scope = 2;
 		author = "Kartsa";
@@ -101,7 +101,7 @@ class CfgVehicles
 	};
 	class PB_EAGLE_MED_GRANITEB: B_AssaultPack_Base
 	{
-		picture = "PB_Main\ui\kitbag_test.paa";
+		picture = "\PB_Main\ui\KOR\PB_EAGLE_MED_GRANITEB_CA.PAA";
 		dlc = "RHS_USAF";
 		scope = 2;
 		author = "Kartsa";
@@ -116,7 +116,7 @@ class CfgVehicles
 		author = "Kartsa";
 		scope = 2;
 		displayName = "[GRANITEB] Carryall Backpack";
-		picture = "PB_Main\ui\kitbag_test.paa";
+		picture = "\PB_Main\ui\KOR\PB_carryall_GRANITEB_CA.paa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Tortila";
 		hiddenSelectionsTextures[] = {"PB_Korean_Kit\data\GRANITEB_CB_CO.paa"};	
 		maximumLoad = 320;
@@ -127,7 +127,7 @@ class CfgVehicles
 		author = "Kartsa";
 		scope = 2;
 		displayName = "[GRANITEB] Radiobag";
-		picture = "PB_Main\ui\Contact_LR.paa";
+		picture = "\PB_Main\ui\KOR\PB_Radiobag_GRANITEB_CA.paa";
 		model = "a3\Supplies_F_Enoch\Bags\B_RadioBag_01_F.p3d";
 		hiddenSelections[] = {"camo1"};
 		hiddenSelectionsTextures[] = {"PB_Korean_Kit\data\GRANITEB_RB_CO.paa"};	
@@ -166,7 +166,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[GRANITEB] Fatigues";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "\PB_Main\ui\KOR\PB_GRANITEB_GORA_CA.PAA";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -183,7 +183,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[GRANITEB] Fatigues (Rolled-Up)";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "\PB_Main\ui\KOR\PB_GRANITEB_GORA_RU_CA.PAA";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -200,7 +200,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[GRANITEB] Fatigues with Gloves";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "\PB_Main\ui\KOR\PB_GRANITEB_GORAG_CA.PAA";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -217,7 +217,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[GRANITEB] Fatigues with Gloves (Rolled-Up)";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "\PB_Main\ui\KOR\PB_GRANITEB_GORAG_RU_CA.PAA";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -236,7 +236,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[GRANITEB] Boonie Hat";
-		picture = "\PB_Main\UI\cap_test.paa";
+		picture = "\PB_Main\ui\KOR\PB_GRANITEB_BOONIE_CA.PAA";
 		model = "\A3\Characters_F\Common\booniehat";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\PB_Korean_Kit\Data\GRANITEB_boonie.paa"};
@@ -263,7 +263,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[GRANITEB] Military Cap";
-		picture = "\PB_Main\UI\cap_test.paa";
+		picture = "\PB_Main\ui\KOR\PB_GRANITEB_CAP_CA.PAA";
 		model = "\A3\Characters_F\Common\cappatrol";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\PB_Korean_Kit\Data\GRANITEB_cap.paa"};
@@ -290,7 +290,7 @@ class cfgWeapons
 		scope = 2;
 		displayName = "[GRANITEB] Beanie";
 		weaponPoolAvailable = 1;
-		picture = "\PB_Main\ui\cap_test.paa";
+		picture = "\PB_Main\ui\KOR\PB_GRANITEB_BEANIE_CA.PAA";
 		model = "\A3\Characters_F\Common\woolhat";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_Korean_Kit\data\GRANITEB_beanie.paa"};
@@ -320,7 +320,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[GRANITEB] Helmet";
-		picture = "\PB_Main\ui\helmet_test.paa";
+		picture = "\PB_Main\ui\KOR\PB_GRANITEB_H_CA.PAA";
 		model="\A3\Characters_F_Beta\INDEP\headgear_helmet_canvas.p3d";
 		hiddenSelections[]=
 		{
@@ -385,7 +385,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		displayName = "[GRANITEB] Modular Carrier Lite";
-		picture = "\PB_Main\ui\vest_test.paa";
+		picture = "\PB_Main\ui\KOR\PB_GRANITEB_MODULAR_LITE_CA.PAA";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_light_F.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_Korean_Kit\data\GRANITEB_Modular.paa"};
@@ -427,7 +427,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		displayName = "[GRANITEB] Modular Carrier Vest";
-		picture = "\PB_Main\ui\vest_test.paa";
+		picture = "\PB_Main\ui\KOR\PB_GRANITEB_MODULAR_CA.PAA";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_F.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_Korean_Kit\data\GRANITEB_Modular.paa"};
@@ -469,7 +469,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		author = "Kartsa";
-		picture = "\PB_Main\ui\vest_test.paa";
+		picture = "\PB_Main\ui\KOR\PB_GRANITEB_CARRIER_LITE_CA.PAA";
 		Model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
 		displayName = "[GRANITEB] Carrier Lite";
 		hiddenSelections[] = {"camo"};
@@ -513,7 +513,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		author = "Kartsa";
-		picture = "\PB_Main\ui\vest_test.paa";
+		picture = "\PB_Main\ui\KOR\PB_GRANITEB_CARRIER_RIG_CA.PAA";
 		Model = "\A3\Characters_F\BLUFOR\equip_b_vest01";
 		displayName = "[GRANITEB] Carrier Rig";
 		hiddenSelections[] = {"camo"};

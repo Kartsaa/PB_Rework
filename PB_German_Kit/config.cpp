@@ -602,7 +602,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[TROPENTARN] Fatigues (Rolled-Up)";
-		picture = "\PB_Main\UI\GER\PB_TROP_GORAG_RU_CA.paa";
+		picture = "\PB_Main\UI\GER\PB_TROP_GORA_RU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -1485,7 +1485,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[FLECKTARN] Boonie Hat";
-		picture = "";
+		picture = "\PB_Main\UI\GER\PB_FLECK_BOONIE_CA.paa";
 		model = "\A3\Characters_F\Common\booniehat";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\PB_German_Kit\Data\FLECK_boonie.paa"};
@@ -1515,7 +1515,7 @@ class cfgWeapons
 	class PB_TROP_Boonie: PB_FLECK_Boonie
 	{
 		displayName = "[TROPENTARN] Boonie Hat";
-		picture = "";
+		picture = "\PB_Main\UI\GER\PB_TROP_BOONIE_CA.paa";
 		hiddenSelectionsTextures[] = {"\PB_German_Kit\Data\TROP_boonie.paa"};
 	};
 };

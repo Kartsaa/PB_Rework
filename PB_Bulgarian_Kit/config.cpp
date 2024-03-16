@@ -54,7 +54,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_01.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "\PB_Main\UI\BUL\PB_M18_GORA_CA.paa";
 		hiddenSelections[] = {"camo","insignia"};
 		hiddenSelectionsTextures[] = {"\PB_Bulgarian_Kit\data\M18_Fatigues_co.paa"};
 	};
@@ -63,7 +63,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_02.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "\PB_Main\UI\BUL\PB_M18_GORA_RU_CA.paa";
 		hiddenSelections[] = {"camo","insignia"};
 		hiddenSelectionsTextures[] = {"\PB_Bulgarian_Kit\data\M18_Fatigues_co.paa"};
 	};
@@ -72,9 +72,8 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_03.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "\PB_Main\UI\BUL\PB_M18_GORAG_CA.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
-		
 		hiddenSelectionsTextures[] = {"\PB_Bulgarian_Kit\data\M18_Fatigues_co.paa","PB_British_Kit\data\TacGloves_Clk_CO.paa"};
 	};
 	class PB_M18_GoraG_B_RU: B_Soldier_base_F
@@ -82,7 +81,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_04.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "\PB_Main\UI\BUL\PB_M18_GORAG_RU_CA.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
 		hiddenSelectionsTextures[] = {"\PB_Bulgarian_Kit\data\M18_Fatigues_co.paa","PB_British_Kit\data\TacGloves_Clk_CO.paa"};
 	};
@@ -91,7 +90,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_F.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "\PB_Main\UI\BUL\PB_M18_ACU_CA.paa";
 		hiddenSelections[] = {"camo","camo1","camo2"};
         hiddenSelectionsTextures[] = 
         {
@@ -105,7 +104,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_02_F.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "\PB_Main\UI\BUL\PB_M18_ACU_R_CA.paa";
 		hiddenSelections[] = {"camo","camo1","camo2"};
         hiddenSelectionsTextures[] = 
         {
@@ -148,7 +147,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[M18] Combat Uniform";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "\PB_Main\UI\BUL\PB_M18_ACU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -165,7 +164,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[M18] Combat Uniform (Rolled-Up)";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "\PB_Main\UI\BUL\PB_M18_ACU_R_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -182,7 +181,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[M18] Field Shirt";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "\PB_Main\UI\BUL\PB_M18_GORA_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -199,7 +198,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[M18] Field Shirt (Rolled-Up)";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "\PB_Main\UI\BUL\PB_M18_GORA_RU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -216,7 +215,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[M18] Field Shirt with Gloves";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "\PB_Main\UI\BUL\PB_M18_GORAG_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -233,7 +232,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[M18] Field Shirt with Gloves (Rolled-Up)";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "\PB_Main\UI\BUL\PB_M18_GORAG_RU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -252,7 +251,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[M18] Boonie Hat";
-		picture = "\PB_Main\UI\cap_test.paa";
+		picture = "\PB_Main\UI\BUL\PB_M18_BOONIE_CA.paa";
 		model = "\A3\Characters_F\Common\booniehat";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\PB_Bulgarian_Kit\Data\M18_boonie.paa"};
@@ -279,7 +278,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[M18] Military Cap";
-		picture = "\PB_Main\UI\cap_test.paa";
+		picture = "\PB_Main\UI\BUL\PB_M18_CAP_CA.paa";
 		model = "\A3\Characters_F\Common\cappatrol";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\PB_Bulgarian_Kit\Data\M18_cap.paa"};
@@ -305,7 +304,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		displayName = "[M18] Beanie";
-		picture = "\PB_Main\ui\cap_test.paa";
+		picture = "\PB_Main\UI\BUL\PB_M18_BEANIE_CA.paa";
 		model = "\A3\Characters_F\Common\woolhat";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_Bulgarian_Kit\data\M18_beanie.paa"};
@@ -333,7 +332,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		picture = "\PB_Main\ui\helmet_test.paa";
+		picture = "\PB_Main\UI\BUL\PB_M18_H_N_CA.paa";
 		displayName = "[M18] Helmet (Norotos)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_01_nor1";
 		hiddenSelections[] = {"Camo1","Camo2"};
@@ -389,7 +388,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		picture = "\PB_Main\ui\helmet_test.paa";
+		picture = "\PB_Main\UI\BUL\PB_M18_H_N_H_CA.paa";
 		displayName = "[M18] Helmet (Norotos/Headset)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_01_nor1_bowman";
 		hiddenSelections[] = {"Camo1","Camo2"};
@@ -445,7 +444,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		picture = "\PB_Main\ui\helmet_test.paa";
+		picture = "\PB_Main\UI\BUL\PB_M18_H_N_A_CA.paa";
 		displayName = "[M18] Helmet (Norotos/ARC)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_01_nor1_arc";
 		hiddenSelections[] = {"Camo1","Camo2"};

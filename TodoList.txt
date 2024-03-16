@@ -13,9 +13,10 @@ Countries:
  - Norway
  - Slovakia
  - Spain
- - Sweden
  - Turkey
  - Ukraine
+
+UN Gear
 
 Weapons:
  - Type 20

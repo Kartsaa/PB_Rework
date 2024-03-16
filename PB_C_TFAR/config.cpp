@@ -276,6 +276,7 @@ class CfgVehicles
 	class PB_RT1523BIG_M05: PB_RT1523BIG_Base
 	{
 		displayName = "[M05] RT-1523G BIG";
+		picture = "PB_Main\ui\FIN\PB_RT1523BIG_M05_CA.paa";
 		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\M05_NICECOMM2_co.paa"};
 		range = 40000;
 		scope = 2;
@@ -284,6 +285,7 @@ class CfgVehicles
 	{
 		
 		displayName = "[M05] RT-1523G";
+		picture = "PB_Main\ui\FIN\PB_RT1523_M05_CA.paa";
 		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\M05_PRC177_CO.paa"};
 		range = 40000;
 		scope = 2;
@@ -295,6 +297,7 @@ class CfgVehicles
 	class PB_RT1523BIG_M04: PB_RT1523BIG_Base
 	{
 		displayName = "[M04] RT-1523G BIG";
+		picture = "PB_Main\ui\FIN\PB_RT1523BIG_M04_CA.paa";
 		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\M04_NICECOMM2_co.paa"};
 		range = 40000;
 		scope = 2;
@@ -303,6 +306,7 @@ class CfgVehicles
 	{
 		
 		displayName = "[M04] RT-1523G";
+		picture = "PB_Main\ui\FIN\PB_RT1523_M04_CA.paa";
 		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\M04_PRC177_CO.paa"};
 		range = 40000;
 		scope = 2;
@@ -315,6 +319,7 @@ class CfgVehicles
 	class PB_RT1523BIG_JIGSAW: PB_RT1523BIG_Base
 	{
 		displayName = "[JIGSAW] RT-1523G BIG";
+		picture = "\PB_Main\ui\BEL\PB_RT1523BIG_JIGSAW_CA.paa";
 		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\JIGSAW_NICECOMM2_co.paa"};
 		range = 40000;
 		scope = 2;
@@ -323,6 +328,7 @@ class CfgVehicles
 	{
 		
 		displayName = "[JIGSAW] RT-1523G";
+		picture = "\PB_Main\ui\BEL\PB_RT1523_JIGSAW_CA.paa";
 		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\JIGSAW_PRC177_CO.paa"};
 		range = 40000;
 		scope = 2;
@@ -335,6 +341,7 @@ class CfgVehicles
 	class PB_RT1523BIG_GREEN: PB_RT1523BIG_Base
 	{
 		displayName = "[GREEN] RT-1523G BIG";
+		picture = "PB_Main\ui\UNI\PB_RT1523BIG_GREEN_CA.paa";
 		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\GREEN_NICECOMM2_co.paa"};
 		range = 40000;
 		scope = 2;
@@ -343,6 +350,7 @@ class CfgVehicles
 	{
 		
 		displayName = "[GREEN] RT-1523G";
+		picture = "PB_Main\ui\UNI\PB_RT1523_GREEN_CA.paa";
 		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\GREEN_PRC177_CO.paa"};
 		range = 40000;
 		scope = 2;
@@ -355,14 +363,15 @@ class CfgVehicles
 	class PB_RT1523BIG_WZ93W: PB_RT1523BIG_Base
 	{
 		displayName = "[WZ93W] RT-1523G BIG";
+		picture = "PB_Main\ui\POL\PB_RT1523BIG_WZ93W_CA.paa";
 		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\WZ93W_NICECOMM2_co.paa"};
 		range = 40000;
 		scope = 2;
 	};
 	class PB_RT1523_WZ93W: PB_RT1523G_Base
 	{
-		
 		displayName = "[WZ93W] RT-1523G";
+		picture = "PB_Main\ui\POL\PB_RT1523_WZ93W_CA.paa";
 		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\WZ93W_PRC177_CO.paa"};
 		range = 40000;
 		scope = 2;
@@ -375,6 +384,7 @@ class CfgVehicles
 	class PB_RT1523BIG_GRANITEB: PB_RT1523BIG_Base
 	{
 		displayName = "[GRANITEB] RT-1523G BIG";
+		picture = "\PB_Main\ui\KOR\PB_RT1523BIG_GRANITEB_CA.paa";
 		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\GRANITEB_NICECOMM2_co.paa"};
 		range = 40000;
 		scope = 2;
@@ -383,7 +393,30 @@ class CfgVehicles
 	{
 		
 		displayName = "[GRANITEB] RT-1523G";
+		picture = "\PB_Main\ui\KOR\PB_RT1523_GRANITEB_CA.paa";
 		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\GRANITEB_PRC177_CO.paa"};
+		range = 40000;
+		scope = 2;
+	};
+///SWEDEN///
+	class PB_Radiobag_M90: PB_Bag_Base_2
+	{
+		tf_range = 40000;
+	};
+	class PB_RT1523BIG_M90: PB_RT1523BIG_Base
+	{
+		displayName = "[M90] RT-1523G BIG";
+		picture = "PB_Main\ui\SWE\PB_RT1523BIG_M90_CA.paa";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\M90_NICECOMM2_co.paa"};
+		range = 40000;
+		scope = 2;
+	};
+	class PB_RT1523_M90: PB_RT1523G_Base
+	{
+		
+		displayName = "[M90] RT-1523G";
+		picture = "PB_Main\ui\SWE\PB_RT1523_M90_CA.paa";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\M90_PRC177_CO.paa"};
 		range = 40000;
 		scope = 2;
 	};

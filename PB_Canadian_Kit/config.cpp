@@ -248,7 +248,7 @@ class CfgVehicles
 		author = "Kartsa";
 		scope = 2;
 		displayName = "[CADPAT-AR] Radiobag";
-		picture = "\PB_Main\UI\CAN\PB_Radiobag_CADPATTW_ca.paa";
+		picture = "\PB_Main\UI\CAN\PB_Radiobag_CADPATAR_ca.paa";
 		model = "a3\Supplies_F_Enoch\Bags\B_RadioBag_01_F.p3d";
 		hiddenSelections[] = {"camo1"};
 		hiddenSelectionsTextures[] = {"PB_Canadian_Kit\data\CADPATAR_RB_CO.paa"};	

@@ -53,7 +53,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_F.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "\PB_Main\UI\CZE\PB_MAD21_ACU_CA.PAA";
 		hiddenSelections[] = {"camo","camo1","camo2"};
         hiddenSelectionsTextures[] = 
         {
@@ -67,7 +67,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_02_F.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "\PB_Main\UI\CZE\PB_MAD21_ACU_R_CA.PAA";
 		hiddenSelections[] = {"camo","camo1","camo2"};
         hiddenSelectionsTextures[] = 
         {
@@ -81,7 +81,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_F.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "\PB_Main\UI\CZE\PB_VZ95D_ACU_CA.PAA";
 		hiddenSelections[] = {"camo","camo1","camo2"};
         hiddenSelectionsTextures[] = 
         {
@@ -95,7 +95,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_02_F.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "\PB_Main\UI\CZE\PB_VZ95D_ACU_R_CA.PAA";
 		hiddenSelections[] = {"camo","camo1","camo2"};
         hiddenSelectionsTextures[] = 
         {
@@ -109,7 +109,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_F.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "\PB_Main\UI\CZE\PB_VZ95W_ACU_CA.PAA";
 		hiddenSelections[] = {"camo","camo1","camo2"};
         hiddenSelectionsTextures[] = 
         {
@@ -123,7 +123,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_02_F.p3d";
-		picture = "\PB_Main\UI\uniform_test.paa";
+		picture = "\PB_Main\UI\CZE\PB_VZ95W_ACU_R_CA.PAA";
 		hiddenSelections[] = {"camo","camo1","camo2"};
         hiddenSelectionsTextures[] = 
         {
@@ -164,7 +164,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[MAD21] Combat Uniform";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "\PB_Main\UI\CZE\PB_MAD21_ACU_CA.PAA";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -181,7 +181,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[MAD21] Combat Uniform (Rolled-Up)";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "\PB_Main\UI\CZE\PB_MAD21_ACU_R_CA.PAA";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -198,7 +198,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[VZ95D] Combat Uniform";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "\PB_Main\UI\CZE\PB_VZ95D_ACU_CA.PAA";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -215,7 +215,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[VZ95D] Combat Uniform (Rolled-Up)";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "\PB_Main\UI\CZE\PB_VZ95D_ACU_R_CA.PAA";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -232,7 +232,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[VZ95W] Combat Uniform";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "\PB_Main\UI\CZE\PB_VZ95W_ACU_CA.PAA";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -249,7 +249,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		displayName = "[VZ95W] Combat Uniform (Rolled-Up)";
-		picture = "\PB_Main\ui\uniform_test.paa";
+		picture = "\PB_Main\UI\CZE\PB_VZ95W_ACU_R_CA.PAA";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
@@ -267,7 +267,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		displayName = "[MAD21] Modular Carrier Lite";
-		picture = "\PB_Main\ui\vest_test.paa";
+		picture = "\PB_Main\UI\CZE\PB_MAD21_MODULAR_LITE_CA.PAA";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_light_F.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_Czech_Kit\data\MAD21_Modular.paa"};
@@ -309,7 +309,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		displayName = "[MAD21] Modular Carrier Vest";
-		picture = "\PB_Main\ui\vest_test.paa";
+		picture = "\PB_Main\UI\CZE\PB_MAD21_MODULAR_CA.PAA";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_F.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_Czech_Kit\data\MAD21_Modular.paa"};
@@ -351,7 +351,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		author = "Kartsa";
-		picture = "\PB_Main\ui\vest_test.paa";
+		picture = "\PB_Main\UI\CZE\PB_MAD21_CARRIERLITE_CO_CA.PAA";
 		Model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
 		displayName = "[MAD21] Carrier Lite";
 		hiddenSelections[] = {"camo"};
@@ -395,8 +395,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		author = "Kartsa";
-		picture = "\PB_Main\ui\vest_test.paa";
-		Model = "\A3\Characters_F\BLUFOR\equip_b_vest01";
+		picture = "\PB_Main\UI\CZE\PB_MAD21_CARRIER_RIG_CA.PAA";
 		displayName = "[MAD21] Carrier Rig";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_Czech_Kit\data\MAD21_CARRIERLITE_CO.paa"};
@@ -438,16 +437,19 @@ class cfgWeapons
 	class PB_VZ95W_Modular_Lite: PB_MAD21_Modular_Lite
 	{
 		displayName = "[VZ95W] Modular Carrier Lite";
+		picture = "\PB_Main\UI\CZE\PB_VZ95W_MODULAR_LITE_CA.PAA";
 		hiddenSelectionsTextures[] = {"PB_Czech_Kit\data\VZ95W_Modular.paa"};
 	};
 	class PB_VZ95W_Modular: PB_MAD21_Modular
 	{
 		displayName = "[VZ95W] Modular Carrier Vest";
+		picture = "\PB_Main\UI\CZE\PB_VZ95W_MODULAR_CA.PAA";
 		hiddenSelectionsTextures[] = {"PB_Czech_Kit\data\VZ95W_Modular.paa"};
 	};
 	class PB_VZ95W_CARRIERLITE_CO: PB_MAD21_CARRIERLITE_CO
 	{
 		displayName = "[VZ95W] Carrier Lite";
+		picture = "\PB_Main\UI\CZE\PB_VZ95W_CARRIERLITE_CO_CA.PAA";
 		hiddenSelectionsTextures[] = {"PB_Czech_Kit\data\VZ95W_CARRIERLITE_CO.paa"};
 		class ItemInfo: VestItem
 		{
@@ -488,6 +490,7 @@ class cfgWeapons
 	{
 		displayName = "[VZ95W] Carrier Rig";
 		hiddenSelections[] = {"camo"};
+		picture = "\PB_Main\UI\CZE\PB_VZ95W_CARRIER_RIG_CA.PAA";
 		hiddenSelectionsTextures[] = {"PB_Czech_Kit\data\VZ95W_CARRIERLITE_CO.paa"};
 		class ItemInfo: VestItem
 		{
@@ -529,7 +532,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		picture = "\PB_Main\ui\helmet_test.paa";
+		picture = "\PB_Main\UI\CZE\PB_VZ95W_H_CA.PAA";
 		displayName = "[VZ95W] Helmet";
 		allowedFacewear[] =
 		{
@@ -582,7 +585,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		picture = "\PB_Main\ui\helmet_test.paa";
+		picture = "\PB_Main\UI\CZE\PB_VZ95W_H_ESS_CA.PAA";
 		displayName = "[VZ95W] Helmet (ESS)";
 		allowedFacewear[] =
 		{
@@ -634,7 +637,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		picture = "\PB_Main\ui\helmet_test.paa";
+		picture = "\PB_Main\UI\CZE\PB_VZ95W_H_HESS_CA.PAA";
 		displayName = "[VZ95W] Helmet (Headset/ESS)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\lwh_wd_headset";
 		allowedFacewear[] =
@@ -687,7 +690,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		picture = "\PB_Main\ui\helmet_test.paa";
+		picture = "\PB_Main\UI\CZE\PB_VZ95D_H_CA.PAA";
 		displayName = "[VZ95D] Helmet";
 		allowedFacewear[] =
 		{
@@ -740,7 +743,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		picture = "\PB_Main\ui\helmet_test.paa";
+		picture = "\PB_Main\UI\CZE\PB_VZ95D_H_ESS_CA.PAA";
 		displayName = "[VZ95D] Helmet (ESS)";
 		allowedFacewear[] =
 		{
@@ -792,7 +795,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		picture = "\PB_Main\ui\helmet_test.paa";
+		picture = "\PB_Main\UI\CZE\PB_VZ95D_H_HESS_CA.PAA";
 		displayName = "[VZ95D] Helmet (Headset/ESS)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\lwh_wd_headset";
 		allowedFacewear[] =
@@ -845,7 +848,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		picture = "\PB_Main\ui\helmet_test.paa";
+		picture = "\PB_Main\UI\CZE\PB_MAD21_H_CA.PAA";
 		displayName = "[MAD21] Helmet";
 		allowedFacewear[] =
 		{
@@ -898,7 +901,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		picture = "\PB_Main\ui\helmet_test.paa";
+		picture = "\PB_Main\UI\CZE\PB_MAD21_H_ESS_CA.PAA";
 		displayName = "[MAD21] Helmet (ESS)";
 		allowedFacewear[] =
 		{
@@ -950,7 +953,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		picture = "\PB_Main\ui\helmet_test.paa";
+		picture = "\PB_Main\UI\CZE\PB_MAD21_H_HESS_CA.PAA";
 		displayName = "[MAD21] Helmet (Headset/ESS)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\lwh_wd_headset";
 		allowedFacewear[] =
@@ -1006,7 +1009,7 @@ class cfgWeapons
 		scope = 2;
 		displayName = "[MAD21] Beanie";
 		weaponPoolAvailable = 1;
-		picture = "\PB_Main\ui\cap_test.paa";
+		picture = "\PB_Main\UI\CZE\PB_MAD21_BEANIE_CA.PAA";
 		model = "\A3\Characters_F\Common\woolhat";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_Czech_Kit\data\MAD21_beanie.paa"};
@@ -1032,6 +1035,7 @@ class cfgWeapons
 	class PB_VZ95W_Beanie: PB_MAD21_Beanie
 	{
 		displayName = "[VZ95W] Beanie";
+		picture = "\PB_Main\UI\CZE\PB_VZ95W_BEANIE_CA.PAA";
 		hiddenSelectionsTextures[] = {"PB_Czech_Kit\data\VZ95W_beanie.paa"};
 	};
 	class PB_MAD21_Cap: Helmet_Base
@@ -1040,7 +1044,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[MAD21] Military Cap";
-		picture = "\PB_Main\UI\cap_test.paa";
+		picture = "\PB_Main\UI\CZE\PB_MAD21_CAP_CA.PAA";
 		model = "\A3\Characters_F\Common\cappatrol";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\PB_Czech_Kit\Data\MAD21_cap.paa"};
@@ -1067,7 +1071,7 @@ class cfgWeapons
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[MAD21] Boonie Hat";
-		picture = "\PB_Main\UI\cap_test.paa";
+		picture = "\PB_Main\UI\CZE\PB_MAD21_BOONIE_CA.PAA";
 		model = "\A3\Characters_F\Common\booniehat";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\PB_Czech_Kit\Data\MAD21_boonie.paa"};
@@ -1091,21 +1095,25 @@ class cfgWeapons
 	class PB_VZ95D_Cap: PB_MAD21_Cap
 	{
 		displayName = "[VZ95D] Military Cap";
+		picture = "\PB_Main\UI\CZE\PB_VZ95D_CAP_CA.PAA";
 		hiddenSelectionsTextures[] = {"\PB_Czech_Kit\Data\VZ95D_cap.paa"};
 	};
 	class PB_VZ95D_Boonie: PB_MAD21_Boonie
 	{
 		displayName = "[VZ95D] Boonie Hat";
+		picture = "\PB_Main\UI\CZE\PB_VZ95D_BOONIE_CA.PAA";
 		hiddenSelectionsTextures[] = {"\PB_Czech_Kit\Data\VZ95D_boonie.paa"};
 	};
 	class PB_VZ95W_Boonie: PB_MAD21_Boonie
 	{
 		displayName = "[VZ95W] Boonie Hat";
+		picture = "\PB_Main\UI\CZE\PB_VZ95W_BOONIE_CA.PAA";
 		hiddenSelectionsTextures[] = {"\PB_Czech_Kit\Data\VZ95W_boonie.paa"};
 	};
 	class PB_VZ95W_Cap: PB_MAD21_Cap
 	{
 		displayName = "[VZ95W] Military Cap";
+		picture = "\PB_Main\UI\CZE\PB_VZ95W_CAP_CA.PAA";
 		hiddenSelectionsTextures[] = {"\PB_Czech_Kit\Data\VZ95W_cap.paa"};
 	};
 };
