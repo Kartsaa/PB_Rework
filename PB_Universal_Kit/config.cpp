@@ -112,6 +112,62 @@ class CfgVehicles
 		hiddenSelections[] = {"camo1","camo2","camo3","insignia"};
 		hiddenSelectionsTextures[] = {"\PB_Universal_Kit\data\GR_COVERALLS_CO.paa","a3\characters_f_enoch\uniforms\data\i_e_soldier_01_pants_co.paa","a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_black_co.paa"};
 	};
+	class PB_BLACK_ACU_B: B_Soldier_base_F
+	{
+		scope = 1;
+		author = "Kartsa";
+		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_F.p3d";
+		picture = "\PB_MAIN\ui\UNI\PB_black_acu_CA.paa";
+		hiddenSelections[] = {"camo","camo1","camo2"};
+        hiddenSelectionsTextures[] = 
+        {
+            "PB_Universal_Kit\data\BLACK_acu_camo_co.paa",
+            "PB_Universal_Kit\data\BLACK_acu_camo1_co.paa",
+            "PB_British_Kit\data\TacGloves_khk_CO.paa"
+        };
+	};
+	class PB_BLACK_ACU_B_R: B_Soldier_base_F
+	{
+		scope = 1;
+		author = "Kartsa";
+		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_02_F.p3d";
+		picture = "\PB_MAIN\ui\UNI\PB_black_acu_r_CA.paa";
+		hiddenSelections[] = {"camo","camo1","camo2"};
+        hiddenSelectionsTextures[] = 
+        {
+            "PB_Universal_Kit\data\BLACK_acu_camo_co.paa",
+            "PB_Universal_Kit\data\BLACK_acu_camo1_co.paa",
+            "PB_British_Kit\data\TacGloves_khk_CO.paa"
+        };
+	};
+	class PB_MULTICAM_ACU_B: B_Soldier_base_F
+	{
+		scope = 1;
+		author = "Kartsa";
+		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_F.p3d";
+		picture = "\PB_MAIN\ui\UNI\PB_multicam_acu_CA.paa";
+		hiddenSelections[] = {"camo","camo1","camo2"};
+        hiddenSelectionsTextures[] = 
+        {
+            "PB_Universal_Kit\data\MULTICAM_acu_camo_co.paa",
+            "PB_Universal_Kit\data\MULTICAM_acu_camo1_co.paa",
+            "PB_British_Kit\data\TacGloves_khk_CO.paa"
+        };
+	};
+	class PB_MULTICAM_ACU_B_R: B_Soldier_base_F
+	{
+		scope = 1;
+		author = "Kartsa";
+		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_02_F.p3d";
+		picture = "\PB_MAIN\ui\UNI\PB_multicam_acu_r_CA.paa";
+		hiddenSelections[] = {"camo","camo1","camo2"};
+        hiddenSelectionsTextures[] = 
+        {
+            "PB_Universal_Kit\data\MULTICAM_acu_camo_co.paa",
+            "PB_Universal_Kit\data\MULTICAM_acu_camo1_co.paa",
+            "PB_British_Kit\data\TacGloves_khk_CO.paa"
+        };
+	};
 ///BPS///
 	class PB_CARRYALL_GREEN: B_Kitbag_Base
 	{
@@ -155,6 +211,77 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\GREEN_RB_CO.paa"};	
 		maximumLoad = 160;
 		mass = 70;
+	};
+	class PB_CARRYALL_MULTICAM: B_Kitbag_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		displayName = "[MULTICAM] Carryall Backpack";
+		picture = "\PB_MAIN\ui\UNI\PB_carryall_multicam_CA.paa";
+		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Tortila";
+		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\MULTICAM_cb_co.paa"};	
+		maximumLoad = 320;
+		mass = 70;
+	};
+	class PB_Kitbag_MULTICAM: B_Kitbag_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		displayName = "[MULTICAM] Kitbag";
+		picture = "\PB_MAIN\ui\UNI\PB_kitbag_multicam_CA.paa";
+		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast";
+		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\MULTICAM_KB_CO.paa"};	
+		maximumLoad = 200;
+		mass = 40;
+	};
+	class PB_Radiobag_MULTICAM: B_Kitbag_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		displayName = "[MULTICAM] Radiobag";
+		picture = "\PB_MAIN\ui\UNI\PB_radiobag_multicam_CA.paa";
+		model = "a3\Supplies_F_Enoch\Bags\B_RadioBag_01_F.p3d";
+		hiddenSelections[] = {"camo1"};
+		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\MULTICAM_RB_CO.paa"};	
+		maximumLoad = 160;
+		mass = 70;
+	};
+	class PB_COMBATPB_MULTICAM: B_AssaultPack_Base
+	{
+		scope = 2;
+		author = "Kartsa";
+		scopeCurator = 2;
+		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Compact";
+		displayName = "[MULTICAM] Combat Pack";
+		picture = "\PB_MAIN\ui\UNI\PB_combatpb_multicam_CA.paa";
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {"PB_Universal_Kit\Data\MULTICAM_ASS_BP_CO.paa"};
+		maximumLoad = 140;
+		mass = 20;
+	};
+	class PB_EAGLE_MULTICAM: B_AssaultPack_Base
+	{
+		picture = "\PB_MAIN\ui\UNI\PB_eagle_multicam_CA.paa";
+		dlc = "RHS_USAF";
+		scope = 2;
+		author = "Kartsa";
+		model = "\rhsusf\addons\rhsusf_infantry\gear\backpacks\rhsusf_eagleaIII";
+		displayName = "[MULTICAM] Backpack";
+		hiddenSelectionsTextures[] = {"\PB_Universal_Kit\data\MULTICAM_e3_co.paa"};
+		maximumLoad = 180;
+		mass = 45;
+	};
+	class PB_EAGLE_MED_MULTICAM: B_AssaultPack_Base
+	{
+		picture = "\PB_MAIN\ui\UNI\PB_eagle_med_multicam_CA.paa";
+		dlc = "RHS_USAF";
+		scope = 2;
+		author = "Kartsa";
+		model = "\rhsusf\addons\rhsusf_infantry\gear\backpacks\rhsusf_eagleaIII";
+		displayName = "[MULTICAM] Medic Backpack";
+		hiddenSelectionsTextures[] = {"\PB_Universal_Kit\data\MULTICAM_e3_med_co.paa"};
+		maximumLoad = 220;
+		mass = 65;
 	};
 };
 class cfgWeapons
@@ -279,6 +406,74 @@ class cfgWeapons
 			uniformClass="PB_GREEN_HP_B";
 			containerClass="Supply40";
 			mass=40;
+		};
+	};
+	class PB_BLACK_ACU: Uniform_Base
+	{
+		scope = 2;
+		author = "Kartsa";
+		displayName = "[BLACK] Combat Uniform";
+		picture = "\PB_MAIN\ui\UNI\PB_black_acu_CA.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "PB_BLACK_ACU_B";
+			containerClass = "Supply45";
+			mass = 50;
+			allowedSlots[] = {"701","801","901"};
+			armor = 0;
+		};
+	};
+	class PB_BLACK_ACU_R: Uniform_Base
+	{
+		scope = 2;
+		author = "Kartsa";
+		displayName = "[BLACK] Combat Uniform (Rolled-Up)";
+		picture = "\PB_MAIN\ui\UNI\PB_black_acu_r_CA.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "PB_BLACK_ACU_B_R";
+			containerClass = "Supply45";
+			mass = 50;
+			allowedSlots[] = {"701","801","901"};
+			armor = 0;
+		};
+	};
+	class PB_MULTICAM_ACU: Uniform_Base
+	{
+		scope = 2;
+		author = "Kartsa";
+		displayName = "[MULTICAM] Combat Uniform";
+		picture = "\PB_MAIN\ui\UNI\PB_multicam_acu_CA.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "PB_MULTICAM_ACU_B";
+			containerClass = "Supply45";
+			mass = 50;
+			allowedSlots[] = {"701","801","901"};
+			armor = 0;
+		};
+	};
+	class PB_MULTICAM_ACU_R: Uniform_Base
+	{
+		scope = 2;
+		author = "Kartsa";
+		displayName = "[MULTICAM] Combat Uniform (Rolled-Up)";
+		picture = "\PB_MAIN\ui\UNI\PB_multicam_acu_r_CA.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "PB_MULTICAM_ACU_B_R";
+			containerClass = "Supply45";
+			mass = 50;
+			allowedSlots[] = {"701","801","901"};
+			armor = 0;
 		};
 	};
 ///VESTS///
@@ -647,6 +842,264 @@ class cfgWeapons
 			mass = 80;
 			hiddenSelections[] = {"camo"};
 			hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\Tan_Modular.paa"};
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 25;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+				};
+			};
+		};
+	};
+	class PB_BLACK_Modular_Lite: Vest_Camo_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		displayName = "[BLACK] Modular Carrier Lite";
+		picture = "\PB_MAIN\ui\UNI\PB_black_modular_lite_CA.paa";
+		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_light_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\BLACK_Modular.paa"};
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_light_F.p3d";
+			containerClass = "Supply130";
+			mass = 70;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 25;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+				};
+			};
+		};
+	};
+	class PB_BLACK_Modular: Vest_Camo_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		displayName = "[BLACK] Modular Carrier Vest";
+		picture = "\PB_MAIN\ui\UNI\PB_black_modular_CA.paa";
+		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\BLACK_Modular.paa"};
+		descriptionShort = "Armor Level III";
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_F.p3d";
+			containerClass = "Supply30";
+			mass = 50;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 25;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+				};
+			};
+		};
+	};
+	class PB_BLACK_GL: Vest_Camo_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		displayName = "[BLACK] Modular Carrier GL";
+		picture = "\PB_MAIN\ui\UNI\PB_black_gl_CA.paa";
+		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_heavy_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\BLACK_Modular.paa"};
+		class ItemInfo: VestItem
+		{
+			uniformModel = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_heavy_F.p3d";
+			containerClass = "Supply60";
+			mass = 80;
+			hiddenSelections[] = {"camo"};
+			hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\BLACK_Modular.paa"};
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 25;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+				};
+			};
+		};
+	};
+	class PB_MULTICAM_Modular_Lite: Vest_Camo_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		displayName = "[MULTICAM] Modular Carrier Lite";
+		picture = "\PB_MAIN\ui\UNI\PB_multicam_modular_lite_CA.paa";
+		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_light_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\MULTICAM_Modular.paa"};
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_light_F.p3d";
+			containerClass = "Supply130";
+			mass = 70;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 25;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+				};
+			};
+		};
+	};
+	class PB_MULTICAM_Modular: Vest_Camo_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		displayName = "[MULTICAM] Modular Carrier Vest";
+		picture = "\PB_MAIN\ui\UNI\PB_multicam_modular_lite_CA.paa";
+		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\MULTICAM_Modular.paa"};
+		descriptionShort = "Armor Level III";
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_F.p3d";
+			containerClass = "Supply30";
+			mass = 50;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 25;
+					PassThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 25;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+				};
+			};
+		};
+	};
+	class PB_MULTICAM_GL: Vest_Camo_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		displayName = "[MULTICAM] Modular Carrier GL";
+		picture = "\PB_MAIN\ui\UNI\PB_multicam_gl_CA.paa";
+		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_heavy_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\MULTICAM_Modular.paa"};
+		class ItemInfo: VestItem
+		{
+			uniformModel = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_heavy_F.p3d";
+			containerClass = "Supply60";
+			mass = 80;
+			hiddenSelections[] = {"camo"};
+			hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\MULTICAM_Modular.paa"};
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -1256,5 +1709,171 @@ class cfgWeapons
 				};
 			};
 		};
+	};
+	class PB_MULTICAM_TCH: Helmet_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[MULTICAM] Combat Helmet";
+		picture = "\PB_MAIN\ui\UNI\PB_multicam_tch_CA.paa";
+		model = "\A3\Characters_F_Enoch\Headgear\H_HelmetHBK_01_F.p3d";
+		hiddenSelections[] = {"camo"};
+		allowedFacewear[] =
+		{
+			"rhs_googles_black", 1,  
+			"rhs_googles_clear", 1,
+			"rhs_googles_orange", 1,
+			"rhs_googles_yellow", 1,
+			"rhs_ess_black", 1,
+			"G_Bandanna_khk", 1,
+			"G_Bandanna_tan", 1,
+			"rhs_scarf", 1,
+			"rhsusf_shemagh_od", 1,
+			"rhsusf_shemagh2_od", 1,
+			"rhsusf_shemagh2_grn", 1,
+			"rhsusf_shemagh_tan", 1,
+			"rhsusf_shemagh2_tan", 1,
+			"rhsusf_shemagh2_gogg_grn", 1,
+			"rhsusf_shemagh_gogg_grn", 1,
+			"rhsusf_shemagh2_gogg_od", 1,
+			"rhsusf_shemagh_gogg_od", 1,
+			"rhsusf_shemagh_gogg_tan", 1,
+			"rhsusf_shemagh2_gogg_tan", 1,
+			"rhsusf_oakley_goggles_blk", 1,
+			"rhsusf_oakley_goggles_clr", 1,
+			"rhsusf_oakley_goggles_ylw", 1,
+		};
+		hiddenSelectionsTextures[] = {
+			"PB_Universal_Kit\data\MULTICAM_tch_co.paa"
+		};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 30;
+			uniformModel = "\A3\Characters_F_Enoch\Headgear\H_HelmetHBK_01_F.p3d";
+			hiddenSelections[] = {"camo"};
+			modelSides[] =
+			{
+				TWest,
+				TCivilian
+			};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitPointName = "HitHead";
+					armor = 8;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+	class PB_MULTICAM_TCH_H: Helmet_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[MULTICAM] Combat Helmet (Headset)";
+		picture = "\PB_MAIN\ui\UNI\PB_multicam_tch_h_CA.paa";
+		model = "\A3\Characters_F_Enoch\Headgear\H_HelmetHBK_01_headset_F.p3d";
+		hiddenSelections[] = {"camo"};
+		allowedFacewear[] =
+		{
+			"rhs_googles_black", 1,  
+			"rhs_googles_clear", 1,
+			"rhs_googles_orange", 1,
+			"rhs_googles_yellow", 1,
+			"rhs_ess_black", 1,
+			"G_Bandanna_khk", 1,
+			"G_Bandanna_tan", 1,
+			"rhs_scarf", 1,
+			"rhsusf_shemagh_od", 1,
+			"rhsusf_shemagh2_od", 1,
+			"rhsusf_shemagh2_grn", 1,
+			"rhsusf_shemagh_tan", 1,
+			"rhsusf_shemagh2_tan", 1,
+			"rhsusf_shemagh2_gogg_grn", 1,
+			"rhsusf_shemagh_gogg_grn", 1,
+			"rhsusf_shemagh2_gogg_od", 1,
+			"rhsusf_shemagh_gogg_od", 1,
+			"rhsusf_shemagh_gogg_tan", 1,
+			"rhsusf_shemagh2_gogg_tan", 1,
+			"rhsusf_oakley_goggles_blk", 1,
+			"rhsusf_oakley_goggles_clr", 1,
+			"rhsusf_oakley_goggles_ylw", 1,
+		};
+		hiddenSelectionsTextures[] = {
+			"PB_Universal_Kit\data\MULTICAM_tch_co.paa"
+		};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 35;
+			uniformModel = "\A3\Characters_F_Enoch\Headgear\H_HelmetHBK_01_headset_F.p3d";
+			hiddenSelections[] = {"camo"};
+			modelSides[] =
+			{
+				TWest,
+				TCivilian
+			};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitPointName = "HitHead";
+					armor = 8;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+};
+class CfgGlasses
+{
+	class None;
+	class PB_Bala_GR: None
+	{
+		author = "Kartsa, Jamie";
+		displayname = "[GREEN] Balaclava";
+		model = "\PB_M_Headgear\JBala\jam_sov_balaclava.p3d";
+		hiddenselections[] = {"camo"};
+		hiddenselectionstextures[] = {"\PB_Universal_Kit\data\bala\bala_GR_co.paa"};
+		picture = "\PB_MAIN\ui\UNI\PB_bala_gr_CA.paa";
+		identityTypes[] =
+		{
+			"NoGlasses",0, "G_NATO_default",300, "G_NATO_casual",0, "G_NATO_pilot",0, "G_NATO_recon",50, "G_NATO_SF",300, "G_NATO_sniper",0,
+			"G_NATO_diver",0, "G_IRAN_default",0, "G_IRAN_diver",0, "G_GUERIL_default",0, "G_HAF_default",50, "G_CIVIL_female",0, "G_CIVIL_male",0
+		};
+		mass = 4;
+		mode = 4;
+	};
+	class PB_Bala_W: PB_Bala_GR
+	{
+		displayname = "[WINTER] Balaclava";
+		hiddenselectionstextures[] = {"\PB_Universal_Kit\data\bala\bala_W_co.paa"};
+		picture = "\PB_MAIN\ui\UNI\PB_bala_w_CA.paa";
+	};
+	class PB_Bala_GL: PB_Bala_GR
+	{
+		displayname = "[LIGHT GREEN Balaclava";
+		hiddenselectionstextures[] = {"\PB_Universal_Kit\data\bala\bala_L_GR_co.paa"};
+		picture = "\PB_MAIN\ui\UNI\PB_bala_gl_CA.paa";
+	};
+	class PB_Bala_B: PB_Bala_GR
+	{
+		displayname = "[BLACK] Balaclava";
+		hiddenselectionstextures[] = {"\PB_Universal_Kit\data\bala\bala_B_co.paa"};
+		picture = "\PB_MAIN\ui\UNI\PB_bala_b_CA.paa";
+	};
+	class PB_Bala_T: PB_Bala_GR
+	{
+		displayname = "[TAN] Balaclava";
+		hiddenselectionstextures[] = {"\PB_Universal_Kit\data\bala\bala_T_co.paa"};
+		picture = "\PB_MAIN\ui\UNI\PB_bala_t_CA.paa";
+	};
+	class PB_Bala_G: PB_Bala_GR
+	{
+		displayname = "[GREY] Balaclava";
+		hiddenselectionstextures[] = {"\PB_Universal_Kit\data\bala\bala_G_co.paa"};
+		picture = "\PB_MAIN\ui\UNI\PB_bala_g_CA.paa";
 	};
 };

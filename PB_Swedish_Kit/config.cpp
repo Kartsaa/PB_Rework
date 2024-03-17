@@ -119,7 +119,7 @@ class CfgVehicles
 		scope = 1;
 		author = "Kartsa";
 		model = "\rhsafrf\addons\rhs_infantry2\rhs_gorka_gloves.p3d";
-		picture = "\PB_Main\ui\SWE\PB_M90_JACKET_CA.paa";
+		picture = "\PB_Main\ui\SWE\PB_M90_JACKET_ca.paa";
 		hiddenSelections[] = {"camo1","camo2"};
 		hiddenSelectionsTextures[] = {"PB_Swedish_Kit\data\M90_gorkaR_co.paa","rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"};
 	};

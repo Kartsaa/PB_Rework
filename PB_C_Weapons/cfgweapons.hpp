@@ -4335,5 +4335,102 @@ class cfgweapons
 		    drySound[]={"A3\sounds_f\weapons\Other\dry_1", db-5, 1, 10}; /// custom made sounds
 		};
 	};
+	class PB_G3 : Rifle_Base_F 
+	{
+        author = "Krycek, Pete, Toadie";
+		scope = 2;
+		baseweapon = "PB_G3";
+        deployedpivot = "deploypivot";
+        hasBipod = 0;
+        AB_barrelTwist = 12;
+        AB_barrelLength = 17.7;
+        ACE_barrelTwist = 304.8;
+        ACE_barrelLength = 449.58;
+        picture = "\PB_Main\ui\g3\gear_g3a3_x_ca";
+        agm_bipod = 0;
+        cse_bipod = 0;
+        bg_bipod = 0;
+        displayName = "G3A3";
+        reloadAction = "PB_HLC_GestureReloadG3SG1";
+        magazines[] = {"rhsusf_20Rnd_762x51_m80_Mag","rhsusf_20Rnd_762x51_m118_special_Mag","rhsusf_20Rnd_762x51_m993_Mag","rhsusf_20Rnd_762x51_m62_Mag"};
+		magazineWell[] = {"M14_762x51","CBA_762x51_M14","CBA_762x51_M14_L","CBA_762x51_M14_XL"};
+		drySound[] = {"A3\Sounds_F\arsenal\weapons\Rifles\MX\dry_Mx",0.562341,1,10};
+		changeFiremodeSound[] = {"A3\sounds_f\weapons\closure\firemode_changer_2",0.551189,1,5};
+        reloadmagazinesound[] = { "\PB_A_Weapons\g3\snd\g3sg1_reload", 1.0, 1, 25 };
+        handAnim[] = { "OFP2_ManSkeleton", "PB_A_Weapons\g3\handgesture_G3_STD_thin.rtm" };
+        model = "\PB_M_Weapons\g3\g3a3_railed.p3d";
+        hiddenSelections[] = { "Main", "Reciever", "Rec2", "Grip", "rail" };
+        hiddenSelectionsTextures[] = { "PB_T_Weapons\data\g3\g3_co.paa", "PB_T_Weapons\data\g3\g3sg2_co.paa", "PB_T_Weapons\data\g3\recgreen_co.paa", "PB_T_Weapons\data\g3\synthgreen_co.paa", "PB_T_Weapons\data\g3\rail_co.paa" };
+        dexterity = 1.8;
+        recoil = "recoil_mk20";
+        bullet1[] = { "A3\sounds_f\weapons\shells\7_62\metal_762_01", 0.398107, 1, 15 };
+        bullet10[] = { "A3\sounds_f\weapons\shells\7_62\grass_762_02", 0.281838, 1, 15 };
+        bullet11[] = { "A3\sounds_f\weapons\shells\7_62\grass_762_03", 0.281838, 1, 15 };
+        bullet12[] = { "A3\sounds_f\weapons\shells\7_62\grass_762_04", 0.281838, 1, 15 };
+        bullet2[] = { "A3\sounds_f\weapons\shells\7_62\metal_762_02", 0.398107, 1, 15 };
+        bullet3[] = { "A3\sounds_f\weapons\shells\7_62\metal_762_03", 0.398107, 1, 15 };
+        bullet4[] = { "A3\sounds_f\weapons\shells\7_62\metal_762_04", 0.398107, 1, 15 };
+        bullet5[] = { "A3\sounds_f\weapons\shells\7_62\dirt_762_01", 0.281838, 1, 15 };
+        bullet6[] = { "A3\sounds_f\weapons\shells\7_62\dirt_762_02", 0.281838, 1, 15 };
+        bullet7[] = { "A3\sounds_f\weapons\shells\7_62\dirt_762_03", 0.281838, 1, 15 };
+        bullet8[] = { "A3\sounds_f\weapons\shells\7_62\dirt_762_04", 0.281838, 1, 15 };
+        bullet9[] = { "A3\sounds_f\weapons\shells\7_62\grass_762_01", 0.281838, 1, 15 };
+		modes[] = {"Single", "FullAuto"};
+        soundBullet[] = { "bullet1", 0.083, "bullet2", 0.083, "bullet3", 0.083, "bullet4", 0.083, "bullet5", 0.083, "bullet6", 0.083, "bullet7", 0.083, "bullet8", 0.083, "bullet9", 0.083, "bullet10", 0.083, "bullet11", 0.083, "bullet12", 0.083 };
+		class WeaponSlotsInfo : WeaponSlotsInfo 
+		{
+            mass = 96;
+            class CowsSlot : asdg_OpticRail1913 
+			{
+                iconPosition[] = { 0.5, 0.35 };
+                iconScale = 0.0;
+            };
+            class PointerSlot 
+			{
+                iconPosition[] = { 0.2, 0.45 };
+                iconScale = 0.0;
+            }; 
+			class UnderbarrelSlot 
+			{
+                iconPosition[] = { 0.2, 0.45 };
+                iconScale = 0.0;
+            };
+            class MuzzleSlot : asdg_MuzzleSlot_762 
+			{
+                iconPosition[] = { 0.0, 0.45 };
+                iconScale = 0.0;
+            };
+        };
+		class FullAuto : Mode_Fullauto
+		{
+			sounds[] = {"StandardSound","SilencedSound"};
+			class StandardSound
+			{
+				soundSetShot[] = {"RHSGREF_M76_Shot_SoundSet","RHSGREF_Rifle2_Tail_SoundSet"};
+			};
+			class SilencedSound
+			{
+				soundSetShot[] = {"RHSGREF_sd_M76_Shot_SoundSet","RHSGREF_sd_mmg1_Tail_SoundSet"};
+			};
+            dispersion = 0.000436332;
+			reloadtime = "60/600";
+        };
+        class Single : Mode_Semiauto
+		{
+            
+			sounds[] = {"StandardSound","SilencedSound"};
+			class StandardSound
+			{
+				soundSetShot[] = {"RHSGREF_M76_Shot_SoundSet","RHSGREF_Rifle2_Tail_SoundSet"};
+			};
+			class SilencedSound
+			{
+				soundSetShot[] = {"RHSGREF_sd_M76_Shot_SoundSet","RHSGREF_sd_mmg1_Tail_SoundSet"};
+			};
+            dispersion = 0.000436332;
+			reloadtime = "60/600";
+        };
+        inertia = 0.44;
+    };
 };
  

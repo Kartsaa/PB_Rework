@@ -420,4 +420,48 @@ class CfgVehicles
 		range = 40000;
 		scope = 2;
 	};
+///GREEK///
+	class PB_Radiobag_GRELIZ: PB_Bag_Base_2
+	{
+		tf_range = 40000;
+	};
+	class PB_RT1523BIG_GRELIZ: PB_RT1523BIG_Base
+	{
+		displayName = "[GREEK LIZARD] RT-1523G BIG";
+		picture = "\PB_Main\ui\GRE\PB_RT1523BIG_GRELIZ_CA.paa";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\GRELIZ_NICECOMM2_co.paa"};
+		range = 40000;
+		scope = 2;
+	};
+	class PB_RT1523_GRELIZ: PB_RT1523G_Base
+	{
+		
+		displayName = "[GREEK LIZARD] RT-1523G";
+		picture = "\PB_Main\ui\GRE\PB_RT1523_GRELIZ_CA.paa";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\GRELIZ_PRC177_CO.paa"};
+		range = 40000;
+		scope = 2;
+	};
+///MULTICUM///
+	class PB_Radiobag_MULTICAM: PB_Bag_Base_2
+	{
+		tf_range = 40000;
+	};
+	class PB_RT1523BIG_MULTICAM: PB_RT1523BIG_Base
+	{
+		displayName = "[MULTICAM] RT-1523G BIG";
+		picture = "\PB_MAIN\ui\UNI\PB_RT1523BIG_MULTICAM_CA.paa";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\MULTICAM_NICECOMM2_co.paa"};
+		range = 40000;
+		scope = 2;
+	};
+	class PB_RT1523_MULTICAM: PB_RT1523G_Base
+	{
+		
+		displayName = "[MULTICAM] RT-1523G";
+		picture = "\PB_MAIN\ui\UNI\PB_RT1523_MULTICAM_CA.paa";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\MULTICAM_PRC177_CO.paa"};
+		range = 40000;
+		scope = 2;
+	};
 };
