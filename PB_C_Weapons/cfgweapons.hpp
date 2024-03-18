@@ -2176,10 +2176,18 @@ class cfgweapons
         drySound[] = {"A3\sounds_f\weapons\Other\dry_1",0.562341,1,10};
         reloadMagazineSound[] = {"A3\Sounds_F\weapons\Khaybar\reload_khaibar",1,1,10};
 		recoil = "rhs_recoil_ak74m";
+		class LinkedItems
+		{
+			class LinkedItemsMuzzle
+			{
+				slot = "MuzzleSlot";
+				item = "rhsusf_acc_SF3P556";
+			};
+		};
 		class WeaponSlotsInfo
 		{
 			mass = 74.5;
-			class MuzzleSlot: asdg_MuzzleSlot_762{};
+			class MuzzleSlot: asdg_MuzzleSlot_556{};
 			class CowsSlot: rhs_russian_rifle_scopes_slot{};
 			class rhs_npz_slot: SlotInfo
 			{
@@ -2274,6 +2282,14 @@ class cfgweapons
 			mass = 107.5;
 			class PointerSlot{};
 		};
+		class LinkedItems
+		{
+			class LinkedItemsMuzzle
+			{
+				slot = "MuzzleSlot";
+				item = "rhsusf_acc_SF3P556";
+			};
+		};
 		inertia = 0.6;
 		dexterity = 1.4;
 		rhs_npz = "rhs_weap_ak74m_gp25_npz";
@@ -2305,7 +2321,7 @@ class cfgweapons
 		{
 			mass = 70;
 			allowedSlots[] = {901};
-			class MuzzleSlot: asdg_MuzzleSlot_762{};
+			class MuzzleSlot: asdg_MuzzleSlot_556{};
 			class CowsSlot: asdg_OpticRail1913_long{};
 			class GripodSlot: rhs_russian_rifle_gripod_slot{};
 			class PointerSlot: asdg_FrontSideRail{};

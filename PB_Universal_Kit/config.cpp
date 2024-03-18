@@ -1307,7 +1307,7 @@ class cfgWeapons
 		dlc = "RHS_USAF";
 		picture = "PB_Main\ui\UNI\PB_GRN_MICH_BARE_CA.paa";
 		scope = 2;
-		displayName = "[GREEN] MICH 2000";
+		displayName = "[LIGHT GREEN] MICH 2000";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01";
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
 		hiddenSelectionsTextures[] = 
@@ -1365,7 +1365,7 @@ class cfgWeapons
 		dlc = "RHS_USAF";
 		picture = "PB_Main\ui\UNI\PB_GRN_MICH_BARE_HEADSET_CA.paa";
 		scope = 2;
-		displayName = "[GREEN] MICH 2000 (Headset)";
+		displayName = "[LIGHT GREEN] MICH 2000 (Headset)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_bowman";
 		hiddenSelections[] = {"Camo","Camo1","Camo2", "bowman"};
 		hiddenSelectionsTextures[] = 
@@ -1424,7 +1424,7 @@ class cfgWeapons
 		dlc = "RHS_USAF";
 		picture = "PB_Main\ui\UNI\PB_GRN_MICH_BARE_ALT_CA.paa";
 		scope = 2;
-		displayName = "[GREEN] MICH 2000 (Alt)";
+		displayName = "[LIGHT GREEN] MICH 2000 (Alt)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_alt";
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
 		hiddenSelectionsTextures[] = 
@@ -1482,7 +1482,7 @@ class cfgWeapons
 		dlc = "RHS_USAF";
 		picture = "PB_Main\ui\UNI\PB_GRN_MICH_BARE_NOROTOS_ALT_ca.paa";
 		scope = 2;
-		displayName = "[GREEN] MICH 2000 (Norotos)";
+		displayName = "[LIGHT GREEN] MICH 2000 (Norotos)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_nor1";
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
 		hiddenSelectionsTextures[] = 
@@ -1540,7 +1540,7 @@ class cfgWeapons
 		dlc = "RHS_USAF";
 		picture = "PB_Main\ui\UNI\PB_GRN_MICH_BARE_NOROTOS_HEADSET_CA.paa";
 		scope = 2;
-		displayName = "[GREEN] MICH 2000 (Norotos/Headset)";
+		displayName = "[LIGHT GREEN] MICH 2000 (Norotos/Headset)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_nor1_bowman";
 		hiddenSelections[] = {"Camo","Camo1","Camo2", "bowman"};
 		hiddenSelectionsTextures[] = 
@@ -1599,7 +1599,7 @@ class cfgWeapons
 		dlc = "RHS_USAF";
 		picture = "PB_Main\ui\UNI\PB_GRN_MICH_BARE_NOROTOS_ALT_CA.paa";
 		scope = 2;
-		displayName = "[GREEN] MICH 2000 (Norotos/Alt)";
+		displayName = "[LIGHT GREEN] MICH 2000 (Norotos/Alt)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_nor1_alt";
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
 		hiddenSelectionsTextures[] = 
@@ -1657,7 +1657,7 @@ class cfgWeapons
 		dlc = "RHS_USAF";
 		picture = "PB_Main\ui\UNI\PB_GRN_MICH_BARE_NOROTOS_ALT_HEADSET_CA.paa";
 		scope = 2;
-		displayName = "[GREEN] MICH 2000 (Norotos/Alt/Headset)";
+		displayName = "[LIGHT GREEN] MICH 2000 (Norotos/Alt/Headset)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_nor1_alt_bowman";
 		hiddenSelections[] = {"Camo","Camo1","Camo2", "bowman"};
 		hiddenSelectionsTextures[] = 

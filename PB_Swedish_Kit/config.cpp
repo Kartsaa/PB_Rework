@@ -597,11 +597,11 @@ class cfgWeapons
 		hiddenSelectionsTextures[] = 
 		{
 			"\PB_Swedish_Kit\data\M90_opscore_co.paa",
-			"\PB_Main\ui\SWE\PB_M90_JACKET_CA.paa",
-			"\PB_Main\ui\SWE\PB_M90_JACKET_CA.paa",
-			"\PB_Main\ui\SWE\PB_M90_JACKET_CA.paa",
-			"\PB_Main\ui\SWE\PB_M90_JACKET_CA.paa",
-			"\PB_Main\ui\SWE\PB_M90_JACKET_CA.paa"
+			"",
+			"",
+			"",
+			"",
+			"",
 		};
 		class ItemInfo: HeadgearItem
 		{
@@ -662,10 +662,10 @@ class cfgWeapons
 		{
 			"\PB_Swedish_Kit\data\M90_opscore_co.paa",
 			"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa",
-			"\PB_Main\ui\SWE\PB_M90_JACKET_CA.paa",
-			"\PB_Main\ui\SWE\PB_M90_JACKET_CA.paa",
-			"\PB_Main\ui\SWE\PB_M90_JACKET_CA.paa",
-			"\PB_Main\ui\SWE\PB_M90_JACKET_CA.paa"
+			"",
+			"",
+			"",
+			"",
 		};
 		class ItemInfo: HeadgearItem
 		{

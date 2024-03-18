@@ -464,4 +464,26 @@ class CfgVehicles
 		range = 40000;
 		scope = 2;
 	};
+///IRISH///
+	class PB_Radiobag_IDPM: PB_Bag_Base_2
+	{
+		tf_range = 40000;
+	};
+	class PB_RT1523BIG_IDPM: PB_RT1523BIG_Base
+	{
+		displayName = "[IDPM] RT-1523G BIG";
+		picture = "\PB_Main\ui\IRE\PB_rt1523big_idpm_CA.paa";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\IDPM_NICECOMM2_co.paa"};
+		range = 40000;
+		scope = 2;
+	};
+	class PB_RT1523_IDPM: PB_RT1523G_Base
+	{
+		
+		displayName = "[IDPM] RT-1523G";
+		picture = "\PB_Main\ui\IRE\PB_rt1523_idpm_CA.paa";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\IDPM_PRC177_CO.paa"};
+		range = 40000;
+		scope = 2;
+	};
 };

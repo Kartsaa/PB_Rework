@@ -14,6 +14,10 @@ These will be update everytime i add stuff that has someone new/else than me tha
 - WitheredMaple for K2 and K2C1 weapons
 - OokamieJamie for the Balaclava model
 
+Extra thanks:
+
+- POLPOX for the AMAZING item icon script
+
 OG BLUFOR:
 - Whitey
 - Jackx2210 (Caboose)
