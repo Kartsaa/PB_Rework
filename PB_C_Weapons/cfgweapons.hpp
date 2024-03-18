@@ -77,6 +77,10 @@ class cfgweapons
     class UGL_F;
 	class rhs_weap_rpk74m;
 	class rhs_weap_m249_pip;
+	class arifle_TRG21_F;
+	class arifle_TRG21_GL_F;
+	class arifle_TRG20_F;
+	class launch_RPG32_F;
     class PB_EF88 : Rifle_Base_F {
 
         displayname = "Austeyr EF88";
@@ -2805,7 +2809,7 @@ class cfgweapons
 		magazineReloadSwitchPhase = 0.541;
 		class WeaponSlotsInfo
 		{
-			mass = 320;
+			mass = 160;
 			class CowsSlot: asdg_OpticRail1913_short{};
 			class PointerSlot: asdg_FrontSideRail{};
 			class MuzzleSlot: asdg_MuzzleSlot_556{};
@@ -4448,5 +4452,48 @@ class cfgweapons
         };
         inertia = 0.44;
     };
+	class PB_TAR21_Black: arifle_TRG21_F
+	{
+		author = "CapryCorn";
+		baseWeapon = "PB_TAR21_Black";
+		scope = 2;
+		displayName = "TAR-21 (Black)";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\PB_T_Weapons\data\TAR-21\tar21_base_co.paa"};
+	};
+	class PB_GTAR21_EGLM_Black: arifle_TRG21_GL_F
+	{
+		author = "CapryCorn";
+		baseWeapon = "GTAR21_EGLM_Black";
+		scope = 2;
+		displayName = "GTAR-21 EGLM (Black)";
+		hiddenSelections[] = {"camo1"};
+		hiddenSelectionsTextures[] = {"\PB_T_Weapons\data\TAR-21\tar21_base_co.paa"};
+	};
+	class PB_CTAR21_Black: arifle_TRG20_F
+	{
+		author = "CapryCorn";
+		baseWeapon = "CTAR21_Black";
+		scope = 2;
+		displayName = "CTAR-21 (Black)";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\PB_T_Weapons\data\TAR-21\tar21_base_co.paa"};
+	};
+	class PB_RPG32_Black: launch_RPG32_F
+	{
+		author = "CapryCorn";
+		baseweapon = "PB_RPG32_Black";
+		displayName = "RPG-32 (Black)";
+		hiddenSelections[] = {"Camo_1","Camo_2"};
+		hiddenSelectionsTextures[] = {"PB_T_Weapons\data\RPG-32\Black_RPG_32_body_CO.paa","PB_T_Weapons\data\RPG-32\Olive_RPG_32_optics_CO.paa"};
+	};
+	class PB_RPG32_Olive: launch_RPG32_F
+	{
+		author = "CapryCorn";
+		baseweapon = "PB_RPG32_Olive";
+		displayName = "RPG-32 (Olive)";
+		hiddenSelections[] = {"Camo_1","Camo_2"};
+		hiddenSelectionsTextures[] = {"PB_T_Weapons\data\RPG-32\Olive_RPG_32_body_CO.paa","PB_T_Weapons\data\RPG-32\Olive_RPG_32_optics_CO.paa"};
+	};
 };
  

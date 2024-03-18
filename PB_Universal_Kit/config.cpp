@@ -1826,6 +1826,114 @@ class cfgWeapons
 			};
 		};
 	};
+	class PB_beret_Green: Helmet_Base
+	{
+		author = "Jakx2210 (Caboose)";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[GREEN] Beret";
+		picture = "\PB_MAIN\ui\UNI\PB_beret_green_ca.paa";
+		model = "\A3\characters_f_epb\BLUFOR\headgear_beret02";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\PB_Universal_Kit\data\berets\green_beret.paa"};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 5;
+			uniformModel = "\A3\characters_f_epb\BLUFOR\headgear_beret02";
+			modelSides[] = {3,1};
+			hiddenSelections[] = {"camo"};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitPointName = "HitHead";
+					armor = 0;
+					passThrough = 0.75;
+				};
+			};
+		};
+	};
+	class PB_beret_Maroon: Helmet_Base
+	{
+		author = "Jakx2210 (Caboose)";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[MAROON] Beret";
+		picture = "\PB_MAIN\ui\UNI\PB_beret_maroon_ca.paa";
+		model = "\A3\characters_f_epb\BLUFOR\headgear_beret02";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\PB_Universal_Kit\data\berets\maroon_beret.paa"};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 5;
+			uniformModel = "\A3\characters_f_epb\BLUFOR\headgear_beret02";
+			modelSides[] = {3,1};
+			hiddenSelections[] = {"camo"};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitPointName = "HitHead";
+					armor = 0;
+					passThrough = 0.75;
+				};
+			};
+		};
+	};
+	class PB_beret_Red: Helmet_Base
+	{
+		author = "Jakx2210 (Caboose)";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[RED] Beret";
+		picture = "\PB_MAIN\ui\UNI\PB_beret_red_ca.paa";
+		model = "\A3\characters_f_epb\BLUFOR\headgear_beret02";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\PB_Universal_Kit\data\berets\red_beret.paa"};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 5;
+			uniformModel = "\A3\characters_f_epb\BLUFOR\headgear_beret02";
+			modelSides[] = {3,1};
+			hiddenSelections[] = {"camo"};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitPointName = "HitHead";
+					armor = 0;
+					passThrough = 0.75;
+				};
+			};
+		};
+	};
+	class PB_beret_ZOPS: Helmet_Base
+	{
+		author = "Jakx2210 (Caboose)";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[ZOPS] Beret";
+		picture = "\PB_MAIN\ui\UNI\PB_beret_zops_ca.paa";
+		model = "\A3\characters_f_epb\BLUFOR\headgear_beret02";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\PB_Universal_Kit\data\berets\beret_zops.paa"};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 5;
+			uniformModel = "\A3\characters_f_epb\BLUFOR\headgear_beret02";
+			modelSides[] = {3,1};
+			hiddenSelections[] = {"camo"};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitPointName = "HitHead";
+					armor = 0;
+					passThrough = 0.75;
+				};
+			};
+		};
+	};
 };
 class CfgGlasses
 {
@@ -1875,5 +1983,81 @@ class CfgGlasses
 		displayname = "[GREY] Balaclava";
 		hiddenselectionstextures[] = {"\PB_Universal_Kit\data\bala\bala_G_co.paa"};
 		picture = "\PB_MAIN\ui\UNI\PB_bala_g_CA.paa";
+	};
+	class rhs_balaclava;
+	class PB_Balaclava_black: rhs_balaclava
+	{
+		author="CapryCorn";
+		displayname="Balaclava (Black)";
+		model="\rhsafrf\addons\rhs_infantry2\gear\head\rhs_bala2";
+		picture = "\PB_MAIN\ui\UNI\PB_Balaclava_black_ca.paa";
+		hiddenSelections[]=
+		{
+			"Camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"PB_Universal_Kit\data\rhs_bala\rhs_bala2_black_co.paa"
+		};
+	};
+	class PB_Balaclava_tan: rhs_balaclava
+	{
+		author="CapryCorn";
+		displayname="Balaclava (Tan)";
+		model="\rhsafrf\addons\rhs_infantry2\gear\head\rhs_bala2";
+		picture = "\PB_MAIN\ui\UNI\PB_Balaclava_tan_ca.paa";
+		hiddenSelections[]=
+		{
+			"Camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"PB_Universal_Kit\data\rhs_bala\rhs_bala2_tan_co.paa"
+		};
+	};
+	class PB_Balaclava_lime: rhs_balaclava
+	{
+		author="CapryCorn";
+		displayname="Balaclava (Lime)";
+		model="\rhsafrf\addons\rhs_infantry2\gear\head\rhs_bala2";
+		picture = "\PB_MAIN\ui\UNI\PB_Balaclava_lime_ca.paa";
+		hiddenSelections[]=
+		{
+			"Camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"PB_Universal_Kit\data\rhs_bala\rhs_bala2_lime_co.paa"
+		};
+	};
+	class PB_Balaclava_grey: rhs_balaclava
+	{
+		author="CapryCorn";
+		displayname="Balaclava (Grey)";
+		model="\rhsafrf\addons\rhs_infantry2\gear\head\rhs_bala2";
+		picture = "\PB_MAIN\ui\UNI\PB_Balaclava_grey_ca.paa";
+		hiddenSelections[]=
+		{
+			"Camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"PB_Universal_Kit\data\rhs_bala\rhs_bala2_grey_co.paa"
+		};
+	};
+	class PB_Balaclava_brown: rhs_balaclava
+	{
+		author="CapryCorn";
+		displayname="Balaclava (Brown)";
+		model="\rhsafrf\addons\rhs_infantry2\gear\head\rhs_bala2";
+		picture = "\PB_MAIN\ui\UNI\PB_Balaclava_brown_ca.paa";
+		hiddenSelections[]=
+		{
+			"Camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"PB_Universal_Kit\data\rhs_bala\rhs_bala2_brown_co.paa"
+		};
 	};
 };

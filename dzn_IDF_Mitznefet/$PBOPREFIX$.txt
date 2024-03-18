@@ -1,0 +1,4 @@
+//<'dzn_IDF_Mitznefet.pbo' properties via Mikero's dos tools, dll version 9.10>
+prefix=dzn_IDF_Mitznefet;
+//PboType=Arma Addon;
+//</properties>
