@@ -20,7 +20,7 @@ class Stage1
 };
 class Stage2
 {
-	texture="hlc_core\tex\Metal_rough_DT.paa";
+	texture="PB_T_Weapons\data\gen\Metal_rough_DT.paa";
 	uvSource="tex";
 	class uvTransform
 	{

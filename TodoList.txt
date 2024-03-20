@@ -11,20 +11,12 @@ Countries:
  - Norway
  - Slovakia
  - Spain
- - Turkey
  - Ukraine
-
-UN Gear
-
+ 
 Generics:
 
 Weapons:
  - Type 20
-
-Extra:
-- Add Female Faces
-- Add IDF mizneftststts
-- Go through PB files for any extras to add
 
 Icons:
 - Make and add icons for all gear

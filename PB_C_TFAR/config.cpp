@@ -486,4 +486,47 @@ class CfgVehicles
 		range = 40000;
 		scope = 2;
 	};
+///TURKISH///
+	class PB_Radiobag_MEHMETCIK: PB_Bag_Base_2
+	{
+		tf_range = 40000;
+	};
+	class PB_RT1523BIG_MEHMETCIK: PB_RT1523BIG_Base
+	{
+		displayName = "[MEHMETCIK] RT-1523G BIG";
+		picture = "\PB_MAIN\UI\TUR\PB_RT1523BIG_MEHMETCIK_CA.PAA";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\MEHMETCIK_NICECOMM2_co.paa"};
+		range = 40000;
+		scope = 2;
+	};
+	class PB_RT1523_MEHMETCIK: PB_RT1523G_Base
+	{
+		
+		displayName = "[MEHMETCIK] RT-1523G";
+		picture = "\PB_MAIN\UI\TUR\PB_RT1523_MEHMETCIK_CA.PAA";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\MEHMETCIK_PRC177_CO.paa"};
+		range = 40000;
+		scope = 2;
+	};
+	class PB_Radiobag_TURDIG: PB_Bag_Base_2
+	{
+		tf_range = 40000;
+	};
+	class PB_RT1523BIG_TURDIG: PB_RT1523BIG_Base
+	{
+		displayName = "[TURKISH DIGITAL] RT-1523G BIG";
+		picture = "\PB_MAIN\UI\TUR\PB_RT1523BIG_TURDIG_CA.PAA";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\TURDIG_NICECOMM2_co.paa"};
+		range = 40000;
+		scope = 2;
+	};
+	class PB_RT1523_TURDIG: PB_RT1523G_Base
+	{
+		
+		displayName = "[TURKISH DIGITAL] RT-1523G";
+		picture = "\PB_MAIN\UI\TUR\PB_RT1523_TURDIG_CA.PAA";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\TURDIG_PRC177_CO.paa"};
+		range = 40000;
+		scope = 2;
+	};
 };

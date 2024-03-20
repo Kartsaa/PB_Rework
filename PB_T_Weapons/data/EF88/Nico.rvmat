@@ -8,7 +8,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="PB_T_Weapons\data\EF88\toadie_m203-2003\nico_nohq.tga";
+	texture="PB_T_Weapons\data\EF88\toadie_m203-2003\nico_nohq.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -56,7 +56,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="PB_T_Weapons\data\EF88\toadie_m203-2003\nico_smdi.tga";
+	texture="PB_T_Weapons\data\EF88\toadie_m203-2003\nico_smdi.paa";
 	uvSource="tex";
 	class uvTransform
 	{

@@ -96,6 +96,8 @@ class cfgweapons
         swayDecaySpeed = 1.25;
         ACE_barrelTwist = 228.6;
         ACE_barrelLength = 508.0;
+        hiddenSelections[] = { "Camo", "Vert" };
+        hiddenSelectionsTextures[] = { "\pb_t_weapons\data\ef88\map2_black_co", "\pb_t_weapons\data\ef88\MVG_Diffuse-BLACK_co.paa" };
         handanim[] = { "OFP2_ManSkeleton", "\PB_A_Weapons\EF88\a3\augA3_STD.rtm" };
 		initSpeed = 800;
         reloadAction = "PB_HLC_GestureReloadAUGa3";
@@ -107,7 +109,7 @@ class cfgweapons
             };
         };
         class WeaponSlotsInfo {
-            mass = 81;
+            mass = 72;
             class MuzzleSlot : asdg_MuzzleSlot_556 {
 				iconPosition[] = {0,0};
 				iconScale = 1.0;
@@ -237,8 +239,10 @@ class cfgweapons
         picture = "\PB_Main\ui\EF88\gear_augglBLACK_x_ca.paa";
         handanim[] = {"OFP2_ManSkeleton", "PB_A_Weapons\EF88\a3\auga3gl_hands"};
         muzzles[] = { "this", "PB_ML40_AUG" };
+        hiddenSelections[] = { "Camo", "Vert" };
+        hiddenSelectionsTextures[] = { "\pb_t_weapons\data\ef88\map2_black_co", "\pb_t_weapons\data\ef88\MVG_Diffuse-BLACK_co.paa" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 85;
+            mass = 80;
             class UnderBarrelSlot {};
             class GripodSlot {};
         };
@@ -297,7 +301,7 @@ class cfgweapons
 		
 		class WeaponSlotsInfo
 		{
-			mass = 58.86;
+			mass = 59;
 			class CowsSlot: asdg_OpticRail1913_short
 			{
 				iconPosition[] = {0,0};
@@ -380,7 +384,7 @@ class cfgweapons
         reloadmagazinesound[] = { "\PB_A_Weapons\C9\snd\saw_reload", 0.7, 1, 20 };
 		class WeaponSlotsInfo
 		{
-			mass = 142;
+			mass = 250;
 			class CowsSlot: asdg_OpticRail1913{};
 			class MuzzleSlot: asdg_MuzzleSlot_556{};
 		};
@@ -529,7 +533,7 @@ class cfgweapons
             };
 			class UnderBarrelSlot{};
 			class GripodSlot{};
-			mass = 103;
+			mass = 80;
 		};
 	};
 	class PB_C7: PB_C7_base
@@ -561,7 +565,7 @@ class cfgweapons
 				iconPosition[] = { 0.2, 0.45 };
                 iconScale = 0.25;
 			};
-			mass = 103;
+			mass = 73;
 		};
 		rhs_grip1_change = "PB_C7_grip";
 		rhs_grip2_change = "PB_C7_grip2";
@@ -650,7 +654,7 @@ class cfgweapons
 		
 		class WeaponSlotsInfo
 		{
-			mass = 78.86;
+			mass = 73;
 			class CowsSlot: asdg_OpticRail1913
 			{
 				iconPosition[] = {0,0};
@@ -785,7 +789,7 @@ class cfgweapons
 		muzzles[] = {"this","PB_AG36"};
 		class WeaponSlotsInfo
 		{
-			mass = 110;
+			mass = 81;
 			class CowsSlot: asdg_OpticRail1913
 			{
 				iconPosition[] = {0,0};
@@ -887,7 +891,7 @@ class cfgweapons
 		magazineReloadSwitchPhase=0.40000001;
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			mass=300;
+			mass=247;
 			class MuzzleSlot: asdg_MuzzleSlot_762
 			{
 				iconPosition[]={0.059999999,0.40000001};
@@ -1124,7 +1128,7 @@ class cfgweapons
 		maxZeroing = 900;
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			mass = 50;
+			mass = 150;
 		};
 		modes[] = {Mode_SemiAuto_Player};
 		class Mode_SemiAuto_Player: Mode_SemiAuto
@@ -1452,7 +1456,7 @@ class cfgweapons
 				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
 				iconPinPoint = "Left";
 				};
-			mass=70;
+			mass=72;
 		};
 		distanceZoomMin=300;
 		distanceZoomMax=300;
@@ -1507,7 +1511,7 @@ class cfgweapons
 				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
 				iconPinPoint = "Left";
 			};
-			mass = 155;
+			mass = 187;
 		};
 		class Single: Mode_SemiAuto
 		{
@@ -1559,6 +1563,7 @@ class cfgweapons
 		scope = 2;
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
+			mass = 190;
 			class MuzzleSlot: asdg_MuzzleSlot_762{
 				iconPosition[] = {0,0};
 				iconScale = 1.0;
@@ -1680,7 +1685,7 @@ class cfgweapons
 				iconPosition[] = {0.2, 0.45};
 				iconScale = 0.25;
 			};
-			mass = 90;
+			mass = 84;
 		};
 		distanceZoomMin = 300;
 		distanceZoomMax = 300;
@@ -1908,7 +1913,7 @@ class cfgweapons
 		muzzles[] = {"this", "PB_Famas_M203"};
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			mass = 110;
+			mass = 91;
 		};
 		class PB_Famas_M203: UGL_F
 		{
@@ -1977,7 +1982,7 @@ class cfgweapons
 			{
 				compatibleItems[] = {};
 			};
-			mass = 100;
+			mass = 79;
 		};
 		reloadMagazineSound[] = {"PB_A_Weapons\famas\snd\FAMAS_reload.ogg", 1, 1, 35};
 	};
@@ -2069,7 +2074,7 @@ class cfgweapons
 		muzzles[] = {"this", "PB_FamasF1_M203"};
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			mass = 120;
+			mass = 87;
 		};
 		class PB_FamasF1_M203: UGL_F
 		{
@@ -2232,7 +2237,7 @@ class cfgweapons
 			};
 			class SilencedSound
 			{
-				soundSetShot[] = {"RHSUSF_sd_m4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_m4_stereoLayer_SoundSet"};
+				soundSetShot[] = {"RHSUSF_sd_M4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_M4_stereoLayer_SoundSet"};
 			};
 			reloadTime = 60/600;
 			dispersion = 0.00113;
@@ -2246,7 +2251,7 @@ class cfgweapons
 			};
 			class SilencedSound
 			{
-				soundSetShot[] = {"RHSUSF_sd_m4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_m4_stereoLayer_SoundSet"};
+				soundSetShot[] = {"RHSUSF_sd_M4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_M4_stereoLayer_SoundSet"};
 			};
 			reloadTime = 60/600;
 			dispersion = 0.00113;
@@ -2809,7 +2814,7 @@ class cfgweapons
 		magazineReloadSwitchPhase = 0.541;
 		class WeaponSlotsInfo
 		{
-			mass = 160;
+			mass = 170;
 			class CowsSlot: asdg_OpticRail1913_short{};
 			class PointerSlot: asdg_FrontSideRail{};
 			class MuzzleSlot: asdg_MuzzleSlot_556{};
@@ -2872,7 +2877,7 @@ class cfgweapons
 		recoil = "rhs_recoil_mk18";
 		class WeaponSlotsInfo
 		{
-			mass = 72.82;
+			mass = 73;
 			allowedSlots[] = {901};
 			class UnderBarrelSlot: asdg_underslot{};
 			class CowsSlot: asdg_OpticRail1913{};
@@ -2979,7 +2984,7 @@ class cfgweapons
 		modes[] = {"Single","FullAuto"};
 		class WeaponSlotsInfo
 		{
-			mass = 88.82;
+			mass = 93;
 			allowedSlots[] = {901};
 			class UnderBarrelSlot: asdg_underslot{};
 			class CowsSlot: asdg_OpticRail1913{};
@@ -3103,7 +3108,7 @@ class cfgweapons
 		recoil = "rhs_recoil_mk18145";
 		class WeaponSlotsInfo
 		{
-			mass = 101.04;
+			mass = 81;
 			class UnderBarrelSlot{};
 			class MuzzleSlot: asdg_MuzzleSlot_556
 			{
@@ -3238,7 +3243,7 @@ class cfgweapons
 				};
 				iconScale = 0.3;
 			};
-			mass = 105;
+			mass = 73;
 		};
         modes[] =
 		{
@@ -3388,7 +3393,7 @@ class cfgweapons
 				iconScale = 0.2;
 			};
 			class UnderBarrelSlot{};
-	    	mass = 115;
+	    	mass = 82;
 	  	};
 		class Single: Single
 		{
@@ -3547,7 +3552,7 @@ class cfgweapons
 		};
 		magazineReloadSwitchPhase = 0.5;
         class WeaponSlotsInfo {
-            mass = 81;
+            mass = 82;
             class MuzzleSlot : asdg_MuzzleSlot_556 {
 				iconPosition[] = {0,0};
 				iconScale = 1.0;
@@ -3747,7 +3752,7 @@ class cfgweapons
 					PB_K2ANPVS4=1;
 				};
 			};
-			mass=60;
+			mass=72;
 		};
 		bullet1[]=
 		{
@@ -3973,7 +3978,7 @@ class cfgweapons
 		};
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			mass = 100; 
+			mass = 82; 
 		};
 		class EGLM: UGL_F
 		{
@@ -4098,7 +4103,7 @@ class cfgweapons
 				iconPosition[]={0.34999999,0.44999999};
 				iconScale=0.2;
 			};
-			mass=60;
+			mass=73;
 		};
 		bullet1[]=
 		{
@@ -4325,7 +4330,7 @@ class cfgweapons
 		    handAnim[] = {"OFP2_ManSkeleton","\BRM_K2\Anims\K2C1GL_handpos.rtm"};
 		class WeaponSlotsInfo: WeaponSlotsInfo
 	    {
-		    mass = 100; 
+		    mass = 83; 
 	    };
 		class EGLM: UGL_F
 		{

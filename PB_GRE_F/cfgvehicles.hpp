@@ -350,9 +350,9 @@ class PB_GRE_Chinook: RHS_CH_47F_10
 	scopeCurator = 2;
 	side = "1";
 	faction = "PB_GRE_Faction";
-	editorCategory = "PB_British_Top";
-	editorSubcategory = "PB_British_HELI";
-	vehicleclass = "PB_British_HELI";
+	editorCategory = "PB_GRE_Top";
+	editorSubcategory = "PB_GRE_HELI";
+	vehicleclass = "PB_GRE_HELI";
 	crew = "PB_GRE_SOL_HP";
 	displayname = "Chinook";
     editorpreview = "\PB_EP\ui\GREECE\PB_GRE_CHINOOK.jpg";

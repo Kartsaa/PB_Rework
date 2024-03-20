@@ -151,7 +151,7 @@ class CfgVehicles
         {
             "PB_Universal_Kit\data\MULTICAM_acu_camo_co.paa",
             "PB_Universal_Kit\data\MULTICAM_acu_camo1_co.paa",
-            "PB_British_Kit\data\TacGloves_khk_CO.paa"
+            "PB_British_Kit\data\TacGloves_Clk_CO.paa"
         };
 	};
 	class PB_MULTICAM_ACU_B_R: B_Soldier_base_F
@@ -165,7 +165,7 @@ class CfgVehicles
         {
             "PB_Universal_Kit\data\MULTICAM_acu_camo_co.paa",
             "PB_Universal_Kit\data\MULTICAM_acu_camo1_co.paa",
-            "PB_British_Kit\data\TacGloves_khk_CO.paa"
+            "PB_British_Kit\data\TacGloves_Clk_CO.paa"
         };
 	};
 ///BPS///

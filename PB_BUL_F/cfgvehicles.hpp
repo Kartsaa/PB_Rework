@@ -19,13 +19,14 @@ class rhsgref_cdf_Mi24D;
 class rhsgref_cdf_reg_Mi8amT;
 class PB_BUL_M1117_A: rhsusf_M1117_O
 {
+	scope = 0;
 	class Turrets;
 };
 class PB_BUL_M1117_B: PB_BUL_M1117_A
 {
+		scope = 0;
 	class Turrets: Turrets
 	{
-		scope = 0;
 		class MainTurret;
 		class MainTurret_Out;
 		class MainTurret2_Out;
