@@ -2831,7 +2831,7 @@ class cfgweapons
 				soundSetShot[] = {"M60e4_silencerShot_SoundSet","M60e4_silencerTail_SoundSet"};
 			};
 			reloadTime = 0.0923;
-			dispersion = 0.002818;
+			dispersion = 0.001518;
 		};
 		class FullAuto: FullAuto
 		{
@@ -2844,7 +2844,7 @@ class cfgweapons
 				soundSetShot[] = {"M60e4_silencerShot_SoundSet","M60e4_silencerTail_SoundSet"};
 			};
 			reloadTime = 0.0923;
-			dispersion = 0.002818;
+			dispersion = 0.001518;
 		};
 	};
 	class PB_MPT55: RAHE_BASE_F 

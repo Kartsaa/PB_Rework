@@ -283,6 +283,31 @@ class CfgVehicles
 		maximumLoad = 220;
 		mass = 65;
 	};
+	class PB_ASSAULT_MED_GREEN: B_AssaultPack_Base
+	{
+		scope = 2;
+		author = "Kartsa";
+		scopeCurator = 2;
+		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Compact";
+		displayName = "[GREEN] Combat Pack";
+		picture = "\PB_MAIN\UI\UNI\PB_ASSAULT_MED_GREEN_ca.PAA";
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {"PB_Universal_Kit\Data\od_assault_co.paa"};
+		maximumLoad = 140;
+		mass = 20;
+	};
+	class PB_ASSAULT_GREEN: B_AssaultPack_Base
+	{
+		scope = 2;
+		author = "Kartsa";
+		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Compact";
+		displayName = "[GREEN] Combat Pack (Medic)";
+		picture = "\PB_MAIN\UI\UNI\PB_ASSAULT_GREEN_CA.PAA";
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {"PB_Universal_Kit\Data\od_assault_med_co.paa"};
+		maximumLoad = 180;
+		mass = 40;
+	};
 };
 class cfgWeapons
 {
@@ -1296,6 +1321,83 @@ class cfgWeapons
 				{
 					hitpointName = "HitBody";
 					passThrough = 0.2;
+				};
+			};
+		};
+	};
+	class PB_Green_M12_Vest : Vest_Camo_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		picture = "\PB_MAIN\UI\UNI\PB_GREEN_M12_VEST_CA.PAA";
+		displayName = "[GREEN] Vest";
+		model = "\rhssaf\addons\rhssaf_m_vest_m12\rhssaf_md12";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\PB_Universal_Kit\data\green_m12_vest_co.paa"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelections[] = {"camo"};
+			uniformModel = "\rhssaf\addons\rhssaf_m_vest_m12\rhssaf_md12";
+			containerClass = "Supply100";
+			mass = 70;
+			class HitpointsProtectionInfo
+			{
+				class Neck
+				{
+					HitpointName = "HitNeck";
+					armor = 20;
+					PassThrough = PASS_NIJ_1;
+				};
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 20;
+					PassThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 20;
+					PassThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 20;
+					PassThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					PassThrough = 0.2;
+				};
+			};
+		};
+	};
+///HATS///
+	class PB_GREEN_Cap: Helmet_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[GREEN] Military Cap";
+		picture = "\PB_MAIN\UI\UNI\PB_GREEN_CAP_CA.PAA";
+		model = "\A3\Characters_F\Common\cappatrol";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\PB_Universal_Kit\Data\Green_cap.paa"};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 5;
+			uniformModel = "\A3\Characters_F\Common\cappatrol";
+			modelSides[] = {3,1};
+			hiddenSelections[] = {"camo"};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitPointName = "HitHead";
+					armor = 0;
+					passThrough = 1;
 				};
 			};
 		};

@@ -12,31 +12,25 @@ Reworked camos with new patterns:
 - VZ95 Woodland and VZ95 Desert
 - M18 (Bulgarian Flecktarn)
 - MTP
+- VZ93 
+- Greek Lizard
 
 Completely new added patterns:
 - Canadian CADPAT-MT
 - British DDPM and DPM
 - Czech MAD21
 - Polish VZ93 Desert
+- Turkish Digital
 
 Extra additions:
 - Insignias for all countries
-- New Vehicle camos for following:
- - Bulgaria:
-  - SU-25
- - Finland:
-  - BMP-2
-  - Leopard 2SG
-  - AA Tank
-  - Kamaz Trucks
- - Czech:
-  - Mi-17 (From Arma 2 ACR)
- -
+- New Vehicle camos
 
 New weapons:
 - SCAR-L, G36K, PzF3 & Famas thanks to Aegis Team
 - EF88, C8, C9A2 thanks to Toadie2k/NiArms
 - C7 thanks to Mac and Task Force Canada
+- K2 and K2C1 thanks to withered maple
 
 GenericNames config for following countries:
 - Belgium
@@ -44,6 +38,10 @@ GenericNames config for following countries:
 - Czechia
 - Germany
 - Finland
+- Israel
+- Korea
 - Poland
- 
+- Sweden
+- Turkey
+
 

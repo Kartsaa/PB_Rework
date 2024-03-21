@@ -448,6 +448,94 @@ class cfgWeapons
 			};
 		};
 	};
+	class PB_UN_M97 : Helmet_Base
+	{
+		picture = "\PB_MAIN\UI\UN\PB_UN_M97_CA.PAA";
+		autho = "Kartsa";
+		scope = 2;
+		displayName = "[UN] M97 Helmet";
+		model = "\rhssaf\addons\rhssaf_m_headgear_m97\rhssaf_m97_camo";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"PB_UN_Kit\data\UN_pasgt_co.paa"};
+		class ItemInfo : HeadgearItem
+		{
+			mass = 40;
+			uniformmodel = "\rhssaf\addons\rhssaf_m_headgear_m97\rhssaf_m97_camo";
+			allowedSlots[] = {901,605};
+			modelSides[] = {6};
+			hiddenSelections[] = {"camo"};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 6;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+	class PB_UN_M97_COVER : Helmet_Base
+	{
+		picture = "\PB_MAIN\UI\UN\PB_UN_M97_COVER_CA.PAA";
+		Author = "Kartsa";
+		Scope = 2;
+		displayName = "[UN] M97 (ESS Cover)";
+		model = "\rhssaf\addons\rhssaf_m_headgear_m97\rhssaf_m97_camo_ess";
+		hiddenSelections[] = {"camo","camo2"};
+		hiddenSelectionsTextures[] =
+		{
+			"\PB_UN_Kit\data\UN_pasgt_co.paa",
+			"\rhssaf\addons\rhssaf_t_headgear_m97\data\rhssaf_m97_ess_black_co.paa"
+		};
+		class ItemInfo : HeadgearItem
+		{
+			mass = 40;
+			uniformModel = "\rhssaf\addons\rhssaf_m_headgear_m97\rhssaf_m97_camo_nostrap_ess";
+			allowedSlots[] = {901,605};
+			modelSides[] = {6};
+			hiddenSelections[] = {"camo","camo2"};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 6;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+	class PB_UN_M97_ESS : Helmet_Base
+	{
+		picture = "\PB_MAIN\UI\UN\PB_UN_M97_ESS_CA.PAA";
+		Author = "Kartsa";
+		Scope = 2;
+		displayName = "[UN] M97 (ESS)";	
+		hiddenSelections[] = {"camo","camo2"};
+		hiddenSelectionsTextures[] =
+		{
+			"\PB_UN_Kit\data\UN_pasgt_co.paa",
+			"\rhssaf\addons\rhssaf_t_headgear_m97\data\rhssaf_m97_ess_black_co.paa"
+		};
+		class ItemInfo : HeadgearItem
+		{
+			mass = 40;
+			uniformmodel = "\rhssaf\addons\rhssaf_m_headgear_m97\rhssaf_m97_camo_ess_bare";
+			allowedSlots[] = {901,605};
+			modelSides[] = {6};
+			hiddenSelections[] = {"camo","camo2"};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 6;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
 ///VESTS///
 	class PB_UN_PlateCarrier_01: Vest_Camo_Base
 	{
@@ -506,6 +594,104 @@ class cfgWeapons
 			hiddenSelections[] = {"camo"};
 			containerClass="Supply120";
 			mass=80;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName="HitChest";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Diaphragm
+				{
+					hitpointName="HitDiaphragm";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Pelvis
+				{
+					hitpointName="HitPelvis";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=0.30000001;
+				};
+			};
+		};
+	};
+	class PB_UN_M98_RIF : Vest_Camo_Base
+	{
+		picture = "\PB_MAIN\UI\UN\PB_UN_M98_RIF_CA.PAA";
+		author = "Kartsa";
+		scope = 2;
+		displayName = "[UN] Flak Jacket (Mags)";
+		hiddenSelections[] = {"MD98"};
+		hiddenSelectionsTextures[] = {"\PB_UN_Kit\data\UN_Md98_vest_co.paa"};
+		model = "\rhssaf\addons\rhssaf_m_vest_m98\rhssaf_md98_rifleman";
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelections[] = {"MD98"};
+			uniformModel = "\rhssaf\addons\rhssaf_m_vest_m98\rhssaf_md98_rifleman";
+			containerClass = "Supply80";
+			mass = 80;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName="HitChest";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Diaphragm
+				{
+					hitpointName="HitDiaphragm";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Pelvis
+				{
+					hitpointName="HitPelvis";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=0.30000001;
+				};
+			};
+		};
+	};
+	class PB_UN_M98 : Vest_Camo_Base
+	{
+		picture = "\PB_MAIN\UI\UN\PB_UN_M98_RIF_CA.PAA";
+		author = "Kartsa";
+		scope = 2;
+		displayName = "[UN] Flak Jacket";
+		model = "\rhssaf\addons\rhssaf_m_vest_m98\rhssaf_md98";
+		hiddenSelections[] = {"MD98"};
+		hiddenSelectionsTextures[] = {"\PB_UN_Kit\data\UN_Md98_vest_co.paa"};
+		class ItemInfo : ItemInfo
+		{
+			hiddenSelections[] = {"MD98"};
+			uniformModel = "\rhssaf\addons\rhssaf_m_vest_m98\rhssaf_md98";
+			containerClass = "Supply40";
+			mass = 60;
 			class HitpointsProtectionInfo
 			{
 				class Chest

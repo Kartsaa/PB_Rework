@@ -62,7 +62,10 @@
 			"PB_UN_LWH_ESS",
 			"PB_UN_LWH_HESS",
 			"PB_UN_6B27M",
-			"PB_UN_6B27M_ESS"
+			"PB_UN_6B27M_ESS",
+			"PB_UN_M97",
+			"PB_UN_M97_COVER",
+			"PB_UN_M97_ESS"
 		};
 		headgearList[] = 
 		{
@@ -71,7 +74,10 @@
 			"PB_UN_LWH_ESS",1,
 			"PB_UN_LWH_HESS",1,
 			"PB_UN_6B27M",0.5,
-			"PB_UN_6B27M_ESS"0.5
+			"PB_UN_6B27M_ESS",0.5,
+			"PB_UN_M97",1,
+			"PB_UN_M97_COVER",1,
+			"PB_UN_M97_ESS",1
 		};
 		class EventHandlers: EventHandlers
 		{
