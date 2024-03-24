@@ -430,6 +430,10 @@ class cfgweapons
 		discreteDistanceCameraPoint[] = {"eye","eye_200","eye_300","eye_400"};
 		discretedistanceinitindex = 0;
 		cameraDir = "eye_look";
+		magazines[]=
+		{
+			"rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"
+		};
 		magazineWell[] = {"CBA_556x45_STANAG", "STANAG_556x45"};
 		magazineReloadSwitchPhase = 0.5;
         drysound[] = {"\PB_A_Weapons\sound\ar15_trigger", 1, 1, 10};
@@ -3659,6 +3663,75 @@ class cfgweapons
         handanim[] = { "OFP2_ManSkeleton", "\PB_A_Weapons\Grot\handpose_RU556_VFG.rtm" };
         inertia = (0.37 + 0.066);
     };
+	class PB_Type20 : PB_MSBS_Grot 
+	{
+		scope = 2;
+		author = "Kartsa, Toadie2k";
+		displayname = "Type 20";
+		hiddenSelections[] = { "Map1", "Map2","Receiver" };
+		hiddenSelectionsTextures[] = 
+		{ 
+			"PB_T_Weapons\data\Type20\TYPE20_co.paa", 
+			"PB_T_Weapons\data\Type20\TYPE20_2_co.paa", 
+			"PB_T_Weapons\data\Type20\TYPE20_3_co.paa"
+		};
+		descriptionShort = "Japanese 5.56x45mm Howa Type 20";
+		modes[] = { "Single", "FullAuto" };
+		class Single : Mode_SemiAuto 
+		{
+			sounds[] = {"Standardsound","SilencedSound"};
+			class StandardSound
+			{
+				soundSetShot[] = {"RHSUSF_m16_Shot_SoundSet","RHSUSF_rifle_small_Tail_SoundSet","RHSUSF_m16_stereoLayer_SoundSet"};
+			};
+			class SilencedSound
+			{
+				soundSetShot[] = {"RHSUSF_sd_M4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_M4_stereoLayer_SoundSet"};
+			};
+			reloadTime = 60/800;
+			dispersion = 0.000307248;
+
+		};
+		class FullAuto : Mode_FullAuto 
+		{
+			sounds[] = {"Standardsound","SilencedSound"};
+			class StandardSound
+			{
+				soundSetShot[] = {"RHSUSF_m16_Shot_SoundSet","RHSUSF_rifle_small_Tail_SoundSet","RHSUSF_m16_stereoLayer_SoundSet"};
+			};
+			class SilencedSound
+			{
+				soundSetShot[] = {"RHSUSF_sd_M4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_M4_stereoLayer_SoundSet"};
+			};
+			reloadTime = 60/800;
+			dispersion = 0.000307248;
+		};
+        rhs_grip1_change = "PB_Type20_grip";
+        rhs_grip2_change = "PB_Type20_grip2";
+        rhs_grip3_change = "PB_Type20_grip3";
+        baseWeapon = "PB_Type20";
+	};
+    class PB_Type20_grip : PB_Type20
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "\PB_A_Weapons\Grot\handpose_RU556_VFG.rtm" };
+        inertia = (0.37 + 0.066);
+    };
+    class PB_Type20_grip2 : PB_Type20
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "\PB_A_Weapons\Grot\handpose_RU556_AFG.rtm" };
+        inertia = (0.37 + 0.066);
+    };
+    class PB_Type20_grip3 : PB_Type20
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "\PB_A_Weapons\Grot\handpose_RU556_VFG.rtm" };
+        inertia = (0.37 + 0.066);
+    };
 	class PB_K2: Rifle_Base_F
 	{
 		scope=2;
@@ -4500,5 +4573,124 @@ class cfgweapons
 		hiddenSelections[] = {"Camo_1","Camo_2"};
 		hiddenSelectionsTextures[] = {"PB_T_Weapons\data\RPG-32\Olive_RPG_32_body_CO.paa","PB_T_Weapons\data\RPG-32\Olive_RPG_32_optics_CO.paa"};
 	};
+	class PB_HK417 : Rifle_Base_F
+    {
+        ACE_barrelTwist = 178;
+        ACE_barrelLength = 508;
+        author = "Toadie";
+        deployedPivot = "deploypivot"; /// what point should be used to be on surface while unfolded
+        hasBipod = false;              /// a weapon with bipod obviously has a bipod
+        AB_barrelTwist = 7;
+        AB_barrelLength = 14.5;
+        initspeed = -1;
+        reloadAction = "PB_NIA_GestureReload416";
+        scope = 2;
+        model = "PB_M_Weapons\417\HK417.p3d";
+        picture = "\PB_Main\ui\417\gear_416d20_ca";
+        UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
+        displayName = "HK417";
+        descriptionShort = "Heckler and Koch HK417 7.62x51mm";
+        recoil = "recoil_trg20";
+        discretedistanceinitindex = 0;
+        cameraDir = "eye_look";
+        bg_bipod = 0;
+		magazines[] = {"rhsusf_20Rnd_762x51_m80_Mag"};
+		magazineWell[] = {"CBA_762x51_M14"};
+        reloadMagazineSound[] = {"PB_A_Weapons\sound\ar15_reload", 0.74, 1, 30};
+        handAnim[] = {"OFP2_ManSkeleton", "PB_A_Weapons\417\hand\handpose_STD.rtm"}; 
+		hiddenSelections[] = {"416_upper", "416_lower", "416_SBRBarrel", "416_mainparts", "416_light Stock"};
+        hiddenSelectionsTextures[] = {"PB_T_Weapons\data\417\417_upper_co.paa", "PB_T_Weapons\data\417\417_lower_co.paa", "PB_T_Weapons\data\417\417_barrel_co.paa", "PB_T_Weapons\data\417\417_common_co.paa", "PB_T_Weapons\data\417\417_stocks_co.paa"};
+        opticszoominit = 0.75;
+        opticszoommax = 1.1;
+        opticszoommin = 0.25;
+        inertia = 0.36;
+		modes[] = {"Single","FullAuto"};
+        class WeaponSlotsInfo : WeaponSlotsInfo
+        {
+            mass = 93;
+            class UnderBarrelSlot : asdg_UnderSlot
+            {
+				iconPosition[] = {0,0};
+				iconScale = 1.0;
+				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
+				iconPinPoint = "Left";
+            };
+            class CowsSlot : asdg_OpticRail1913
+            {
+				iconPosition[] = {0,0};
+				iconScale = 1.0;
+				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
+				iconPinPoint = "Left";
+            };
+            class PointerSlot : asdg_FrontSideRail
+            {
+				iconPosition[] = {0,0};
+				iconScale = 1.0;
+				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
+				iconPinPoint = "Left";
+            };
+            class MuzzleSlot : asdg_MuzzleSlot_762
+            {
+				iconPosition[] = {0,0};
+				iconScale = 1.0;
+				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
+				iconPinPoint = "Left";
+            };
+            class GripodSlot : PB_gripod_slot
+            {
+				iconPosition[] = {0,0};
+				iconScale = 1.0;
+				iconPicture = "\A3\Weapons_F\Data\clear_empty.paa";
+				iconPinPoint = "Left";
+            };
+        };
+        class Single : Mode_SemiAuto
+        {
+			sounds[] = {"Standardsound","SilencedSound"};
+			class StandardSound
+			{
+				soundSetShot[] = {"RHSUSF_m14_Shot_SoundSet","RHSUSF_rifle2_Tail_SoundSet","RHSUSF_m14_stereoLayer_SoundSet"};
+			};
+			class SilencedSound
+			{
+				soundSetShot[] = {"RHSUSF_sd_M4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_M4_stereoLayer_SoundSet"};
+			};
+            dispersion = 0.000536332;
+			reloadtime = "60/600";
+        };
+        class FullAuto : Mode_FullAuto
+        {
+			sounds[] = {"Standardsound","SilencedSound"};
+			class StandardSound
+			{
+				soundSetShot[] = {"RHSUSF_m14_Shot_SoundSet","RHSUSF_rifle2_Tail_SoundSet","RHSUSF_m14_stereoLayer_SoundSet"};
+			};
+			class SilencedSound
+			{
+				soundSetShot[] = {"RHSUSF_sd_M4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_M4_stereoLayer_SoundSet"};
+			};
+            dispersion = 0.000636332;
+			reloadtime = "60/600";
+        };
+        rhs_grip1_change = "PB_HK417_grip";
+        rhs_grip2_change = "PB_HK417_grip2";
+        rhs_grip3_change = "PB_HK417_grip3";
+        baseWeapon = "PB_HK417";
+    };
+    class PB_HK417_grip : PB_HK417
+    {
+        scopeArsenal = 0;
+        handAnim[] = {"OFP2_ManSkeleton", "PB_A_Weapons\417\hand\handpose_VFG.rtm"};
+    };
+    class PB_HK417_grip2 : PB_HK417
+    {
+        scopeArsenal = 0;
+        handAnim[] = {"OFP2_ManSkeleton", "PB_A_Weapons\417\hand\handpose_AFG.rtm"};
+    };
+    class PB_HK417_grip3 : PB_HK417
+    {
+        scopeArsenal = 0;
+        handAnim[] = {"OFP2_ManSkeleton", "PB_A_Weapons\417\hand\handpose_VFG.rtm"};
+    };
 };
  

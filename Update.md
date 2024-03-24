@@ -14,6 +14,8 @@ Reworked camos with new patterns:
 - MTP
 - VZ93 
 - Greek Lizard
+- M98
+- IDPM
 
 Completely new added patterns:
 - Canadian CADPAT-MT
@@ -28,9 +30,13 @@ Extra additions:
 
 New weapons:
 - SCAR-L, G36K, PzF3 & Famas thanks to Aegis Team
-- EF88, C8, C9A2 thanks to Toadie2k/NiArms
+- EF88, C8, C9A2, HK417 thanks to Toadie2k/NiArms
 - C7 thanks to Mac and Task Force Canada
 - K2 and K2C1 thanks to withered maple
+
+New gear:
+
+- Opsrey Vests, ported from Arma 2
 
 GenericNames config for following countries:
 - Belgium
@@ -40,6 +46,7 @@ GenericNames config for following countries:
 - Finland
 - Israel
 - Korea
+- Norway
 - Poland
 - Sweden
 - Turkey

@@ -29,8 +29,8 @@
 		textureList[] = {
 			"PB_Blu_Olive",1,
 			"PB_Blu_Desert",1,
-			"PB_Blu_UN",1,
-			"PB_Blu_SNW",1,
+			"PB_Blu_UN",0,
+			"PB_Blu_SNW",0,
 		};
 		class TextureSources
 		{
@@ -76,8 +76,8 @@
 		textureList[] = {
 			"PB_Blu_Olive",1,
 			"PB_Blu_Desert",1,
-			"PB_Blu_UN",1,
-			"PB_Blu_SNW",1,
+			"PB_Blu_UN",0,
+			"PB_Blu_SNW",0,
 		};
 		class TextureSources
 		{
@@ -122,8 +122,8 @@
 		textureList[] = {
 			"PB_Blu_Olive",1,
 			"PB_Blu_Desert",1,
-			"PB_Blu_UN",1,
-			"PB_Blu_SNW",1,
+			"PB_Blu_UN",0,
+			"PB_Blu_SNW",0,
 		};
 		class TextureSources
 		{
@@ -169,7 +169,7 @@
 		textureList[] = {
 			"PB_Blu_Olive",1,
 			"PB_Blu_Desert",1,
-			"PB_Blu_SNW",1
+			"PB_Blu_SNW",0
 		};
 		class TextureSources
 		{
@@ -208,7 +208,7 @@
 		textureList[] = {
 			"PB_Blu_Olive",1,
 			"PB_Blu_Desert",1,
-			"PB_Blu_SNW",1
+			"PB_Blu_SNW",0
 		};
 		class TextureSources
 		{
@@ -248,7 +248,7 @@
 		textureList[] = {
 			"PB_Blu_Olive",1,
 			"PB_Blu_Desert",1,
-			"PB_Blu_UN",1
+			"PB_Blu_UN",0
 		};
 		class TextureSources
 		{
@@ -287,7 +287,7 @@
 		textureList[] = {
 			"PB_Blu_Olive",1,
 			"PB_Blu_Desert",1,
-			"PB_Blu_UN",1
+			"PB_Blu_UN",0
 		};
 		class TextureSources
 		{
@@ -327,7 +327,7 @@
 		textureList[] = {
 			"PB_Blu_Olive",1,
 			"PB_Blu_Desert",1,
-			"PB_Blu_UN",1
+			"PB_Blu_UN",0
 		};
 		class TextureSources
 		{
@@ -367,7 +367,7 @@
 		textureList[] = {
 			"PB_Blu_Olive",1,
 			"PB_Blu_Desert",1,
-			"PB_Blu_UN",1
+			"PB_Blu_UN",0
 		};
 		class TextureSources
 		{
@@ -397,7 +397,6 @@
 		
 		author = "CapryCorn, Kartsa";
 		scope = 2;
-		scopeCurator = 2;
 		forceInGarage = 1;
 		side = 1;
 		faction = "rhs_faction_usarmy_d";
@@ -441,7 +440,6 @@
 	{
 		author = "CapryCorn, Kartsa";
 		scope = 2;
-		scopeCurator = 2;
 		forceInGarage = 1;
 		side = 1;
 		faction = "rhs_faction_usarmy_d";
@@ -485,7 +483,6 @@
 	{
 		author = "CapryCorn, Kartsa";
 		scope = 2;
-		scopeCurator = 2;
 		forceInGarage = 1;
 		side = 1;
 		faction = "rhs_faction_usarmy_d";
@@ -533,7 +530,7 @@
 		scopeCurator = 2;
 		forceInGarage = 1;
 		side = 1;
-		faction = "PB_UK_Faction";
+		faction = "BLU_F";
 		class EventHandlers : EventHandlers
 		{
 			postInit = "if (local (_this select 0)) then { [(_this select 0), """", [], false] call BIS_fnc_initVehicle; };";
@@ -541,7 +538,7 @@
 		textureList[] = {
 			"PB_Blu_Woodland",1,
 			"PB_Blu_Desert",1,
-			"PB_Blu_UN",1
+			"PB_Blu_UN",0
 		};
 		class TextureSources
 		{

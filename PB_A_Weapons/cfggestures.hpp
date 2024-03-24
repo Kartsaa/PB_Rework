@@ -9,6 +9,7 @@ class CfgMovesBasic {
 		PB_GestureReloadFAMAS = "";
 		PB_GestureReloadFAMASUGL = "";
         PB_HLC_GestureReloadPSG1 = "PB_HLC_GestureReloadPSG1";
+		PB_NIA_GestureReload416 = "PB_NIA_GestureReload416";
 	};
 	class Actions {
 		class RifleBaseStandActions;
@@ -24,6 +25,7 @@ class CfgMovesBasic {
 			PB_GestureReloadFAMAS[] = {"GestureReloadFAMAS", "Gesture" };
 			PB_GestureReloadFAMASUGL[] ={ "GestureReloadFAMASUGL", "Gesture" };
             PB_PB_HLC_GestureReloadPSG1[] = { "PB_HLC_GestureReloadPSG1", "Gesture" };
+			PB_NIA_GestureReload416[] = { "PB_NIA_GestureReload416", "Gesture" };
 		};
 
 		class RifleProneActions : RifleBaseStandActions 
@@ -35,6 +37,7 @@ class CfgMovesBasic {
 			PB_GestureReloadFAMAS[] = {	"PB_GestureReloadFAMASProne","Gesture" };
 			PB_GestureReloadFAMASUGL[] = { "PB_GestureReloadFAMASUGLProne", "Gesture" };
             PB_HLC_GestureReloadPSG1[] = { "PB_HLC_GestureReloadPSG1_Prone", "Gesture" };
+			PB_NIA_GestureReload416[] = { "PB_NIA_GestureReload416_Prone", "Gesture" };
 		};
 
 		class RifleAdjustRProneActions : RifleAdjustProneBaseActions {
@@ -45,6 +48,7 @@ class CfgMovesBasic {
 			PB_GestureReloadFAMAS[] = { "PB_GestureReloadFAMASContext", "Gesture" };
 			PB_GestureReloadFAMASUGL[] = { "PB_GestureReloadFAMASUGLContext", "Gesture" };
             PB_HLC_GestureReloadPSG1[] = { "PB_HLC_GestureReloadPSG1_Context", "Gesture" };
+			PB_NIA_GestureReload416[] = { "PB_NIA_GestureReload416_Context", "Gesture" };
 		};
 
 		class RifleAdjustLProneActions : RifleAdjustProneBaseActions {
@@ -55,6 +59,7 @@ class CfgMovesBasic {
 			PB_GestureReloadFAMAS[] = {" PB_GestureReloadFAMASContext", "Gesture" };
 			PB_GestureReloadFAMASUGL[] = { "PB_GestureReloadFAMASUGLContext", "Gesture" };
             PB_HLC_GestureReloadPSG1[] = { "PB_HLC_GestureReloadPSG1_Context", "Gesture" };
+			PB_NIA_GestureReload416[] = { "PB_NIA_GestureReload416_Context", "Gesture" };
 		};
 
 		class RifleAdjustFProneActions : RifleAdjustProneBaseActions {
@@ -65,6 +70,7 @@ class CfgMovesBasic {
 			PB_GestureReloadFAMAS[] = { "PB_GestureReloadFAMASContext", "Gesture" };
 			PB_GestureReloadFAMASUGL[] = { "PB_GestureReloadFAMASUGLContext", "Gesture" };
             PB_HLC_GestureReloadPSG1[] = { "PB_HLC_GestureReloadPSG1", "Gesture" };
+			PB_NIA_GestureReload416[] = { "PB_NIA_GestureReload416", "Gesture" };
 		};
 	};
 };
@@ -280,7 +286,6 @@ class CfgGesturesMale {
             leftHandIKEnd = true;
             leftHandIKCurve[] = { 0, 1, 0.033, 0, 0.86, 0, 0.9, 1 };
         };
-
         class PB_HLC_GestureReloadPSG1_Prone : Default {
             file = "PB_A_Weapons\g3\rel\reload_psg1_prone.rtm";
             speed = -6;
@@ -296,5 +301,36 @@ class CfgGesturesMale {
         class PB_HLC_GestureReloadPSG1_Context : PB_HLC_GestureReloadPSG1 {
             mask = "handsWeapon_context";
         };
+		class PB_NIA_GestureReload416 : Default {
+			file = "PB_A_Weapons\417\reload_ar15_downrange.rtm";
+			speed = -(100/30);
+			looped = false;
+			mask = "handsWeapon";
+			headBobStrength = 0.1;
+			headBobMode = 2;
+			canPullTrigger = 0;
+			rightHandIKCurve[] = { 0, 1, 1, 1 };
+			leftHandIKBeg = true;
+			leftHandIKEnd = true;
+			leftHandIKCurve[] = { 0, 1, (6/100), 0, (90/100), 0, (96/100), 1 };
+		};
+		class PB_NIA_GestureReload416_Prone : Default {
+			file = "PB_A_Weapons\417\reload_ar15_prone_new.rtm";
+			looped = 0;
+			speed = -(100/30);
+			mask = "handsWeapon";
+			// mask="empty";
+			headBobStrength = 0.05;
+			headBobMode = 2;
+			canPullTrigger = 0;
+			rightHandIKCurve[] = { 0, 1, 1, 1 };
+			leftHandIKBeg = true;
+			leftHandIKEnd = true;
+			leftHandIKCurve[] = { 0, 1, (6/100), 0, (90/100), 0, (96/100), 1 };
+			rightHandIKEnd = true;
+		};
+		class PB_NIA_GestureReload416_Context : PB_NIA_GestureReload416 {
+			mask = "handsWeapon_context";
+		};
 	};
 };

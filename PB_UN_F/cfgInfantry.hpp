@@ -203,7 +203,7 @@
     class PB_UN_SOL_MG: PB_UN_SOL_R
 	{
 		editorpreview = "PB_EP\ui\UN\PB_UN_SOL_MG.jpg";
-		displayName = "Machinegunner";
+		displayName = "Peackeeper (MG)";
         role = "MachineGunner";
         icon = "iconManMG";
 		uniformClass = "PB_MTP_ACU";

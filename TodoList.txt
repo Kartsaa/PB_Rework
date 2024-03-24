@@ -7,19 +7,27 @@ Countries:
  - Hungary
  - Japan
  - Latvia
- - Norway
  - Slovakia
  - Spain
  - Ukraine
 
-Weapons:
- - Type 20
 
 Icons:
 - Make and add icons for all weapons
+- Add FAST helmets with cover to countries that have FAST helmets
+- Make ARM rifle less black black
+- Different Tan color for MG5
+- Bundeswehr insignia to black and white
+- Go through arsenal garage and fix extra vehicles
+- Add added balaclavas/facewear to facewear randomization
 
-Add correct credits for things that need them
+Go through credits for all added new things.
 
 Take New Screenshots
 
 Write new steam workshop description
+---REWORK RELEASE(?)---
+
+FUTURE:
+- Start to learn backpack rigging
+- Learn substance painter to texture backpack

@@ -632,7 +632,7 @@ class cfgWeapons
 	{
 		picture = "\PB_MAIN\UI\UN\PB_UN_M98_RIF_CA.PAA";
 		author = "Kartsa";
-		scope = 2;
+		scope = 0;
 		displayName = "[UN] Flak Jacket (Mags)";
 		hiddenSelections[] = {"MD98"};
 		hiddenSelectionsTextures[] = {"\PB_UN_Kit\data\UN_Md98_vest_co.paa"};

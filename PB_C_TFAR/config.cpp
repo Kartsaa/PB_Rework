@@ -529,4 +529,49 @@ class CfgVehicles
 		range = 40000;
 		scope = 2;
 	};
+///NORWAY///
+	class PB_Radiobag_M98: PB_Bag_Base_2
+	{
+		tf_range = 40000;
+	};
+	class PB_RT1523BIG_M98: PB_RT1523BIG_Base
+	{
+		displayName = "[M98] RT-1523G BIG";
+		picture = "\PB_Main\ui\NOR\PB_RT1523BIG_M98_ca.paa";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\M98_NICECOMM2_co.paa"};
+		range = 40000;
+		scope = 2;
+	};
+	class PB_RT1523_M98: PB_RT1523G_Base
+	{
+		
+		displayName = "[M98] RT-1523G";
+		picture = "\PB_Main\ui\NOR\PB_RT1523BIG_M98_ca.paa";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\M98_PRC177_CO.paa"};
+		range = 40000;
+		scope = 2;
+	};
+///ESTDCU///
+
+	class PB_Radiobag_ESTDCU: PB_Bag_Base_2
+	{
+		tf_range = 40000;
+	};
+	class PB_RT1523BIG_ESTDCU: PB_RT1523BIG_Base
+	{
+		displayName = "[ESTDCU] RT-1523G BIG";
+		picture = "\PB_Main\ui\EST\PB_RT1523BIG_ESTDCU_CA.paa";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\ESTDCU_NICECOMM2_co.paa"};
+		range = 40000;
+		scope = 2;
+	};
+	class PB_RT1523_ESTDCU: PB_RT1523G_Base
+	{
+		
+		displayName = "[ESTDCU] RT-1523G";
+		picture = "\PB_Main\ui\EST\PB_RT1523_ESTDCU_CA.paa";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\ESTDCU_PRC177_CO.paa"};
+		range = 40000;
+		scope = 2;
+	};
 };

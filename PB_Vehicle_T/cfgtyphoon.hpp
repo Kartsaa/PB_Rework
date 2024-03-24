@@ -10,7 +10,6 @@
 	class PB_Typhoon_covered_Base: O_Truck_03_covered_F
 	{
 		author="CapryCorn";
-		forceInGarage=1;
 		vehicleClass = "rhs_vehclass_truck";
 		editorSubcategory="rhs_EdSubcat_truck";
 		class TransportMagazines
@@ -148,7 +147,6 @@
 	class PB_Typhoon_open_Base: O_Truck_03_transport_F
 	{
 		author="CapryCorn";
-		forceInGarage=1;
 		vehicleClass = "rhs_vehclass_truck";
 		editorSubcategory="rhs_EdSubcat_truck";
 		class TransportMagazines
@@ -282,7 +280,6 @@
 	class PB_Typhoon_ammo_Base: O_Truck_03_ammo_F
 	{
 		author="CapryCorn";
-		forceInGarage=1;
 		vehicleClass = "rhs_vehclass_truck";
 		editorSubcategory="rhs_EdSubcat_truck";
 		class TransportMagazines
@@ -419,7 +416,6 @@
 	class PB_Typhoon_device_Base: O_Truck_03_device_F
 	{
 		author="CapryCorn";
-		forceInGarage=1;
 		vehicleClass = "rhs_vehclass_truck";
 		editorSubcategory="rhs_EdSubcat_truck";
 		class TransportMagazines
@@ -557,7 +553,6 @@
 	class PB_Typhoon_fuel_Base: O_Truck_03_fuel_F
 	{
 		author="CapryCorn";
-		forceInGarage=1;
 		vehicleClass = "rhs_vehclass_truck";
 		editorSubcategory="rhs_EdSubcat_truck";
 		class TransportMagazines
@@ -689,7 +684,6 @@
 	class PB_Typhoon_repair_Base: O_Truck_03_repair_F
 	{
 		author="CapryCorn";
-		forceInGarage=1;
 		vehicleClass = "rhs_vehclass_truck";
 		editorSubcategory="rhs_EdSubcat_truck";
 		class TransportMagazines
@@ -821,7 +815,6 @@
 	class PB_Typhoon_medical_Base: O_Truck_03_medical_F
 	{
 		author="CapryCorn";
-		forceInGarage=1;
 		vehicleClass = "rhs_vehclass_truck";
 		editorSubcategory="rhs_EdSubcat_truck";
 		icon = "\A3\Soft_F_EPC\Truck_03\Data\UI\map_Truck_03_medevac_CA.paa";
