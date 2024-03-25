@@ -76,6 +76,24 @@ class CfgVehicles
             "PB_British_Kit\data\TacGloves_Clk_co.paa"
         };
 	};
+	class PB_ESTDCU_U_B: B_Soldier_base_F
+	{
+		scope = 1;
+		author = "Kartsa";
+		model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
+		picture = "\PB_MAIN\UI\EST\PB_ESTDCU_U_CA.PAA";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"\PB_Estonian_Kit\data\ESTDCU_U_01_CO.paa"};
+	};
+	class PB_ESTDCU_U_B_R: B_Soldier_base_F
+	{
+		scope = 1;
+		author = "Kartsa";
+		model = "\A3\characters_F\BLUFOR\b_soldier_03.p3d";
+		picture = "\PB_MAIN\UI\EST\PB_ESTDCU_U_R_CA.PAA";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"\PB_Estonian_Kit\data\ESTDCU_U_01_CO.paa"};
+	};
 ///BACKPACKS////
 	class PB_Medbag_ESTDCU: B_Kitbag_Base
 	{
@@ -138,6 +156,41 @@ class cfgWeapons
 		class ItemInfo;
 	};
 ////UNIS////
+
+	class PB_ESTDCU_U: Uniform_Base
+	{
+		scope = 2;
+		author = "Kartsa";
+		displayName = "[ESTDCU] Combat Fatigues";
+		picture = "\PB_MAIN\UI\EST\PB_ESTDCU_U_CA.PAA";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "PB_ESTDCU_U_B";
+			containerClass = "Supply45";
+			mass = 50;
+			allowedSlots[] = {"701","801","901"};
+			armor = 0;
+		};
+	};
+	class PB_ESTDCU_U_R: Uniform_Base
+	{
+		scope = 2;
+		author = "Kartsa";
+		displayName = "[ESTDCU] Combat Fatigues (Rolled-Up)";
+		picture = "\PB_MAIN\UI\EST\PB_ESTDCU_U_CA.PAA";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "PB_ESTDCU_U_B_R";
+			containerClass = "Supply45";
+			mass = 50;
+			allowedSlots[] = {"701","801","901"};
+			armor = 0;
+		};
+	};
 	class PB_ESTDCU_ACU: Uniform_Base
 	{
 		scope = 2;

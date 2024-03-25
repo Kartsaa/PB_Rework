@@ -4,7 +4,6 @@ Countries:
  - Denmark
  - Estonia
  - France
- - Hungary
  - Japan
  - Latvia
  - Slovakia
@@ -13,13 +12,9 @@ Countries:
 
 
 Icons:
-- Make and add icons for all weapons
-- Add FAST helmets with cover to countries that have FAST helmets
-- Make ARM rifle less black black
-- Different Tan color for MG5
+- Make new icons for all weapons
 - Bundeswehr insignia to black and white
 - Go through arsenal garage and fix extra vehicles
-- Add added balaclavas/facewear to facewear randomization
 
 Go through credits for all added new things.
 

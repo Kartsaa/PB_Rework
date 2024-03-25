@@ -113,7 +113,24 @@ class CfgVehicles
             "PB_British_Kit\data\TacGloves_Clk_CO.paa"
         };
 	};
-
+	class PB_M18_U_B: B_Soldier_base_F
+	{
+		scope = 1;
+		author = "Kartsa";
+		model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
+		picture = "\PB_MAIN\UI\BUL\PB_M18_U_CA.PAA";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"\PB_Bulgarian_Kit\data\M18_U_01_CO.paa"};
+	};
+	class PB_M18_U_B_R: B_Soldier_base_F
+	{
+		scope = 1;
+		author = "Kartsa";
+		model = "\A3\characters_F\BLUFOR\b_soldier_03.p3d";
+		picture = "\PB_MAIN\UI\BUL\PB_M18_U_R_CA.PAA";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"\PB_Bulgarian_Kit\data\M18_U_01_CO.paa"};
+	};
 ///BACKPACKS////
 };
 class cfgWeapons
@@ -175,7 +192,42 @@ class cfgWeapons
 			allowedSlots[] = {"701","801","901"};
 			armor = 0;
 		};
+	};	
+	class PB_M18_U: Uniform_Base
+	{
+		scope = 2;
+		author = "Kartsa";
+		displayName = "[M18] Combat Fatigues";
+		picture = "\PB_MAIN\UI\BUL\PB_M18_U_CA.PAA";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "PB_M18_U_B";
+			containerClass = "Supply45";
+			mass = 50;
+			allowedSlots[] = {"701","801","901"};
+			armor = 0;
+		};
 	};
+	class PB_M18_U_R: Uniform_Base
+	{
+		scope = 2;
+		author = "Kartsa";
+		displayName = "[M18] Combat Fatigues (Rolled-Up)";
+		picture = "\PB_MAIN\UI\BUL\PB_M18_U_R_CA.PAA";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "PB_M18_U_B_R";
+			containerClass = "Supply45";
+			mass = 50;
+			allowedSlots[] = {"701","801","901"};
+			armor = 0;
+		};
+	};
+
 	class PB_M18_Gora: Uniform_Base
 	{
 		scope = 2;

@@ -875,8 +875,8 @@ class cfgweapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\A3\Weapons_F_Mark\Machineguns\MMG_01\Data\MMG_01_01_sand_CO.paa",
-			"\A3\Weapons_F_Mark\Machineguns\MMG_01\Data\MMG_01_02_sand_CO.paa",
+			"\PB_T_Weapons\data\MG5\mg5_01_co.paa",
+			"\PB_T_Weapons\data\MG5\mg5_02_co.paa",
 			"\A3\Weapons_F_Mark\Machineguns\MMG_01\Data\MMG_01_03_sand_CO.paa"
 		};
 		hiddenSelectionsMaterials[]=
@@ -2107,11 +2107,9 @@ class cfgweapons
 		{
 			"PB_AK_556x45"
 		};
-		hiddenSelectionsTextures[] = {"PB_T_Weapons\data\ARM\ARM1.paa","rhsafrf\addons\rhs_weapons\texture\ak105_barrel_co.paa","PB_T_Weapons\data\ARM\ARM_Z01.paa","PB_T_Weapons\data\ARM\ARM_z02.paa","PB_T_Weapons\data\ARM\ARM_B33.paa"};
+		hiddenSelectionsTextures[] = {"PB_T_Weapons\data\ARM\ARM1.paa","rhsafrf\addons\rhs_weapons\texture\ak105_barrel_co.paa","rhsafrf\addons\rhs_weapons3\zenitco\data\rhs_zenitko_01_co.paa","rhsafrf\addons\rhs_weapons3\zenitco\data\rhs_zenitko_02_co.paa","PB_T_Weapons\data\ARM\ARM_B33.paa"};
 		class Single: Mode_SemiAuto
 		{
-
-			
             sounds[] = {"Standardsound","SilencedSound"};
 			class StandardSound
 			{

@@ -113,6 +113,24 @@ class CfgVehicles
             "PB_British_Kit\data\TacGloves_Clk_CO.paa"
         };
 	};
+	class PB_MEHMETCIK_U_B: B_Soldier_base_F
+	{
+		scope = 1;
+		author = "Kartsa";
+		model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
+		picture = "\PB_MAIN\UI\TUR\PB_MEHMETCIK_U_CA.PAA";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"\PB_Turkish_Kit\data\MEHMETCIK_U_01_CO.paa"};
+	};
+	class PB_MEHMETCIK_U_B_R: B_Soldier_base_F
+	{
+		scope = 1;
+		author = "Kartsa";
+		model = "\A3\characters_F\BLUFOR\b_soldier_03.p3d";
+		picture = "\PB_MAIN\UI\TUR\PB_MEHMETCIK_U_R_CA.PAA";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"\PB_Turkish_Kit\data\MEHMETCIK_U_01_CO.paa"};
+	};
 ///BACKPACKS////
 	
 	class PB_ASSAULT_MEHMETCIK: B_AssaultPack_Base
@@ -312,6 +330,40 @@ class cfgWeapons
 		{
 			uniformModel = "-";
 			uniformClass = "PB_MEHMETCIK_ACU_B_R";
+			containerClass = "Supply45";
+			mass = 50;
+			allowedSlots[] = {"701","801","901"};
+			armor = 0;
+		};
+	};
+	class PB_MEHMETCIK_U: Uniform_Base
+	{
+		scope = 2;
+		author = "Kartsa";
+		displayName = "[MEHMETCIK] Combat Fatigues";
+		picture = "\PB_MAIN\UI\TUR\PB_MEHMETCIK_U_CA.PAA";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "PB_MEHMETCIK_U_B";
+			containerClass = "Supply45";
+			mass = 50;
+			allowedSlots[] = {"701","801","901"};
+			armor = 0;
+		};
+	};
+	class PB_MEHMETCIK_U_R: Uniform_Base
+	{
+		scope = 2;
+		author = "Kartsa";
+		displayName = "[MEHMETCIK] Combat Fatigues (Rolled-Up)";
+		picture = "\PB_MAIN\UI\TUR\PB_MEHMETCIK_U_R_CA.PAA";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "PB_MEHMETCIK_U_B_R";
 			containerClass = "Supply45";
 			mass = 50;
 			allowedSlots[] = {"701","801","901"};
@@ -876,6 +928,135 @@ class cfgWeapons
 			mass = 30;
 			uniformModel = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore.p3d";
 			hiddenSelections[] = {"opscore","comtac","NSW","contour","UNCOV_FLAG","ms2000"};
+			modelSides[] =
+			{
+				TWest,
+				TCivilian
+			};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitPointName = "HitHead";
+					armor = 8;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+	
+	class PB_MEHMETCIK_FAST_C: Helmet_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[MEHMETCIK] Ops Core FAST (Cover)";
+		picture = "\PB_MAIN\UI\TUR\PB_MEHMETCIK_FAST_C_CA.PAA";
+		Model = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore_cover.p3d";
+		hiddenSelections[] = {"opscore","comtac","NSW","contour","cover","ms2000"};
+		allowedFacewear[] =
+		{
+			"rhs_googles_black", 1,  
+			"rhs_googles_clear", 1,
+			"rhs_googles_orange", 1,
+			"rhs_googles_yellow", 1,
+			"rhs_ess_black", 1,
+			"G_Bandanna_khk", 1,
+			"G_Bandanna_tan", 1,
+			"rhs_scarf", 1,
+			"rhsusf_shemagh_od", 1,
+			"rhsusf_shemagh2_od", 1,
+			"rhsusf_shemagh2_grn", 1,
+			"rhsusf_shemagh_tan", 1,
+			"rhsusf_shemagh2_tan", 1,
+			"rhsusf_shemagh2_gogg_grn", 1,
+			"rhsusf_shemagh_gogg_grn", 1,
+			"rhsusf_shemagh2_gogg_od", 1,
+			"rhsusf_shemagh_gogg_od", 1,
+			"rhsusf_shemagh_gogg_tan", 1,
+			"rhsusf_shemagh2_gogg_tan", 1,
+			"rhsusf_oakley_goggles_blk", 1,
+			"rhsusf_oakley_goggles_clr", 1,
+			"rhsusf_oakley_goggles_ylw", 1,
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\PB_Turkish_Kit\data\MEHMETCIK_opscore_co.paa",
+			"",
+			"",
+			"",
+			"\PB_Turkish_Kit\data\MEHMETCIK_cover_co.paa",
+			""
+		};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 30;
+			uniformModel = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore_cover";
+			hiddenSelections[] = {"opscore","comtac","NSW","contour","cover","ms2000"};
+			modelSides[] =
+			{
+				TWest,
+				TCivilian
+			};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitPointName = "HitHead";
+					armor = 8;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+	class PB_MEHMETCIK_FAST_C_H: Helmet_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[MEHMETCIK] Ops Score FAST (Cover/Headset)";
+		picture = "\PB_MAIN\UI\TUR\PB_MEHMETCIK_FAST_C_H_CA.PAA";
+		Model = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore_cover.p3d";
+		hiddenSelections[] = {"opscore","comtac","NSW","contour","cover","ms2000"};
+		allowedFacewear[] =
+		{
+			"rhs_googles_black", 1,  
+			"rhs_googles_clear", 1,
+			"rhs_googles_orange", 1,
+			"rhs_googles_yellow", 1,
+			"rhs_ess_black", 1,
+			"G_Bandanna_khk", 1,
+			"G_Bandanna_tan", 1,
+			"rhs_scarf", 1,
+			"rhsusf_shemagh_od", 1,
+			"rhsusf_shemagh2_od", 1,
+			"rhsusf_shemagh2_grn", 1,
+			"rhsusf_shemagh_tan", 1,
+			"rhsusf_shemagh2_tan", 1,
+			"rhsusf_shemagh2_gogg_grn", 1,
+			"rhsusf_shemagh_gogg_grn", 1,
+			"rhsusf_shemagh2_gogg_od", 1,
+			"rhsusf_shemagh_gogg_od", 1,
+			"rhsusf_shemagh_gogg_tan", 1,
+			"rhsusf_shemagh2_gogg_tan", 1,
+			"rhsusf_oakley_goggles_blk", 1,
+			"rhsusf_oakley_goggles_clr", 1,
+			"rhsusf_oakley_goggles_ylw", 1,
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\PB_Turkish_Kit\data\MEHMETCIK_opscore_co.paa",
+			"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa",
+			"",
+			"",
+			"\PB_Turkish_Kit\data\MEHMETCIK_cover_co.paa",
+			""
+		};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 30;
+			uniformModel = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore_cover.p3d";
+		hiddenSelections[] = {"opscore","comtac","NSW","contour","cover","ms2000"};
 			modelSides[] =
 			{
 				TWest,

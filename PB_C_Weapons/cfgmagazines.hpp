@@ -227,9 +227,9 @@ class CfgMagazines
 		mass = 9.35;
 		tracersEvery = 0;
 		lastRoundsTracer = 0;
-		modelSpecial = "\rhsafrf\addons\rhs_weapons\mag_proxies\rhs_mag_545x39_6l23_30rnd";
+		modelSpecial = "\rhsafrf\addons\rhs_weapons\mag_proxies\rhs_mag_545x39_6l23_30rnd.p3d";
 		modelSpecialIsProxy = 1;
-		model = "\rhsafrf\addons\rhs_weapons3\magazines\rhs_ak_bklt_mag_green.p3d";
+		model = "\rhsafrf\addons\rhs_weapons\magazines\rhs_ak_mag";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_T_Weapons\data\ARM\ARM1_mag.paa"};
 	};

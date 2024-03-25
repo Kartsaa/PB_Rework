@@ -76,6 +76,24 @@ class CfgVehicles
             "PB_British_Kit\data\TacGloves_Clk_CO.paa"
         };
 	};
+	class PB_FLECK_U_B: B_Soldier_base_F
+	{
+		scope = 1;
+		author = "Kartsa";
+		model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
+		picture = "\PB_Main\ui\GER\PB_FLECK_U_CA.paa";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"\PB_German_Kit\data\FLECK_U_01_CO.paa"};
+	};
+	class PB_FLECK_U_B_R: B_Soldier_base_F
+	{
+		scope = 1;
+		author = "Kartsa";
+		model = "\A3\characters_F\BLUFOR\b_soldier_03.p3d";
+		picture = "\PB_Main\ui\GER\PB_FLECK_U_R_CA.paa";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"\PB_German_Kit\data\FLECK_U_01_CO.paa"};
+	};
 	class PB_TROP_ACU_B: B_Soldier_base_F
 	{
 		scope = 1;
@@ -104,6 +122,24 @@ class CfgVehicles
             "PB_British_Kit\data\TacGloves_Khk_CO.paa"
         };
 	};
+	class PB_TROP_U_B: B_Soldier_base_F
+	{
+		scope = 1;
+		author = "Kartsa";
+		model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
+		picture = "\PB_Main\ui\GER\PB_TROP_U_CA.paa";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"\PB_German_Kit\data\TROP_U_01_CO.paa"};
+	};
+	class PB_TROP_U_B_R: B_Soldier_base_F
+	{
+		scope = 1;
+		author = "Kartsa";
+		model = "\A3\characters_F\BLUFOR\b_soldier_03.p3d";
+		picture = "\PB_Main\ui\GER\PB_TROP_U_R_CA.paa";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"\PB_German_Kit\data\TROP_U_01_CO.paa"};
+	};
 	class PB_SCHNEE_ACU_B: B_Soldier_base_F
 	{
 		scope = 1;
@@ -131,6 +167,24 @@ class CfgVehicles
             "PB_German_Kit\data\SCHNEE_acu_camo1_co.paa",
             "PB_British_Kit\data\TacGloves_Clk_CO.paa"
         };
+	};
+	class PB_SCHNEE_U_B: B_Soldier_base_F
+	{
+		scope = 1;
+		author = "Kartsa";
+		model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
+		picture = "\PB_Main\ui\GER\PB_SCHNEE_U_CA.paa";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"\PB_German_Kit\data\SCHNEE_U_01_CO.paa"};
+	};
+	class PB_SCHNEE_U_B_R: B_Soldier_base_F
+	{
+		scope = 1;
+		author = "Kartsa";
+		model = "\A3\characters_F\BLUFOR\b_soldier_03.p3d";
+		picture = "\PB_Main\ui\GER\PB_SCHNEE_U_R_CA.paa";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"\PB_German_Kit\data\SCHNEE_U_01_CO.paa"};
 	};
 	class PB_FLECK_JACKET_B: B_Soldier_base_F
 	{
@@ -427,6 +481,74 @@ class cfgWeapons
 			armor = 0;
 		};
 	};
+	class PB_FLECK_U: Uniform_Base
+	{
+		scope = 2;
+		author = "Kartsa";
+		displayName = "[FLECKTARN] Combat Fatigues";
+		picture = "\PB_Main\ui\GER\PB_FLECK_U_CA.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "PB_FLECK_U_B";
+			containerClass = "Supply45";
+			mass = 50;
+			allowedSlots[] = {"701","801","901"};
+			armor = 0;
+		};
+	};
+	class PB_FLECK_U_R: Uniform_Base
+	{
+		scope = 2;
+		author = "Kartsa";
+		displayName = "[FLECKTARN] Combat Fatigues (Rolled-Up)";
+		picture = "\PB_Main\ui\GER\PB_FLECK_U_R_CA.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "PB_FLECK_U_B_R";
+			containerClass = "Supply45";
+			mass = 50;
+			allowedSlots[] = {"701","801","901"};
+			armor = 0;
+		};
+	};
+	class PB_TROP_U: Uniform_Base
+	{
+		scope = 2;
+		author = "Kartsa";
+		displayName = "[TROPENTARN] Combat Fatigues";
+		picture = "\PB_Main\ui\GER\PB_TROP_U_CA.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "PB_TROP_U_B";
+			containerClass = "Supply45";
+			mass = 50;
+			allowedSlots[] = {"701","801","901"};
+			armor = 0;
+		};
+	};
+	class PB_TROP_U_R: Uniform_Base
+	{
+		scope = 2;
+		author = "Kartsa";
+		displayName = "[TROPENTARN] Combat Fatigues (Rolled-Up)";
+		picture = "\PB_Main\ui\GER\PB_TROP_U_R_CA.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "PB_TROP_U_B_R";
+			containerClass = "Supply45";
+			mass = 50;
+			allowedSlots[] = {"701","801","901"};
+			armor = 0;
+		};
+	};
 	class PB_TROP_ACU: Uniform_Base
 	{
 		scope = 2;
@@ -455,6 +577,40 @@ class cfgWeapons
 		{
 			uniformModel = "-";
 			uniformClass = "PB_TROP_ACU_B_R";
+			containerClass = "Supply45";
+			mass = 50;
+			allowedSlots[] = {"701","801","901"};
+			armor = 0;
+		};
+	};
+	class PB_SCHNEE_U: Uniform_Base
+	{
+		scope = 2;
+		author = "Kartsa";
+		displayName = "[SCHNEETARN] Combat Fatigues";
+		picture = "\PB_Main\ui\GER\PB_SCHNEE_U_CA.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "PB_SCHNEE_U_B";
+			containerClass = "Supply45";
+			mass = 50;
+			allowedSlots[] = {"701","801","901"};
+			armor = 0;
+		};
+	};
+	class PB_SCHNEE_U_R: Uniform_Base
+	{
+		scope = 2;
+		author = "Kartsa";
+		displayName = "[SCHNEETARN] Combat Fatigues (Rolled-Up)";
+		picture = "\PB_Main\ui\GER\PB_SCHNEE_U_CA.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "PB_SCHNEE_U_B_R";
 			containerClass = "Supply45";
 			mass = 50;
 			allowedSlots[] = {"701","801","901"};
@@ -1077,6 +1233,390 @@ class cfgWeapons
 			"",
 			"",
 			""
+		};
+	};
+	class PB_FLECK_FAST_C: Helmet_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[FLECKTARN] Ops Core FAST (Cover)";
+		picture = "\PB_Main\ui\GER\PB_FLECK_FAST_C_CA.paa";
+		Model = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore_cover.p3d";
+		hiddenSelections[] = {"opscore","comtac","NSW","contour","cover","ms2000"};
+		allowedFacewear[] =
+		{
+			"rhs_googles_black", 1,  
+			"rhs_googles_clear", 1,
+			"rhs_googles_orange", 1,
+			"rhs_googles_yellow", 1,
+			"rhs_ess_black", 1,
+			"G_Bandanna_khk", 1,
+			"G_Bandanna_tan", 1,
+			"rhs_scarf", 1,
+			"rhsusf_shemagh_od", 1,
+			"rhsusf_shemagh2_od", 1,
+			"rhsusf_shemagh2_grn", 1,
+			"rhsusf_shemagh_tan", 1,
+			"rhsusf_shemagh2_tan", 1,
+			"rhsusf_shemagh2_gogg_grn", 1,
+			"rhsusf_shemagh_gogg_grn", 1,
+			"rhsusf_shemagh2_gogg_od", 1,
+			"rhsusf_shemagh_gogg_od", 1,
+			"rhsusf_shemagh_gogg_tan", 1,
+			"rhsusf_shemagh2_gogg_tan", 1,
+			"rhsusf_oakley_goggles_blk", 1,
+			"rhsusf_oakley_goggles_clr", 1,
+			"rhsusf_oakley_goggles_ylw", 1,
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\PB_German_Kit\data\FLECK_opscore_co.paa",
+			"",
+			"",
+			"",
+			"\PB_German_Kit\data\FLECK_cover_co.paa",
+			""
+		};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 30;
+			uniformModel = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore_cover";
+			hiddenSelections[] = {"opscore","comtac","NSW","contour","cover","ms2000"};
+			modelSides[] =
+			{
+				TWest,
+				TCivilian
+			};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitPointName = "HitHead";
+					armor = 8;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+	class PB_FLECK_FAST_C_H: Helmet_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[FLECKTARN] Ops Score FAST (Cover/Headset)";
+		picture = "\PB_Main\ui\GER\PB_FLECK_FAST_C_H_CA.paa";
+		Model = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore_cover.p3d";
+		hiddenSelections[] = {"opscore","comtac","NSW","contour","cover","ms2000"};
+		allowedFacewear[] =
+		{
+			"rhs_googles_black", 1,  
+			"rhs_googles_clear", 1,
+			"rhs_googles_orange", 1,
+			"rhs_googles_yellow", 1,
+			"rhs_ess_black", 1,
+			"G_Bandanna_khk", 1,
+			"G_Bandanna_tan", 1,
+			"rhs_scarf", 1,
+			"rhsusf_shemagh_od", 1,
+			"rhsusf_shemagh2_od", 1,
+			"rhsusf_shemagh2_grn", 1,
+			"rhsusf_shemagh_tan", 1,
+			"rhsusf_shemagh2_tan", 1,
+			"rhsusf_shemagh2_gogg_grn", 1,
+			"rhsusf_shemagh_gogg_grn", 1,
+			"rhsusf_shemagh2_gogg_od", 1,
+			"rhsusf_shemagh_gogg_od", 1,
+			"rhsusf_shemagh_gogg_tan", 1,
+			"rhsusf_shemagh2_gogg_tan", 1,
+			"rhsusf_oakley_goggles_blk", 1,
+			"rhsusf_oakley_goggles_clr", 1,
+			"rhsusf_oakley_goggles_ylw", 1,
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\PB_German_Kit\data\FLECK_opscore_co.paa",
+			"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa",
+			"",
+			"",
+			"\PB_German_Kit\data\FLECK_cover_co.paa",
+			""
+		};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 30;
+			uniformModel = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore_cover.p3d";
+		hiddenSelections[] = {"opscore","comtac","NSW","contour","cover","ms2000"};
+			modelSides[] =
+			{
+				TWest,
+				TCivilian
+			};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitPointName = "HitHead";
+					armor = 8;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+	class PB_TROP_FAST_C: Helmet_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[TROPENTARN] Ops Core FAST (Cover)";
+		picture = "\PB_Main\ui\GER\PB_TROP_FAST_C_CA.paa";
+		Model = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore_cover.p3d";
+		hiddenSelections[] = {"opscore","comtac","NSW","contour","cover","ms2000"};
+		allowedFacewear[] =
+		{
+			"rhs_googles_black", 1,  
+			"rhs_googles_clear", 1,
+			"rhs_googles_orange", 1,
+			"rhs_googles_yellow", 1,
+			"rhs_ess_black", 1,
+			"G_Bandanna_khk", 1,
+			"G_Bandanna_tan", 1,
+			"rhs_scarf", 1,
+			"rhsusf_shemagh_od", 1,
+			"rhsusf_shemagh2_od", 1,
+			"rhsusf_shemagh2_grn", 1,
+			"rhsusf_shemagh_tan", 1,
+			"rhsusf_shemagh2_tan", 1,
+			"rhsusf_shemagh2_gogg_grn", 1,
+			"rhsusf_shemagh_gogg_grn", 1,
+			"rhsusf_shemagh2_gogg_od", 1,
+			"rhsusf_shemagh_gogg_od", 1,
+			"rhsusf_shemagh_gogg_tan", 1,
+			"rhsusf_shemagh2_gogg_tan", 1,
+			"rhsusf_oakley_goggles_blk", 1,
+			"rhsusf_oakley_goggles_clr", 1,
+			"rhsusf_oakley_goggles_ylw", 1,
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\PB_German_Kit\data\TROP_opscore_co.paa",
+			"",
+			"",
+			"",
+			"\PB_German_Kit\data\TROP_cover_co.paa",
+			""
+		};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 30;
+			uniformModel = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore_cover";
+			hiddenSelections[] = {"opscore","comtac","NSW","contour","cover","ms2000"};
+			modelSides[] =
+			{
+				TWest,
+				TCivilian
+			};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitPointName = "HitHead";
+					armor = 8;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+	class PB_TROP_FAST_C_H: Helmet_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[TROPENTARN] Ops Score FAST (Cover/Headset)";
+		picture = "\PB_Main\ui\GER\PB_TROP_FAST_C_H_CA.paa";
+		Model = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore_cover.p3d";
+		hiddenSelections[] = {"opscore","comtac","NSW","contour","cover","ms2000"};
+		allowedFacewear[] =
+		{
+			"rhs_googles_black", 1,  
+			"rhs_googles_clear", 1,
+			"rhs_googles_orange", 1,
+			"rhs_googles_yellow", 1,
+			"rhs_ess_black", 1,
+			"G_Bandanna_khk", 1,
+			"G_Bandanna_tan", 1,
+			"rhs_scarf", 1,
+			"rhsusf_shemagh_od", 1,
+			"rhsusf_shemagh2_od", 1,
+			"rhsusf_shemagh2_grn", 1,
+			"rhsusf_shemagh_tan", 1,
+			"rhsusf_shemagh2_tan", 1,
+			"rhsusf_shemagh2_gogg_grn", 1,
+			"rhsusf_shemagh_gogg_grn", 1,
+			"rhsusf_shemagh2_gogg_od", 1,
+			"rhsusf_shemagh_gogg_od", 1,
+			"rhsusf_shemagh_gogg_tan", 1,
+			"rhsusf_shemagh2_gogg_tan", 1,
+			"rhsusf_oakley_goggles_blk", 1,
+			"rhsusf_oakley_goggles_clr", 1,
+			"rhsusf_oakley_goggles_ylw", 1,
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\PB_German_Kit\data\TROP_opscore_co.paa",
+			"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa",
+			"",
+			"",
+			"\PB_German_Kit\data\TROP_cover_co.paa",
+			""
+		};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 30;
+			uniformModel = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore_cover.p3d";
+		hiddenSelections[] = {"opscore","comtac","NSW","contour","cover","ms2000"};
+			modelSides[] =
+			{
+				TWest,
+				TCivilian
+			};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitPointName = "HitHead";
+					armor = 8;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+	class PB_SCHNEE_FAST_C: Helmet_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[SCHNEETARN] Ops Core FAST (Cover)";
+		picture = "\PB_Main\ui\GER\PB_SCHNEE_FAST_C_CA.paa";
+		Model = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore_cover.p3d";
+		hiddenSelections[] = {"opscore","comtac","NSW","contour","cover","ms2000"};
+		allowedFacewear[] =
+		{
+			"rhs_googles_black", 1,  
+			"rhs_googles_clear", 1,
+			"rhs_googles_orange", 1,
+			"rhs_googles_yellow", 1,
+			"rhs_ess_black", 1,
+			"G_Bandanna_khk", 1,
+			"G_Bandanna_tan", 1,
+			"rhs_scarf", 1,
+			"rhsusf_shemagh_od", 1,
+			"rhsusf_shemagh2_od", 1,
+			"rhsusf_shemagh2_grn", 1,
+			"rhsusf_shemagh_tan", 1,
+			"rhsusf_shemagh2_tan", 1,
+			"rhsusf_shemagh2_gogg_grn", 1,
+			"rhsusf_shemagh_gogg_grn", 1,
+			"rhsusf_shemagh2_gogg_od", 1,
+			"rhsusf_shemagh_gogg_od", 1,
+			"rhsusf_shemagh_gogg_tan", 1,
+			"rhsusf_shemagh2_gogg_tan", 1,
+			"rhsusf_oakley_goggles_blk", 1,
+			"rhsusf_oakley_goggles_clr", 1,
+			"rhsusf_oakley_goggles_ylw", 1,
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\PB_German_Kit\data\SCHNEE_opscore_co.paa",
+			"",
+			"",
+			"",
+			"\PB_German_Kit\data\SCHNEE_cover_co.paa",
+			""
+		};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 30;
+			uniformModel = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore_cover";
+			hiddenSelections[] = {"opscore","comtac","NSW","contour","cover","ms2000"};
+			modelSides[] =
+			{
+				TWest,
+				TCivilian
+			};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitPointName = "HitHead";
+					armor = 8;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+	class PB_SCHNEE_FAST_C_H: Helmet_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[SCHNEETARN] Ops Score FAST (Cover/Headset)";
+		picture = "\PB_Main\ui\GER\PB_SCHNEE_FAST_C_H_CA.paa";
+		Model = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore_cover.p3d";
+		hiddenSelections[] = {"opscore","comtac","NSW","contour","cover","ms2000"};
+		allowedFacewear[] =
+		{
+			"rhs_googles_black", 1,  
+			"rhs_googles_clear", 1,
+			"rhs_googles_orange", 1,
+			"rhs_googles_yellow", 1,
+			"rhs_ess_black", 1,
+			"G_Bandanna_khk", 1,
+			"G_Bandanna_tan", 1,
+			"rhs_scarf", 1,
+			"rhsusf_shemagh_od", 1,
+			"rhsusf_shemagh2_od", 1,
+			"rhsusf_shemagh2_grn", 1,
+			"rhsusf_shemagh_tan", 1,
+			"rhsusf_shemagh2_tan", 1,
+			"rhsusf_shemagh2_gogg_grn", 1,
+			"rhsusf_shemagh_gogg_grn", 1,
+			"rhsusf_shemagh2_gogg_od", 1,
+			"rhsusf_shemagh_gogg_od", 1,
+			"rhsusf_shemagh_gogg_tan", 1,
+			"rhsusf_shemagh2_gogg_tan", 1,
+			"rhsusf_oakley_goggles_blk", 1,
+			"rhsusf_oakley_goggles_clr", 1,
+			"rhsusf_oakley_goggles_ylw", 1,
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\PB_German_Kit\data\SCHNEE_opscore_co.paa",
+			"\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\data\comtac_fg_co.paa",
+			"",
+			"",
+			"\PB_German_Kit\data\SCHNEE_cover_co.paa",
+			""
+		};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 30;
+			uniformModel = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore_cover.p3d";
+		hiddenSelections[] = {"opscore","comtac","NSW","contour","cover","ms2000"};
+			modelSides[] =
+			{
+				TWest,
+				TCivilian
+			};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitPointName = "HitHead";
+					armor = 8;
+					passThrough = 0.5;
+				};
+			};
 		};
 	};
 	class PB_SCHNEE_FAST: PB_FLECK_FAST

@@ -552,7 +552,6 @@ class CfgVehicles
 		scope = 2;
 	};
 ///ESTDCU///
-
 	class PB_Radiobag_ESTDCU: PB_Bag_Base_2
 	{
 		tf_range = 40000;
@@ -571,6 +570,28 @@ class CfgVehicles
 		displayName = "[ESTDCU] RT-1523G";
 		picture = "\PB_Main\ui\EST\PB_RT1523_ESTDCU_CA.paa";
 		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\ESTDCU_PRC177_CO.paa"};
+		range = 40000;
+		scope = 2;
+	};
+///HUNGARY///
+	class PB_Radiobag_2015M: PB_Bag_Base_2
+	{
+		tf_range = 40000;
+	};
+	class PB_RT1523BIG_2015M: PB_RT1523BIG_Base
+	{
+		displayName = "[2015M] RT-1523G BIG";
+		picture = "\PB_Main\ui\HUN\PB_RT1523_2015M_CA.paa";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\2015M_NICECOMM2_co.paa"};
+		range = 40000;
+		scope = 2;
+	};
+	class PB_RT1523_2015M: PB_RT1523G_Base
+	{
+		
+		displayName = "[2015M] RT-1523G";
+		picture = "\PB_Main\ui\HUN\PB_RT1523BIG_2015M_CA.paa";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\2015M_PRC177_CO.paa"};
 		range = 40000;
 		scope = 2;
 	};
