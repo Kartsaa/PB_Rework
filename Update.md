@@ -4,7 +4,7 @@ BLUFOR REWORK UPDATE CHANGELOG:
 All factions redone
 - Each factions equipment, gear, camos and vehicles has been re-looked through, trying to get as close to IRL as possible with the assets we got
 
-Inventory icons for ALL equipment
+Inventory/UI icons for ALL equipment
 
 Reworked camos with new patterns:
 - FLECKTARN
@@ -16,6 +16,7 @@ Reworked camos with new patterns:
 - Greek Lizard
 - M98
 - IDPM
+- Japanese Jietai Dots
 
 Completely new added patterns:
 - Canadian CADPAT-MT
@@ -30,13 +31,15 @@ Extra additions:
 
 New weapons:
 - SCAR-L, G36K, PzF3 & Famas thanks to Aegis Team
-- EF88, C8, C9A2, HK417 thanks to Toadie2k/NiArms
+- EF88, C8, C9A2, HK417, Grot/Type20 (ACR) thanks to Toadie2k/NiArms
 - C7 thanks to Mac and Task Force Canada
 - K2 and K2C1 thanks to withered maple
 
-New gear:
+New Gear:
 
-- Opsrey Vests, ported from Arma 2
+- Vest, 2 Uniforms and Mk7 Helmet from Aegis
+- Balaclava made by OokamiJamie
+- Osprey Vests (From Arma 2)
 
 GenericNames config for following countries:
 - Belgium
@@ -44,7 +47,9 @@ GenericNames config for following countries:
 - Czechia
 - Germany
 - Finland
+- Hungary
 - Israel
+- Japan
 - Korea
 - Norway
 - Poland

@@ -87,7 +87,7 @@ class cfgweapons
         recoil = "recoil_trg21";
         deployedPivot = "deploypivot";
         hasBipod = false;
-        author = "Toadie";
+        author = "Wang_Chung, Philibuster, Toadie";
         scope = 2;
         magazineReloadSwitchPhase = 0.5;
         model = "PB_M_Weapons\EF88\EF88.p3d";
@@ -214,21 +214,18 @@ class cfgweapons
     class PB_EF88_grip : PB_EF88
     {
         scopeArsenal = 0;
-        author = "Toadie";
         handanim[] = { "OFP2_ManSkeleton", "\PB_A_Weapons\EF88\a3\augA3_vfg.rtm" };
         inertia = (0.37 + 0.066);
     };
     class PB_EF88_grip2 : PB_EF88
     {
         scopeArsenal = 0;
-        author = "Toadie";
         handanim[] = { "OFP2_ManSkeleton", "\PB_A_Weapons\EF88\a3\augA3_afg.rtm" };
         inertia = (0.37 + 0.066);
     };
     class PB_EF88_grip3 : PB_EF88
     {
         scopeArsenal = 0;
-        author = "Toadie";
         handanim[] = { "OFP2_ManSkeleton", "\PB_A_Weapons\EF88\a3\augA3_vfg.rtm" };
         inertia = (0.37 + 0.066);
     };
@@ -273,7 +270,7 @@ class cfgweapons
     };
     class PB_C8: Rifle_Base_F 
 	{
-		author="CapryCorn, Kartsa, Millenia, Toadie2k";
+		author="Sephiris, Agent95, Farengar, Siemko, Toadie, CapryCorn, Kartsa";
 		hasBipod = 0;
 		scope="2";
 		model = "\PB_M_Weapons\C8\C8.p3d";
@@ -365,7 +362,7 @@ class cfgweapons
 		ACE_barrelTwist = 305;
 		ACE_barrelLength = 465;
 		aimTransitionSpeed = 0.66259724;
-		author = "Kartsa";
+		author = "Toadie, Kartsa";
 		model = "\PB_M_Weapons\C9\C9A2.p3d";
 		displayName = "C9A2";
 		picture = "PB_Main\ui\C9\PB_C9_CA.paa";
@@ -419,9 +416,7 @@ class cfgweapons
 	class PB_c7_base: Rifle_Base_F
 	{
 		scope = 0;
-		author = "$STR_TFC_A3_AUTHOR";
-		editorCategory = "EdCat_TFC_CORE_Weapons";
-		editorSubcategory = "EdSubcat_TFC_CORE_RIFLES";
+		author = "Mac, Task Force Canada";
 		descriptionShort = "C7A2 made by Colt Canada";
 		reloadAction = "RHS_GestureReloadAR15";
 		handAnim[] = {"OFP2_ManSkeleton","TFC_CORE\addons\weapons_army\rifles\Shared\Anim\tfc_rifle_anim.rtm"};
@@ -2356,7 +2351,6 @@ class cfgweapons
 	class PB_ARM5_grip1: PB_ARM5
 	{
 		scopeArsenal = 0;
-		author = "Toadie";
 		handanim[] = {"OFP2_ManSkeleton","\rhsafrf\addons\rhs_c_weapons\anims\rhs_hand_akmr_grip.rtm"};
 		inertia = "(0.28)";
 		dexterity = 1.8388076;
@@ -2365,7 +2359,6 @@ class cfgweapons
 	class PB_ARM5_afg: PB_ARM5
 	{
 		scopeArsenal = 0;
-		author = "Toadie";
 		handanim[] = {"OFP2_ManSkeleton","\rhsafrf\addons\rhs_c_weapons\anims\rhs_hand_akmr_afg.rtm"};
 		inertia = "(0.28)";
 		dexterity = 1.8388076;
@@ -2921,7 +2914,6 @@ class cfgweapons
 	};
 	class PB_MPT55_grip: PB_MPT55
 	{
-		author = "";
 		picture = "\A3\Weapons_F_Exp\Rifles\SPAR_01\Data\UI\arifle_SPAR_01_blk_F_X_CA.paa";
 		handAnim[] = {"OFP2_ManSkeleton","\rhsusf\addons\rhsusf_c_weapons\anims\rhs_hand_m16a4.rtm"};
 		class LinkedItems
@@ -2935,7 +2927,6 @@ class cfgweapons
 	};
 	class PB_MPT55_grip2: PB_MPT55_grip
 	{
-		author = "Kartsa,Holm";
 		picture = "\A3\Weapons_F_Exp\Rifles\SPAR_01\Data\UI\arifle_SPAR_01_blk_F_X_CA.paa";
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
@@ -2953,7 +2944,6 @@ class cfgweapons
 	};
 	class PB_MPT55_grip3: PB_MPT55_grip2
 	{
-		author = "Kartsa,Holm";
 		picture = "\A3\Weapons_F_Exp\Rifles\SPAR_01\Data\UI\arifle_SPAR_01_blk_F_X_CA.paa";
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
@@ -2971,7 +2961,7 @@ class cfgweapons
 	};
 	class PB_MPT76: PB_MPT55
 	{
-		author = "Kartsa, Holm, Holm";
+		author = "Kartsa, Holm";
 		model = "\rhsusf\addons\rhsusf_weapons2\HK416\rhs_hk416d145.p3d";
 		picture = "PB_Main\ui\MPT\PB_MPT76_CA.paa";
 		displayName = "MPT-76";
@@ -3031,7 +3021,6 @@ class cfgweapons
 	};
 	class PB_MPT76_grip: PB_MPT76
 	{
-		author = "";
 		picture = "PB_Main\ui\MPT\PB_MPT76_CA.paa";
 		handAnim[] = {"OFP2_ManSkeleton","\rhsusf\addons\rhsusf_c_weapons\anims\rhs_hand_m16a4.rtm"};
 		class LinkedItems
@@ -3045,7 +3034,6 @@ class cfgweapons
 	};
 	class PB_MPT76_grip2: PB_MPT76_grip
 	{
-		author = "Kartsa,Holm";
 		picture = "PB_Main\ui\MPT\PB_MPT76_CA.paa";
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
@@ -3063,7 +3051,6 @@ class cfgweapons
 	};
 	class PB_MPT76_grip3: PB_MPT76_grip2
 	{
-		author = "Kartsa,Holm";
 		picture = "PB_Main\ui\MPT\PB_MPT76_CA.paa";
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
@@ -3522,7 +3509,7 @@ class cfgweapons
 	class PB_MSBS_Grot : Rifle_Base_F 
 	{
 		scope = 2;
-		author = "Kartsa, Toadie2k";
+		author = "Toadie";
 		displayname = "MSBS Grot";
 		ACE_barrelTwist = 177.8;
 		ACE_barrelLength = 292.1;
@@ -3643,28 +3630,25 @@ class cfgweapons
     class PB_MSBS_Grot_grip : PB_MSBS_Grot
     {
         scopeArsenal = 0;
-        author = "Toadie";
         handanim[] = { "OFP2_ManSkeleton", "\PB_A_Weapons\Grot\handpose_RU556_VFG.rtm" };
         inertia = (0.37 + 0.066);
     };
     class PB_MSBS_Grot_grip2 : PB_MSBS_Grot
     {
         scopeArsenal = 0;
-        author = "Toadie";
         handanim[] = { "OFP2_ManSkeleton", "\PB_A_Weapons\Grot\handpose_RU556_AFG.rtm" };
         inertia = (0.37 + 0.066);
     };
     class PB_MSBS_Grot_grip3 : PB_MSBS_Grot
     {
         scopeArsenal = 0;
-        author = "Toadie";
         handanim[] = { "OFP2_ManSkeleton", "\PB_A_Weapons\Grot\handpose_RU556_VFG.rtm" };
         inertia = (0.37 + 0.066);
     };
 	class PB_Type20 : PB_MSBS_Grot 
 	{
 		scope = 2;
-		author = "Kartsa, Toadie2k";
+		author = "Toadie";
 		displayname = "Type 20";
 		hiddenSelections[] = { "Map1", "Map2","Receiver" };
 		hiddenSelectionsTextures[] = 
@@ -3712,21 +3696,18 @@ class cfgweapons
     class PB_Type20_grip : PB_Type20
     {
         scopeArsenal = 0;
-        author = "Toadie";
         handanim[] = { "OFP2_ManSkeleton", "\PB_A_Weapons\Grot\handpose_RU556_VFG.rtm" };
         inertia = (0.37 + 0.066);
     };
     class PB_Type20_grip2 : PB_Type20
     {
         scopeArsenal = 0;
-        author = "Toadie";
         handanim[] = { "OFP2_ManSkeleton", "\PB_A_Weapons\Grot\handpose_RU556_AFG.rtm" };
         inertia = (0.37 + 0.066);
     };
     class PB_Type20_grip3 : PB_Type20
     {
         scopeArsenal = 0;
-        author = "Toadie";
         handanim[] = { "OFP2_ManSkeleton", "\PB_A_Weapons\Grot\handpose_RU556_VFG.rtm" };
         inertia = (0.37 + 0.066);
     };
@@ -4575,7 +4556,7 @@ class cfgweapons
     {
         ACE_barrelTwist = 178;
         ACE_barrelLength = 508;
-        author = "Toadie";
+        author = "Toadie, Kartsa";
         deployedPivot = "deploypivot"; /// what point should be used to be on surface while unfolded
         hasBipod = false;              /// a weapon with bipod obviously has a bipod
         AB_barrelTwist = 7;

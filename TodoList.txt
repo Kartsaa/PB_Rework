@@ -14,7 +14,6 @@ Countries:
 Icons:
 - Make new icons for all weapons
 - Bundeswehr insignia to black and white
-- Go through arsenal garage and fix extra vehicles
 
 Go through credits for all added new things.
 
