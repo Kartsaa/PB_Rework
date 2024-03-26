@@ -2,10 +2,7 @@ TODO LIST:
 
 Countries:
  - Denmark
- - Estonia
  - France
- - Japan
- - Latvia
  - Slovakia
  - Spain
  - Ukraine

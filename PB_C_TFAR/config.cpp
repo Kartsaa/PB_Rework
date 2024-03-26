@@ -596,7 +596,6 @@ class CfgVehicles
 		scope = 2;
 	};
 ///JAPAN///
-
 	class PB_Radiobag_Type2: PB_Bag_Base_2
 	{
 		tf_range = 40000;
@@ -615,6 +614,30 @@ class CfgVehicles
 		displayName = "[Type II] RT-1523G";
 		picture = "\PB_Main\ui\JAP\PB_RT1523_Type2_ca.paa";
 		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\Type2_PRC177_CO.paa"};
+		range = 40000;
+		scope = 2;
+	};
+///LATVIA///
+
+
+	class PB_Radiobag_LATPAT: PB_Bag_Base_2
+	{
+		tf_range = 40000;
+	};
+	class PB_RT1523BIG_LATPAT: PB_RT1523BIG_Base
+	{
+		displayName = "[LATPAT] RT-1523G BIG";
+		picture = "\PB_Main\ui\LAT\PB_RT1523BIG_LATPAT_CA.paa";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\LATPAT_NICECOMM2_co.paa"};
+		range = 40000;
+		scope = 2;
+	};
+	class PB_RT1523_LATPAT: PB_RT1523G_Base
+	{
+		
+		displayName = "[LATPAT] RT-1523G";
+		picture = "\PB_Main\ui\LAT\PB_RT1523_LATPAT_CA.paa";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\LATPAT_PRC177_CO.paa"};
 		range = 40000;
 		scope = 2;
 	};
