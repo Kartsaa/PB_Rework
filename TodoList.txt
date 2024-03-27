@@ -1,7 +1,6 @@
 TODO LIST:
 
 Countries:
- - Denmark
  - France
  - Slovakia
  - Spain

@@ -19,7 +19,7 @@ class CfgPatches
 			"PB_Famas_G2", "PB_Famas_G2_Grip", "PB_Famas_G2_M203", "PB_Famas_F1", "PB_Famas_F1_RIS", "PB_Famas_F1_M203","PB_ARM1","PB_ARM5",
 			"PB_RAHE","PB_RAHEGL","PB_RAHES","PB_RAHEL","PB_Negev","PB_SCARL","PB_SCARL_GL","PB_SCARL_GRIP", "PB_ARM1_GL","PB_LMG556","PB_BUL_SOL_MG",
 			"PB_MINIMI_762", "PB_FIN_TRG22","PB_MSBS_Grot","PB_K2","PB_K2GL","PB_K2C1","PB_K2C1GL", "PB_G3","PB_TAR21_Black","PB_GTAR21_EGLM_Black",
-			"PB_CTAR21_Black","PB_RPG32_Black","PB_RPG32_Olive","PB_Type20","PB_HK417",
+			"PB_CTAR21_Black","PB_RPG32_Black","PB_RPG32_Olive","PB_Type20","PB_HK417","PB_GM10A4","PB_GM10A4_M203"
 		};
 		requiredVersion = "1.1.3";
 		requiredAddons[] = {"PB_Main","PB_M_Weapons","PB_T_Weapons", "PB_A_Weapons", "rhsusf_c_weapons"};

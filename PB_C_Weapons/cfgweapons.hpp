@@ -25,6 +25,8 @@ class nia_charms_slot;
 class rhs_weap_pkm;
 class rhs_weap_pkp;
 class rhs_weap_m24sws;
+class rhs_western_rifle_laser_slot;
+class rhs_western_rifle_afg_slot;
 class rhs_rifle_gripod_slot: UnderBarrelSlot
 {
     displayName = "Gripod slot";
@@ -2842,7 +2844,7 @@ class cfgweapons
 			dispersion = 0.001518;
 		};
 	};
-	class PB_MPT55: RAHE_BASE_F 
+	class PB_MPT55: Rifle_Base_F 
 	{
 		author="Kartsa, Holm";
 		scope="2";
@@ -2880,7 +2882,7 @@ class cfgweapons
 			class MuzzleSlot: asdg_MuzzleSlot_556{};
 			class GripodSlot: rhs_western_rifle_gripod_slot{};
 		};
-		class Single: Single
+		class Single: Mode_SemiAuto
 		{
 			sounds[] = {"Standardsound","SilencedSound"};
 			class StandardSound
@@ -2894,7 +2896,7 @@ class cfgweapons
 			reloadTime = 0.075;
 			dispersion = 0.0006818;
 		};
-		class FullAuto: FullAuto
+		class FullAuto: Mode_FullAuto
 		{
 			sounds[] = {"Standardsound","SilencedSound"};
 			class StandardSound
@@ -4671,5 +4673,163 @@ class cfgweapons
         scopeArsenal = 0;
         handAnim[] = {"OFP2_ManSkeleton", "PB_A_Weapons\417\hand\handpose_VFG.rtm"};
     };
+	class PB_GM10A4: Rifle_Base_F 
+	{
+		author="Kartsa";
+		scope="2";
+		model = "\rhsusf\addons\rhsusf_weapons3\M4BII\m4a1_blockII.p3d";
+		reloadAction = "RHS_GestureReloadAR15";
+		picture = "";
+		baseWeapon="PB_GM10A4";
+		displayName="Gevær M10 A4";
+		UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
+		weaponInfoType = "RscWeaponZeroing";
+		discreteDistance[] = {200,300,400,500,600};
+		discreteDistanceCameraPoint[] = {"eye","eye_300","eye_400","eye_500","eye_600"};
+		discreteDistanceInitIndex = 0;
+        cameraDir = "eye_look";
+		hiddenSelections[] = {"camo1","camo2","camo3","camo4","camo5","camo6","camo8"};
+		hiddenSelectionsTextures[] = 
+		{
+			"PB_T_Weapons\data\GM10\GM10A4_01_co.paa",
+			"\rhsusf\addons\rhsusf_weapons3\M4BII\Data\rhs_block2rail_d_co.paa",
+			"rhsusf\addons\rhsusf_weapons\acc\grips\grippod\data\acc_co.paa",
+			"rhsusf\addons\rhsusf_weapons\m4\data\m4acc_co.paa",
+			"rhsusf\addons\rhsusf_weapons\m4\data\magpulstock_d_co.paa",
+			"rhsusf\addons\rhsusf_weapons\m4\data\m203_co.paa",
+			"\rhsusf\addons\rhsusf_weapons\m4\data\kacleaf_d_co.paa"
+		};
+		magazines[]=
+		{
+			"rhs_mag_30Rnd_556x45_M855A1_Stanag"
+		};
+		magazineWell[] = {"STANAG_556x45","STANAG_556x45_Large","CBA_556x45_STANAG","CBA_556x45_STANAG_L","CBA_556x45_STANAG_XL","CBA_556x45_STANAG_2D","CBA_556x45_STANAG_2D_XL"};
+		handAnim[] = {"OFP2_ManSkeleton","\rhsusf\addons\rhsusf_c_weapons\anims\rhs_hand_m16a4_stock.rtm"};
+		bg_bipod = 0; 
+		modes[] = {"Single","FullAuto"};
+        drySound[] = {"A3\sounds_f\weapons\Other\dry_1",0.562341,1,10};
+        reloadMagazineSound[] = {"A3\Sounds_F\weapons\Khaybar\reload_khaibar",1,1,10};
+		recoil = "rhs_recoil_mk18";
+		class WeaponSlotsInfo
+		{			
+			mass = 67.78;
+			allowedSlots[] = {901};
+			class UnderBarrelSlot: asdg_underslot{};
+			class CowsSlot: asdg_OpticRail1913{};
+			class PointerSlot: asdg_FrontSideRail{};
+			class MuzzleSlot: asdg_MuzzleSlot_556{};
+			class GripodSlot: rhs_western_rifle_gripod_slot{};
+		};
+		class Single: Mode_SemiAuto
+		{
+			sounds[] = {"Standardsound","SilencedSound"};
+			class StandardSound
+			{
+				soundSetShot[] = {"RHSUSF_m16_Shot_SoundSet","RHSUSF_rifle_small_Tail_SoundSet","RHSUSF_m16_stereoLayer_SoundSet"};
+			};
+			class SilencedSound
+			{
+				soundSetShot[] = {"RHSUSF_sd_M4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_M4_stereoLayer_SoundSet"};
+			};
+			reloadTime = 60/750;
+			dispersion = 0.00052362;
+		};
+		class FullAuto: Mode_FullAuto
+		{
+			sounds[] = {"Standardsound","SilencedSound"};
+			class StandardSound
+			{
+				soundSetShot[] = {"RHSUSF_m16_Shot_SoundSet","RHSUSF_rifle_small_Tail_SoundSet","RHSUSF_m16_stereoLayer_SoundSet"};
+			};
+			class SilencedSound
+			{
+				soundSetShot[] = {"RHSUSF_sd_M4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_M4_stereoLayer_SoundSet"};
+			};
+			reloadTime = 60/750;
+			dispersion = 0.00052362;
+		};
+		rhs_grip1_change = "PB_GM10A4_grip";
+		rhs_grip2_change = "PB_GM10A4_grip2";
+		rhs_grip3_change = "PB_GM10A4_grip3";
+	};
+	class PB_GM10A4_grip: PB_GM10A4
+	{
+		handAnim[] = {"OFP2_ManSkeleton","\rhsusf\addons\rhsusf_c_weapons\anims\rhs_hand_m16a4.rtm"};
+		class LinkedItems
+		{
+			class LinkedItemsUnder
+			{
+				item = "rhsusf_acc_grip1";
+				slot = "UnderBarrelSlot";
+			};
+		};
+	};
+	class PB_GM10A4_grip2: PB_GM10A4_grip
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class GripodSlot: rhs_western_rifle_afg_slot{};
+		};
+		handAnim[] = {"OFP2_ManSkeleton","\rhsusf\addons\rhsusf_c_weapons\anims\rhs_hand_m4b2_afg.rtm"};
+		class LinkedItems
+		{
+			class LinkedItemsUnder
+			{
+				item = "rhsusf_acc_grip2";
+				slot = "UnderBarrelSlot";
+			};
+		};
+	};
+	class PB_GM10A4_grip3: PB_GM10A4_grip2
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class GripodSlot: rhs_western_rifle_gripod_slot{};
+		};
+		handAnim[] = {"OFP2_ManSkeleton","\rhsusf\addons\rhsusf_c_weapons\anims\rhs_hand_m16a4.rtm"};
+		class LinkedItems
+		{
+			class LinkedItemsUnder
+			{
+				item = "rhsusf_acc_grip3";
+				slot = "UnderBarrelSlot";
+			};
+		};
+	};
+	class PB_GM10A4_M203: PB_GM10A4
+	{
+		author = "Kartsa";
+		picture = "\rhsusf\addons\rhsusf_inventoryicons\data\weapons\rhs_weap_m4a1_blockII_M203_ca.paa";
+		displayName = "Gevær M10 A4 (M203)";
+		model = "\rhsusf\addons\rhsusf_weapons3\M4BII\m4a1_blockII_M203.p3d";
+		handAnim[] = {"OFP2_ManSkeleton","\rhsusf\addons\rhsusf_c_weapons\anims\rhs_hand_m16a4_m203.rtm"};
+		muzzles[] = {"this","M203_GL"};
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			mass = 97.7;
+			class UnderBarrelSlot{};
+			class GripodSlot{};
+			class PointerSlot: rhs_western_rifle_laser_slot{};
+		};
+		class M203_GL: UGL_F
+		{
+			displayName = "M203 grenade launcher";
+			descriptionShort = "M203";
+			useModelOptics = 0;
+			useExternalOptic = 0;
+			reloadAction = "GestureReloadMk20UGL";
+			reloadMagazineSound[] = {"A3\Sounds_F\arsenal\weapons\Rifles\Mk20\MK20_UGL_reload",0.794328,1,10};
+			magazines[] = {"rhs_mag_M441_HE","rhs_mag_M433_HEDP","rhs_mag_M397_HET","rhs_mag_m576","rhs_mag_M4009","rhs_mag_M583A1_white","rhs_mag_M661_green","rhs_mag_M662_red","rhs_mag_M585_white_cluster","rhs_mag_M663_green_cluster","rhs_mag_M664_red_cluster","rhs_mag_M713_red","rhs_mag_M714_white","rhs_mag_M715_green","rhs_mag_M716_yellow","rhs_mag_M781_Practice","1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareGreen_F","UGL_FlareRed_F","UGL_FlareYellow_F","UGL_FlareCIR_F","1Rnd_Smoke_Grenade_shell","1Rnd_SmokeRed_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell","1Rnd_SmokeYellow_Grenade_shell","1Rnd_SmokePurple_Grenade_shell","1Rnd_SmokeBlue_Grenade_shell","1Rnd_SmokeOrange_Grenade_shell"};
+			magazineWell[] = {"UGL_40x36","CBA_40mm_M203"};
+			cameraDir = "gl_look";
+			discreteDistance[] = {50,100,150,200,250};
+			discreteDistanceCameraPoint[] = {"gl_eye_50m","gl_eye_100m","gl_eye_150m","gl_eye_200m","gl_eye_250m"};
+			discreteDistanceInitIndex = 1;
+			magazineReloadSwitchPhase = 0.49;
+		};
+		inertia = 0.6;
+		dexterity = 1.4;
+		baseWeapon = "PB_GM10A4_M203";
+	};
 };
  

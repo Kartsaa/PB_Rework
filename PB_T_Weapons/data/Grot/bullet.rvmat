@@ -56,7 +56,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="hlc_wp_acr\tex\300wm_smdi.paa";
+	texture="PB_T_Weapons\data\Grot\300wm_smdi.paa";
 	uvSource="tex";
 	class uvTransform
 	{

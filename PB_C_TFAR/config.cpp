@@ -641,4 +641,26 @@ class CfgVehicles
 		range = 40000;
 		scope = 2;
 	};
+///DENMARK///
+	class PB_Radiobag_M84: PB_Bag_Base_2
+	{
+		tf_range = 40000;
+	};
+	class PB_RT1523BIG_M84: PB_RT1523BIG_Base
+	{
+		displayName = "[M84] RT-1523G BIG";
+		picture = "\PB_Main\ui\DEN\PB_RT1523_M84_CA.paa";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\M84_NICECOMM2_co.paa"};
+		range = 40000;
+		scope = 2;
+	};
+	class PB_RT1523_M84: PB_RT1523G_Base
+	{
+		
+		displayName = "[M84] RT-1523G";
+		picture = "\PB_Main\ui\DEN\PB_RT1523BIG_M84_CA.paa";
+		hiddenSelectionsTextures[] = {"\PB_T_TFAR\data\M84_PRC177_CO.paa"};
+		range = 40000;
+		scope = 2;
+	};
 };

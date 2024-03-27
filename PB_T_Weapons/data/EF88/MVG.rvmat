@@ -20,7 +20,7 @@ class Stage1
 };
 class Stage2
 {
-	texture="hlc_core\tex\Metal_Detail_DT.paa";
+	texture="PB_T_Weapons\data\EF88\Metal_Detail_DT.paa";
 	uvSource="tex";
 	class uvTransform
 	{

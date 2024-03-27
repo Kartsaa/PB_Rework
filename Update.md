@@ -18,6 +18,7 @@ Reworked camos with new patterns:
 - IDPM
 - Japanese Jietai Dots
 - LATPAT
+- M84
 
 Completely new added patterns:
 - Canadian CADPAT-MT
@@ -45,6 +46,7 @@ New Gear:
 GenericNames config for following countries:
 - Belgium
 - Bulgaria
+- Denmark
 - Czechia
 - Germany
 - Finland
