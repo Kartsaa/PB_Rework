@@ -52,7 +52,7 @@ class CfgVehicles
 	class PB_M18_Gora_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamieJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_01.p3d";
 		picture = "\PB_Main\UI\BUL\PB_M18_GORA_CA.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -61,7 +61,7 @@ class CfgVehicles
 	class PB_M18_Gora_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamieJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_02.p3d";
 		picture = "\PB_Main\UI\BUL\PB_M18_GORA_RU_CA.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -70,7 +70,7 @@ class CfgVehicles
 	class PB_M18_GoraG_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamieJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_03.p3d";
 		picture = "\PB_Main\UI\BUL\PB_M18_GORAG_CA.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
@@ -79,7 +79,7 @@ class CfgVehicles
 	class PB_M18_GoraG_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamieJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_04.p3d";
 		picture = "\PB_Main\UI\BUL\PB_M18_GORAG_RU_CA.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
@@ -88,7 +88,7 @@ class CfgVehicles
 	class PB_M18_ACU_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamieJamie";
 		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_F.p3d";
 		picture = "\PB_Main\UI\BUL\PB_M18_ACU_CA.paa";
 		hiddenSelections[] = {"camo","camo1","camo2"};
@@ -102,7 +102,7 @@ class CfgVehicles
 	class PB_M18_ACU_B_R: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamieJamie";
 		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_02_F.p3d";
 		picture = "\PB_Main\UI\BUL\PB_M18_ACU_R_CA.paa";
 		hiddenSelections[] = {"camo","camo1","camo2"};
@@ -162,8 +162,8 @@ class cfgWeapons
 	class PB_M18_ACU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[M18] Combat Uniform";
+		author = "Kartsa, OokamieJamie";
+		displayName = "Combat Uniform (M18)";
 		picture = "\PB_Main\UI\BUL\PB_M18_ACU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -179,8 +179,8 @@ class cfgWeapons
 	class PB_M18_ACU_R: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[M18] Combat Uniform (Rolled-Up)";
+		author = "Kartsa, OokamieJamie";
+		displayName = "Combat Uniform (M18/Rolled-Up)";
 		picture = "\PB_Main\UI\BUL\PB_M18_ACU_R_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -197,7 +197,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		author = "Kartsa";
-		displayName = "[M18] Combat Fatigues";
+		displayName = "Combat Fatigues (M18)";
 		picture = "\PB_MAIN\UI\BUL\PB_M18_U_CA.PAA";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -214,7 +214,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		author = "Kartsa";
-		displayName = "[M18] Combat Fatigues (Rolled-Up)";
+		displayName = "Combat Fatigues (M18/Rolled-Up)";
 		picture = "\PB_MAIN\UI\BUL\PB_M18_U_R_CA.PAA";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -231,8 +231,8 @@ class cfgWeapons
 	class PB_M18_Gora: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[M18] Field Shirt";
+		author = "Kartsa, OokamieJamie";
+		displayName = "Field Shirt (M18)";
 		picture = "\PB_Main\UI\BUL\PB_M18_GORA_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -248,8 +248,8 @@ class cfgWeapons
 	class PB_M18_Gora_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[M18] Field Shirt (Rolled-Up)";
+		author = "Kartsa, OokamieJamie";
+		displayName = "Field Shirt (M18/Rolled-Up)";
 		picture = "\PB_Main\UI\BUL\PB_M18_GORA_RU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -265,8 +265,8 @@ class cfgWeapons
 	class PB_M18_GoraG: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[M18] Field Shirt with Gloves";
+		author = "Kartsa, OokamieJamie";
+		displayName = "Field Shirt with Gloves";
 		picture = "\PB_Main\UI\BUL\PB_M18_GORAG_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -282,8 +282,8 @@ class cfgWeapons
 	class PB_M18_GoraG_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[M18] Field Shirt with Gloves (Rolled-Up)";
+		author = "Kartsa, OokamieJamie";
+		displayName = "Field Shirt with Gloves (M18/Rolled-Up)";
 		picture = "\PB_Main\UI\BUL\PB_M18_GORAG_RU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -302,7 +302,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[M18] Boonie Hat";
+		displayName = "Boonie Hat (M18)";
 		picture = "\PB_Main\UI\BUL\PB_M18_BOONIE_CA.paa";
 		model = "\A3\Characters_F\Common\booniehat";
 		hiddenSelections[] = {"camo"};
@@ -329,7 +329,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[M18] Military Cap";
+		displayName = "Military Cap (M18)";
 		picture = "\PB_Main\UI\BUL\PB_M18_CAP_CA.paa";
 		model = "\A3\Characters_F\Common\cappatrol";
 		hiddenSelections[] = {"camo"};
@@ -355,7 +355,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[M18] Beanie";
+		displayName = "Beanie (M18)";
 		picture = "\PB_Main\UI\BUL\PB_M18_BEANIE_CA.paa";
 		model = "\A3\Characters_F\Common\woolhat";
 		hiddenSelections[] = {"camo"};
@@ -385,7 +385,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		picture = "\PB_Main\UI\BUL\PB_M18_H_N_CA.paa";
-		displayName = "[M18] Helmet (Norotos)";
+		displayName = "Helmet (M18/Norotos)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_01_nor1";
 		hiddenSelections[] = {"Camo1","Camo2"};
 		hiddenSelectionsTextures[] = 
@@ -441,7 +441,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		picture = "\PB_Main\UI\BUL\PB_M18_H_N_H_CA.paa";
-		displayName = "[M18] Helmet (Norotos/Headset)";
+		displayName = "Helmet (M18/Norotos/Headset)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_01_nor1_bowman";
 		hiddenSelections[] = {"Camo1","Camo2"};
 		hiddenSelectionsTextures[] = 
@@ -497,7 +497,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		picture = "\PB_Main\UI\BUL\PB_M18_H_N_A_CA.paa";
-		displayName = "[M18] Helmet (Norotos/ARC)";
+		displayName = "Helmet (M18/Norotos/ARC)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_01_nor1_arc";
 		hiddenSelections[] = {"Camo1","Camo2"};
 		hiddenSelectionsTextures[] = 

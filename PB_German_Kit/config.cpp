@@ -51,7 +51,7 @@ class CfgVehicles
 	class PB_FLECK_ACU_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_F.p3d";
 		picture = "\PB_Main\UI\GER\PB_FLECK_ACU_CA.paa";
 		hiddenSelections[] = {"camo","camo1","camo2"};
@@ -65,7 +65,7 @@ class CfgVehicles
 	class PB_FLECK_ACU_B_R: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_02_F.p3d";
 		picture = "\PB_Main\UI\GER\PB_FLECK_ACU_R_CA.paa";
 		hiddenSelections[] = {"camo","camo1","camo2"};
@@ -97,7 +97,7 @@ class CfgVehicles
 	class PB_TROP_ACU_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_F.p3d";
 		picture = "\PB_Main\UI\GER\PB_TROP_ACU_CA.paa";
 		hiddenSelections[] = {"camo","camo1","camo2"};
@@ -111,7 +111,7 @@ class CfgVehicles
 	class PB_TROP_ACU_B_R: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_02_F.p3d";
 		picture = "\PB_Main\UI\GER\PB_TROP_ACU_R_CA.paa";
 		hiddenSelections[] = {"camo","camo1","camo2"};
@@ -143,7 +143,7 @@ class CfgVehicles
 	class PB_SCHNEE_ACU_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_F.p3d";
 		picture = "\PB_Main\UI\GER\PB_SCHNEE_ACU_CA.paa";
 		hiddenSelections[] = {"camo","camo1","camo2"};
@@ -157,7 +157,7 @@ class CfgVehicles
 	class PB_SCHNEE_ACU_B_R: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_02_F.p3d";
 		picture = "\PB_Main\UI\GER\PB_SCHNEE_ACU_R_CA.paa";
 		hiddenSelections[] = {"camo","camo1","camo2"};
@@ -198,7 +198,7 @@ class CfgVehicles
 	class PB_FLECK_Gora_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_01.p3d";
 		picture = "\PB_Main\UI\GER\PB_FLECK_GORA_CA.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -207,7 +207,7 @@ class CfgVehicles
 	class PB_FLECK_Gora_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_02.p3d";
 		picture = "\PB_Main\UI\GER\PB_FLECK_GORA_RU_CA.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -216,7 +216,7 @@ class CfgVehicles
 	class PB_FLECK_GoraG_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_03.p3d";
 		picture = "\PB_Main\UI\GER\PB_FLECK_GORAG_CA.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
@@ -225,7 +225,7 @@ class CfgVehicles
 	class PB_FLECK_GoraG_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_04.p3d";
 		picture = "\PB_Main\UI\GER\PB_FLECK_GORAG_RU_CA.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
@@ -243,7 +243,7 @@ class CfgVehicles
 	class PB_TROP_Gora_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_02.p3d";
 		picture = "\PB_Main\UI\GER\PB_TROP_GORAG_RU_CA.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -252,17 +252,16 @@ class CfgVehicles
 	class PB_TROP_GoraG_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_03.p3d";
 		picture = "\PB_Main\UI\GER\PB_TROP_GORAG_CA.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
-		
 		hiddenSelectionsTextures[] = {"\PB_German_Kit\data\TROP_Fatigues_co.paa","PB_British_Kit\data\TacGloves_clk_CO.paa"};
 	};
 	class PB_TROP_GoraG_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_04.p3d";
 		picture = "\PB_Main\UI\GER\PB_TROP_GORAG_RU_CA.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
@@ -271,7 +270,7 @@ class CfgVehicles
 	class PB_SCHNEE_Gora_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_01.p3d";
 		picture = "\PB_Main\UI\GER\PB_SCHNEE_GORA_CA.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -280,7 +279,7 @@ class CfgVehicles
 	class PB_SCHNEE_Gora_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_02.p3d";
 		picture = "\PB_Main\UI\GER\PB_SCHNEE_GORA_RU_CA.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -289,17 +288,16 @@ class CfgVehicles
 	class PB_SCHNEE_GoraG_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_03.p3d";
 		picture = "\PB_Main\UI\GER\PB_SCHNEE_GORAg_CA.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
-		
 		hiddenSelectionsTextures[] = {"\PB_German_Kit\data\SCHNEE_Fatigues_co.paa","PB_British_Kit\data\TacGloves_clk_CO.paa"};
 	};
 	class PB_SCHNEE_GoraG_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_04.p3d";
 		picture = "\PB_Main\UI\GER\PB_SCHNEE_GORAG_RU_CA.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
@@ -319,7 +317,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[FLECKTARN] Carryall Backpack";
+		displayName = "Carryall Backpack (FLECKTARN)";
 		picture = "\PB_Main\UI\GER\PB_CARRYALL_FLECK_CA.paa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Tortila";
 		hiddenSelectionsTextures[] = {"PB_German_Kit\data\FLECK_CB_CO.paa"};	
@@ -328,13 +326,13 @@ class CfgVehicles
 	};
 	class PB_CARRYALL_TROP: PB_CARRYALL_FLECK
 	{
-		displayName = "[TROPENTARN] Carryall Backpack";
+		displayName = "Carryall Backpack (TROPENTARN)";
 		picture = "\PB_Main\UI\GER\PB_CARRYALL_TROP_CA.paa";
 		hiddenSelectionsTextures[] = {"PB_German_Kit\data\TROP_CB_CO.paa"};	
 	};
 	class PB_CARRYALL_SCHNEE: PB_CARRYALL_FLECK
 	{
-		displayName = "[SCHNEETARN] Carryall Backpack";
+		displayName = "Carryall Backpack (SCHNEETARN)";
 		picture = "\PB_Main\UI\GER\PB_CARRYALL_SCHNEE_CA.paa";
 		hiddenSelectionsTextures[] = {"PB_German_Kit\data\SCHNEE_CB_CO.paa"};	
 	};
@@ -342,7 +340,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[FLECKTARN] Kitbag";
+		displayName = "Kitbag (FLECKTARN)";
 		picture = "\PB_Main\UI\GER\PB_KITBAG_FLECK_CA.paa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast";
 		hiddenSelectionsTextures[] = {"PB_German_Kit\data\FLECK_KB_CO.paa"};	
@@ -353,7 +351,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[FLECKTARN] Medicbag";
+		displayName = "Medicbag (FLECKTARN)";
 		picture = "\PB_Main\UI\GER\PB_MEDBAG_FLECK_CA.paa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast";
 		hiddenSelectionsTextures[] = {"PB_German_Kit\data\FLECK_KB_MED_CO.paa"};	
@@ -362,25 +360,25 @@ class CfgVehicles
 	};
 	class PB_Kitbag_TROP: PB_Kitbag_FLECK
 	{
-		displayName = "[TROPENTARN] Kitbag";
+		displayName = "Kitbag (TROPENTARN)";
 		picture = "\PB_Main\UI\GER\PB_KITBAG_TROP_CA.paa";
 		hiddenSelectionsTextures[] = {"PB_German_Kit\data\TROP_KB_CO.paa"};
 	};
 	class PB_Medbag_TROP: PB_Medbag_FLECK
 	{
-		displayName = "[TROPENTARN] Medbag";
+		displayName = "Medbag (TROPENTARN)";
 		picture = "\PB_Main\UI\GER\PB_MEDBAG_TROP_CA.paa";
 		hiddenSelectionsTextures[] = {"PB_German_Kit\data\TROP_KB_MED_CO.paa"};
 	};
 	class PB_Kitbag_SCHNEE: PB_Kitbag_FLECK
 	{
-		displayName = "[SCHNEETARN] Kitbag";
+		displayName = "Kitbag (SCHNEETARN)";
 		picture = "\PB_Main\UI\GER\PB_KITBAG_SCHNEE_CA.paa";
 		hiddenSelectionsTextures[] = {"PB_German_Kit\data\SCHNEE_KB_CO.paa"};
 	};
 	class PB_Medbag_SCHNEE: PB_Medbag_FLECK
 	{
-		displayName = "[SCHNEETARN] Medbag";
+		displayName = "Medbag (SCHNEETARN)";
 		picture = "\PB_Main\UI\GER\PB_MEDBAG_SCHNEE_CA.paa";
 		hiddenSelectionsTextures[] = {"PB_German_Kit\data\SCHNEE_KB_MED_CO.paa"};
 	};
@@ -388,7 +386,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[FLECKTARN] Radiobag";
+		displayName = "Radiobag (FLECKTARN)";
 		picture = "\PB_Main\UI\GER\PB_RADIOBAG_FLECK_CA.paa";
 		model = "a3\Supplies_F_Enoch\Bags\B_RadioBag_01_F.p3d";
 		hiddenSelections[] = {"camo1"};
@@ -402,7 +400,7 @@ class CfgVehicles
 		scope = 2;
 		picture = "\PB_Main\UI\GER\PB_RADIOBAG_TROP_CA.paa";
 		model = "a3\Supplies_F_Enoch\Bags\B_RadioBag_01_F.p3d";
-		displayName = "[TROPENTARN] Radiobag";
+		displayName = "Radiobag (TROPENTARN)";
 		hiddenSelections[] = {"camo1"};
 		hiddenSelectionsTextures[] = {"PB_German_Kit\data\TROP_RB_CO.paa"};	
 		maximumLoad = 160;
@@ -414,7 +412,7 @@ class CfgVehicles
 		scope = 2;
 		picture = "\PB_Main\UI\GER\PB_RADIOBAG_SCHNEE_CA.paa";
 		model = "a3\Supplies_F_Enoch\Bags\B_RadioBag_01_F.p3d";
-		displayName = "[SCHNEETARN] Radiobag";
+		displayName = "Radiobag (SCHNEETARN)";
 		hiddenSelections[] = {"camo1"};
 		hiddenSelectionsTextures[] = {"PB_German_Kit\data\SCHNEE_RB_CO.paa"};	
 		maximumLoad = 160;
@@ -450,8 +448,8 @@ class cfgWeapons
 	class PB_FLECK_ACU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[FLECKTARN] Combat Uniform";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Combat Uniform (FLECKTARN)";
 		picture = "\PB_Main\UI\GER\PB_FLECK_ACU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -467,8 +465,8 @@ class cfgWeapons
 	class PB_FLECK_ACU_R: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[FLECKTARN] Combat Uniform (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Combat Uniform (FLECKTARN/Rolled-Up)";
 		picture = "\PB_Main\UI\GER\PB_FLECK_ACU_R_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -485,7 +483,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		author = "Kartsa";
-		displayName = "[FLECKTARN] Combat Fatigues";
+		displayName = "Combat Fatigues (FLECKTARN)";
 		picture = "\PB_Main\ui\GER\PB_FLECK_U_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -502,7 +500,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		author = "Kartsa";
-		displayName = "[FLECKTARN] Combat Fatigues (Rolled-Up)";
+		displayName = "Combat Fatigues (FLECKTARN/Rolled-Up)";
 		picture = "\PB_Main\ui\GER\PB_FLECK_U_R_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -519,7 +517,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		author = "Kartsa";
-		displayName = "[TROPENTARN] Combat Fatigues";
+		displayName = "Combat Fatigues (TROPENTARN)";
 		picture = "\PB_Main\ui\GER\PB_TROP_U_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -536,7 +534,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		author = "Kartsa";
-		displayName = "[TROPENTARN] Combat Fatigues (Rolled-Up)";
+		displayName = "Combat Fatigues (TROPENTARN/Rolled-Up)";
 		picture = "\PB_Main\ui\GER\PB_TROP_U_R_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -552,8 +550,8 @@ class cfgWeapons
 	class PB_TROP_ACU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[TROPENTARN] Combat Uniform";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Combat Uniform (TROPENTARN)";
 		picture = "\PB_Main\UI\GER\PB_TROP_ACU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -569,8 +567,8 @@ class cfgWeapons
 	class PB_TROP_ACU_R: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[TROPENTARN] Combat Uniform (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Combat Uniform (TROPENTARN/Rolled-Up)";
 		picture = "\PB_Main\UI\GER\PB_TROP_ACU_R_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -587,7 +585,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		author = "Kartsa";
-		displayName = "[SCHNEETARN] Combat Fatigues";
+		displayName = "Combat Fatigues (SCHNEETARN)";
 		picture = "\PB_Main\ui\GER\PB_SCHNEE_U_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -604,7 +602,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		author = "Kartsa";
-		displayName = "[SCHNEETARN] Combat Fatigues (Rolled-Up)";
+		displayName = "Combat Fatigues (SCHNEETARN/Rolled-Up)";
 		picture = "\PB_Main\ui\GER\PB_SCHNEE_U_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -620,8 +618,8 @@ class cfgWeapons
 	class PB_SCHNEE_ACU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[SCHNEETARN] Combat Uniform";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Combat Uniform (SCHNEETARN)";
 		picture = "\PB_Main\UI\GER\PB_SCHNEE_ACU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -637,8 +635,8 @@ class cfgWeapons
 	class PB_SCHNEE_ACU_R: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[SCHNEETARN] Combat Uniform (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Combat Uniform (SCHNEETARN/Rolled-Up)";
 		picture = "\PB_Main\UI\GER\PB_SCHNEE_ACU_R_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -655,7 +653,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		author = "Kartsa";
-		displayName = "[FLECKTARN] Smock";
+		displayName = "Smock (FLECKTARN)";
 		picture = "\PB_Main\UI\GER\PB_FLECK_JACKET_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -671,8 +669,8 @@ class cfgWeapons
 	class PB_FLECK_Gora: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[FLECKTARN] Fatigues";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues (FLECKTARN)";
 		picture = "\PB_Main\UI\GER\PB_FLECK_GORA_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -688,8 +686,8 @@ class cfgWeapons
 	class PB_FLECK_Gora_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[FLECKTARN] Fatigues (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues (FLECKTARN/Rolled-Up)";
 		picture = "\PB_Main\UI\GER\PB_FLECK_GORA_RU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -705,8 +703,8 @@ class cfgWeapons
 	class PB_FLECK_GoraG: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[FLECKTARN] Fatigues with Gloves";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues with Gloves (FLECKTARN)";
 		picture = "\PB_Main\UI\GER\PB_FLECK_GORAG_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -722,8 +720,8 @@ class cfgWeapons
 	class PB_FLECK_GoraG_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[FLECKTARN] Fatigues with Gloves (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues with Gloves (FLECKTARN/Rolled-Up)";
 		picture = "\PB_Main\UI\GER\PB_FLECK_GORAG_RU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -739,8 +737,8 @@ class cfgWeapons
 	class PB_TROP_Gora: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[TROPENTARN] Fatigues";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues (TROPENTARNTARN)";
 		picture = "\PB_Main\UI\GER\PB_TROP_GORA_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -756,8 +754,8 @@ class cfgWeapons
 	class PB_TROP_Gora_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[TROPENTARN] Fatigues (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues (TROPENTARN/Rolled-Up)";
 		picture = "\PB_Main\UI\GER\PB_TROP_GORA_RU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -773,8 +771,8 @@ class cfgWeapons
 	class PB_TROP_GoraG: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[TROPENTARN] Fatigues with Gloves";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues with Gloves (TROPENTARN)";
 		picture = "\PB_Main\UI\GER\PB_TROP_GORAG_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -790,8 +788,8 @@ class cfgWeapons
 	class PB_TROP_GoraG_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[TROPENTARN] Fatigues with Gloves (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues with Gloves (TROPENTARN/Rolled-Up)";
 		picture = "\PB_Main\UI\GER\PB_TROP_GORAG_RU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -807,8 +805,8 @@ class cfgWeapons
 	class PB_SCHNEE_Gora: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[SCHNEENTARN] Fatigues";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues (SCHNEETARN)";
 		picture = "\PB_Main\UI\GER\PB_SCHNEE_GORA_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -824,8 +822,8 @@ class cfgWeapons
 	class PB_SCHNEE_Gora_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[SCHNEENTARN] Fatigues (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues (SCHNEETARN/Rolled-Up)";
 		picture = "\PB_Main\UI\GER\PB_SCHNEE_GORA_RU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -841,8 +839,8 @@ class cfgWeapons
 	class PB_SCHNEE_GoraG: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[SCHNEENTARN] Fatigues with Gloves";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues with Gloves (SCHNEETARN)";
 		picture = "\PB_Main\UI\GER\PB_SCHNEE_GORAG_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -858,8 +856,8 @@ class cfgWeapons
 	class PB_SCHNEE_GoraG_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[SCHNEENTARN] Fatigues with Gloves (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues with Gloves (SCHNEETARN/Rolled-Up)";
 		picture = "\PB_Main\UI\GER\PB_SCHNEE_GORAG_RU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -876,7 +874,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		author = "Kartsa";
-		displayName = "[SCHNEETARN] Smock";
+		displayName = "Smock (SCHNEETARN)";
 		picture = "\PB_Main\UI\GER\PB_SCHNEE_JACKET_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -894,7 +892,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[FLECKTARN] Modular Carrier Lite";
+		displayName = "Modular Carrier Lite (FLECKTARN)";
 		picture = "\PB_Main\UI\GER\PB_FLECK_MODULAR_LITE_CA.paa";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_light_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -936,7 +934,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[FLECKTARN] Modular Carrier Vest";
+		displayName = "Modular Carrier Vest (FLECKTARN)";
 		picture = "\PB_Main\UI\GER\PB_FLECK_MODULAR_CA.paa";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -981,7 +979,7 @@ class cfgWeapons
 		author = "Kartsa";
 		picture = "\PB_Main\UI\GER\PB_FLECK_CARRIERLITE_CO_CA.paa";
 		Model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
-		displayName = "[FLECKTARN] Carrier Lite";
+		displayName = "Carrier Lite (FLECKTARN)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_German_Kit\data\FLECK_CARRIERLITE_CO.paa"};
 		class ItemInfo: VestItem
@@ -1025,7 +1023,7 @@ class cfgWeapons
 		author = "Kartsa";
 		picture = "\PB_Main\UI\GER\PB_FLECK_CARRIER_RIG_CA.paa";
 		Model = "\A3\Characters_F\BLUFOR\equip_b_vest01";
-		displayName = "[FLECKTARN] Carrier Rig";
+		displayName = "Carrier Rig (FLECKTARN)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_German_Kit\data\FLECK_CARRIERLITE_CO.paa"};
 		class ItemInfo: VestItem
@@ -1065,19 +1063,19 @@ class cfgWeapons
 	};
 	class PB_TROP_Modular_Lite: PB_FLECK_Modular_Lite
 	{
-		displayName = "[TROPENTARN] Modular Carrier Lite";
+		displayName = "Modular Carrier Lite (TROPENTARN)";
 		picture = "\PB_Main\UI\GER\PB_TROP_MODULAR_LITE_CA.paa";
 		hiddenSelectionsTextures[] = {"PB_German_Kit\data\TROP_Modular.paa"};
 	};
 	class PB_TROP_Modular: PB_FLECK_Modular
 	{
-		displayName = "[TROPENTARN] Modular Carrier Vest";
+		displayName = "Modular Carrier Vest (TROPENTARN)";
 		picture = "\PB_Main\UI\GER\PB_TROP_MODULAR_CA.paa";
 		hiddenSelectionsTextures[] = {"PB_German_Kit\data\TROP_Modular.paa"};
 	};
 	class PB_TROP_CARRIERLITE_CO: PB_FLECK_CARRIERLITE_CO
 	{
-		displayName = "[TROPENTARN] Carrier Lite";
+		displayName = "Carrier Lite (TROPENTARN)";
 		picture = "\PB_Main\UI\GER\PB_TROP_CARRIERLITE_CO_CA.paa";
 		hiddenSelectionsTextures[] = {"PB_German_Kit\data\TROP_CARRIERLITE_CO.paa"};
 		class ItemInfo: VestItem
@@ -1117,7 +1115,7 @@ class cfgWeapons
 	};
 	class PB_TROP_Carrier_Rig: PB_FLECK_Carrier_Rig
 	{
-		displayName = "[TROPENTARN] Carrier Rig";
+		displayName = "Carrier Rig (TROPENTARN)";
 		hiddenSelections[] = {"camo"};
 		picture = "\PB_Main\UI\GER\PB_FLECK_CARRIER_RIG_CA.paa";
 		hiddenSelectionsTextures[] = {"PB_German_Kit\data\TROP_CARRIERLITE_CO.paa"};
@@ -1162,7 +1160,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[FLECKTARN] Ops Core FAST";
+		displayName = "Ops Core FAST (FLECKTARN)";
 		picture = "\PB_Main\UI\GER\PB_FLECK_FAST_CA.paa";
 		model = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore.p3d";
 		hiddenSelections[] = {"opscore","comtac","NSW","contour","UNCOV_FLAG","ms2000"};
@@ -1223,7 +1221,7 @@ class cfgWeapons
 	};
 	class PB_TROP_FAST: PB_FLECK_FAST
 	{
-		displayName = "[TROPENTARN] Ops Core FAST";
+		displayName = "Ops Core FAST (TROPENARN)";
 		picture = "\PB_Main\UI\GER\PB_TROP_FAST_CA.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1240,7 +1238,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[FLECKTARN] Ops Core FAST (Cover)";
+		displayName = "Ops Core FAST (FLECKTARN/Cover)";
 		picture = "\PB_Main\ui\GER\PB_FLECK_FAST_C_CA.paa";
 		Model = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore_cover.p3d";
 		hiddenSelections[] = {"opscore","comtac","NSW","contour","cover","ms2000"};
@@ -1304,7 +1302,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[FLECKTARN] Ops Score FAST (Cover/Headset)";
+		displayName = "Ops Score FAST (FLECKTARN/Cover/Headset)";
 		picture = "\PB_Main\ui\GER\PB_FLECK_FAST_C_H_CA.paa";
 		Model = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore_cover.p3d";
 		hiddenSelections[] = {"opscore","comtac","NSW","contour","cover","ms2000"};
@@ -1368,7 +1366,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[TROPENTARN] Ops Core FAST (Cover)";
+		displayName = "Ops Core FAST (TROPENTARN/Cover)";
 		picture = "\PB_Main\ui\GER\PB_TROP_FAST_C_CA.paa";
 		Model = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore_cover.p3d";
 		hiddenSelections[] = {"opscore","comtac","NSW","contour","cover","ms2000"};
@@ -1432,7 +1430,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[TROPENTARN] Ops Score FAST (Cover/Headset)";
+		displayName = "Ops Score FAST (TROPENTARN/Cover/Headset)";
 		picture = "\PB_Main\ui\GER\PB_TROP_FAST_C_H_CA.paa";
 		Model = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore_cover.p3d";
 		hiddenSelections[] = {"opscore","comtac","NSW","contour","cover","ms2000"};
@@ -1496,7 +1494,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[SCHNEETARN] Ops Core FAST (Cover)";
+		displayName = "Ops Core FAST (SCHNEETARN/Cover)";
 		picture = "\PB_Main\ui\GER\PB_SCHNEE_FAST_C_CA.paa";
 		Model = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore_cover.p3d";
 		hiddenSelections[] = {"opscore","comtac","NSW","contour","cover","ms2000"};
@@ -1560,7 +1558,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[SCHNEETARN] Ops Score FAST (Cover/Headset)";
+		displayName = "Ops Score FAST (SCHNEETARN/Cover/Headset)";
 		picture = "\PB_Main\ui\GER\PB_SCHNEE_FAST_C_H_CA.paa";
 		Model = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore_cover.p3d";
 		hiddenSelections[] = {"opscore","comtac","NSW","contour","cover","ms2000"};
@@ -1621,7 +1619,7 @@ class cfgWeapons
 	};
 	class PB_SCHNEE_FAST: PB_FLECK_FAST
 	{
-		displayName = "[SCHNEETARN] Ops Core FAST";
+		displayName = "Ops Core FAST  (SCHNEETARN)";
 		picture = "\PB_Main\UI\GER\PB_SCHNEE_FAST_CA.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1638,7 +1636,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[FLECKTARN] Ops Score FAST (Headset)";
+		displayName = "Ops Score FAST (Headset)";
 		picture = "\PB_Main\UI\GER\PB_FLECK_FAST_H_CA.paa";
 		model = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore.p3d";
 		hiddenSelections[] = {"opscore","comtac","NSW","contour","UNCOV_FLAG","ms2000"};
@@ -1699,7 +1697,7 @@ class cfgWeapons
 	};
 	class PB_TROP_FAST_H: PB_FLECK_FAST_H
 	{
-		displayName = "[TROPENTARN] Ops Core FAST (Headset)";
+		displayName = "Ops Core FAST (TROPENTARN/Headset)";
 		picture = "\PB_Main\UI\GER\PB_TROP_FAST_H_CA.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1713,7 +1711,7 @@ class cfgWeapons
 	};
 	class PB_SCHNEE_FAST_H: PB_FLECK_FAST_H
 	{
-		displayName = "[SCHNEETARN] Ops Core FAST (Headset)";
+		displayName = "Ops Core FAST (SCHNEETARN/Headset)";
 		picture = "\PB_Main\UI\GER\PB_SCHNEE_FAST_H_CA.paa";
 		hiddenSelectionsTextures[] = 
 		{
@@ -1730,7 +1728,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[FLECKTARN] Combat Helmet";
+		displayName = "Combat Helmet (FLECKTARN)";
 		picture = "\PB_Main\UI\GER\PB_FLECK_TCH_CA.paa";
 		model = "\A3\Characters_F_Enoch\Headgear\H_HelmetHBK_01_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -1788,7 +1786,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[FLECKTARN] Combat Helmet (Headset)";
+		displayName = "Combat Helmet (FLECKTARN/Headset)";
 		picture = "\PB_Main\UI\GER\PB_FLECK_TCH_H_CA.paa";
 		model = "\A3\Characters_F_Enoch\Headgear\H_HelmetHBK_01_headset_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -1843,7 +1841,7 @@ class cfgWeapons
 	};
 	class PB_TROP_TCH: PB_FLECK_TCH
 	{
-		displayName = "[TROPENTARN] Combat Helmet";
+		displayName = "Combat Helmet (TROPENTARN)";
 		picture = "\PB_Main\UI\GER\PB_TROP_TCH_CA.paa";
 		hiddenSelectionsTextures[] = {
 			"PB_German_Kit\data\TROP_tch_co.paa"
@@ -1851,7 +1849,7 @@ class cfgWeapons
 	};
 	class PB_TROP_TCH_H: PB_FLECK_TCH_H
 	{
-		displayName = "[TROPENTARN] Combat Helmet (Headset)";
+		displayName = "Combat Helmet (TROPENTARN/Headset)";
 		picture = "\PB_Main\UI\GER\PB_TROP_TCH_H_CA.paa";
 		hiddenSelectionsTextures[] = {
 			"PB_German_Kit\data\TROP_tch_co.paa"
@@ -1859,7 +1857,7 @@ class cfgWeapons
 	};
 	class PB_SCHNEE_TCH: PB_FLECK_TCH
 	{
-		displayName = "[SCHNEETARN] Combat Helmet";
+		displayName = "Combat Helmet (SCHNEETARN)";
 		picture = "\PB_Main\UI\GER\PB_SCHNEE_TCH_CA.paa";
 		hiddenSelectionsTextures[] = {
 			"PB_German_Kit\data\SCHNEE_tch_co.paa"
@@ -1867,7 +1865,7 @@ class cfgWeapons
 	};
 	class PB_SCHNEE_TCH_H: PB_FLECK_TCH_H
 	{
-		displayName = "[SCHNEETARN] Combat Helmet (Headset)";
+		displayName = "Combat Helmet (SCHNEETARN/Headset)";
 		picture = "\PB_Main\UI\GER\PB_SCHNEE_TCH_H_CA.paa";
 		hiddenSelectionsTextures[] = {
 			"PB_German_Kit\data\SCHNEE_tch_co.paa"
@@ -1878,7 +1876,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[FLECKTARN] M92 Helmet";
+		displayName = "M92 Helmet (FLECKTARN)";
 		picture = "\PB_Main\UI\GER\PB_FLECK_M92_CA.paa";
 		model="\A3\Characters_F_Beta\INDEP\headgear_helmet_canvas.p3d";
 		hiddenSelections[]=
@@ -1940,7 +1938,7 @@ class cfgWeapons
 	};
 	class PB_TROP_M92: PB_FLECK_M92
 	{
-		displayName = "[TROPENTARN] M92 Helmet";
+		displayName = "M92 Helmet (TROPTARN)";
 		picture = "\PB_Main\UI\GER\PB_TROP_M92_CA.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -1949,7 +1947,7 @@ class cfgWeapons
 	};
 	class PB_SCHNEE_M92: PB_FLECK_M92
 	{
-		displayName = "[SCHNEETARN] M92 Helmet";
+		displayName = "M92 Helmet (SCHNEETARN)";
 		picture = "\PB_Main\UI\GER\PB_SCHNEE_M92_CA.paa";
 		hiddenSelectionsTextures[]=
 		{
@@ -1961,7 +1959,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[FLECKTARN] Beanie";
+		displayName = "Beanie (FLECKTARN)";
 		weaponPoolAvailable = 1;
 		picture = "\PB_Main\UI\GER\PB_FLECK_BEANIE_CA.paa";
 		model = "\A3\Characters_F\Common\woolhat";
@@ -1988,7 +1986,7 @@ class cfgWeapons
 	};
 	class PB_SCHNEE_Beanie: PB_FLECK_Beanie
 	{
-		displayName = "[SCHNEETARN] Beanie";
+		displayName = "Beanie (SCHNEETARN)";
 		picture = "\PB_Main\UI\GER\PB_SCHNEE_BEANIE_CA.paa";
 		hiddenSelectionsTextures[] = {"PB_German_Kit\data\SCHNEE_beanie.paa"};
 	};
@@ -1997,7 +1995,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[FLECKTARN] Military Cap";
+		displayName = "Military Cap (FLECKTARN)";
 		picture = "\PB_Main\UI\GER\PB_FLECK_CAP_CA.paa";
 		model = "\A3\Characters_F\Common\cappatrol";
 		hiddenSelections[] = {"camo"};
@@ -2024,7 +2022,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[FLECKTARN] Boonie Hat";
+		displayName = "Boonie Hat (FLECKTARN)";
 		picture = "\PB_Main\UI\GER\PB_FLECK_BOONIE_CA.paa";
 		model = "\A3\Characters_F\Common\booniehat";
 		hiddenSelections[] = {"camo"};
@@ -2048,13 +2046,13 @@ class cfgWeapons
 	};
 	class PB_TROP_Cap: PB_FLECK_Cap
 	{
-		displayName = "[TROPENTARN] Military Cap";
+		displayName = "Military Cap (TROPENTARN)";
 		picture = "\PB_Main\UI\GER\PB_TROP_CAP_CA.paa";
 		hiddenSelectionsTextures[] = {"\PB_German_Kit\Data\TROP_cap.paa"};
 	};
 	class PB_TROP_Boonie: PB_FLECK_Boonie
 	{
-		displayName = "[TROPENTARN] Boonie Hat";
+		displayName = "Boonie Hat (TROPENTARN)";
 		picture = "\PB_Main\UI\GER\PB_TROP_BOONIE_CA.paa";
 		hiddenSelectionsTextures[] = {"\PB_German_Kit\Data\TROP_boonie.paa"};
 	};

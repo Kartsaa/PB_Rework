@@ -12,7 +12,7 @@
 		faceType="Man_A3";
 		side=1;
 		faction="PB_JAP_Faction";
-		genericNames="PB_Japanese";
+		genericNames="PB_JapaneseMen";
 		vehicleClass="Men";
 		editorSubcategory="PB_JAP_Infantry";
 		nakedUniform = "BasicBody";

@@ -169,6 +169,7 @@ class PB_TUR_Bell: rhs_uh1h_hidf_unarmed
 	scope = 2;
 	scopeCurator = 2;
 	side = "1";
+	forceingarage = 0;
 	faction = "PB_TUR_Faction";
 	editorCategory = "PB_TUR_Top";
 	editorSubcategory = "PB_TUR_HELI";

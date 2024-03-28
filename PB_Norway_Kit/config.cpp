@@ -52,7 +52,7 @@ class CfgVehicles
 	class PB_M98_Gora_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_01.p3d";
 		picture = "\PB_Main\ui\NOR\PB_M98_Gora_ca.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -61,7 +61,7 @@ class CfgVehicles
 	class PB_M98_Gora_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_02.p3d";
 		picture = "\PB_Main\ui\NOR\PB_M98_Gora_RU_ca.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -70,7 +70,7 @@ class CfgVehicles
 	class PB_M98_GoraG_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_03.p3d";
 		picture = "\PB_Main\ui\NOR\PB_M98_GoraG_ca.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
@@ -79,7 +79,7 @@ class CfgVehicles
 	class PB_M98_GoraG_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_04.p3d";
 		picture = "\PB_Main\ui\NOR\PB_M98_GoraG_RU_ca.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
@@ -88,7 +88,7 @@ class CfgVehicles
 	class PB_M98_ACU_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_F.p3d";
 		picture = "\PB_Main\ui\NOR\PB_M98_ACU_ca.paa";
 		hiddenSelections[] = {"camo","camo1","camo2"};
@@ -102,7 +102,7 @@ class CfgVehicles
 	class PB_M98_ACU_B_R: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_02_F.p3d";;
 		picture = "\PB_Main\ui\NOR\PB_M98_ACU_R_ca.paa";
 		hiddenSelections[] = {"camo","camo1","camo2"};
@@ -118,7 +118,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[M98] Kitbag";;
+		displayName = "Kitbag (M98)";
 		picture = "\PB_Main\ui\NOR\PB_Kitbag_M98_ca.paa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast";
 		hiddenSelectionsTextures[] = {"PB_Norway_Kit\data\M98_KB_CO.paa"};	
@@ -129,7 +129,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[M98] Medicbag";
+		displayName = "Medicbag (M98)";
 		picture = "\PB_Main\ui\NOR\PB_Medbag_M98_ca.paa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast";
 		hiddenSelectionsTextures[] = {"PB_Norway_Kit\data\M98_KB_MED_CO.paa"};	
@@ -140,7 +140,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[M98] Radiobag";
+		displayName = "Radiobag (M98)";
 		picture = "\PB_Main\ui\NOR\PB_Radiobag_M98_ca.paa";
 		model = "a3\Supplies_F_Enoch\Bags\B_RadioBag_01_F.p3d";
 		hiddenSelections[] = {"camo1"};
@@ -152,7 +152,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[M98] Carryall Backpack";
+		displayName = "Carryall Backpack (M98)";
 		picture = "\PB_Main\ui\NOR\PB_Carryall_m98_ca.paa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Tortila";
 		hiddenSelectionsTextures[] = {"PB_Norway_Kit\data\M98_cb_co.paa"};	
@@ -189,8 +189,8 @@ class cfgWeapons
 	class PB_M98_ACU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[M98] Combat Uniform";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Combat Uniform (M98)";
 		picture = "\PB_Main\ui\NOR\PB_M98_ACU_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -206,8 +206,8 @@ class cfgWeapons
 	class PB_M98_ACU_R: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[M98] Combat Uniform (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Combat Uniform (M98/Rolled-Up)";
 		picture = "\PB_Main\ui\NOR\PB_M98_ACU_R_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -223,8 +223,8 @@ class cfgWeapons
 	class PB_M98_Gora: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[M98] Field Shirt";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Field Shirt (M98)";
 		picture = "\PB_Main\ui\NOR\PB_M98_Gora_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -240,8 +240,8 @@ class cfgWeapons
 	class PB_M98_Gora_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[M98] Field Shirt (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Field Shirt (M98/Rolled-Up)";
 		picture = "\PB_Main\ui\NOR\PB_M98_Gora_RU_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -257,8 +257,8 @@ class cfgWeapons
 	class PB_M98_GoraG: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[M98] Field Shirt with Gloves";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Field Shirt with Gloves (M98)";
 		picture = "\PB_Main\ui\NOR\PB_M98_GoraG_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -274,8 +274,8 @@ class cfgWeapons
 	class PB_M98_GoraG_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[M98] Field Shirt with Gloves (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Field Shirt with Gloves (M98/Rolled-Up)";
 		picture = "\PB_Main\ui\NOR\PB_M98_GoraG_RU_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -293,7 +293,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[M98] Beanie";
+		displayName = "Beanie (M98)";
 		picture = "\PB_Main\ui\NOR\PB_M98_Beanie_ca.paa";
 		model = "\A3\Characters_F\Common\woolhat";
 		hiddenSelections[] = {"camo"};
@@ -322,7 +322,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[M98] Boonie Hat";
+		displayName = "Boonie Hat (M98)";
 		picture = "\PB_Main\ui\NOR\PB_M98_Boonie_ca.paa";
 		model = "\A3\Characters_F\Common\booniehat";
 		hiddenSelections[] = {"camo"};
@@ -348,7 +348,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[M98] Military Cap";
+		displayName = "Military Cap (M98)";
 		picture = "\PB_Main\ui\NOR\PB_M98_Cap_ca.paa";
 		model = "\A3\Characters_F\Common\cappatrol";
 		hiddenSelections[] = {"camo"};
@@ -376,7 +376,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[M98] Ops Core FAST";
+		displayName = "Ops Core FAST (M98)";
 		picture = "\PB_Main\ui\NOR\PB_M98_FAST_ca.paa";
 		model = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore.p3d";
 		hiddenSelections[] = {"opscore","comtac","NSW","contour","UNCOV_FLAG","ms2000"};
@@ -440,7 +440,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[M98] Ops Score FAST (Headset)";
+		displayName = "Ops Score FAST (M98/Headset)";
 		picture = "\PB_Main\ui\NOR\PB_M98_FAST_H_ca.paa";
 		model = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore.p3d";
 		hiddenSelections[] = {"opscore","comtac","NSW","contour","UNCOV_FLAG","ms2000"};
@@ -504,7 +504,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[M98] Ops Core FAST (Cover)";
+		displayName = "Ops Core FAST (M98/Cover)";
 		picture = "\PB_Main\ui\NOR\PB_M98_FAST_C_ca.paa";
 		Model = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore_cover.p3d";
 		hiddenSelections[] = {"opscore","comtac","NSW","contour","cover","ms2000"};
@@ -568,7 +568,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[M98] Ops Score FAST (Cover/Headset)";
+		displayName = "Ops Score FAST (M98/Cover/Headset)";
 		picture = "\PB_Main\ui\NOR\PB_M98_FAST_C_H_ca.paa";
 		Model = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore_cover.p3d";
 		hiddenSelections[] = {"opscore","comtac","NSW","contour","cover","ms2000"};

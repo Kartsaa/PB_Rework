@@ -51,7 +51,7 @@ class CfgVehicles
 	class PB_LATPAT_ACU_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_F.p3d";
 		picture = "\PB_Main\ui\LAT\PB_latpat_acu_CA.paa";
 		hiddenSelections[] = {"camo","camo1","camo2"};
@@ -65,7 +65,7 @@ class CfgVehicles
 	class PB_LATPAT_ACU_B_R: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_02_F.p3d";;
 		picture = "\PB_Main\ui\LAT\PB_latpat_acu_r_CA.paa";
 		hiddenSelections[] = {"camo","camo1","camo2"};
@@ -97,7 +97,7 @@ class CfgVehicles
 	class PB_LATPAT_Gora_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_01.p3d";
 		picture = "\PB_Main\ui\LAT\PB_latpat_gora_CA.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -106,7 +106,7 @@ class CfgVehicles
 	class PB_LATPAT_Gora_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_02.p3d";
 		picture = "\PB_Main\ui\LAT\PB_latpat_gora_CA.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -115,7 +115,7 @@ class CfgVehicles
 	class PB_LATPAT_GoraG_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_03.p3d";
 		picture = "\PB_Main\ui\LAT\PB_latpat_gorag_CA.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
@@ -124,7 +124,7 @@ class CfgVehicles
 	class PB_LATPAT_GoraG_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_04.p3d";
 		picture = "\PB_Main\ui\LAT\PB_latpat_gorag_ru_CA.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
@@ -135,10 +135,10 @@ class CfgVehicles
 	class PB_COMBAT_LATPAT: B_AssaultPack_Base
 	{
 		scope = 2;
-		author = "Kartsa";
+		author = "Kartsa (LATPAT)";
 		scopeCurator = 2;
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Compact";
-		displayName = "[LATPAT] Combat Pack";
+		displayName = "Combat Pack";
 		picture = "\PB_Main\ui\LAT\PB_combat_latpat_CA.paa";
 		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {"PB_Latvian_Kit\Data\LATPAT_combat_CO.paa"};
@@ -150,7 +150,7 @@ class CfgVehicles
 		scope = 2;
 		author = "Kartsa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Compact";
-		displayName = "[LATPAT] Combat Pack (Medic)";
+		displayName = "Combat Pack (LATPAT/Medic)";
 		picture = "\PB_Main\ui\LAT\PB_combat_med_latpat_CA.paa";
 		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {"PB_Latvian_Kit\Data\LATPAT_combat_med_CO.paa"};
@@ -161,7 +161,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[LATPAT] Carryall Backpack";
+		displayName = "Carryall Backpack (LATPAT)";
 		picture = "\PB_Main\ui\LAT\PB_carryall_latpat_CA.paa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Tortila";
 		hiddenSelectionsTextures[] = {"PB_Latvian_Kit\data\LATPAT_CB_co.paa"};	
@@ -172,7 +172,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[LATPAT] Radiobag";
+		displayName = "Radiobag (LATPAT)";
 		picture = "\PB_Main\ui\LAT\PB_radiobag_latpat_CA.paa";
 		model = "a3\Supplies_F_Enoch\Bags\B_RadioBag_01_F.p3d";
 		hiddenSelections[] = {"camo1"};
@@ -211,8 +211,8 @@ class cfgWeapons
 	class PB_LATPAT_Gora: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[LATPAT] Fatigues";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues (LATPAT)";
 		picture = "\PB_Main\ui\LAT\PB_latpat_gora_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -228,8 +228,8 @@ class cfgWeapons
 	class PB_LATPAT_Gora_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[LATPAT] Fatigues (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues (LATPAT/Rolled-Up)";
 		picture = "\PB_Main\ui\LAT\PB_latpat_gora_ru_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -245,8 +245,8 @@ class cfgWeapons
 	class PB_LATPAT_GoraG: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[LATPAT] Fatigues with Gloves";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues with Gloves (LATPAT)";
 		picture = "\PB_Main\ui\LAT\PB_latpat_gorag_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -262,8 +262,8 @@ class cfgWeapons
 	class PB_LATPAT_GoraG_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[LATPAT] Fatigues with Gloves (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues with Gloves (LATPAT/Rolled-Up)";
 		picture = "\PB_Main\ui\LAT\PB_latpat_gorag_ru_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -279,8 +279,8 @@ class cfgWeapons
 	class PB_LATPAT_ACU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[LATPAT] Combat Uniform";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Combat Uniform (LATPAT)";
 		picture = "\PB_Main\ui\LAT\PB_latpat_acu_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -296,8 +296,8 @@ class cfgWeapons
 	class PB_LATPAT_ACU_R: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[LATPAT] Combat Uniform (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Combat Uniform (LATPAT/Rolled-Up)";
 		picture = "\PB_Main\ui\LAT\PB_latpat_acu_r_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -314,7 +314,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		author = "Kartsa";
-		displayName = "[LATPAT] Combat Fatigues";
+		displayName = "Combat Fatigues (LATPAT)";
 		picture = "\PB_Main\ui\LAT\PB_latpat_u_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -331,7 +331,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		author = "Kartsa";
-		displayName = "[LATPAT] Combat Fatigues (Rolled-Up)";
+		displayName = "Combat Fatigues (LATPAT/Rolled-Up)";
 		picture = "\PB_Main\ui\LAT\PB_latpat_u_r_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -350,7 +350,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[LATPAT] Beanie";
+		displayName = "Beanie (LATPAT)";
 		picture = "\PB_Main\ui\LAT\PB_latpat_beanie_CA.paa";
 		model = "\A3\Characters_F\Common\woolhat";
 		hiddenSelections[] = {"camo"};
@@ -379,7 +379,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[LATPAT] Boonie Hat";
+		displayName = "Boonie Hat (LATPAT)";
 		picture = "\PB_Main\ui\LAT\PB_latpat_boonie_CA.paa";
 		model = "\A3\Characters_F\Common\booniehat";
 		hiddenSelections[] = {"camo"};
@@ -405,7 +405,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[LATPAT] Military Cap";
+		displayName = "Military Cap (LATPAT)";
 		picture = "\PB_Main\ui\LAT\PB_latpat_cap_CA.paa";
 		model = "\A3\Characters_F\Common\cappatrol";
 		hiddenSelections[] = {"camo"};
@@ -434,7 +434,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		picture = "\PB_Main\ui\LAT\PB_latpat_h_CA.paa";
-		displayName = "[LATPAT] Helmet";
+		displayName = "Helmet (LATPAT)";
 		allowedFacewear[] =
 		{
 			"rhs_googles_black", 1,  
@@ -487,7 +487,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		picture = "\PB_Main\ui\LAT\PB_latpat_h_ess_CA.paa";
-		displayName = "[LATPAT] Helmet (ESS)";
+		displayName = "Helmet (LATPAT/ESS)";
 		allowedFacewear[] =
 		{
 			"rhs_googles_black", 1,  
@@ -539,7 +539,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		picture = "\PB_Main\ui\LAT\PB_latpat_h_hess_CA.paa";
-		displayName = "[LATPAT] Helmet (Headset/ESS)";
+		displayName = "Helmet (LATPAT/Headset/ESS)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\lwh_wd_headset";
 		allowedFacewear[] =
 		{
@@ -594,7 +594,7 @@ class cfgWeapons
 		author = "Kartsa";
 		picture = "\PB_Main\ui\LAT\PB_latpat_tst_CA.paa";
 		scope = 2;
-		displayName = "[LATPAT] Vest ";
+		displayName = "Vest (LATPAT)";
 		model = "rhsafrf\addons\rhs_infantry3\ratnik\rhs_emr_6sh117_AK01.p3d";
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
 		hiddenSelectionsTextures[] = {"PB_Latvian_Kit\data\LATPAT_6SH117_co.paa","PB_Latvian_Kit\data\LATPAT_POUCHES_117.paa","PB_Latvian_Kit\data\LATPAT_POUCHES_118.paa"};
@@ -638,7 +638,7 @@ class cfgWeapons
 		author = "Kartsa";
 		picture = "\PB_Main\ui\LAT\PB_latpat_tst_ar_CA.paa";
 		scope = 2;
-		displayName = "[LATPAT] Vest (AR)";
+		displayName = "Vest (LATPAT/AR)";
 		model = "rhsafrf\addons\rhs_infantry3\ratnik\rhs_emr_6sh117_RPK";
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
 		hiddenSelectionsTextures[] = {"PB_Latvian_Kit\data\LATPAT_6SH117_co.paa","PB_Latvian_Kit\data\LATPAT_POUCHES_117.paa","PB_Latvian_Kit\data\LATPAT_POUCHES_118.paa"};
@@ -682,7 +682,7 @@ class cfgWeapons
 		author = "Kartsa";
 		picture = "\PB_Main\ui\LAT\PB_latpat_tst_gre_CA.paa";
 		scope = 2;
-		displayName = "[LATPAT] Vest (Grenadier)";
+		displayName = "Vest (LATPAT/Grenadier)";
 		model = "rhsafrf\addons\rhs_infantry3\ratnik\rhs_emr_6sh117_VOG";
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
 		hiddenSelectionsTextures[] = {"PB_Latvian_Kit\data\LATPAT_6SH117_co.paa","PB_Latvian_Kit\data\LATPAT_POUCHES_117.paa","PB_Latvian_Kit\data\LATPAT_POUCHES_118.paa"};

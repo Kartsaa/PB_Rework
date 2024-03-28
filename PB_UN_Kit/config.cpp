@@ -51,7 +51,7 @@ class CfgVehicles
 	class PB_UN_Gora_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_01.p3d";
 		picture="\PB_MAIN\UI\UN\PB_UN_GORA_CA.PAA";
 		hiddenSelections[] = {"camo","insignia"};
@@ -60,7 +60,7 @@ class CfgVehicles
 	class PB_UN_Gora_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_02.p3d";
 		picture="\PB_MAIN\UI\UN\PB_UN_GORA_RU_CA.PAA";
 		hiddenSelections[] = {"camo","insignia"};
@@ -97,8 +97,8 @@ class cfgWeapons
 	class PB_UN_Gora: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[UN] Fatigues";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues";
 		picture="\PB_MAIN\UI\UN\PB_UN_GORA_CA.PAA";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -114,8 +114,8 @@ class cfgWeapons
 	class PB_UN_Gora_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[UN] Fatigues (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues (Rolled-Up)";
 		picture="\PB_MAIN\UI\UN\PB_UN_GORA_RU_CA.PAA";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -134,7 +134,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[UN] Boonie Hat";
+		displayName = "Boonie Hat (UN)";
 		picture="\PB_MAIN\UI\UN\PB_UN_BOONIE_CA.PAA";
 		model = "\A3\Characters_F\Common\booniehat";
 		hiddenSelections[] = {"camo"};
@@ -161,7 +161,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[UN] Military Cap";
+		displayName = "Military Cap (UN)";
 		picture="\PB_MAIN\UI\UN\PB_UN_CAP_CA.PAA";
 		model = "\A3\Characters_F\Common\cappatrol";
 		hiddenSelections[] = {"camo"};
@@ -187,7 +187,7 @@ class cfgWeapons
 	{
 		author="Kartsa";
 		scope=2;
-		displayName="[UN] Beret";
+		displayName="Beret (UN)";
 		picture="\PB_MAIN\UI\UN\PB_UN_BERET_CA.PAA";
 		hiddenselections[] = { "camo" };
 		hiddenSelectionsTextures[]=
@@ -238,7 +238,7 @@ class cfgWeapons
 			"rhsusf_oakley_goggles_clr", 1,
 			"rhsusf_oakley_goggles_ylw", 1
 		};		
-		displayName = "[UN] 6B27M Helmet";
+		displayName = "6B27M Helmet (UN)";
 		model = "\rhsafrf\addons\rhs_infantry\gear\head\rhs_6b27m";
 		hiddenSelections[] = {"Camo1"};
 		hiddenSelectionsTextures[] = {"PB_UN_Kit\data\UN_6b27m_co.paa"};
@@ -277,7 +277,7 @@ class cfgWeapons
 			"rhsusf_oakley_goggles_clr", 1,
 			"rhsusf_oakley_goggles_ylw", 1
 		};		
-		displayName = "[UN] 6B27M Helmet (ESS)";
+		displayName = "6B27M Helmet (UN/ESS)";
 		model = "\rhsafrf\addons\rhs_infantry\gear\head\rhs_6b27m_ess";
 		hiddenSelections[] = {"Camo1"};
 		hiddenSelectionsTextures[] = {"PB_UN_Kit\data\UN_6b27m_co.paa"};
@@ -304,7 +304,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		picture="\PB_MAIN\UI\UN\PB_UN_LWH_CA.PAA";
-		displayName = "[UN] LWH Helmet";
+		displayName = "LWH Helmet (UN)";
 		allowedFacewear[] =
 		{
 			"",1,
@@ -347,7 +347,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		picture="\PB_MAIN\UI\UN\PB_UN_LWH_ESS_CA.PAA";
-		displayName = "[UN] LWH Helmet (ESS)";
+		displayName = "LWH Helmet (UN/ESS)";
 		allowedFacewear[] =
 		{
 			"",1,
@@ -386,7 +386,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		picture="\PB_MAIN\UI\UN\PB_UN_LWH_HESS_CA.PAA";
-		displayName = "[UN] LWH Helmet (Headset/ESS)";
+		displayName = "LWH Helmet (UN/Headset/ESS)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\lwh_wd_headset";
 		allowedFacewear[] =
 		{
@@ -424,7 +424,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		picture="\PB_MAIN\UI\UN\PB_UN_PASGT_CA.PAA";
-		displayName = "[UN] PASGT Helmet";
+		displayName = "PASGT Helmet (UN)";
 		scope = 2;
 		model = "rhsgref\addons\rhsgref_infantry\gear_tanoa\head\pasgt_helmet";
 		hiddenSelections[] = {"Camo"};
@@ -453,7 +453,7 @@ class cfgWeapons
 		picture = "\PB_MAIN\UI\UN\PB_UN_M97_CA.PAA";
 		autho = "Kartsa";
 		scope = 2;
-		displayName = "[UN] M97 Helmet";
+		displayName = "M97 Helmet (UN)";
 		model = "\rhssaf\addons\rhssaf_m_headgear_m97\rhssaf_m97_camo";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_UN_Kit\data\UN_pasgt_co.paa"};
@@ -480,7 +480,7 @@ class cfgWeapons
 		picture = "\PB_MAIN\UI\UN\PB_UN_M97_COVER_CA.PAA";
 		Author = "Kartsa";
 		Scope = 2;
-		displayName = "[UN] M97 (ESS Cover)";
+		displayName = "M97 (UN/ESS Cover)";
 		model = "\rhssaf\addons\rhssaf_m_headgear_m97\rhssaf_m97_camo_ess";
 		hiddenSelections[] = {"camo","camo2"};
 		hiddenSelectionsTextures[] =
@@ -511,7 +511,7 @@ class cfgWeapons
 		picture = "\PB_MAIN\UI\UN\PB_UN_M97_ESS_CA.PAA";
 		Author = "Kartsa";
 		Scope = 2;
-		displayName = "[UN] M97 (ESS)";	
+		displayName = "M97 (UN/ESS)";	
 		hiddenSelections[] = {"camo","camo2"};
 		hiddenSelectionsTextures[] =
 		{
@@ -541,7 +541,7 @@ class cfgWeapons
 	{
 		author="Kartsa";
 		scope=2;
-		displayName="[UN] Carrier Lite";
+		displayName="Carrier Lite (UN)";
 		picture="\PB_MAIN\UI\UN\PB_UN_PLATECARRIER_01_CA.PAA";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\PB_UN_Kit\data\UN_vest_co.paa"};
@@ -583,7 +583,7 @@ class cfgWeapons
 	class PB_UN_PlateCarrier_02: PB_UN_PlateCarrier_01
 	{
 		author="Kartsa";
-		displayName="[UN] Carrier Rig";
+		displayName="Carrier Rig (UN)";
 		picture="\PB_MAIN\UI\UN\PB_UN_PLATECARRIER_02_CA.PAA";
 		model="A3\Characters_F_Beta\INDEP\equip_ia_vest02";
 		hiddenSelections[] = {"camo"};
@@ -633,7 +633,7 @@ class cfgWeapons
 		picture = "\PB_MAIN\UI\UN\PB_UN_M98_RIF_CA.PAA";
 		author = "Kartsa";
 		scope = 0;
-		displayName = "[UN] Flak Jacket (Mags)";
+		displayName = "Flak Jacket (UN/Mags)";
 		hiddenSelections[] = {"MD98"};
 		hiddenSelectionsTextures[] = {"\PB_UN_Kit\data\UN_Md98_vest_co.paa"};
 		model = "\rhssaf\addons\rhssaf_m_vest_m98\rhssaf_md98_rifleman";
@@ -682,7 +682,7 @@ class cfgWeapons
 		picture = "\PB_MAIN\UI\UN\PB_UN_M98_RIF_CA.PAA";
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[UN] Flak Jacket";
+		displayName = "Flak Jacket (UN)";
 		model = "\rhssaf\addons\rhssaf_m_vest_m98\rhssaf_md98";
 		hiddenSelections[] = {"MD98"};
 		hiddenSelectionsTextures[] = {"\PB_UN_Kit\data\UN_Md98_vest_co.paa"};

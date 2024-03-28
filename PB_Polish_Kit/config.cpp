@@ -52,7 +52,7 @@ class CfgVehicles
 	class PB_WZ93W_Gora_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_01.p3d";
 		picture = "\PB_Main\ui\POL\PB_wz93w_gora_CA.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -61,7 +61,7 @@ class CfgVehicles
 	class PB_WZ93W_Gora_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_02.p3d";
 		picture = "\PB_Main\ui\POL\PB_wz93w_gora_ru_CA.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -70,17 +70,16 @@ class CfgVehicles
 	class PB_WZ93W_GoraG_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_03.p3d";
 		picture = "\PB_Main\ui\POL\PB_wz93w_gorag_CA.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
-		
 		hiddenSelectionsTextures[] = {"\PB_Polish_Kit\data\WZ93W_Fatigues_co.paa","PB_Polish_Kit\data\TacGloves_khk_CO.paa"};
 	};
 	class PB_WZ93W_GoraG_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_04.p3d";
 		picture = "\PB_Main\ui\POL\PB_wz93d_gorag_ru_CA.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
@@ -89,7 +88,7 @@ class CfgVehicles
 	class PB_WZ93D_Gora_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_01.p3d";
 		picture = "\PB_Main\ui\POL\PB_wz93d_gora_CA.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -98,7 +97,7 @@ class CfgVehicles
 	class PB_WZ93D_Gora_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_02.p3d";
 		picture = "\PB_Main\ui\POL\PB_wz93d_gora_ru_CA.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -107,17 +106,16 @@ class CfgVehicles
 	class PB_WZ93D_GoraG_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_03.p3d";
 		picture = "\PB_Main\ui\POL\PB_wz93d_gorag_CA.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
-		
 		hiddenSelectionsTextures[] = {"\PB_Polish_Kit\data\WZ93D_Fatigues_co.paa","PB_Polish_Kit\data\TacGloves_khk_CO.paa"};
 	};
 	class PB_WZ93D_GoraG_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_04.p3d";
 		picture = "\PB_Main\ui\POL\PB_wz93d_gorag_ru_CA.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
@@ -128,7 +126,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[WZ93W] Kitbag";
+		displayName = "Kitbag (WZ93W)";
 		picture = "\PB_Main\ui\POL\PB_kitbag_wz93w_CA.paa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast";
 		hiddenSelectionsTextures[] = {"PB_Polish_Kit\data\WZ93W_KB_CO.paa"};	
@@ -139,7 +137,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[WZ93W] Carryall Backpack";
+		displayName = "Carryall Backpack (WZ93W)";
 		picture = "\PB_Main\ui\POL\PB_carryall_wz93w_CA.paa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Tortila";
 		hiddenSelectionsTextures[] = {"PB_Polish_Kit\data\WZ93W_CB_CO.paa"};	
@@ -150,7 +148,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[WZ93W] Medic Kitbag";
+		displayName = "Medbag (WZ93W)";
 		picture = "\PB_Main\ui\POL\PB_medbag_wz93w_CA.paa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast";
 		hiddenSelectionsTextures[] = {"PB_Polish_Kit\data\WZ93W_KB_MED_CO.paa"};	
@@ -161,7 +159,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[WZ93W] Radiobag";
+		displayName = "Radiobag (WZ93W)";
 		picture = "\PB_Main\ui\POL\PB_radiobag_wz93w_CA.paa";
 		model = "a3\Supplies_F_Enoch\Bags\B_RadioBag_01_F.p3d";
 		hiddenSelections[] = {"camo1"};
@@ -199,8 +197,8 @@ class cfgWeapons
 	class PB_WZ93W_Gora: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[WZ93W] Fatigues";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues (WZ93W)";
 		picture = "\PB_Main\ui\POL\PB_WZ93W_Gora_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -216,8 +214,8 @@ class cfgWeapons
 	class PB_WZ93W_Gora_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[WZ93W] Fatigues (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues (WZ93W/Rolled-Up)";
 		picture = "\PB_Main\ui\POL\PB_WZ93W_Gora_RU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -233,8 +231,8 @@ class cfgWeapons
 	class PB_WZ93W_GoraG: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[WZ93W] Fatigues with Gloves";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues with Gloves (WZ93W)";
 		picture = "\PB_Main\ui\POL\PB_WZ93W_GoraG_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -250,8 +248,8 @@ class cfgWeapons
 	class PB_WZ93W_GoraG_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[WZ93W] Fatigues with Gloves (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues with Gloves (WZ93W/Rolled-Up)";
 		picture = "\PB_Main\ui\POL\PB_WZ93W_GoraG_RU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -267,8 +265,8 @@ class cfgWeapons
 	class PB_WZ93D_Gora: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[WZ93D] Fatigues";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues (WZ93D)";
 		picture = "\PB_Main\ui\POL\PB_WZ93D_Gora_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -284,8 +282,8 @@ class cfgWeapons
 	class PB_WZ93D_Gora_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[WZ93D] Fatigues (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues (WZ93D/Rolled-Up)";
 		picture = "\PB_Main\ui\POL\PB_WZ93D_Gora_RU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -301,8 +299,8 @@ class cfgWeapons
 	class PB_WZ93D_GoraG: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[WZ93D] Fatigues with Gloves";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues with Gloves (WZ93D)";
 		picture = "\PB_Main\ui\POL\PB_WZ93D_GoraG_RU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -318,8 +316,8 @@ class cfgWeapons
 	class PB_WZ93D_GoraG_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[WZ93D] Fatigues with Gloves (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues with Gloves (WZ93D/Rolled-Up)";
 		picture = "\PB_Main\ui\POL\PB_WZ93D_GoraG_RU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -338,7 +336,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[WZ93D] Boonie Hat";
+		displayName = "Boonie Hat (WZ93D)";
 		picture = "\PB_Main\ui\POL\PB_WZ93D_Boonie_CA.paa";
 		model = "\A3\Characters_F\Common\booniehat";
 		hiddenSelections[] = {"camo"};
@@ -365,7 +363,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[WZ93D] Military Cap";
+		displayName = "Military Cap (WZ93D)";
 		picture = "\PB_Main\ui\POL\PB_WZ93D_cap_CA.paa";
 		model = "\A3\Characters_F\Common\cappatrol";
 		hiddenSelections[] = {"camo"};
@@ -392,7 +390,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[WZ93W] Boonie Hat";
+		displayName = "Boonie Hat (WZ93W)";
 		picture = "\PB_Main\ui\POL\PB_WZ93w_Boonie_CA.paa";
 		model = "\A3\Characters_F\Common\booniehat";
 		hiddenSelections[] = {"camo"};
@@ -419,7 +417,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[WZ93W] Military Cap";
+		displayName = "Military Cap (WZ93W)";
 		picture = "\PB_Main\ui\POL\PB_WZ93w_cap_CA.paa";
 		model = "\A3\Characters_F\Common\cappatrol";
 		hiddenSelections[] = {"camo"};
@@ -445,7 +443,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[WZ93W] Beanie";
+		displayName = "Beanie (WZ93W)";
 		weaponPoolAvailable = 1;
 		picture = "\PB_Main\ui\POL\PB_WZ93w_Beanie_CA.paa";
 		model = "\A3\Characters_F\Common\woolhat";
@@ -501,7 +499,7 @@ class cfgWeapons
 			"rhsusf_oakley_goggles_clr", 1,
 			"rhsusf_oakley_goggles_ylw", 1,
 		};		
-		displayName = "[WZ93W] Helmet";
+		displayName = "Helmet (WZ93W)";
 		model = "\rhsafrf\addons\rhs_infantry\gear\head\rhs_6b27m";
 		hiddenSelections[] = {"Camo1"};
 		hiddenSelectionsTextures[] = {"PB_Polish_Kit\data\WZ93w_helmet_co.paa"};
@@ -553,7 +551,7 @@ class cfgWeapons
 			"rhsusf_oakley_goggles_clr", 1,
 			"rhsusf_oakley_goggles_ylw", 1,
 		};		
-		displayName = "[WZ93W] Helmet (ESS)";
+		displayName = "Helmet (WZ93W/ESS)";
 		model = "\rhsafrf\addons\rhs_infantry\gear\head\rhs_6b27m_ess";
 		hiddenSelections[] = {"Camo1"};
 		hiddenSelectionsTextures[] = {"PB_Polish_Kit\data\WZ93w_helmet_co.paa"};
@@ -605,7 +603,7 @@ class cfgWeapons
 			"rhsusf_oakley_goggles_clr", 1,
 			"rhsusf_oakley_goggles_ylw", 1,
 		};		
-		displayName = "[WZ93D] Helmet";
+		displayName = "Helmet (WZ93D)";
 		model = "\rhsafrf\addons\rhs_infantry\gear\head\rhs_6b27m";
 		hiddenSelections[] = {"Camo1"};
 		hiddenSelectionsTextures[] = {"PB_Polish_Kit\data\WZ93D_helmet_co.paa"};
@@ -657,7 +655,7 @@ class cfgWeapons
 			"rhsusf_oakley_goggles_clr", 1,
 			"rhsusf_oakley_goggles_ylw", 1,
 		};		
-		displayName = "[WZ93D] Helmet (ESS)";
+		displayName = "Helmet (WZ93D/ESS)";
 		model = "\rhsafrf\addons\rhs_infantry\gear\head\rhs_6b27m_ess";
 		hiddenSelections[] = {"Camo1"};
 		hiddenSelectionsTextures[] = {"PB_Polish_Kit\data\WZ93D_helmet_co.paa"};
@@ -684,7 +682,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[WZ93W] Modular Carrier Lite";
+		displayName = "Modular Carrier Lite (WZ93W)";
 		picture = "\PB_Main\ui\POL\PB_WZ93w_modular_lite_CA.paa";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_light_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -726,7 +724,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[WZ93W] Modular Carrier Vest";
+		displayName = "Modular Carrier Vest (WZ93W)";
 		picture = "\PB_Main\ui\POL\PB_WZ93w_modular_CA.paa";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -771,7 +769,7 @@ class cfgWeapons
 		author = "Kartsa";
 		picture = "\PB_Main\ui\POL\PB_WZ93w_carrier_lite_CA.paa";
 		Model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
-		displayName = "[WZ93W] Carrier Lite";
+		displayName = "Carrier Lite (WZ93W)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_Polish_Kit\data\WZ93W_carrierlite_co.paa"};
 		class ItemInfo: VestItem
@@ -815,7 +813,7 @@ class cfgWeapons
 		author = "Kartsa";
 		picture = "\PB_Main\ui\POL\PB_WZ93w_carrier_rig_CA.paa";
 		Model = "\A3\Characters_F\BLUFOR\equip_b_vest01";
-		displayName = "[WZ93W] Carrier Rig";
+		displayName = "Carrier Rig (WZ93W)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_Polish_Kit\data\WZ93W_carrierlite_co.paa"};
 		class ItemInfo: VestItem
@@ -857,7 +855,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[WZ93D] Modular Carrier Lite";
+		displayName = "Modular Carrier Lite (WZ93D)";
 		picture = "\PB_Main\ui\POL\PB_WZ93d_modular_lite_CA.paa";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_light_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -899,7 +897,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[WZ93D] Modular Carrier Vest";
+		displayName = "Modular Carrier Vest (WZ93D)";
 		picture = "\PB_Main\ui\POL\PB_WZ93d_modular_CA.paa";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -944,7 +942,7 @@ class cfgWeapons
 		author = "Kartsa";
 		picture = "\PB_Main\ui\POL\PB_WZ93d_carrier_lite_CA.paa";
 		Model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
-		displayName = "[WZ93D] Carrier Lite";
+		displayName = "Carrier Lite (WZ93D)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_Polish_Kit\data\WZ93D_carrierlite_co.paa"};
 		class ItemInfo: VestItem
@@ -988,7 +986,7 @@ class cfgWeapons
 		author = "Kartsa";
 		picture = "\PB_Main\ui\POL\PB_WZ93d_carrier_rig_CA.paa";
 		Model = "\A3\Characters_F\BLUFOR\equip_b_vest01";
-		displayName = "[WZ93D] Carrier Rig";
+		displayName = "Carrier Rig (WZ93D)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_Polish_Kit\data\WZ93D_carrierlite_co.paa"};
 		class ItemInfo: VestItem

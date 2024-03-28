@@ -89,7 +89,7 @@
 		displayName = "Squadleader";
 		linkedItems[]=
 		{
-			"PB_FLECK_CARRIERLITE_CO",
+			"PB_VZ95W_CARRIER_RIG",
 			"PB_VZ95W_H_HESS",
 			"ItemMap",
 			"ItemCompass",
@@ -100,7 +100,7 @@
 		};
 		respawnLinkedItems[]=
 		{
-			"PB_VZ95W_Modular_Lite",
+			"PB_VZ95W_CARRIER_RIG",
 			"PB_VZ95W_H_HESS",
 			"ItemMap",
 			"ItemCompass",

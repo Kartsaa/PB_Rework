@@ -52,7 +52,7 @@ class CfgVehicles
 	class PB_TURDIG_Gora_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_01.p3d";
 		picture = "\PB_MAIN\UI\TUR\PB_TURDIG_GORA_CA.PAA";
 		hiddenSelections[] = {"camo","insignia"};
@@ -61,7 +61,7 @@ class CfgVehicles
 	class PB_TURDIG_Gora_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_02.p3d";
 		picture = "\PB_MAIN\UI\TUR\PB_TURDIG_GORA_RU_CA.PAA";
 		hiddenSelections[] = {"camo","insignia"};
@@ -70,7 +70,7 @@ class CfgVehicles
 	class PB_TURDIG_GoraG_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_03.p3d";
 		picture = "\PB_MAIN\UI\TUR\PB_TURDIG_GORAG_CA.PAA";
 		hiddenSelections[] = {"camo","camo1","insignia"};
@@ -79,7 +79,7 @@ class CfgVehicles
 	class PB_TURDIG_GoraG_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_04.p3d";
 		picture = "\PB_MAIN\UI\TUR\PB_TURDIG_GORAG_RU_CA.PAA";
 		hiddenSelections[] = {"camo","camo1","insignia"};
@@ -88,7 +88,7 @@ class CfgVehicles
 	class PB_MEHMETCIK_ACU_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_F.p3d";
 		picture = "\PB_MAIN\UI\TUR\PB_MEHMETCIK_ACU_CA.PAA";
 		hiddenSelections[] = {"camo","camo1","camo2"};
@@ -102,7 +102,7 @@ class CfgVehicles
 	class PB_MEHMETCIK_ACU_B_R: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_02_F.p3d";
 		picture = "\PB_MAIN\UI\TUR\PB_MEHMETCIK_ACU_R_CA.PAA";
 		hiddenSelections[] = {"camo","camo1","camo2"};
@@ -139,7 +139,7 @@ class CfgVehicles
 		author = "Kartsa";
 		scopeCurator = 2;
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Compact";
-		displayName = "[MEHMETCIK] Combat Pack";
+		displayName = "Combat Pack (MEHMETCIK)";
 		picture = "\PB_MAIN\UI\TUR\PB_ASSAULT_MEHMETCIK_cA.PAA";
 		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {"PB_Turkish_Kit\Data\MEHMETCIK_ASSAULT_CO.paa"};
@@ -151,7 +151,7 @@ class CfgVehicles
 		scope = 2;
 		author = "Kartsa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Compact";
-		displayName = "[MEHMETCIK] Combat Pack (Medic)";
+		displayName = "Combat Pack (MEHMETCIK/Medic)";
 		picture = "\PB_MAIN\UI\TUR\PB_ASSAULT_MED_MEHMETCIK_cA.PAA";
 		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {"PB_Turkish_Kit\Data\MEHMETCIK_ASSAULT_MED_CO.paa"};
@@ -162,7 +162,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[MEHMETCIK] Radiobag";
+		displayName = "Radiobag (MEHMETCIK)";
 		picture = "\PB_MAIN\UI\TUR\PB_RADIOBAG_MEHMETCIK_cA.PAA";
 		model = "a3\Supplies_F_Enoch\Bags\B_RadioBag_01_F.p3d";
 		hiddenSelections[] = {"camo1"};
@@ -176,7 +176,7 @@ class CfgVehicles
 		author = "Kartsa";
 		scopeCurator = 2;
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Compact";
-		displayName = "[TURKISH DIGITAL] Combat Pack";
+		displayName = "Combat Pack (TURKISH DIGITAL)";
 		picture = "\PB_MAIN\UI\TUR\PB_ASSAULT_TURDIG_cA.PAA";
 		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {"PB_Turkish_Kit\Data\TURDIG_ASSAULT_CO.paa"};
@@ -188,7 +188,7 @@ class CfgVehicles
 		scope = 2;
 		author = "Kartsa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Compact";
-		displayName = "[TURKISH DIGITAL] Combat Pack (Medic)";
+		displayName = "Combat Pack (TURKISH DIGITAL/Medic)";
 		picture = "\PB_MAIN\UI\TUR\PB_ASSAULT_MED_TURDIG_cA.PAA";
 		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {"PB_Turkish_Kit\Data\TURDIG_ASSAULT_MED_CO.paa"};
@@ -199,7 +199,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[TURKISH DIGITAL] Radiobag";
+		displayName = "Radiobag (TURKISH DIGITAL)";
 		picture = "\PB_MAIN\UI\TUR\PB_RADIOBAG_TURDIG_cA.PAA";
 		model = "a3\Supplies_F_Enoch\Bags\B_RadioBag_01_F.p3d";
 		hiddenSelections[] = {"camo1"};
@@ -237,8 +237,8 @@ class cfgWeapons
 	class PB_TURDIG_Gora: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[TURKISH DIGITAL] Fatigues";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues (TURKISH DIGITAL)";
 		picture = "\PB_MAIN\UI\TUR\PB_TURDIG_GORAG_RU_cA.PAA";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -254,8 +254,8 @@ class cfgWeapons
 	class PB_TURDIG_Gora_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[TURKISH DIGITAL] Fatigues (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues (TURKISH DIGITAL/Rolled-Up)";
 		picture = "\PB_MAIN\UI\TUR\PB_TURDIG_GORA_RU_cA.PAA";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -271,8 +271,8 @@ class cfgWeapons
 	class PB_TURDIG_GoraG: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[TURKISH DIGITAL] Fatigues with Gloves";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues with Gloves (TURKISH DIGITAL)";
 		picture = "\PB_MAIN\UI\TUR\PB_TURDIG_GORAG_cA.PAA";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -288,8 +288,8 @@ class cfgWeapons
 	class PB_TURDIG_GoraG_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[TURKISH DIGITAL] Fatigues with Gloves (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues with Gloves (TURKISH DIGITAL/Rolled-Up)";
 		picture = "\PB_MAIN\UI\TUR\PB_TURDIG_GORAG_RU_cA.PAA";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -305,8 +305,8 @@ class cfgWeapons
 	class PB_MEHMETCIK_ACU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[MEHMETCIK] Combat Uniform";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Combat Uniform (MEHMETCIK)";
 		picture = "\PB_MAIN\UI\TUR\PB_MEHMETCIK_ACU_cA.PAA";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -322,8 +322,8 @@ class cfgWeapons
 	class PB_MEHMETCIK_ACU_R: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[MEHMETCIK] Combat Uniform (Rolled-UP)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Combat Uniform (MEHMETCIK/Rolled-UP)";
 		picture = "\PB_MAIN\UI\TUR\PB_MEHMETCIK_ACU_R_cA.PAA";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -340,7 +340,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		author = "Kartsa";
-		displayName = "[MEHMETCIK] Combat Fatigues";
+		displayName = "Combat Fatigues (MEHMETCIK)";
 		picture = "\PB_MAIN\UI\TUR\PB_MEHMETCIK_U_CA.PAA";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -357,7 +357,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		author = "Kartsa";
-		displayName = "[MEHMETCIK] Combat Fatigues (Rolled-Up)";
+		displayName = "Combat Fatigues (MEHMETCIK/Rolled-Up)";
 		picture = "\PB_MAIN\UI\TUR\PB_MEHMETCIK_U_R_CA.PAA";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -376,7 +376,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[MEHMETCIK] Boonie Hat";
+		displayName = "Boonie Hat (MEHMETCIK)";
 		picture = "\PB_MAIN\UI\TUR\PB_MEHMETCIK_BOONIE_CA.PAA";
 		model = "\A3\Characters_F\Common\booniehat";
 		hiddenSelections[] = {"camo"};
@@ -403,7 +403,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[MEHMETCIK] Military Cap";
+		displayName = "Military Cap (MEHMETCIK)";
 		picture = "\PB_MAIN\UI\TUR\PB_MEHMETCIK_CAP_CA.PAA";
 		model = "\A3\Characters_F\Common\cappatrol";
 		hiddenSelections[] = {"camo"};
@@ -430,7 +430,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[TURKISH DIGITAL] Boonie Hat";
+		displayName = "Boonie Hat (TURKISH DIGITAL)";
 		picture = "\PB_MAIN\UI\TUR\PB_TURDIG_BOONIE_CA.PAA";
 		model = "\A3\Characters_F\Common\booniehat";
 		hiddenSelections[] = {"camo"};
@@ -457,7 +457,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[TURKISH DIGITAL] Military Cap";
+		displayName = "Military Cap (TURKISH DIGITAL)";
 		picture = "\PB_MAIN\UI\TUR\PB_TURDIG_CAP_CA.PAA";
 		model = "\A3\Characters_F\Common\cappatrol";
 		hiddenSelections[] = {"camo"};
@@ -485,7 +485,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		picture = "\PB_MAIN\UI\TUR\PB_TURDIG_H_N_CA.PAA";
-		displayName = "[TURKISH DIGITAL] Helmet (Norotos)";
+		displayName = "Helmet (TURKISH DIGITAL/Norotos)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_01_nor1";
 		hiddenSelections[] = {"Camo1","Camo2"};
 		hiddenSelectionsTextures[] = 
@@ -541,7 +541,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		picture = "\PB_MAIN\UI\TUR\PB_TURDIG_H_N_H_CA.PAA";
-		displayName = "[TURKISH DIGITAL] Helmet (Norotos/Headset)";
+		displayName = "Helmet (TURKISH DIGITAL/Norotos/Headset)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_01_nor1_bowman";
 		hiddenSelections[] = {"Camo1","Camo2"};
 		hiddenSelectionsTextures[] = 
@@ -597,7 +597,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		picture = "\PB_MAIN\UI\TUR\PB_TURDIG_H_N_A_CA.PAA";
-		displayName = "[TURKISH DIGITAL] Helmet (Norotos/ARC)";
+		displayName = "Helmet (TURKISH DIGITAL/Norotos/ARC)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_01_nor1_arc";
 		hiddenSelections[] = {"Camo1","Camo2"};
 		hiddenSelectionsTextures[] = 
@@ -653,7 +653,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		picture = "\PB_MAIN\UI\TUR\PB_MEHMETCIK_H_N_CA.PAA";
-		displayName = "[MEHMETCIK] Helmet (Norotos)";
+		displayName = "Helmet (MEHMETCIK/Norotos)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_01_nor1";
 		hiddenSelections[] = {"Camo1","Camo2"};
 		hiddenSelectionsTextures[] = 
@@ -709,7 +709,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		picture = "\PB_MAIN\UI\TUR\PB_MEHMETCIK_H_N_H_CA.PAA";
-		displayName = "[MEHMETCIK] Helmet (Norotos/Headset)";
+		displayName = "Helmet (MEHMETCIK/Norotos/Headset)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_01_nor1_bowman";
 		hiddenSelections[] = {"Camo1","Camo2"};
 		hiddenSelectionsTextures[] = 
@@ -765,7 +765,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		picture = "\PB_MAIN\UI\TUR\PB_MEHMETCIK_H_N_A_CA.PAA";
-		displayName = "[MEHMETCIK] Helmet (Norotos/ARC)";
+		displayName = "Helmet (MEHMETCIK/Norotos/ARC)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_01_nor1_arc";
 		hiddenSelections[] = {"Camo1","Camo2"};
 		hiddenSelectionsTextures[] = 
@@ -821,7 +821,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[MEHMETCIK] Ops Core FAST";
+		displayName = "Ops Core FAST (MEHMETCIK)";
 		picture = "\PB_MAIN\UI\TUR\PB_MEHMETCIK_FAST_CA.PAA";
 		model = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore.p3d";
 		hiddenSelections[] = {"opscore","comtac","NSW","contour","UNCOV_FLAG","ms2000"};
@@ -885,7 +885,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[MEHMETCIK] Ops Score FAST (Headset)";
+		displayName = "Ops Score FAST (MEHMETCIK/Headset)";
 		picture = "\PB_MAIN\UI\TUR\PB_MEHMETCIK_FAST_H_CA.PAA";
 		model = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore.p3d";
 		hiddenSelections[] = {"opscore","comtac","NSW","contour","UNCOV_FLAG","ms2000"};
@@ -944,13 +944,12 @@ class cfgWeapons
 			};
 		};
 	};
-	
 	class PB_MEHMETCIK_FAST_C: Helmet_Base
 	{
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[MEHMETCIK] Ops Core FAST (Cover)";
+		displayName = "Ops Core FAST (MEHMETCIK/Cover)";
 		picture = "\PB_MAIN\UI\TUR\PB_MEHMETCIK_FAST_C_CA.PAA";
 		Model = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore_cover.p3d";
 		hiddenSelections[] = {"opscore","comtac","NSW","contour","cover","ms2000"};
@@ -1014,7 +1013,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[MEHMETCIK] Ops Score FAST (Cover/Headset)";
+		displayName = "Ops Score FAST (MEHMETCIK/Cover/Headset)";
 		picture = "\PB_MAIN\UI\TUR\PB_MEHMETCIK_FAST_C_H_CA.PAA";
 		Model = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore_cover.p3d";
 		hiddenSelections[] = {"opscore","comtac","NSW","contour","cover","ms2000"};
@@ -1078,7 +1077,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[MEHMETCIK] Modular Carrier Lite";
+		displayName = "Modular Carrier Lite (MEHMETCIK)";
 		picture = "\PB_MAIN\UI\TUR\PB_MEHMETCIK_MODULAR_LITE_CA.PAA";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_light_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -1120,7 +1119,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[MEHMETCIK] Modular Carrier Vest";
+		displayName = "Modular Carrier Vest (MEHMETCIK)";
 		picture = "\PB_MAIN\UI\TUR\PB_MEHMETCIK_MODULAR_CA.PAA";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -1163,7 +1162,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[MEHMETCIK] Modular Carrier GL";
+		displayName = "Modular Carrier GL (MEHMETCIK)";
 		picture = "\PB_MAIN\UI\TUR\PB_MEHMETCIK_MODULAR_GL_CA.PAA";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_heavy_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -1209,7 +1208,7 @@ class cfgWeapons
 		author = "Kartsa";
 		picture = "\PB_MAIN\UI\TUR\PB_MEHMETCIK_CARRIER_LITE_CA.PAA";
 		Model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
-		displayName = "[MEHMETCIK] Carrier Lite";
+		displayName = "Carrier Lite (MEHMETCIK)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_Turkish_Kit\data\MEHMETCIK_carrierlite_co.paa"};
 		class ItemInfo: VestItem
@@ -1253,7 +1252,7 @@ class cfgWeapons
 		author = "Kartsa";
 		picture = "\PB_MAIN\UI\TUR\PB_MEHMETCIK_CARRIER_RIG_CA.PAA";
 		Model = "\A3\Characters_F\BLUFOR\equip_b_vest01";
-		displayName = "[MEHMETCIK] Carrier Rig";
+		displayName = "Carrier Rig (MEHMETCIK)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_Turkish_Kit\data\MEHMETCIK_carrierlite_co.paa"};
 		class ItemInfo: VestItem
@@ -1295,7 +1294,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[TURKISH DIGITAL] Modular Carrier Lite";
+		displayName = "Modular Carrier Lite (TURKISH DIGITAL)";
 		picture = "\PB_MAIN\UI\TUR\PB_TURDIG_MODULAR_LITE_CA.PAA";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_light_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -1337,7 +1336,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[TURKISH DIGITAL] Modular Carrier Vest";
+		displayName = "Modular Carrier Vest (TURKISH DIGITAL)";
 		picture = "\PB_MAIN\UI\TUR\PB_TURDIG_MODULAR_CA.PAA";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -1380,7 +1379,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[TURKISH DIGITAL] Modular Carrier GL";
+		displayName = "Modular Carrier GL (TURKISH DIGITAL)";
 		picture = "\PB_MAIN\UI\TUR\PB_TURDIG_MODULAR_GL_CA.PAA";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_heavy_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -1426,7 +1425,7 @@ class cfgWeapons
 		author = "Kartsa";
 		picture = "\PB_MAIN\UI\TUR\PB_TURDIG_CARRIER_LITE_CA.PAA";
 		Model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
-		displayName = "[TURKISH DIGITAL] Carrier Lite";
+		displayName = "Carrier Lite (TURKISH DIGITAL)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_Turkish_Kit\data\TURDIG_carrierlite_co.paa"};
 		class ItemInfo: VestItem
@@ -1470,7 +1469,7 @@ class cfgWeapons
 		author = "Kartsa";
 		picture = "\PB_MAIN\UI\TUR\PB_TURDIG_CARRIER_RIG_CA.PAA";
 		Model = "\A3\Characters_F\BLUFOR\equip_b_vest01";
-		displayName = "[TURKISH DIGITAL] Carrier Rig";
+		displayName = "Carrier Rig (TURKISH DIGITAL)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_Turkish_Kit\data\TURDIG_carrierlite_co.paa"};
 		class ItemInfo: VestItem

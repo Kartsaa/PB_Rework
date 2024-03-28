@@ -53,7 +53,7 @@ class CfgVehicles
 	class PB_GREEN_Gora_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_01.p3d";
 		picture = "PB_Main\ui\UNI\PB_GREEN_GORA_CA.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -62,7 +62,7 @@ class CfgVehicles
 	class PB_GREEN_Gora_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_02.p3d";
 		picture = "PB_Main\ui\UNI\PB_GREEN_GORA_RU_CA.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -71,17 +71,16 @@ class CfgVehicles
 	class PB_GREEN_GoraG_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_03.p3d";
 		picture = "PB_Main\ui\UNI\PB_GREEN_GORAG_CA.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
-		
 		hiddenSelectionsTextures[] = {"\PB_Universal_Kit\data\GREEN_Fatigues_co.paa","PB_British_Kit\data\TacGloves_Clk_CO.paa"};
 	};
 	class PB_GREEN_GoraG_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_04.p3d";
 		picture = "PB_Main\ui\UNI\PB_GREEN_GORAG_RU_CA.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
@@ -89,7 +88,7 @@ class CfgVehicles
 	};
 	class PB_GREEN_JP_B: B_Soldier_base_F
 	{
-		author = "kartsa";
+		author = "Kartsa";
 		scope = 1;
 		model="\A3\characters_F\Common\pilot_f.p3d";
 		picture = "PB_Main\ui\UNI\PB_GREEN_JP_CA.paa";
@@ -106,7 +105,7 @@ class CfgVehicles
 	class PB_GREEN_HP_B: B_Soldier_base_F
 	{
 		scope = 2;
-		author = "kartsa";
+		author = "Kartsa";
 		model = "\a3\Characters_F_Enoch\Uniforms\I_E_Coveralls_01_F.p3d";
 		picture = "PB_Main\ui\UNI\PB_GREEN_HP_CA.paa";
 		hiddenSelections[] = {"camo1","camo2","camo3","insignia"};
@@ -115,7 +114,7 @@ class CfgVehicles
 	class PB_BLACK_ACU_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_F.p3d";
 		picture = "\PB_MAIN\ui\UNI\PB_black_acu_CA.paa";
 		hiddenSelections[] = {"camo","camo1","camo2"};
@@ -129,7 +128,7 @@ class CfgVehicles
 	class PB_BLACK_ACU_B_R: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_02_F.p3d";
 		picture = "\PB_MAIN\ui\UNI\PB_black_acu_r_CA.paa";
 		hiddenSelections[] = {"camo","camo1","camo2"};
@@ -143,7 +142,7 @@ class CfgVehicles
 	class PB_MULTICAM_ACU_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_F.p3d";
 		picture = "\PB_MAIN\ui\UNI\PB_multicam_acu_CA.paa";
 		hiddenSelections[] = {"camo","camo1","camo2"};
@@ -157,7 +156,7 @@ class CfgVehicles
 	class PB_MULTICAM_ACU_B_R: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_02_F.p3d";
 		picture = "\PB_MAIN\ui\UNI\PB_multicam_acu_r_CA.paa";
 		hiddenSelections[] = {"camo","camo1","camo2"};
@@ -171,7 +170,7 @@ class CfgVehicles
 	class PB_MULTICAM_Gora_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_01.p3d";
 		picture = "\PB_Main\ui\UNI\PB_MULTICAM_GORA_CA.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -180,7 +179,7 @@ class CfgVehicles
 	class PB_MULTICAM_Gora_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_02.p3d";
 		picture = "\PB_Main\ui\UNI\PB_MULTICAM_GORA_RU_CA.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -189,7 +188,7 @@ class CfgVehicles
 	class PB_MULTICAM_GoraG_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_03.p3d";
 		picture = "\PB_Main\ui\UNI\PB_MULTICAM_GORAG_CA.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
@@ -198,7 +197,7 @@ class CfgVehicles
 	class PB_MULTICAM_GoraG_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_04.p3d";
 		picture = "\PB_Main\ui\UNI\PB_MULTICAM_GORAG_RU_CA.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
@@ -209,7 +208,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[GREEN] Carryall Backpack";
+		displayName = "Carryall Backpack (GREEN)";
 		picture = "PB_Main\ui\UNI\PB_CARRYALL_GREEN_CA.paa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Tortila";
 		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\GREEN_carryall_co.paa"};	
@@ -220,7 +219,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		author = "Kartsa";
-		displayname = "[GREEN] Bergen Backpack";
+		displayname = "Bergen Backpack (GREEN)";
 		scopeCurator = 2;
 		picture = "PB_Main\ui\UNI\PB_BERGEN_GREEN_CA.paa";
 		hiddenSelectionsTextures[] = {"\PB_Universal_Kit\data\GREEN_bergen_co.paa"};
@@ -229,7 +228,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[GREEN] Kitbag";
+		displayName = "Kitbag (GREEN)";
 		picture = "PB_Main\ui\UNI\PB_KITBAG_GREEN_CA.paa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast";
 		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\GREEN_KB_CO.paa"};	
@@ -240,7 +239,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[GREEN] Radiobag";
+		displayName = "Radiobag (GREEN)";
 		picture = "PB_Main\ui\UNI\PB_RADIOBAG_GREEN_CA.paa";
 		model = "a3\Supplies_F_Enoch\Bags\B_RadioBag_01_F.p3d";
 		hiddenSelections[] = {"camo1"};
@@ -252,7 +251,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[MULTICAM] Carryall Backpack";
+		displayName = "Carryall Backpack (MULTICAM)";
 		picture = "\PB_MAIN\ui\UNI\PB_carryall_multicam_CA.paa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Tortila";
 		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\MULTICAM_cb_co.paa"};	
@@ -263,7 +262,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[MULTICAM] Kitbag";
+		displayName = "Kitbag (MULTICAM)";
 		picture = "\PB_MAIN\ui\UNI\PB_kitbag_multicam_CA.paa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast";
 		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\MULTICAM_KB_CO.paa"};	
@@ -274,7 +273,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[MULTICAM] Radiobag";
+		displayName = "Radiobag (MULTICAM)";
 		picture = "\PB_MAIN\ui\UNI\PB_radiobag_multicam_CA.paa";
 		model = "a3\Supplies_F_Enoch\Bags\B_RadioBag_01_F.p3d";
 		hiddenSelections[] = {"camo1"};
@@ -288,7 +287,7 @@ class CfgVehicles
 		author = "Kartsa";
 		scopeCurator = 2;
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Compact";
-		displayName = "[MULTICAM] Combat Pack";
+		displayName = "Combat Pack (MULTICAM)";
 		picture = "\PB_MAIN\ui\UNI\PB_combatpb_multicam_CA.paa";
 		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {"PB_Universal_Kit\Data\MULTICAM_ASS_BP_CO.paa"};
@@ -302,7 +301,7 @@ class CfgVehicles
 		scope = 2;
 		author = "Kartsa";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\backpacks\rhsusf_eagleaIII";
-		displayName = "[MULTICAM] Backpack";
+		displayName = "Backpack (MULTICAM)";
 		hiddenSelectionsTextures[] = {"\PB_Universal_Kit\data\MULTICAM_e3_co.paa"};
 		maximumLoad = 180;
 		mass = 45;
@@ -314,7 +313,7 @@ class CfgVehicles
 		scope = 2;
 		author = "Kartsa";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\backpacks\rhsusf_eagleaIII";
-		displayName = "[MULTICAM] Medic Backpack";
+		displayName = "Medic Backpack (MULTICAM)";
 		hiddenSelectionsTextures[] = {"\PB_Universal_Kit\data\MULTICAM_e3_med_co.paa"};
 		maximumLoad = 220;
 		mass = 65;
@@ -325,7 +324,7 @@ class CfgVehicles
 		author = "Kartsa";
 		scopeCurator = 2;
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Compact";
-		displayName = "[GREEN] Combat Pack";
+		displayName = "Combat Pack (GREEN)";
 		picture = "\PB_MAIN\UI\UNI\PB_ASSAULT_MED_GREEN_ca.PAA";
 		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {"PB_Universal_Kit\Data\od_assault_co.paa"};
@@ -337,7 +336,7 @@ class CfgVehicles
 		scope = 2;
 		author = "Kartsa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Compact";
-		displayName = "[GREEN] Combat Pack (Medic)";
+		displayName = "Combat Pack (GREEN/Medic)";
 		picture = "\PB_MAIN\UI\UNI\PB_ASSAULT_GREEN_CA.PAA";
 		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {"PB_Universal_Kit\Data\od_assault_med_co.paa"};
@@ -374,8 +373,8 @@ class cfgWeapons
 	class PB_GREEN_Gora: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[GREEN] Field Shirt";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Field Shirt (GREEN)";
 		picture = "PB_Main\ui\UNI\PB_GREEN_GORA_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -391,8 +390,8 @@ class cfgWeapons
 	class PB_GREEN_Gora_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[GREEN] Field Shirt (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Field Shirt (GREEN/Rolled-Up)";
 		picture = "PB_Main\ui\UNI\PB_GREEN_GORA_RU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -408,8 +407,8 @@ class cfgWeapons
 	class PB_GREEN_GoraG: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[GREEN] Field Shirt with Gloves";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Field Shirt with Gloves (GREEN)";
 		picture = "PB_Main\ui\UNI\PB_GREEN_GORAG_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -425,8 +424,8 @@ class cfgWeapons
 	class PB_GREEN_GoraG_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[GREEN] Field Shirt with Gloves (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Field Shirt with Gloves (GREEN/Rolled-Up)";
 		picture = "PB_Main\ui\UNI\PB_GREEN_GORAG_RU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -443,7 +442,7 @@ class cfgWeapons
 	{
 		author="Kartsa";
 		scope=2;
-		displayName="[GREEN] Jet Pilot Uniform";
+		displayName="Jet Pilot Uniform (GREEN)";
 		picture = "PB_Main\ui\UNI\PB_GREEN_JP_CA.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		class ItemInfo: UniformItem
@@ -458,7 +457,7 @@ class cfgWeapons
 	{
 		author="Kartsa";
 		scope=2;
-		displayName="[GREEN] Heli Pilot Uniform";
+		displayName="Heli Pilot Uniform (GREEN)";
 		picture = "PB_Main\ui\UNI\PB_GREEN_HP_CA.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 		class ItemInfo: UniformItem
@@ -472,8 +471,8 @@ class cfgWeapons
 	class PB_BLACK_ACU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[BLACK] Combat Uniform";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Combat Uniform (BLACK)";
 		picture = "\PB_MAIN\ui\UNI\PB_black_acu_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -489,8 +488,8 @@ class cfgWeapons
 	class PB_BLACK_ACU_R: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[BLACK] Combat Uniform (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Combat Uniform (BLACK/Rolled-Up)";
 		picture = "\PB_MAIN\ui\UNI\PB_black_acu_r_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -506,8 +505,8 @@ class cfgWeapons
 	class PB_MULTICAM_ACU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[MULTICAM] Combat Uniform";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Combat Uniform (MULTICAM)";
 		picture = "\PB_MAIN\ui\UNI\PB_multicam_acu_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -523,8 +522,8 @@ class cfgWeapons
 	class PB_MULTICAM_ACU_R: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[MULTICAM] Combat Uniform (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Combat Uniform (MULTICAM/Rolled-Up)";
 		picture = "\PB_MAIN\ui\UNI\PB_multicam_acu_r_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -540,8 +539,8 @@ class cfgWeapons
 	class PB_MULTICAM_Gora: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[MULTICAM] Fatigues";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues (MULTICAM)";
 		picture = "\PB_Main\ui\UNI\PB_MULTICAM_GORA_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -557,8 +556,8 @@ class cfgWeapons
 	class PB_MULTICAM_Gora_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[MULTICAM] Fatigues (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues (MULTICAM/Rolled-Up)";
 		picture = "\PB_Main\ui\UNI\PB_MULTICAM_GORA_RU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -574,8 +573,8 @@ class cfgWeapons
 	class PB_MULTICAM_GoraG: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[MULTICAM] Fatigues with Gloves";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues with Gloves (MULTICAM)";
 		picture = "\PB_Main\ui\UNI\PB_MULTICAM_GORAG_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -591,8 +590,8 @@ class cfgWeapons
 	class PB_MULTICAM_GoraG_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[MULTICAM] Fatigues with Gloves (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues with Gloves (MULTICAM/Rolled-Up)";
 		picture = "\PB_Main\ui\UNI\PB_MULTICAM_GORAG_RU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -610,7 +609,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		author = "Jakx2210 (Caboose), Kartsa";
-		displayName = "[TAN] SPC Vest (Rifleman w/Radio)";
+		displayName = "SPC Vest (TAN/Rifleman w/Radio)";
 		picture = "PB_Main\ui\UNI\PB_VEST_SPC_RADIO_TAN_CA.paa";
 		model = "rhsusf\addons\rhsusf_infantry\gear\vests\rhs_spc_squadleader";
 		hiddenSelections[] = {"camo","camo1","camo2","camo3"};
@@ -654,7 +653,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		author = "Jakx2210 (Caboose), Kartsa";
-		displayName = "[TAN] SPC Vest";
+		displayName = "SPC Vest (TAN)";
 		picture = "PB_Main\ui\UNI\PB_VEST_SPC_TAN_CA.paa";
 		model = "rhsusf\addons\rhsusf_infantry\gear\vests\rhs_spc";
 		hiddenSelections[] = {"camo","camo1","camo2","camo3"};
@@ -698,7 +697,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		author = "Jakx2210 (Caboose), Kartsa";
-		displayName = "[TAN] SPC Vest (Crewman)";
+		displayName = "SPC Vest (TAN/Crewman)";
 		picture = "PB_Main\ui\UNI\PB_VEST_SPC_CREWMAN_TAN_CA.paa";
 		model = "rhsusf\addons\rhsusf_infantry\gear\vests\rhs_spc_crewman";
 		hiddenSelections[] = {"camo","camo1","camo2","camo3"};
@@ -742,7 +741,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		author = "Jakx2210 (Caboose), Kartsa";
-		displayName = "[TAN] SPC Vest (Rifleman)";
+		displayName = "SPC Vest (TAN/Rifleman)";
 		picture = "PB_Main\ui\UNI\PB_VEST_SPC_RIFLEMAN_TAN_CA.paa";
 		model = "rhsusf\addons\rhsusf_infantry\gear\vests\rhs_spc_light";
 		hiddenSelections[] = {"camo","camo1","camo2","camo3"};
@@ -786,7 +785,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[TAN] Modular Carrier Lite";
+		displayName = "Modular Carrier Lite (TAN)";
 		picture = "PB_Main\ui\UNI\PB_TAN_MODULAR_LITE_CA.paa";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_light_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -828,7 +827,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[TAN] Modular Carrier Vest";
+		displayName = "Modular Carrier Vest (TAN)";
 		picture = "PB_Main\ui\UNI\PB_TAN_MODULAR_CA.paa";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -873,7 +872,7 @@ class cfgWeapons
 		author = "Kartsa";
 		picture = "PB_Main\ui\UNI\PB_TAN_CARRIER_LITE_CA.paa";
 		Model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
-		displayName = "[TAN] Carrier Lite";
+		displayName = "Carrier Lite (TAN)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\TAN_carrierlite_co.paa"};
 		class ItemInfo: VestItem
@@ -917,7 +916,7 @@ class cfgWeapons
 		author = "Kartsa";
 		picture = "PB_Main\ui\UNI\PB_TAN_CARRIER_RIG_CA.paa";
 		Model = "\A3\Characters_F\BLUFOR\equip_b_vest01";
-		displayName = "[TAN] Carrier Rig";
+		displayName = "Carrier Rig (TAN)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\TAN_carrierlite_co.paa"};
 		class ItemInfo: VestItem
@@ -959,7 +958,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[TAN] Modular Carrier GL";
+		displayName = "Modular Carrier GL (TAN)";
 		picture = "PB_Main\ui\UNI\PB_M04_TAN_GL_CA.paa";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_heavy_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -1003,7 +1002,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[BLACK] Modular Carrier Lite";
+		displayName = "Modular Carrier Lite (BLACK)";
 		picture = "\PB_MAIN\ui\UNI\PB_black_modular_lite_CA.paa";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_light_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -1045,7 +1044,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[BLACK] Modular Carrier Vest";
+		displayName = "Modular Carrier Vest (BLACK)";
 		picture = "\PB_MAIN\ui\UNI\PB_black_modular_CA.paa";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -1088,7 +1087,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[BLACK] Modular Carrier GL";
+		displayName = "Modular Carrier GL (BLACK)";
 		picture = "\PB_MAIN\ui\UNI\PB_black_gl_CA.paa";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_heavy_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -1132,7 +1131,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[MULTICAM] Modular Carrier Lite";
+		displayName = "Modular Carrier Lite (MULTICAM)";
 		picture = "\PB_MAIN\ui\UNI\PB_multicam_modular_lite_CA.paa";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_light_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -1174,7 +1173,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[MULTICAM] Modular Carrier Vest";
+		displayName = "Modular Carrier Vest (MULTICAM)";
 		picture = "\PB_MAIN\ui\UNI\PB_multicam_modular_lite_CA.paa";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -1217,7 +1216,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[MULTICAM] Modular Carrier GL";
+		displayName = "Modular Carrier GL (MULTICAM)";
 		picture = "\PB_MAIN\ui\UNI\PB_multicam_gl_CA.paa";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_heavy_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -1261,7 +1260,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[GREEN] Modular Carrier Lite";
+		displayName = "Modular Carrier Lite (GREEN)";
 		picture = "PB_Main\ui\UNI\PB_GREEN_MODULAR_LITE_CA.paa";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_light_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -1303,7 +1302,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[GREEN] Modular Carrier Vest";
+		displayName = "Modular Carrier Vest (GREEN)";
 		picture = "PB_Main\ui\UNI\PB_GREEN_MODULAR_CA.paa";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -1348,7 +1347,7 @@ class cfgWeapons
 		author = "Kartsa";
 		picture = "PB_Main\ui\UNI\PB_GREEN_CARRIER_LITE_CA.paa";
 		Model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
-		displayName = "[GREEN] Carrier Lite";
+		displayName = "Carrier Lite (GREEN)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\GREEN_carrierlite_co.paa"};
 		class ItemInfo: VestItem
@@ -1391,7 +1390,7 @@ class cfgWeapons
 		scope = 2;
 		author = "Kartsa";
 		picture = "PB_Main\ui\UNI\PB_GREEN_CARRIER_RIG_CA.paa";
-		displayName = "[GREEN] Carrier Rig";
+		displayName = "Carrier Rig (GREEN)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_Universal_Kit\data\GREEN_carrierlite_co.paa"};
 		class ItemInfo: VestItem
@@ -1434,7 +1433,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		picture = "\PB_MAIN\UI\UNI\PB_GREEN_M12_VEST_CA.PAA";
-		displayName = "[GREEN] Vest";
+		displayName = "Vest (GREEN)";
 		model = "\rhssaf\addons\rhssaf_m_vest_m12\rhssaf_md12";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\PB_Universal_Kit\data\green_m12_vest_co.paa"};
@@ -1484,7 +1483,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[GREEN] Military Cap";
+		displayName = "Military Cap (GREEN)";
 		picture = "\PB_MAIN\UI\UNI\PB_GREEN_CAP_CA.PAA";
 		model = "\A3\Characters_F\Common\cappatrol";
 		hiddenSelections[] = {"camo"};
@@ -1510,7 +1509,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[MULTICAM] Beanie";
+		displayName = "Beanie (MULTCAIM)";
 		picture = "\PB_Main\ui\UNI\PB_MULTICAM_BEANIE_CA.paa";
 		model = "\A3\Characters_F\Common\woolhat";
 		hiddenSelections[] = {"camo"};
@@ -1539,7 +1538,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[MULTICAM] Boonie Hat";
+		displayName = "Boonie Hat (MULTCAIM)";
 		picture = "\PB_Main\ui\UNI\PB_MULTICAM_BOONIE_CA.paa";
 		model = "\A3\Characters_F\Common\booniehat";
 		hiddenSelections[] = {"camo"};
@@ -1565,7 +1564,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[MULTICAM] Military Cap";
+		displayName = "Military Cap (MULTCAIM)";
 		picture = "\PB_Main\ui\UNI\PB_MULTICAM_CAP_CA.paa";
 		model = "\A3\Characters_F\Common\cappatrol";
 		hiddenSelections[] = {"camo"};
@@ -1594,7 +1593,7 @@ class cfgWeapons
 		dlc = "RHS_USAF";
 		picture = "PB_Main\ui\UNI\PB_GRN_MICH_BARE_CA.paa";
 		scope = 2;
-		displayName = "[LIGHT GREEN] MICH 2000";
+		displayName = "MICH 2000 (LIGHT GREEN)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01";
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
 		hiddenSelectionsTextures[] = 
@@ -1652,7 +1651,7 @@ class cfgWeapons
 		dlc = "RHS_USAF";
 		picture = "PB_Main\ui\UNI\PB_GRN_MICH_BARE_HEADSET_CA.paa";
 		scope = 2;
-		displayName = "[LIGHT GREEN] MICH 2000 (Headset)";
+		displayName = "MICH 2000 (LIGHT GREEN/Headset)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_bowman";
 		hiddenSelections[] = {"Camo","Camo1","Camo2", "bowman"};
 		hiddenSelectionsTextures[] = 
@@ -1711,7 +1710,7 @@ class cfgWeapons
 		dlc = "RHS_USAF";
 		picture = "PB_Main\ui\UNI\PB_GRN_MICH_BARE_ALT_CA.paa";
 		scope = 2;
-		displayName = "[LIGHT GREEN] MICH 2000 (Alt)";
+		displayName = "MICH 2000 (LIGHT GREEN/Alt)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_alt";
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
 		hiddenSelectionsTextures[] = 
@@ -1769,7 +1768,7 @@ class cfgWeapons
 		dlc = "RHS_USAF";
 		picture = "PB_Main\ui\UNI\PB_GRN_MICH_BARE_NOROTOS_ALT_ca.paa";
 		scope = 2;
-		displayName = "[LIGHT GREEN] MICH 2000 (Norotos)";
+		displayName = "MICH 2000 (LIGHT GREEN/Norotos)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_nor1";
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
 		hiddenSelectionsTextures[] = 
@@ -1827,7 +1826,7 @@ class cfgWeapons
 		dlc = "RHS_USAF";
 		picture = "PB_Main\ui\UNI\PB_GRN_MICH_BARE_NOROTOS_HEADSET_CA.paa";
 		scope = 2;
-		displayName = "[LIGHT GREEN] MICH 2000 (Norotos/Headset)";
+		displayName = "MICH 2000 (LIGHT GREEN/Norotos/Headset)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_nor1_bowman";
 		hiddenSelections[] = {"Camo","Camo1","Camo2", "bowman"};
 		hiddenSelectionsTextures[] = 
@@ -1886,7 +1885,7 @@ class cfgWeapons
 		dlc = "RHS_USAF";
 		picture = "PB_Main\ui\UNI\PB_GRN_MICH_BARE_NOROTOS_ALT_CA.paa";
 		scope = 2;
-		displayName = "[LIGHT GREEN] MICH 2000 (Norotos/Alt)";
+		displayName = "MICH 2000 (LIGHT GREEN/Norotos/Alt)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_nor1_alt";
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
 		hiddenSelectionsTextures[] = 
@@ -1944,7 +1943,7 @@ class cfgWeapons
 		dlc = "RHS_USAF";
 		picture = "PB_Main\ui\UNI\PB_GRN_MICH_BARE_NOROTOS_ALT_HEADSET_CA.paa";
 		scope = 2;
-		displayName = "[LIGHT GREEN] MICH 2000 (Norotos/Alt/Headset)";
+		displayName = "MICH 2000 (LIGHT GREEN/Norotos/Alt/Headset)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_nor1_alt_bowman";
 		hiddenSelections[] = {"Camo","Camo1","Camo2", "bowman"};
 		hiddenSelectionsTextures[] = 
@@ -2002,7 +2001,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[MULTICAM] Combat Helmet";
+		displayName = "Combat Helmet (MULTICAM)";
 		picture = "\PB_MAIN\ui\UNI\PB_multicam_tch_CA.paa";
 		model = "\A3\Characters_F_Enoch\Headgear\H_HelmetHBK_01_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -2060,7 +2059,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[MULTICAM] Combat Helmet (Headset)";
+		displayName = "Combat Helmet (MULTICAM/Headset)";
 		picture = "\PB_MAIN\ui\UNI\PB_multicam_tch_h_CA.paa";
 		model = "\A3\Characters_F_Enoch\Headgear\H_HelmetHBK_01_headset_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -2113,13 +2112,12 @@ class cfgWeapons
 			};
 		};
 	};
-	
 	class PB_MULTICAM_MICH: Helmet_Base
 	{
 		author = "Kartsa";
 		picture = "\PB_Main\ui\UNI\PB_MULTICAM_MICH_CA.paa";
 		scope = 2;
-		displayName = "[MULTICAM] Helmet";
+		displayName = "Helmet (MULTICAM)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01";
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
 		hiddenSelectionsTextures[] = 
@@ -2176,7 +2174,7 @@ class cfgWeapons
 		author = "Kartsa";
 		picture = "\PB_Main\ui\UNI\PB_MULTICAM_MICH_N_ALT_CA.paa";
 		scope = 2;
-		displayName = "[MULTICAM] Helmet (Alt)";
+		displayName = "Helmet (MULTICAM/Alt)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_alt";
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
 		hiddenSelectionsTextures[] = 
@@ -2233,7 +2231,7 @@ class cfgWeapons
 		author = "Kartsa";
 		picture = "\PB_Main\ui\UNI\PB_MULTICAM_MICH_N_CA.paa";
 		scope = 2;
-		displayName = "[MULTICAM] Helmet (Norotos)";
+		displayName = "Helmet (MULTICAM/Norotos)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_nor1_arc";
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
 		hiddenSelectionsTextures[] = 
@@ -2290,7 +2288,7 @@ class cfgWeapons
 		author = "Kartsa";
 		picture = "\PB_Main\ui\UNI\PB_MULTICAM_MICH_N_H_CA.paa";
 		scope = 2;
-		displayName = "[MULTICAM] Helmet (Norotos/Headset)";
+		displayName = "Helmet (MULTICAM/Norotos/Headset)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_nor1_arc_bowman";
 		hiddenSelections[] = {"Camo","Camo1","Camo2", "bowman"};
 		hiddenSelectionsTextures[] = 
@@ -2348,7 +2346,7 @@ class cfgWeapons
 		author = "Kartsa";
 		picture = "\PB_Main\ui\UNI\PB_MULTICAM_MICH_N_ALT_CA.paa";
 		scope = 2;
-		displayName = "[MULTICAM] Helmet (Norotos/Alt)";
+		displayName = "Helmet (MULTICAM/Norotos/Alt)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_nor1_arc_alt";
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
 		hiddenSelectionsTextures[] = 
@@ -2404,7 +2402,7 @@ class cfgWeapons
 	{
 		picture = "\PB_Main\ui\UNI\PB_MULTICAM_MICH_N_ALT_CA.paa";
 		scope = 0;
-		displayName = "[MULTICAM] Helmet (Norotos/Alt/Headset)";
+		displayName = "Helmet (MULTICAM/Norotos/Alt/Headset)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_nor1_arc_alt_bowman";
 		hiddenSelections[] = {"Camo","Camo1","Camo2", "bowman"};
 		hiddenSelectionsTextures[] = 
@@ -2462,7 +2460,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		picture = "\PB_Main\ui\UNI\PB_MULTICAM_MICH_C_H_N_CA.paa";
-		displayName = "[MULTICAM] Helmet (Cover/Norotos)";
+		displayName = "Helmet (MULTICAM/Cover/Norotos)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_01_nor1";
 		hiddenSelections[] = {"Camo1","Camo2"};
 		hiddenSelectionsTextures[] = 
@@ -2518,7 +2516,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		picture = "\PB_Main\ui\UNI\PB_MULTICAM_C_H_N_H_CA.paa";
-		displayName = "[MULTICAM] Helmet (Cover/Norotos/Headset)";
+		displayName = "Helmet (MULTICAM/Cover/Norotos/Headset)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_01_nor1_bowman";
 		hiddenSelections[] = {"Camo1","Camo2"};
 		hiddenSelectionsTextures[] = 
@@ -2574,7 +2572,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		picture = "\PB_Main\ui\UNI\PB_MULTICAM_C_H_N_A_CA.paa";
-		displayName = "[MULTICAM] Helmet (Cover/Norotos/ARC)";
+		displayName = "Helmet (MULTICAM/Cover/Norotos/ARC)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_01_nor1_arc";
 		hiddenSelections[] = {"Camo1","Camo2"};
 		hiddenSelectionsTextures[] = 
@@ -2630,7 +2628,7 @@ class cfgWeapons
 		author = "Jakx2210 (Caboose)";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[GREEN] Beret";
+		displayName = "Beret (GREEN)";
 		picture = "\PB_MAIN\ui\UNI\PB_beret_green_ca.paa";
 		model = "\A3\characters_f_epb\BLUFOR\headgear_beret02";
 		hiddenSelections[] = {"camo"};
@@ -2657,7 +2655,7 @@ class cfgWeapons
 		author = "Jakx2210 (Caboose)";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[MAROON] Beret";
+		displayName = "Beret (MAROON)";
 		picture = "\PB_MAIN\ui\UNI\PB_beret_maroon_ca.paa";
 		model = "\A3\characters_f_epb\BLUFOR\headgear_beret02";
 		hiddenSelections[] = {"camo"};
@@ -2684,7 +2682,7 @@ class cfgWeapons
 		author = "Jakx2210 (Caboose)";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[RED] Beret";
+		displayName = "Beret (RED)";
 		picture = "\PB_MAIN\ui\UNI\PB_beret_red_ca.paa";
 		model = "\A3\characters_f_epb\BLUFOR\headgear_beret02";
 		hiddenSelections[] = {"camo"};
@@ -2711,7 +2709,7 @@ class cfgWeapons
 		author = "Jakx2210 (Caboose)";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[ZOPS] Beret";
+		displayName = "Beret (ZOPS)";
 		picture = "\PB_MAIN\ui\UNI\PB_beret_zops_ca.paa";
 		model = "\A3\characters_f_epb\BLUFOR\headgear_beret02";
 		hiddenSelections[] = {"camo"};
@@ -2739,8 +2737,8 @@ class CfgGlasses
 	class None;
 	class PB_Bala_GR: None
 	{
-		author = "Kartsa, Jamie";
-		displayname = "[GREEN] Balaclava";
+		author = "Kartsa, OokamiJamie";
+		displayname = "Balaclava (GREEN)";
 		model = "\PB_M_Headgear\JBala\jam_sov_balaclava.p3d";
 		hiddenselections[] = {"camo"};
 		hiddenselectionstextures[] = {"\PB_Universal_Kit\data\bala\bala_GR_co.paa"};
@@ -2755,31 +2753,31 @@ class CfgGlasses
 	};
 	class PB_Bala_W: PB_Bala_GR
 	{
-		displayname = "[WINTER] Balaclava";
+		displayname = "Balaclava (WINTER)";
 		hiddenselectionstextures[] = {"\PB_Universal_Kit\data\bala\bala_W_co.paa"};
 		picture = "\PB_MAIN\ui\UNI\PB_bala_w_CA.paa";
 	};
 	class PB_Bala_GL: PB_Bala_GR
 	{
-		displayname = "[LIGHT GREEN Balaclava";
+		displayname = "Balacalva (LIGHT GREEN)";
 		hiddenselectionstextures[] = {"\PB_Universal_Kit\data\bala\bala_L_GR_co.paa"};
 		picture = "\PB_MAIN\ui\UNI\PB_bala_gl_CA.paa";
 	};
 	class PB_Bala_B: PB_Bala_GR
 	{
-		displayname = "[BLACK] Balaclava";
+		displayname = "Balaclava (Black)";
 		hiddenselectionstextures[] = {"\PB_Universal_Kit\data\bala\bala_B_co.paa"};
 		picture = "\PB_MAIN\ui\UNI\PB_bala_b_CA.paa";
 	};
 	class PB_Bala_T: PB_Bala_GR
 	{
-		displayname = "[TAN] Balaclava";
+		displayname = "Balaclava (TAN)";
 		hiddenselectionstextures[] = {"\PB_Universal_Kit\data\bala\bala_T_co.paa"};
 		picture = "\PB_MAIN\ui\UNI\PB_bala_t_CA.paa";
 	};
 	class PB_Bala_G: PB_Bala_GR
 	{
-		displayname = "[GREY] Balaclava";
+		displayname = "Balaclava (Grey)";
 		hiddenselectionstextures[] = {"\PB_Universal_Kit\data\bala\bala_G_co.paa"};
 		picture = "\PB_MAIN\ui\UNI\PB_bala_g_CA.paa";
 	};

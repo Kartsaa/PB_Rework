@@ -52,7 +52,7 @@ class CfgVehicles
 	class PB_IDPM_Gora_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_01.p3d";
 		picture = "\PB_Main\ui\IRE\PB_IDPM_Gora_CA.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -61,7 +61,7 @@ class CfgVehicles
 	class PB_IDPM_Gora_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_02.p3d";
 		picture = "\PB_Main\ui\IRE\PB_IDPM_Gora_RU_CA.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -70,7 +70,7 @@ class CfgVehicles
 	class PB_IDPM_GoraG_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_03.p3d";
 		picture = "\PB_Main\ui\IRE\PB_IDPM_GoraG_CA.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
@@ -79,7 +79,7 @@ class CfgVehicles
 	class PB_IDPM_GoraG_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_04.p3d";
 		picture = "\PB_Main\ui\IRE\PB_IDPM_GoraG_RU_CA.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
@@ -92,7 +92,7 @@ class CfgVehicles
 		scope = 2;
 		author = "Kartsa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast";
-		displayName = "[IDPM] Backpack";
+		displayName = "Backpack (IDPM)";
 		hiddenSelectionsTextures[] = {"\PB_Irish_Kit\data\IDPM_kb_co.paa"};
 		maximumLoad = 180;
 		mass = 45;
@@ -103,7 +103,7 @@ class CfgVehicles
 		scope = 2;
 		author = "Kartsa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast";
-		displayName = "[IDPM] Medic Backpack";
+		displayName = "Medic Backpack (IDPM)";
 		hiddenSelectionsTextures[] = {"\PB_Irish_Kit\data\IDPM_kb_med_co.paa"};
 		maximumLoad = 220;
 		mass = 65;
@@ -112,7 +112,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[IDPM] Carryall Backpack";
+		displayName = "Carryall Backpack (IDPM)";
 		picture = "\PB_Main\ui\IRE\PB_carryall_idpm_CA.paa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Tortila";
 		hiddenSelectionsTextures[] = {"PB_Irish_Kit\data\IDPM_CB_CO.paa"};	
@@ -123,7 +123,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[IDPM] Radiobag";
+		displayName = "Radiobag (IDPM)";
 		picture = "\PB_Main\ui\IRE\PB_radiobag_idpm_CA.paa";
 		model = "a3\Supplies_F_Enoch\Bags\B_RadioBag_01_F.p3d";
 		hiddenSelections[] = {"camo1"};
@@ -161,8 +161,8 @@ class cfgWeapons
 	class PB_IDPM_Gora: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[IDPM] Fatigues";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues (IDPM)";
 		picture = "\PB_Main\ui\IRE\PB_idpm_gora_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -178,8 +178,8 @@ class cfgWeapons
 	class PB_IDPM_Gora_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[IDPM] Fatigues (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues (IDPM/Rolled-Up)";
 		picture = "\PB_Main\ui\IRE\PB_idpm_gora_ru_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -195,8 +195,8 @@ class cfgWeapons
 	class PB_IDPM_GoraG: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[IDPM] Fatigues with Gloves";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues with Gloves (IDPM)";
 		picture = "\PB_Main\ui\IRE\PB_idpm_gorag_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -212,8 +212,8 @@ class cfgWeapons
 	class PB_IDPM_GoraG_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[IDPM] Fatigues with Gloves (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues with Gloves (IDPM/Rolled-Up)";
 		picture = "\PB_Main\ui\IRE\PB_idpm_gorag_ru_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -232,7 +232,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[IDPM] Boonie Hat";
+		displayName = "Boonie Hat (IDPM)";
 		picture = "\PB_Main\ui\IRE\PB_idpm_boonie_CA.paa";
 		model = "\A3\Characters_F\Common\booniehat";
 		hiddenSelections[] = {"camo"};
@@ -259,7 +259,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[IDPM] Military Cap";
+		displayName = "Military Cap (IDPM)";
 		picture = "\PB_Main\ui\IRE\PB_idpm_cap_CA.paa";
 		model = "\A3\Characters_F\Common\cappatrol";
 		hiddenSelections[] = {"camo"};
@@ -285,7 +285,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[IDPM] Beanie";
+		displayName = "Beanie (IDPM)";
 		weaponPoolAvailable = 1;
 		picture = "\PB_Main\ui\IRE\PB_idpm_beanie_CA.paa";
 		model = "\A3\Characters_F\Common\woolhat";
@@ -315,7 +315,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		picture = "\PB_Main\ui\IRE\PB_idpm_h_CA.paa";
-		displayName = "[IDPM]] Helmet";
+		displayName = "Helmet (IDPM)";
 		scope = 2;
 		model = "rhsgref\addons\rhsgref_infantry\gear_tanoa\head\pasgt_helmet";
 		hiddenSelections[] = {"Camo"};
@@ -344,7 +344,7 @@ class cfgWeapons
 	{
 		author="Kartsa";
 		scope=2;
-		displayName="[IDPM] Vest";
+		displayName="Vest (IDPM)";
 		picture = "\PB_Main\ui\IRE\PB_idpm_vest_CA.paa";
 		model="A3\Characters_F\Common\equip_tacticalvest";
 		hiddenselections[] = {"camo"};

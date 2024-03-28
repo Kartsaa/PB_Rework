@@ -52,7 +52,7 @@ class CfgVehicles
 	class PB_CADPATTW_Gora_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_01.p3d";
 		picture = "\PB_Main\UI\CAN\PB_CADPATTW_Gora_ca.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -61,7 +61,7 @@ class CfgVehicles
 	class PB_CADPATTW_Gora_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_02.p3d";
 		picture = "\PB_Main\UI\CAN\PB_CADPATTW_Gora_RU_ca.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -70,17 +70,16 @@ class CfgVehicles
 	class PB_CADPATTW_GoraG_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_03.p3d";
 		picture = "\PB_Main\UI\CAN\PB_CADPATTW_GoraG_ca.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
-		
 		hiddenSelectionsTextures[] = {"\PB_Canadian_Kit\data\CADPATTW_Fatigues_co.paa","PB_British_Kit\data\TacGloves_Clk_CO.paa"};
 	};
 	class PB_CADPATTW_GoraG_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_04.p3d";
 		picture = "\PB_Main\UI\CAN\PB_CADPATTW_GoraG_RU_ca.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
@@ -89,7 +88,7 @@ class CfgVehicles
 	class PB_CADPATAR_Gora_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_01.p3d";
 		picture = "\PB_Main\UI\CAN\PB_CADPATAR_Gora_ca.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -98,7 +97,7 @@ class CfgVehicles
 	class PB_CADPATAR_Gora_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_02.p3d";
 		picture = "\PB_Main\UI\CAN\PB_CADPATAR_Gora_RU_ca.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -107,7 +106,7 @@ class CfgVehicles
 	class PB_CADPATAR_GoraG_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_03.p3d";
 		picture = "\PB_Main\UI\CAN\PB_CADPATAR_GoraG_ca.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
@@ -116,7 +115,7 @@ class CfgVehicles
 	class PB_CADPATAR_GoraG_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_04.p3d";
 		picture = "\PB_Main\UI\CAN\PB_CADPATAR_GoraG_RU_ca.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
@@ -125,7 +124,7 @@ class CfgVehicles
 	class PB_CADPATMT_Gora_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_01.p3d";
 		picture = "\PB_Main\UI\CAN\PB_CADPATMT_Gora_ca.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -134,7 +133,7 @@ class CfgVehicles
 	class PB_CADPATMT_Gora_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_02.p3d";
 		picture = "\PB_Main\UI\CAN\PB_CADPATMT_Gora_RU_ca.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -143,17 +142,16 @@ class CfgVehicles
 	class PB_CADPATMT_GoraG_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_03.p3d";
 		picture = "\PB_Main\UI\CAN\PB_CADPATMT_GoraG_ca.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
-		
 		hiddenSelectionsTextures[] = {"\PB_Canadian_Kit\data\CADPATMT_Fatigues_co.paa","PB_British_Kit\data\TacGloves_Khk_CO.paa"};
 	};
 	class PB_CADPATMT_GoraG_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_04.p3d";
 		picture = "\PB_Main\UI\CAN\PB_CADPATMT_GoraG_ca.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
@@ -164,7 +162,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[CADPAT-TW] Carryall Backpack";
+		displayName = "Carryall Backpack (CADPAT-TW)";
 		picture = "\PB_Main\UI\CAN\PB_CARRYALL_CADPATTW_ca.paa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Tortila";
 		hiddenSelectionsTextures[] = {"PB_Canadian_Kit\data\CADPATTW_CB_CO.paa"};	
@@ -173,13 +171,13 @@ class CfgVehicles
 	};
 	class PB_CARRYALL_CADPATAR: PB_CARRYALL_CADPATTW
 	{
-		displayName = "[CADPAT-AR] Carryall Backpack";
+		displayName = "Carryall Backpack (CADPAT-AR)";
 		picture = "\PB_Main\UI\CAN\PB_CARRYALL_CADPATAR_ca.paa";
 		hiddenSelectionsTextures[] = {"PB_Canadian_Kit\data\CADPATAR_CB_CO.paa"};	
 	};
 	class PB_CARRYALL_CADPATMT: PB_CARRYALL_CADPATTW
 	{
-		displayName = "[CADPAT-MT] Carryall Backpack";
+		displayName = "Carryall Backpack (CADPAT-MT)";
 		picture = "\PB_Main\UI\CAN\PB_CARRYALL_CADPATMT_ca.paa";
 		hiddenSelectionsTextures[] = {"PB_Canadian_Kit\data\CADPATMT_CB_CO.paa"};	
 	};
@@ -190,7 +188,7 @@ class CfgVehicles
 		scope = 2;
 		author = "Kartsa";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\backpacks\rhsusf_eagleaIII";
-		displayName = "[CADPAT-TW] Backpack";
+		displayName = "Backpack (CADPAT-TW)";
 		hiddenSelectionsTextures[] = {"\PB_Canadian_Kit\data\CADPATTW_e3_co.paa"};
 		maximumLoad = 180;
 		mass = 45;
@@ -202,7 +200,7 @@ class CfgVehicles
 		scope = 2;
 		author = "Kartsa";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\backpacks\rhsusf_eagleaIII";
-		displayName = "[CADPAT-TW] Medic Backpack";
+		displayName = "Medic Backpack (CADPAT-TW)";
 		hiddenSelectionsTextures[] = {"\PB_Canadian_Kit\data\CADPATTW_e3_med_co.paa"};
 		maximumLoad = 220;
 		mass = 65;
@@ -210,24 +208,24 @@ class CfgVehicles
 	class PB_EAGLE_CADPATAR: PB_EAGLE_CADPATTW
 	{
 		picture = "\PB_Main\UI\CAN\PB_EAGLE_CADPATAR_ca.paa";
-		displayName = "[CADPAT-AR] Backpack";
+		displayName = "Backpack (CADPAT-AR)";
 		hiddenSelectionsTextures[] = {"\PB_Canadian_Kit\data\CADPATAR_e3_co.paa"};
 	};
 	class PB_EAGLE_MED_CADPATAR: PB_EAGLE_MED_CADPATTW
 	{
-		displayName = "[CADPAT-AR] Medic Backpack";
+		displayName = "Medic Backpack (CADPAT-AR)";
 		picture = "\PB_Main\UI\CAN\PB_EAGLE_MED_CADPATAR_ca.paa";
 		hiddenSelectionsTextures[] = {"\PB_Canadian_Kit\data\CADPATAR_e3_med_co.paa"};
 	};
 	class PB_EAGLE_CADPATMT: PB_EAGLE_CADPATTW
 	{
-		displayName = "[CADPAT-MT] Backpack";
+		displayName = "Backpack (CADPAT-MT)";
 		picture = "\PB_Main\UI\CAN\PB_EAGLE_CADPATMT_ca.paa";
 		hiddenSelectionsTextures[] = {"\PB_Canadian_Kit\data\CADPATMT_e3_co.paa"};
 	};
 	class PB_EAGLE_MED_CADPATMT: PB_EAGLE_MED_CADPATTW
 	{
-		displayName = "[CADPAT-MT] Medic Backpack";
+		displayName = "Medic Backpack (CADPAT-MT)";
 		picture = "\PB_Main\UI\CAN\PB_EAGLE_MED_CADPATMT_ca.paa";
 		hiddenSelectionsTextures[] = {"\PB_Canadian_Kit\data\CADPATMT_e3_med_co.paa"};
 	};
@@ -235,7 +233,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[CADPAT-TW] Radiobag";
+		displayName = "Radiobag (CADPAT-TW)";
 		picture = "\PB_Main\UI\CAN\PB_Radiobag_CADPATTW_ca.paa";
 		model = "a3\Supplies_F_Enoch\Bags\B_RadioBag_01_F.p3d";
 		hiddenSelections[] = {"camo1"};
@@ -247,7 +245,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[CADPAT-AR] Radiobag";
+		displayName = "Radiobag (CADPAT-AR)";
 		picture = "\PB_Main\UI\CAN\PB_Radiobag_CADPATAR_ca.paa";
 		model = "a3\Supplies_F_Enoch\Bags\B_RadioBag_01_F.p3d";
 		hiddenSelections[] = {"camo1"};
@@ -259,7 +257,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[CADPAT-MT] Radiobag";
+		displayName = "Radiobag (CADPAT-MT)";
 		picture = "\PB_Main\UI\CAN\PB_Radiobag_CADPATMT_ca.paa";
 		model = "a3\Supplies_F_Enoch\Bags\B_RadioBag_01_F.p3d";
 		hiddenSelections[] = {"camo1"};
@@ -299,7 +297,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		picture = "\PB_Main\UI\CAN\PB_CADPATTW_H_ca.paa";
-		displayName = "[CADPAT-TW] Helmet";
+		displayName = "Helmet (CADPAT-TW)";
 		allowedFacewear[] =
 		{
 			"rhs_googles_black", 1,  
@@ -352,7 +350,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		picture = "\PB_Main\UI\CAN\PB_CADPATTW_H_ESS_ca.paa";
-		displayName = "[CADPAT-TW] Helmet (ESS)";
+		displayName = "Helmet (CADPAT-TW/ESS)";
 		allowedFacewear[] =
 		{
 			"rhs_googles_black", 1,  
@@ -404,7 +402,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		picture = "\PB_Main\UI\CAN\PB_CADPATTW_H_HESS_ca.paa";
-		displayName = "[CADPAT-TW] Helmet (Headset/ESS)";
+		displayName = "Helmet (CADPAT-TW/Headset/ESS)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\lwh_wd_headset";
 		allowedFacewear[] =
 		{
@@ -454,7 +452,7 @@ class cfgWeapons
 	};
 	class PB_CADPATMT_H: PB_CADPATTW_H
 	{
-		displayName = "[CADPAT-MT] Helmet";
+		displayName = "Helmet (CADPAT-MT)";
 		picture = "\PB_Main\UI\CAN\PB_CADPATMT_H_ca.paa";
 		hiddenSelectionsTextures[] = {"\PB_Canadian_Kit\data\CADPATMT_LWH_CO.paa"};
 		class ItemInfo: HeadgearItem
@@ -478,7 +476,7 @@ class cfgWeapons
 	};
 	class PB_CADPATMT_H_ESS: PB_CADPATTW_H_ESS
 	{
-		displayName = "[CADPAT-MT] Helmet (ESS)";
+		displayName = "Helmet (CADPAT-MT/ESS)";
 		picture = "\PB_Main\UI\CAN\PB_CADPATMT_H_ESS_ca.paa";
 		hiddenSelectionsTextures[] = {"\PB_Canadian_Kit\data\CADPATMT_LWH_CO.paa","\PB_Canadian_Kit\data\cadpatMT_lwh_adds_CO.paa"};
 		class ItemInfo: HeadgearItem
@@ -502,7 +500,7 @@ class cfgWeapons
 	};
 	class PB_CADPATMT_H_HESS: PB_CADPATTW_H_HESS
 	{
-		displayName = "[CADPAT-MT] Helmet (Headset/ESS)";
+		displayName = "Helmet (CADPAT-MT/Headset/ESS)";
 		picture = "\PB_Main\UI\CAN\PB_CADPATMT_H_HESS_ca.paa";
 		hiddenSelectionsTextures[] = {"\PB_Canadian_Kit\data\CADPATMT_LWH_CO.paa","\PB_Canadian_Kit\data\cadpatMT_lwh_adds_CO.paa"};
 		class ItemInfo: HeadgearItem
@@ -526,7 +524,7 @@ class cfgWeapons
 	};
 	class PB_CADPATAR_H: PB_CADPATTW_H
 	{
-		displayName = "[CADPAT-AR] Helmet";
+		displayName = "Helmet (CADPAT-AR)";
 		picture = "\PB_Main\UI\CAN\PB_CADPATAR_H_ca.paa";
 		hiddenSelectionsTextures[] = {"\PB_Canadian_Kit\data\CADPATAR_LWH_CO.paa"};
 		class ItemInfo: HeadgearItem
@@ -550,7 +548,7 @@ class cfgWeapons
 	};
 	class PB_CADPATAR_H_ESS: PB_CADPATTW_H_ESS
 	{
-		displayName = "[CADPAT-AR] Helmet (ESS)";
+		displayName = "Helmet (CADPAT-AR/ESS)";
 		picture = "\PB_Main\UI\CAN\PB_CADPATAR_H_ESS_ca.paa";
 		hiddenSelectionsTextures[] = {"\PB_Canadian_Kit\data\CADPATAR_LWH_CO.paa","\PB_Canadian_Kit\data\cadpatAR_lwh_adds_CO.paa"};
 		class ItemInfo: HeadgearItem
@@ -574,7 +572,7 @@ class cfgWeapons
 	};
 	class PB_CADPATAR_H_HESS: PB_CADPATTW_H_HESS
 	{
-		displayName = "[CADPAT-AR] Helmet (Headset/ESS)";
+		displayName = "Helmet (CADPAT-AR/Headset/ESS)";
 		picture = "\PB_Main\UI\CAN\PB_CADPATAR_H_HESS_ca.paa";
 		hiddenSelectionsTextures[] = {"\PB_Canadian_Kit\data\CADPATAR_LWH_CO.paa","\PB_Canadian_Kit\data\cadpatAR_lwh_adds_CO.paa"};
 		class ItemInfo: HeadgearItem
@@ -601,7 +599,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[CADPAT-TW] Beanie";
+		displayName = "Beanie (CADPAT-TW)";
 		picture = "\PB_Main\UI\CAN\PB_CADPATTW_Beanie_ca.paa";
 		model = "\A3\Characters_F\Common\woolhat";
 		hiddenSelections[] = {"camo"};
@@ -627,7 +625,7 @@ class cfgWeapons
 	};
 	class PB_CADPATMT_Beanie: PB_CADPATTW_Beanie
 	{
-		displayName = "[CADPAT-MT] Beanie";
+		displayName = "Beanie (CADPAT-MT)";
 		picture = "\PB_Main\UI\CAN\PB_CADPATMT_Beanie_ca.paa";
 		hiddenSelectionsTextures[] = {"PB_Canadian_Kit\data\CADPATMT_beanie.paa"};
 		class ItemInfo: HeadgearItem
@@ -650,10 +648,10 @@ class cfgWeapons
 	};
 	class PB_CADPATTW_Boonie: Helmet_Base
 	{
-		author = "Kartsa";
+		author = "Kartsa (CADPAT-TW)";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[CADPAT-TW] Boonie Hat";
+		displayName = "Boonie Hat";
 		picture = "\PB_Main\UI\CAN\PB_CADPATTW_Boonie_ca.paa";
 		model = "\A3\Characters_F\Common\booniehat";
 		hiddenSelections[] = {"camo"};
@@ -677,13 +675,13 @@ class cfgWeapons
 	};
 	class PB_CADPATAR_Boonie: PB_CADPATTW_Boonie
 	{
-		displayName = "[CADPAT-AR] Boonie Hat";
+		displayName = "Boonie Hat (CADPAT-AR)";
 		picture = "\PB_Main\UI\CAN\PB_CADPATAR_Boonie_ca.paa";
 		hiddenSelectionsTextures[] = {"PB_Canadian_Kit\data\CADPATAR_boonie.paa"};
 	};
 	class PB_CADPATMT_Boonie: PB_CADPATTW_Boonie
 	{
-		displayName = "[CADPAT-MT] Boonie Hat";
+		displayName = "Boonie Hat (CADPAT-MT)";
 		picture = "\PB_Main\UI\CAN\PB_CADPATMT_Boonie_ca.paa";
 		hiddenSelectionsTextures[] = {"PB_Canadian_Kit\data\CADPATMT_boonie.paa"};
 	};
@@ -691,7 +689,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[CADPAT-TW] Military Cap";
+		displayName = "Military Cap (CADPAT-TW)";
 		picture = "\PB_Main\UI\CAN\PB_CADPATTW_Cap_ca.paa";
 		model = "\A3\Characters_F\Common\cappatrol";
 		hiddenSelections[] = {"camo"};
@@ -715,13 +713,13 @@ class cfgWeapons
 	};
 	class PB_CADPATAR_Cap: PB_CADPATTW_Cap
 	{
-		displayName = "[CADPAT-AR] Military Cap";
+		displayName = "Military Cap (CADPAT-AR)";
 		picture = "\PB_Main\UI\CAN\PB_CADPATAR_Cap_ca.paa";
 		hiddenSelectionsTextures[] = {"PB_Canadian_Kit\data\CADPATAR_cap.paa"};
 	};
 	class PB_CADPATMT_Cap: PB_CADPATTW_Cap
 	{
-		displayName = "[CADPAT-MT] Military Cap";
+		displayName = "Military Cap (CADPAT-MT)";
 		picture = "\PB_Main\UI\CAN\PB_CADPATMT_Cap_ca.paa";
 		hiddenSelectionsTextures[] = {"PB_Canadian_Kit\data\CADPATMT_cap.paa"};
 	};
@@ -729,8 +727,8 @@ class cfgWeapons
 	class PB_CADPATTW_Gora: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[CADPAT-TW] Fatigues";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues (CADPAT-TW)";
 		picture = "\PB_Main\UI\CAN\PB_CADPATTW_Gora_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -746,8 +744,8 @@ class cfgWeapons
 	class PB_CADPATTW_Gora_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[CADPAT-TW] Fatigues (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues (CADPAT-TW/Rolled-Up)";
 		picture = "\PB_Main\UI\CAN\PB_CADPATTW_Gora_RU_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -763,8 +761,8 @@ class cfgWeapons
 	class PB_CADPATTW_GoraG: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[CADPAT-TW] Fatigues with Gloves";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues with Gloves (CADPAT-TW)";
 		picture = "\PB_Main\UI\CAN\PB_CADPATTW_GoraG_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -780,8 +778,8 @@ class cfgWeapons
 	class PB_CADPATTW_GoraG_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[CADPAT-TW] Fatigues with Gloves (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues with Gloves (CADPAT-TW/Rolled-Up)";
 		picture = "\PB_Main\UI\CAN\PB_CADPATTW_GoraG_RU_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -797,8 +795,8 @@ class cfgWeapons
 	class PB_CADPATAR_Gora: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[CADPAT-AR] Fatigues";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues (CADPAT-AR)";
 		picture = "\PB_Main\UI\CAN\PB_CADPATAR_Gora_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -814,8 +812,8 @@ class cfgWeapons
 	class PB_CADPATAR_Gora_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[CADPAT-AR] Fatigues (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues (CADPAT-AR/Rolled-Up)";
 		picture = "\PB_Main\UI\CAN\PB_CADPATAR_Gora_RU_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -831,8 +829,8 @@ class cfgWeapons
 	class PB_CADPATAR_GoraG: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[CADPAT-AR] Fatigues with Gloves";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues with Gloves (CADPAT-AR)";
 		picture = "\PB_Main\UI\CAN\PB_CADPATAR_GoraG_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -848,8 +846,8 @@ class cfgWeapons
 	class PB_CADPATAR_GoraG_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[CADPAT-AR] Fatigues with Gloves (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues with Gloves (CADPAT-AR/Rolled-Up)";
 		picture = "\PB_Main\UI\CAN\PB_CADPATAR_GoraG_RU_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -865,8 +863,8 @@ class cfgWeapons
 	class PB_CADPATMT_Gora: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[CADPAT-MT] Fatigues";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues (CADPAT-MT)";
 		picture = "\PB_Main\UI\CAN\PB_CADPATMT_Gora_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -882,8 +880,8 @@ class cfgWeapons
 	class PB_CADPATMT_Gora_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[CADPAT-MT] Fatigues (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues (CADPAT-MT/Rolled-Up)";
 		picture = "\PB_Main\UI\CAN\PB_CADPATMT_Gora_RU_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -899,8 +897,8 @@ class cfgWeapons
 	class PB_CADPATMT_GoraG: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[CADPAT-MT] Fatigues with Gloves";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues with Gloves (CADPAT-MT)";
 		picture = "\PB_Main\UI\CAN\PB_CADPATMT_GoraG_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -916,8 +914,8 @@ class cfgWeapons
 	class PB_CADPATMT_GoraG_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[CADPAT-MT] Fatigues with Gloves (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues with Gloves (CADAPT-MT/Rolled-Up)";
 		picture = "\PB_Main\UI\CAN\PB_CADPATMT_GoraG_RU_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -937,7 +935,7 @@ class cfgWeapons
 		author = "Kartsa";
 		picture = "\PB_Main\UI\CAN\PB_CADPATTW_CARRIERLITE_ca.paa";
 		Model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
-		displayName = "[CADPAT-TW] Carrier Lite";
+		displayName = "Carrier Lite (CADPAT-TW)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_Canadian_Kit\data\CADPATTW_CARRIERLITE_co.paa"};
 		class ItemInfo: VestItem
@@ -977,7 +975,7 @@ class cfgWeapons
 	};
 	class PB_CADPATAR_CARRIERLITE: PB_CADPATTW_CARRIERLITE
 	{
-		displayName = "[CADPAT-AR] Carrier Lite";
+		displayName = "Carrier Lite (CADPAT-AR)";
 		picture = "\PB_Main\UI\CAN\PB_CADPATAR_CARRIERLITE_ca.paa";
 		hiddenSelectionsTextures[] = {"PB_Canadian_Kit\data\CADPATAR_CARRIERLITE_co.paa"};
 		class ItemInfo: VestItem
@@ -1017,7 +1015,7 @@ class cfgWeapons
 	};
 	class PB_CADPATMT_CARRIERLITE: PB_CADPATTW_CARRIERLITE
 	{
-		displayName = "[CADPAT-MT] Carrier Lite";
+		displayName = "Carrier Lite (CADPAT-MT)";
 		picture = "\PB_Main\UI\CAN\PB_CADPATMT_CARRIERLITE_ca.paa";
 		hiddenSelectionsTextures[] = {"PB_Canadian_Kit\data\CADPATMT_CARRIERLITE_co.paa"};
 		class ItemInfo: VestItem
@@ -1061,7 +1059,7 @@ class cfgWeapons
 		author = "Kartsa";
 		picture = "\PB_Main\UI\CAN\PB_CADPATTW_Carrier_Rig_ca.paa";
 		Model = "\A3\Characters_F\BLUFOR\equip_b_vest01";
-		displayName = "[CADPAT-TW] Carrier Rig";
+		displayName = "Carrier Rig (CADPAT-TW)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_Canadian_Kit\data\CADPATTW_CARRIERLITE_co.paa"};
 		class ItemInfo: VestItem
@@ -1101,7 +1099,7 @@ class cfgWeapons
 	};
 	class PB_CADPATAR_Carrier_Rig: PB_CADPATTW_Carrier_Rig
 	{
-		displayName = "[CADPAT-AR] Carrier Rig";
+		displayName = "Carrier Rig (CADPAT-AR)";
 		picture = "\PB_Main\UI\CAN\PB_CADPATAR_Carrier_Rig_ca.paa";
 		hiddenSelectionsTextures[] = {"PB_Canadian_Kit\data\CADPATAR_CARRIERLITE_co.paa"};
 		class ItemInfo: VestItem
@@ -1141,7 +1139,7 @@ class cfgWeapons
 	};
 	class PB_CADPATMT_Carrier_Rig: PB_CADPATTW_Carrier_Rig
 	{
-		displayName = "[CADPAT-MT] Carrier Rig";
+		displayName = "Carrier Rig (CADPAT-MT)";
 		picture = "\PB_Main\UI\CAN\PB_CADPATMT_Carrier_Rig_ca.paa";
 		hiddenSelectionsTextures[] = {"PB_Canadian_Kit\data\CADPATMT_CARRIERLITE_co.paa"};
 		class ItemInfo: VestItem

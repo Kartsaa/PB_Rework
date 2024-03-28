@@ -52,7 +52,7 @@ class CfgVehicles
 	class PB_IDF_Gora_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_01.p3d";
 		picture = "\PB_MAIN\ui\ISR\PB_IDF_GORA_CA.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -61,7 +61,7 @@ class CfgVehicles
 	class PB_IDF_Gora_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_02.p3d";
 		picture = "\PB_MAIN\ui\ISR\PB_IDF_GORA_RU_CA.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -70,7 +70,7 @@ class CfgVehicles
 	class PB_IDF_GoraG_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_03.p3d";
 		picture = "\PB_MAIN\ui\ISR\PB_IDF_GORAG_CA.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
@@ -79,7 +79,7 @@ class CfgVehicles
 	class PB_IDF_GoraG_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_04.p3d";
 		picture = "\PB_MAIN\ui\ISR\PB_IDF_GORAG_RU_CA.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
@@ -88,7 +88,7 @@ class CfgVehicles
 	class PB_IDF_Coveralls_B: B_Soldier_base_F
 	{
 		scope = 2;
-		author = "kartsa";
+		author = "Kartsa";
 		model = "\a3\Characters_F_Enoch\Uniforms\I_E_Coveralls_01_F.p3d";
 		picture = "\PB_MAIN\ui\ISR\PB_IDF_Coveralls_ca.paa";
 		hiddenSelections[] = {"camo1","camo2","camo3","insignia"};
@@ -130,8 +130,8 @@ class cfgWeapons
 	class PB_IDF_Gora: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[IDF] Field Shirt";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Field Shirt (IDF)";
 		picture = "\PB_MAIN\ui\ISR\PB_IDF_GORA_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -147,8 +147,8 @@ class cfgWeapons
 	class PB_IDF_Gora_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[IDF] Field Shirt (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Field Shirt (IDF/Rolled-Up)";
 		picture = "\PB_MAIN\ui\ISR\PB_IDF_GORA_RU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -164,8 +164,8 @@ class cfgWeapons
 	class PB_IDF_GoraG: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[IDF] Field Shirt with Gloves";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Field Shirt with Gloves (IDF)";
 		picture = "\PB_MAIN\ui\ISR\PB_IDF_GORAG_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -181,8 +181,8 @@ class cfgWeapons
 	class PB_IDF_GoraG_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[IDF] Field Shirt with Gloves (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Field Shirt with Gloves (IDF/Rolled-Up)";
 		picture = "\PB_MAIN\ui\ISR\PB_IDF_GORAG_RU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -199,7 +199,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		author = "Kartsa";
-		displayName = "[IDF] Tanker Overalls";
+		displayName = "Tanker Overalls (IDF)";
 		picture = "\PB_MAIN\ui\ISR\PB_IDF_Coveralls_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -219,7 +219,7 @@ class cfgWeapons
 		author = "Kartsa";
 		picture = "\PB_MAIN\ui\ISR\PB_IDF_MICH_BARE_CA.paa";
 		scope = 2;
-		displayName = "[IDF] Helmet";
+		displayName = "Helmet (IDF)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01";
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
 		hiddenSelectionsTextures[] = 
@@ -262,7 +262,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		picture = "\PB_MAIN\ui\ISR\PB_IDF_MICH_BARE_HEADSET_CA.paa";
-		displayName = "[IDF] Helmet (Headset)";
+		displayName = "Helmet (IDF/Headset)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_bowman";
 		hiddenSelections[] = {"Camo","Camo1","Camo2", "bowman"};
 		hiddenSelectionsTextures[] = 
@@ -307,7 +307,7 @@ class cfgWeapons
 		author = "Kartsa";
 		picture = "\PB_MAIN\ui\ISR\PB_IDF_MICH_BARE_ALT_CA.paa";
 		scope = 2;
-		displayName = "[IDF] Helmet (Alt)";
+		displayName = "Helmet (IDF/Alt)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_alt";
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
 		hiddenSelectionsTextures[] = 
@@ -351,7 +351,7 @@ class cfgWeapons
 		author = "Kartsa";
 		picture = "\PB_MAIN\ui\ISR\PB_IDF_MICH_BARE_NOROTOS_CA.paa";
 		scope = 2;
-		displayName = "[IDF] Helmet (Norotos)";
+		displayName = "Helmet (IDF/Norotos)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_nor1";
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
 		hiddenSelectionsTextures[] = 
@@ -395,7 +395,7 @@ class cfgWeapons
 		author = "Kartsa";
 		picture = "\PB_MAIN\ui\ISR\PB_IDF_mich_bare_norotos_ALT_headset_CA.paa";
 		scope = 2;
-		displayName = "[IDF] Helmet (Norotos/Headset)";
+		displayName = "Helmet (IDF/Norotos/Headset)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_nor1_bowman";
 		hiddenSelections[] = {"Camo","Camo1","Camo2", "bowman"};
 		hiddenSelectionsTextures[] = 
@@ -440,7 +440,7 @@ class cfgWeapons
 		author = "Kartsa";
 		picture = "\PB_MAIN\ui\ISR\PB_IDF_MICH_BARE_NOROTOS_ALT_CA.paa";
 		scope = 2;
-		displayName = "[IDF] Helmet (Norotos/Alt)";
+		displayName = "Helmet (IDF/Norotos/Alt)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_nor1_alt";
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
 		hiddenSelectionsTextures[] = 
@@ -483,7 +483,7 @@ class cfgWeapons
 	{
 		picture = "\PB_MAIN\ui\ISR\PB_IDF_MICH_BARE_NOROTOS_ALT_HEADSET_CA.paa";
 		scope = 2;
-		displayName = "[IDF] Helmet (Norotos/Alt/Headset)";
+		displayName = "Helmet (IDF/Norotos/Alt/Headset)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\mich_bare_01_nor1_alt_bowman";
 		hiddenSelections[] = {"Camo","Camo1","Camo2", "bowman"};
 		hiddenSelectionsTextures[] = 

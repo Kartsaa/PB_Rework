@@ -9,7 +9,7 @@
 
 class CfgPatches
 {
-	class PB_Korean_Kit
+	class PB_Danish_Kit
 	{
 		version = "1.1.3";
 		units[] = {};
@@ -30,7 +30,7 @@ class CfgPatches
 };
 class CfgVehicles
 {
-////INHERITANCE////
+////INHERIM84CE////
 	class ContainerSupply;
 	class Supply31: ContainerSupply
 	{
@@ -48,95 +48,93 @@ class CfgVehicles
 	class B_AssaultPack_Base;
 	class B_Kitbag_Base;
 ///UNIS///
-	
-	class PB_GRANITEB_Gora_B: B_Soldier_base_F
+	class PB_M84_Gora_B: B_Soldier_base_F
 	{
 		scope = 1;
 		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_01.p3d";
-		picture = "\PB_Main\ui\KOR\PB_GRANITEB_GORA_CA.PAA";
+		picture = "\PB_MAIN\UI\DEN\PB_M84_GORA_CA.paa";
 		hiddenSelections[] = {"camo","insignia"};
-		hiddenSelectionsTextures[] = {"\PB_Korean_Kit\data\GRANITEB_Fatigues_co.paa"};
+		hiddenSelectionsTextures[] = {"\PB_Danish_Kit\data\M84_Fatigues_co.paa"};
 	};
-	class PB_GRANITEB_Gora_B_RU: B_Soldier_base_F
+	class PB_M84_Gora_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
 		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_02.p3d";
-		picture = "\PB_Main\ui\KOR\PB_GRANITEB_GORA_RU_CA.PAA";
+		picture = "\PB_MAIN\UI\DEN\PB_M84_GORA_RU_CA.paa";
 		hiddenSelections[] = {"camo","insignia"};
-		hiddenSelectionsTextures[] = {"\PB_Korean_Kit\data\GRANITEB_Fatigues_co.paa"};
+		hiddenSelectionsTextures[] = {"\PB_Danish_Kit\data\M84_Fatigues_co.paa"};
 	};
-	class PB_GRANITEB_GoraG_B: B_Soldier_base_F
+	class PB_M84_GoraG_B: B_Soldier_base_F
 	{
 		scope = 1;
 		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_03.p3d";
-		picture = "\PB_Main\ui\KOR\PB_GRANITEB_GORAG_CA.PAA";
+		picture = "\PB_MAIN\UI\DEN\PB_M84_GORAG_CA.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
-		hiddenSelectionsTextures[] = {"\PB_Korean_Kit\data\GRANITEB_Fatigues_co.paa","PB_Korean_Kit\data\TacGloves_khk_CO.paa"};
+		hiddenSelectionsTextures[] = {"\PB_Danish_Kit\data\M84_Fatigues_co.paa","PB_British_Kit\data\TacGloves_Clk_CO.paa"};
 	};
-	class PB_GRANITEB_GoraG_B_RU: B_Soldier_base_F
+	class PB_M84_GoraG_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
 		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_04.p3d";
-		picture = "\PB_Main\ui\KOR\PB_GRANITEB_GORAG_RU_CA.PAA";
+		picture = "\PB_MAIN\UI\DEN\PB_M84_GORAG_RU_CA.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
-		hiddenSelectionsTextures[] = {"\PB_Korean_Kit\data\GRANITEB_Fatigues_co.paa","PB_Korean_Kit\data\TacGloves_khk_CO.paa"};
+		hiddenSelectionsTextures[] = {"\PB_Danish_Kit\data\M84_Fatigues_co.paa","PB_British_Kit\data\TacGloves_Clk_CO.paa"};
 	};
 ///BACKPACKS////
-	class PB_EAGLE_GRANITEB: B_AssaultPack_Base
+
+	class PB_Kitbag_M84: B_Kitbag_Base
 	{
-		picture = "\PB_Main\ui\KOR\PB_EAGLE_GRANITEB_CA.PAA";
-		dlc = "RHS_USAF";
-		scope = 2;
 		author = "Kartsa";
-		model = "\rhsusf\addons\rhsusf_infantry\gear\backpacks\rhsusf_eagleaIII";
-		displayName = "Backpack (GRANITEB)";
-		hiddenSelectionsTextures[] = {"\PB_Korean_Kit\data\GRANITEB_e3_co.paa"};
-		maximumLoad = 180;
-		mass = 45;
+		scope = 2;
+		displayName = "Kitbag (M84)";
+		picture = "\PB_MAIN\UI\DEN\PB_KITBAG_M84_CA.paa";
+		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast";
+		hiddenSelectionsTextures[] = {"PB_Danish_Kit\data\M84_KB_CO.paa"};	
+		maximumLoad = 200;
+		mass = 40;
 	};
-	class PB_EAGLE_MED_GRANITEB: B_AssaultPack_Base
+	class PB_Medbag_M84: B_Kitbag_Base
 	{
-		picture = "\PB_Main\ui\KOR\PB_EAGLE_MED_GRANITEB_CA.PAA";
-		dlc = "RHS_USAF";
-		scope = 2;
 		author = "Kartsa";
-		model = "\rhsusf\addons\rhsusf_infantry\gear\backpacks\rhsusf_eagleaIII";
-		displayName = "Medic Backpack (GRANITEB)";
-		hiddenSelectionsTextures[] = {"\PB_Korean_Kit\data\GRANITEB_e3_med_co.paa"};
-		maximumLoad = 220;
-		mass = 65;
+		scope = 2;
+		displayName = "Medicbag (M84)";
+		picture = "\PB_MAIN\UI\DEN\PB_MEDBAG_M84_CA.paa";
+		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast";
+		hiddenSelectionsTextures[] = {"PB_Danish_Kit\data\M84_KB_MED_CO.paa"};	
+		maximumLoad = 200;
+		mass = 40;
 	};
-	class PB_CARRYALL_GRANITEB: B_Kitbag_Base
+	class PB_CARRYALL_M84: B_Kitbag_Base
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "Carryall Backpack (GRANITEB)";
-		picture = "\PB_Main\ui\KOR\PB_carryall_GRANITEB_CA.paa";
+		displayName = "Carryall Backpack (M84)";
+		picture = "\PB_MAIN\UI\DEN\PB_CARRYALL_M84_CA.paa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Tortila";
-		hiddenSelectionsTextures[] = {"PB_Korean_Kit\data\GRANITEB_CB_CO.paa"};	
+		hiddenSelectionsTextures[] = {"PB_Danish_Kit\data\M84_CB_co.paa"};	
 		maximumLoad = 320;
 		mass = 70;
 	};
-	class PB_Radiobag_GRANITEB: B_Kitbag_Base
+	class PB_Radiobag_M84: B_Kitbag_Base
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "Radiobag (GRANITEB)";
-		picture = "\PB_Main\ui\KOR\PB_Radiobag_GRANITEB_CA.paa";
+		displayName = "Radiobag (M84)";
+		picture = "\PB_MAIN\UI\DEN\PB_RADIOBAG_M84_CA.paa";
 		model = "a3\Supplies_F_Enoch\Bags\B_RadioBag_01_F.p3d";
 		hiddenSelections[] = {"camo1"};
-		hiddenSelectionsTextures[] = {"PB_Korean_Kit\data\GRANITEB_RB_CO.paa"};	
+		hiddenSelectionsTextures[] = {"PB_Danish_Kit\data\M84_RB_CO.paa"};	
 		maximumLoad = 160;
 		mass = 70;
 	};
 };
 class cfgWeapons
 {
-/////INHERITANCE////
+/////INHERIM84CE////
 	class ContainerSupply;
 	class Supply120: ContainerSupply
 	{
@@ -160,68 +158,69 @@ class cfgWeapons
 		class ItemInfo;
 	};
 ////UNIS////
-	class PB_GRANITEB_Gora: Uniform_Base
+
+	class PB_M84_Gora: Uniform_Base
 	{
 		scope = 2;
 		author = "Kartsa, OokamiJamie";
-		displayName = "Fatigues (GRANITEB)";
-		picture = "\PB_Main\ui\KOR\PB_GRANITEB_GORA_CA.PAA";
+		displayName = "Fatigues (M84)";
+		picture = "\PB_MAIN\UI\DEN\PB_M84_GORA_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "PB_GRANITEB_Gora_B";
+			uniformClass = "PB_M84_Gora_B";
 			containerClass = "Supply45";
 			mass = 50;
 			allowedSlots[] = {"701","801","901"};
 			armor = 0;
 		};
 	};
-	class PB_GRANITEB_Gora_RU: Uniform_Base
+	class PB_M84_Gora_RU: Uniform_Base
 	{
 		scope = 2;
 		author = "Kartsa, OokamiJamie";
-		displayName = "Fatigues (GRANITEB/Rolled-Up)";
-		picture = "\PB_Main\ui\KOR\PB_GRANITEB_GORA_RU_CA.PAA";
+		displayName = "Fatigues (M84/Rolled-Up)";
+		picture = "\PB_MAIN\UI\DEN\PB_M84_GORA_RU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "PB_GRANITEB_Gora_B_RU";
+			uniformClass = "PB_M84_Gora_B_RU";
 			containerClass = "Supply45";
 			mass = 50;
 			allowedSlots[] = {"701","801","901"};
 			armor = 0;
 		};
 	};
-	class PB_GRANITEB_GoraG: Uniform_Base
+	class PB_M84_GoraG: Uniform_Base
 	{
 		scope = 2;
 		author = "Kartsa, OokamiJamie";
-		displayName = "Fatigues with Gloves (GRANITEB)";
-		picture = "\PB_Main\ui\KOR\PB_GRANITEB_GORAG_CA.PAA";
+		displayName = "Fatigues with Gloves (M84)";
+		picture = "\PB_MAIN\UI\DEN\PB_M84_GORAG_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "PB_GRANITEB_GoraG_B";
+			uniformClass = "PB_M84_GoraG_B";
 			containerClass = "Supply45";
 			mass = 50;
 			allowedSlots[] = {"701","801","901"};
 			armor = 0;
 		};
 	};
-	class PB_GRANITEB_GoraG_RU: Uniform_Base
+	class PB_M84_GoraG_RU: Uniform_Base
 	{
 		scope = 2;
 		author = "Kartsa, OokamiJamie";
-		displayName = "Fatigues with Gloves (GRANITEB/Rolled-Up)";
-		picture = "\PB_Main\ui\KOR\PB_GRANITEB_GORAG_RU_CA.PAA";
+		displayName = "Fatigues with Gloves (M84/Rolled-Up)";
+		picture = "\PB_MAIN\UI\DEN\PB_M84_GORAG_RU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "PB_GRANITEB_GoraG_B_RU";
+			uniformClass = "PB_M84_GoraG_B_RU";
 			containerClass = "Supply45";
 			mass = 50;
 			allowedSlots[] = {"701","801","901"};
@@ -229,70 +228,15 @@ class cfgWeapons
 		};
 	};
 ///HATS///
-	class PB_GRANITEB_Boonie: Helmet_Base
+	class PB_M84_Beanie: Helmet_Base
 	{
 		author = "Kartsa";
 		scope = 2;
-		weaponPoolAvailable = 1;
-		displayName = "Boonie Hat (GRANITEB)";
-		picture = "\PB_Main\ui\KOR\PB_GRANITEB_BOONIE_CA.PAA";
-		model = "\A3\Characters_F\Common\booniehat";
-		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"\PB_Korean_Kit\Data\GRANITEB_boonie.paa"};
-		class ItemInfo: HeadgearItem
-		{
-			mass = 5;
-			uniformModel = "\A3\Characters_F\Common\booniehat";
-			modelSides[] = {3,1};
-			hiddenSelections[] = {"camo"};
-			class HitpointsProtectionInfo
-			{
-				class Head
-				{
-					hitPointName = "HitHead";
-					armor = 0;
-					passThrough = 1;
-				};
-			};
-		};
-	};
-	class PB_GRANITEB_Cap: Helmet_Base
-	{
-		author = "Kartsa";
-		scope = 2;
-		weaponPoolAvailable = 1;
-		displayName = "Military Cap (GRANITEB)";
-		picture = "\PB_Main\ui\KOR\PB_GRANITEB_CAP_CA.PAA";
-		model = "\A3\Characters_F\Common\cappatrol";
-		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"\PB_Korean_Kit\Data\GRANITEB_cap.paa"};
-		class ItemInfo: HeadgearItem
-		{
-			mass = 5;
-			uniformModel = "\A3\Characters_F\Common\cappatrol";
-			modelSides[] = {3,1};
-			hiddenSelections[] = {"camo"};
-			class HitpointsProtectionInfo
-			{
-				class Head
-				{
-					hitPointName = "HitHead";
-					armor = 0;
-					passThrough = 1;
-				};
-			};
-		};
-	};
-	class PB_GRANITEB_Beanie: Helmet_Base
-	{
-		author = "Kartsa";
-		scope = 2;
-		displayName = "Beanie (GRANITEB)";
-		weaponPoolAvailable = 1;
-		picture = "\PB_Main\ui\KOR\PB_GRANITEB_BEANIE_CA.PAA";
+		displayName = "Beanie (M84)";
+		picture = "\PB_MAIN\UI\DEN\PB_M84_BEANIE_CA.paa";
 		model = "\A3\Characters_F\Common\woolhat";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"PB_Korean_Kit\data\GRANITEB_beanie.paa"};
+		hiddenSelectionsTextures[] = {"PB_Danish_Kit\data\M84_beanie.paa"};
 
 		class ItemInfo: HeadgearItem
 		{
@@ -312,82 +256,126 @@ class cfgWeapons
 			};
 		};
 	};
-///HELMETS
-	class PB_GRANITEB_H: Helmet_Base
+	class PB_M84_Boonie: Helmet_Base
 	{
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "Helmet (GRANITEB)";
-		picture = "\PB_Main\ui\KOR\PB_GRANITEB_H_CA.PAA";
-		model="\A3\Characters_F_Beta\INDEP\headgear_helmet_canvas.p3d";
-		hiddenSelections[]=
-		{
-			"camo"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\PB_Korean_Kit\data\GRANITEB_helm_co.paa"
-		};
-		allowedFacewear[] =
-		{
-			"rhs_googles_black", 1,  
-			"rhs_googles_clear", 1,
-			"rhs_googles_orange", 1,
-			"rhs_googles_yellow", 1,
-			"rhs_ess_black", 1,
-			"G_Bandanna_khk", 1,
-			"G_Bandanna_tan", 1,
-			"rhs_scarf", 1,
-			"rhsusf_shemagh_od", 1,
-			"rhsusf_shemagh2_od", 1,
-			"rhsusf_shemagh2_grn", 1,
-			"rhsusf_shemagh_tan", 1,
-			"rhsusf_shemagh2_tan", 1,
-			"rhsusf_shemagh2_gogg_grn", 1,
-			"rhsusf_shemagh_gogg_grn", 1,
-			"rhsusf_shemagh2_gogg_od", 1,
-			"rhsusf_shemagh_gogg_od", 1,
-			"rhsusf_shemagh_gogg_tan", 1,
-			"rhsusf_shemagh2_gogg_tan", 1,
-			"rhsusf_oakley_goggles_blk", 1,
-			"rhsusf_oakley_goggles_clr", 1,
-			"rhsusf_oakley_goggles_ylw", 1,
-		};
+		displayName = "Boonie Hat (M84)";
+		picture = "\PB_MAIN\UI\DEN\PB_M84_BOONIE_CA.paa";
+		model = "\A3\Characters_F\Common\booniehat";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\PB_Danish_Kit\data\M84_boonie.paa"};
 		class ItemInfo: HeadgearItem
 		{
-			mass = 30;
-			uniformModel="\A3\Characters_F_Beta\INDEP\headgear_helmet_canvas.p3d";
-			hiddenSelections[]=
-			{
-				"camo"
-			};
-			modelSides[] =
-			{
-				3,
-				1
-			};
+			mass = 5;
+			uniformModel = "\A3\Characters_F\Common\booniehat";
+			modelSides[] = {3,1};
+			hiddenSelections[] = {"camo"};
 			class HitpointsProtectionInfo
 			{
 				class Head
 				{
 					hitPointName = "HitHead";
-					armor = 8;
+					armor = 0;
+					passThrough = 1;
+				};
+			};
+		};
+	}; 
+	class PB_M84_Cap: Helmet_Base
+	{
+		author = "Kartsa";
+		scope = 2;
+		displayName = "Military Cap (M84)";
+		picture = "\PB_MAIN\UI\DEN\PB_M84_CAP_CA.paa";
+		model = "\A3\Characters_F\Common\cappatrol";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\PB_Danish_Kit\Data\M84_cap.paa"};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 5;
+			uniformModel = "\A3\Characters_F\Common\cappatrol";
+			modelSides[] = {3,1};
+			hiddenSelections[] = {"camo"};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitPointName = "HitHead";
+					armor = 0;
+					passThrough = 1;
+				};
+			};
+		};
+	};
+///HELMETS
+	class PB_M84_H: Helmet_Base
+	{
+		author = "Kartsa";
+		picture = "\PB_MAIN\UI\DEN\PB_M84_H_CA.paa";
+		displayName = "Helmet (M84)";
+		scope = 2;
+		model = "rhsgref\addons\rhsgref_infantry\gear_tanoa\head\pasgt_helmet";
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {"PB_Danish_Kit\data\M84_pasgt_co.paa"};
+		class ItemInfo: Headgearitem
+		{
+			mass = 40;
+			uniformModel = "rhsgref\addons\rhsgref_infantry\gear_tanoa\head\pasgt_helmet";
+			hiddenSelections[] = {"Camo"};
+			hiddenSelectionsTextures[] = {"PB_Danish_Kit\data\M84_pasgt_co.paa"};
+			allowedSlots[] = {801,901,701,605};
+			modelSides[] = {6};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 6;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+	class PB_M84_H_R: Helmet_Base
+	{
+		author = "Kartsa";
+		picture = "\PB_MAIN\UI\DEN\PB_M84_H_R_CA.paa";
+		scope = 2;
+		displayName = "Helmet (M84/Rhino)";
+		model = "rhsgref\addons\rhsgref_infantry\gear_tanoa\head\pasgt_helmet_rhino";
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {"PB_Danish_Kit\data\M84_pasgt_co.paa"};
+		class ItemInfo: Headgearitem
+		{
+			mass = 40;
+			uniformModel = "rhsgref\addons\rhsgref_infantry\gear_tanoa\head\pasgt_helmet_rhino";
+			hiddenSelections[] = {"Camo"};
+			hiddenSelectionsTextures[] = {"PB_Danish_Kit\data\M84_pasgt_co.paa"};
+			allowedSlots[] = {801,901,701,605};
+			modelSides[] = {6};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = "HitHead";
+					armor = 6;
 					passThrough = 0.5;
 				};
 			};
 		};
 	};
 ///VESTS///
-	class PB_GRANITEB_Modular_Lite: Vest_Camo_Base
+	class PB_M84_Modular_Lite: Vest_Camo_Base
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "Modular Carrier Lite (GRANITEB)";
-		picture = "\PB_Main\ui\KOR\PB_GRANITEB_MODULAR_LITE_CA.PAA";
+		displayName = "Modular Carrier Lite (M84)";
+		picture = "\PB_MAIN\UI\DEN\PB_M84_MODULAR_LITE_CA.paa";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_light_F.p3d";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"PB_Korean_Kit\data\GRANITEB_Modular.paa"};
+		hiddenSelectionsTextures[] = {"PB_Danish_Kit\data\M84_Modular.paa"};
 		class ItemInfo: ItemInfo
 		{
 			uniformModel = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_light_F.p3d";
@@ -421,15 +409,15 @@ class cfgWeapons
 			};
 		};
 	};
-	class PB_GRANITEB_Modular: Vest_Camo_Base
+	class PB_M84_Modular: Vest_Camo_Base
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "Modular Carrier Vest (GRANITEB)";
-		picture = "\PB_Main\ui\KOR\PB_GRANITEB_MODULAR_CA.PAA";
+		displayName = "Modular Carrier Vest (M84)";
+		picture = "\PB_MAIN\UI\DEN\PB_M84_MODULAR_CA.paa";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_F.p3d";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"PB_Korean_Kit\data\GRANITEB_Modular.paa"};
+		hiddenSelectionsTextures[] = {"PB_Danish_Kit\data\M84_Modular.paa"};
 		descriptionShort = "Armor Level III";
 		class ItemInfo: ItemInfo
 		{
@@ -464,20 +452,20 @@ class cfgWeapons
 			};
 		};
 	};
-	class PB_GRANITEB_Carrier_Lite: Vest_Camo_Base
+	class PB_M84_Carrier_Lite: Vest_Camo_Base
 	{
 		scope = 2;
 		author = "Kartsa";
-		picture = "\PB_Main\ui\KOR\PB_GRANITEB_CARRIER_LITE_CA.PAA";
+		picture = "\PB_MAIN\UI\DEN\PB_M84_CARRIER_LITE_CA.paa";
 		Model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
-		displayName = "Carrier Lite (GRANITEB)";
+		displayName = "Carrier Lite (M84)";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"PB_Korean_Kit\data\GRANITEB_carrierlite_co.paa"};
+		hiddenSelectionsTextures[] = {"PB_Danish_Kit\data\M84_carrierlite_co.paa"};
 		class ItemInfo: VestItem
 		{
 			uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
 			hiddenSelections[] = {"camo"};
-			hiddenSelectionsTextures[] = {"PB_Korean_Kit\data\GRANITEB_carrierlite_co.paa"};
+			hiddenSelectionsTextures[] = {"PB_Danish_Kit\data\M84_carrierlite_co.paa"};
 			containerClass = "Supply120";
 			mass = 80;
 			class HitpointsProtectionInfo
@@ -508,20 +496,20 @@ class cfgWeapons
 			};
 		};
 	};
-	class PB_GRANITEB_Carrier_Rig: Vest_Camo_Base
+	class PB_M84_Carrier_Rig: Vest_Camo_Base
 	{
 		scope = 2;
 		author = "Kartsa";
-		picture = "\PB_Main\ui\KOR\PB_GRANITEB_CARRIER_RIG_CA.PAA";
+		picture = "\PB_MAIN\UI\DEN\PB_M84_CARRIER_RIG_CA.paa";
 		Model = "\A3\Characters_F\BLUFOR\equip_b_vest01";
-		displayName = "Carrier Rig (GRANITEB)";
+		displayName = "Carrier Rig (M84)";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"PB_Korean_Kit\data\GRANITEB_carrierlite_co.paa"};
+		hiddenSelectionsTextures[] = {"PB_Danish_Kit\data\M84_carrierlite_co.paa"};
 		class ItemInfo: VestItem
 		{
 			uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
 			hiddenSelections[] = {"camo"};
-			hiddenSelectionsTextures[] = {"PB_Korean_Kit\data\GRANITEB_carrierlite_co.paa"};
+			hiddenSelectionsTextures[] = {"PB_Danish_Kit\data\M84_carrierlite_co.paa"};
 			containerClass = "Supply130";
 			mass = 100;
 			class HitpointsProtectionInfo

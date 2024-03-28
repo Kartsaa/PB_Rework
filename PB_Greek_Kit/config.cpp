@@ -51,7 +51,7 @@ class CfgVehicles
 	class PB_GRELIZ_Gora_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_01.p3d";
 		picture = "\PB_Main\ui\GRE\PB_GRELIZ_gora_CA.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -60,7 +60,7 @@ class CfgVehicles
 	class PB_GRELIZ_Gora_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_02.p3d";
 		picture = "\PB_Main\ui\GRE\PB_GRELIZ_gora_ru_CA.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -69,7 +69,7 @@ class CfgVehicles
 	class PB_GRELIZ_GoraG_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_03.p3d";
 		picture = "\PB_Main\ui\GRE\PB_GRELIZ_gorag_CA.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
@@ -78,7 +78,7 @@ class CfgVehicles
 	class PB_GRELIZ_GoraG_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_04.p3d";
 		picture = "\PB_Main\ui\GRE\PB_GRELIZ_gorag_ru_CA.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
@@ -91,7 +91,7 @@ class CfgVehicles
 		scope = 2;
 		author = "Kartsa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast";
-		displayName = "[GREEK LIZARD] Backpack";
+		displayName = "Backpack (GREEK LIZARD)";
 		hiddenSelectionsTextures[] = {"\PB_Greek_Kit\data\GRELIZ_kb_co.paa"};
 		maximumLoad = 180;
 		mass = 45;
@@ -102,7 +102,7 @@ class CfgVehicles
 		scope = 2;
 		author = "Kartsa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast";
-		displayName = "[GREEK LIZARD] Medic Backpack";
+		displayName = "Medic Backpack (GREEK LIZARD)";
 		hiddenSelectionsTextures[] = {"\PB_Greek_Kit\data\GRELIZ_kb_med_co.paa"};
 		maximumLoad = 220;
 		mass = 65;
@@ -111,7 +111,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[GREEK LIZARD] Radiobag";
+		displayName = "Radiobag (GREEK LIZARD)";
 		picture = "\PB_Main\ui\GRE\PB_radiobag_greliz_CA.paa";
 		model = "a3\Supplies_F_Enoch\Bags\B_RadioBag_01_F.p3d";
 		hiddenSelections[] = {"camo1"};
@@ -149,8 +149,8 @@ class cfgWeapons
 	class PB_GRELIZ_Gora: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[GREEK LIZARD] Fatigues";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues (GREEK LIZARD)";
 		picture = "\PB_Main\ui\GRE\PB_GRELIZ_gora_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -166,8 +166,8 @@ class cfgWeapons
 	class PB_GRELIZ_Gora_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[GREEK LIZARD] Fatigues (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues (GREEK LIZARD/Rolled-Up)";
 		picture = "\PB_Main\ui\GRE\PB_GRELIZ_gora_ru_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -183,8 +183,8 @@ class cfgWeapons
 	class PB_GRELIZ_GoraG: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[GREEK LIZARD] Fatigues with Gloves";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues with Gloves (GREEK LIZARD)";
 		picture = "\PB_Main\ui\GRE\PB_GRELIZ_gorag_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -200,8 +200,8 @@ class cfgWeapons
 	class PB_GRELIZ_GoraG_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[GREEK LIZARD] Fatigues with Gloves (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues with Gloves (GREEK LIZARD/Rolled-Up)";
 		picture = "\PB_Main\ui\GRE\PB_GRELIZ_gorag_ru_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -220,7 +220,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[GREEK LIZARD] Boonie Hat";
+		displayName = "Boonie Hat (GREEK LIZARD)";
 		picture = "\PB_Main\ui\GRE\PB_GRELIZ_boonie_CA.paa";
 		model = "\A3\Characters_F\Common\booniehat";
 		hiddenSelections[] = {"camo"};
@@ -247,7 +247,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[GREEK LIZARD] Military Cap";
+		displayName = "Military Cap (GREEK LIZARD)";
 		picture = "\PB_Main\ui\GRE\PB_GRELIZ_cap_CA.paa";
 		model = "\A3\Characters_F\Common\cappatrol";
 		hiddenSelections[] = {"camo"};
@@ -274,7 +274,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		picture = "\PB_Main\ui\GRE\PB_GRELIZ_H_CA.paa";
-		displayName = "[GREEK LIZARD] PASGT";
+		displayName = "PASGT (GREEK LIZARD)";
 		scope = 2;
 		model = "rhsgref\addons\rhsgref_infantry\gear_tanoa\head\pasgt_helmet";
 		hiddenSelections[] = {"Camo"};
@@ -303,7 +303,7 @@ class cfgWeapons
 		author = "Kartsa";
 		picture = "\PB_Main\ui\GRE\PB_GRELIZ_H_R_CA.paa";
 		scope = 2;
-		displayName = "[GREEK LIZARD] PASGT (Rhino)";
+		displayName = "PASGT (GREEK LIZARD/Rhino)";
 		model = "rhsgref\addons\rhsgref_infantry\gear_tanoa\head\pasgt_helmet_rhino";
 		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {"PB_Greek_Kit\data\greliz_pasgt_co.paa"};

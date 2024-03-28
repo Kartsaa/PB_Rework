@@ -98,7 +98,7 @@
 		};
 		respawnLinkedItems[]=
 		{
-			"PB_IDPM_VEST",
+			"PB_TURDIG_MODULAR_LITE",
 			"PB_TURDIG_H_N_A",
 			"ItemMap",
 			"ItemCompass",
@@ -107,7 +107,7 @@
 			"ItemGPS",
 			"Binoculars"
 		};
-		uniformClass = "PB_IDPM_GORA_RU";
+		uniformClass = "PB_TURDIG_GORA_RU";
 		backpack = "PB_TUR_RADIO_BAG";
 		magazines[] = {"SmokeShell","SmokeShell","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag"};
 		respawnMagazines[] = {"SmokeShell","SmokeShell","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag"};

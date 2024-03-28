@@ -51,7 +51,7 @@ class CfgVehicles
 	class PB_Type2_Gora_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_01.p3d";
 		picture = "\PB_Main\ui\JAP\PB_Type2_Gora_ca.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -60,7 +60,7 @@ class CfgVehicles
 	class PB_Type2_Gora_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_02.p3d";
 		picture = "\PB_Main\ui\JAP\PB_Type2_Gora_RU_ca.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -69,7 +69,7 @@ class CfgVehicles
 	class PB_Type2_GoraG_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_03.p3d";
 		picture = "\PB_Main\ui\JAP\PB_Type2_GoraG_ca.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
@@ -78,7 +78,7 @@ class CfgVehicles
 	class PB_Type2_GoraG_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_04.p3d";
 		picture = "\PB_Main\ui\JAP\PB_Type2_GoraG_RU_ca.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
@@ -89,7 +89,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[Type II] Kitbag";
+		displayName = "Kitbag (JIETAI DOTS)";
 		picture = "\PB_Main\ui\JAP\PB_Kitbag_Type2_ca.paa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast";
 		hiddenSelectionsTextures[] = {"PB_Japan_Kit\data\Type2_KB_CO.paa"};	
@@ -100,7 +100,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[Type II] Medicbag";
+		displayName = "Medicbag (JIETAI DOTS)";
 		picture = "\PB_Main\ui\JAP\PB_Medbag_Type2_ca.paa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast";
 		hiddenSelectionsTextures[] = {"PB_Japan_Kit\data\Type2_KB_MED_CO.paa"};	
@@ -111,7 +111,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[Type II] Radiobag";
+		displayName = "Radiobag (JIETAI DOTS)";
 		picture = "\PB_Main\ui\JAP\PB_Radiobag_Type2_ca.paa";
 		model = "a3\Supplies_F_Enoch\Bags\B_RadioBag_01_F.p3d";
 		hiddenSelections[] = {"camo1"};
@@ -149,8 +149,8 @@ class cfgWeapons
 	class PB_Type2_Gora: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[Type II] Fatigues";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues (JIETAI DOTS)";
 		picture = "\PB_Main\ui\JAP\PB_Type2_Gora_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -166,8 +166,8 @@ class cfgWeapons
 	class PB_Type2_Gora_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[Type II] Fatigues (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues (JIETAI DOTS/Rolled-Up)";
 		picture = "\PB_Main\ui\JAP\PB_Type2_Gora_RU_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -183,8 +183,8 @@ class cfgWeapons
 	class PB_Type2_GoraG: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[Type II] Fatigues with Gloves";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues with Gloves (JIETAI DOTS)";
 		picture = "\PB_Main\ui\JAP\PB_Type2_GoraG_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -200,8 +200,8 @@ class cfgWeapons
 	class PB_Type2_GoraG_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[Type II] Fatigues with Gloves (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues with Gloves (JIETAI DOTS/Rolled-Up)";
 		picture = "\PB_Main\ui\JAP\PB_Type2_GoraG_RU_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -220,7 +220,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[Type II] Boonie Hat";
+		displayName = "Boonie Hat (JIETAI DOTS)";
 		picture = "\PB_Main\ui\JAP\PB_Type2_Boonie_ca.paa";
 		model = "\A3\Characters_F\Common\booniehat";
 		hiddenSelections[] = {"camo"};
@@ -247,7 +247,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[Type II] Military Cap";
+		displayName = "Military Cap (JIETAI DOTS)";
 		picture = "\PB_Main\ui\JAP\PB_Type2_cap_ca.paa";
 		model = "\A3\Characters_F\Common\cappatrol";
 		hiddenSelections[] = {"camo"};
@@ -273,7 +273,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[Type II] Beanie";
+		displayName = "Beanie (JIETAI DOTS)";
 		weaponPoolAvailable = 1;
 		picture = "\PB_Main\ui\JAP\PB_Type2_Beanie_ca.paa";
 		model = "\A3\Characters_F\Common\woolhat";
@@ -303,7 +303,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		picture = "\PB_Main\ui\JAP\PB_Type2_H_ca.paa";
-		displayName = "[Type II] Type 88 Helmet";
+		displayName = "Type 88 Helmet (JIETAI DOTS)";
 		scope = 2;
 		model = "rhsgref\addons\rhsgref_infantry\gear_tanoa\head\pasgt_helmet";
 		hiddenSelections[] = {"Camo"};
@@ -332,7 +332,7 @@ class cfgWeapons
 		author = "Kartsa";
 		picture = "\PB_Main\ui\JAP\PB_Type2_H_R_ca.paa";
 		scope = 2;
-		displayName = "[Type II] Type 88 Helmet (Rhino)";
+		displayName = "Type 88 Helmet (JIETAI DOTS/Rhino)";
 		model = "rhsgref\addons\rhsgref_infantry\gear_tanoa\head\pasgt_helmet_rhino";
 		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {"PB_Japan_Kit\data\Type2_pasgt_co.paa"};
@@ -361,7 +361,7 @@ class cfgWeapons
 		author = "OokamiJamie, Kartsa";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "[Type II] Type 3 Vest";
+		displayName = "Type 3 Vest (JIETAI DOTS)";
 		picture = "\PB_Main\ui\JAP\PB_Type2_T3_Vest_ca.paa";
         hiddenSelections[] = {"camo","camo1"}; 
 		hiddenSelectionsTextures[] = 
@@ -414,7 +414,7 @@ class cfgWeapons
 		author = "OokamiJamie, Kartsa";
 		scope = 2;
 		scopeArsenal = 2;
-		displayName = "[Type II] Type 3 Rig";
+		displayName = "Type 3 Rig (JIETAI DOTS)";
 		picture = "\PB_Main\ui\JAP\PB_Type2_T3_Rig_ca.paa";
         hiddenSelections[] = {"camo","camo1"}; 
 		hiddenSelectionsTextures[] = 

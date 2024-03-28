@@ -52,7 +52,7 @@ class CfgVehicles
 	class PB_JIGSAW_Gora_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_01.p3d";
 		picture = "\PB_Main\ui\BEL\PB_JIGSAW_GORA_CA.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -61,7 +61,7 @@ class CfgVehicles
 	class PB_JIGSAW_Gora_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_02.p3d";
 		picture = "\PB_Main\ui\BEL\PB_JIGSAW_GORA_RU_CA.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -70,7 +70,7 @@ class CfgVehicles
 	class PB_JIGSAW_GoraG_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_03.p3d";
 		picture = "\PB_Main\ui\BEL\PB_JIGSAW_GORAG_CA.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
@@ -79,7 +79,7 @@ class CfgVehicles
 	class PB_JIGSAW_GoraG_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_04.p3d";
 		picture = "\PB_Main\ui\BEL\PB_JIGSAW_GORAG_RU_CA.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
@@ -90,7 +90,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[JIGSAW] Kitbag";
+		displayName = "Kitbag (JIGSAW)";
 		picture = "\PB_Main\ui\BEL\PB_KITBAG_JIGSAW_CA.paa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast";
 		hiddenSelectionsTextures[] = {"PB_Belgian_Kit\data\JIGSAW_KB_CO.paa"};	
@@ -101,7 +101,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[JIGSAW] Carryall Backpack";
+		displayName = "Carryall Backpack (JIGSAW)";
 		picture = "\PB_Main\ui\BEL\PB_CARRYALL_JIGSAW_CA.paa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Tortila";
 		hiddenSelectionsTextures[] = {"PB_Belgian_Kit\data\JIGSAW_CB_CO.paa"};	
@@ -112,7 +112,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[JIGSAW] Medic Kitbag";
+		displayName = "Medbag (JIGSAW)";
 		picture = "\PB_Main\ui\BEL\PB_MEDBAG_JIGSAW_CA.paa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast";
 		hiddenSelectionsTextures[] = {"PB_Belgian_Kit\data\JIGSAW_KB_MED_CO.paa"};	
@@ -123,7 +123,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[JIGSAW] Radiobag";
+		displayName = "Radiobag (JIGSAW)";
 		picture = "\PB_Main\ui\BEL\PB_RADIOBAG_JIGSAW_CA.paa";
 		model = "a3\Supplies_F_Enoch\Bags\B_RadioBag_01_F.p3d";
 		hiddenSelections[] = {"camo1"};
@@ -161,8 +161,8 @@ class cfgWeapons
 	class PB_JIGSAW_Gora: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[JIGSAW] Fatigues";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues(JIGSAW)";
 		picture = "\PB_Main\ui\BEL\PB_JIGSAW_GORA_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -178,8 +178,8 @@ class cfgWeapons
 	class PB_JIGSAW_Gora_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[JIGSAW] Fatigues (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues (JIGSAW/Rolled-Up)";
 		picture = "\PB_Main\ui\BEL\PB_JIGSAW_GORA_RU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -195,8 +195,8 @@ class cfgWeapons
 	class PB_JIGSAW_GoraG: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[JIGSAW] Fatigues with Gloves";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues with Gloves (JIGSAW)";
 		picture = "\PB_Main\ui\BEL\PB_JIGSAW_GORAG_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -212,8 +212,8 @@ class cfgWeapons
 	class PB_JIGSAW_GoraG_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[JIGSAW] Fatigues with Gloves (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues with Gloves (JIGSAW/Rolled-Up)";
 		picture = "\PB_Main\ui\BEL\PB_JIGSAW_GORAG_RU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -232,7 +232,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[JIGSAW] Boonie Hat";
+		displayName = "Boonie Hat (JIGSAW)";
 		picture = "\PB_Main\ui\BEL\PB_JIGSAW_BOONIE_CA.paa";
 		model = "\A3\Characters_F\Common\booniehat";
 		hiddenSelections[] = {"camo"};
@@ -259,7 +259,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[JIGSAW] Military Cap";
+		displayName = "Military Cap (JIGSAW)";
 		picture = "\PB_Main\ui\BEL\PB_JIGSAW_CAP_CA.paa";
 		model = "\A3\Characters_F\Common\cappatrol";
 		hiddenSelections[] = {"camo"};
@@ -285,7 +285,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[JIGSAW] Beanie";
+		displayName = "Beanie (JIGSAW)";
 		weaponPoolAvailable = 1;
 		picture = "\PB_Main\ui\BEL\PB_JIGSAW_BEANIE_CA.paa";
 		model = "\A3\Characters_F\Common\woolhat";
@@ -316,7 +316,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[JIGSAW] Helmet";
+		displayName = "Helmet (JIGSAW)";
 		picture = "\PB_Main\ui\BEL\PB_JIGSAW_H_CA.paa";
 		model="\A3\Characters_F_Beta\INDEP\headgear_helmet_canvas.p3d";
 		hiddenSelections[]=

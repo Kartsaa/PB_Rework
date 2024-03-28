@@ -52,7 +52,7 @@ class CfgVehicles
 	class PB_M90_Gora_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_01.p3d";
 		picture = "\PB_Main\ui\SWE\PB_M90_Gora_CA.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -61,7 +61,7 @@ class CfgVehicles
 	class PB_M90_Gora_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_02.p3d";
 		picture = "\PB_Main\ui\SWE\PB_M90_Gora_RU_CA.paa";
 		hiddenSelections[] = {"camo","insignia"};
@@ -74,13 +74,12 @@ class CfgVehicles
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_03.p3d";
 		picture = "\PB_Main\ui\SWE\PB_M90_GoraG_CA.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
-		
 		hiddenSelectionsTextures[] = {"\PB_Swedish_Kit\data\M90_Fatigues_co.paa","PB_British_Kit\data\TacGloves_Clk_CO.paa"};
 	};
 	class PB_M90_GoraG_B_RU: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\Gora\U_Afghanka_04.p3d";
 		picture = "\PB_Main\ui\SWE\PB_M90_GoraG_RU_CA.paa";
 		hiddenSelections[] = {"camo","camo1","insignia"};
@@ -89,7 +88,7 @@ class CfgVehicles
 	class PB_M90_ACU_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_F.p3d";
 		picture = "\PB_Main\ui\SWE\PB_M90_ACU_CA.paa";
 		hiddenSelections[] = {"camo","camo1","camo2"};
@@ -103,7 +102,7 @@ class CfgVehicles
 	class PB_M90_ACU_B_R: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_02_F.p3d";
 		picture = "\PB_Main\ui\SWE\PB_M90_ACU_R_CA.paa";
 		hiddenSelections[] = {"camo","camo1","camo2"};
@@ -149,7 +148,7 @@ class CfgVehicles
 		scope = 2;
 		author = "Kartsa";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\backpacks\rhsusf_eagleaIII";
-		displayName = "[M90] Backpack";
+		displayName = "Backpack (M90)";
 		hiddenSelectionsTextures[] = {"\PB_Swedish_Kit\data\M90_e3_co.paa"};
 		maximumLoad = 180;
 		mass = 45;
@@ -161,7 +160,7 @@ class CfgVehicles
 		scope = 2;
 		author = "Kartsa";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\backpacks\rhsusf_eagleaIII";
-		displayName = "[M90] Medic Backpack";
+		displayName = "Medic Backpack (M90)";
 		hiddenSelectionsTextures[] = {"\PB_Swedish_Kit\data\M90_e3_med_co.paa"};
 		maximumLoad = 220;
 		mass = 65;
@@ -170,7 +169,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[M90] Carryall Backpack";
+		displayName = "Carryall Backpack (M90)";
 		picture = "\PB_Main\ui\SWE\PB_CARRYALL_M90_CA.paa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Tortila";
 		hiddenSelectionsTextures[] = {"PB_Swedish_Kit\data\M90_CB_CO.paa"};	
@@ -181,7 +180,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[M90] Radiobag";
+		displayName = "Radiobag (M90)";
 		picture = "\PB_Main\ui\SWE\PB_RADIOBAG_M90_CA.paa";
 		model = "a3\Supplies_F_Enoch\Bags\B_RadioBag_01_F.p3d";
 		hiddenSelections[] = {"camo1"};
@@ -219,8 +218,8 @@ class cfgWeapons
 	class PB_M90_Gora: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[M90] Fatigues";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues (M90)";
 		picture = "\PB_Main\ui\SWE\PB_M90_GORA_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -236,8 +235,8 @@ class cfgWeapons
 	class PB_M90_Gora_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[M90] Fatigues (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues (M90/Rolled-Up)";
 		picture = "\PB_Main\ui\SWE\PB_M90_GORA_RU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -253,8 +252,8 @@ class cfgWeapons
 	class PB_M90_GoraG: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[M90] Fatigues with Gloves";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues with Gloves (M90)";
 		picture = "\PB_Main\ui\SWE\PB_M90_GORAG_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -270,8 +269,8 @@ class cfgWeapons
 	class PB_M90_GoraG_RU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[M90] Fatigues with Gloves (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Fatigues with Gloves (M90/Rolled-Up)";
 		picture = "\PB_Main\ui\SWE\PB_M90_GORAG_RU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -288,7 +287,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		author = "Kartsa";
-		displayName = "[M90] Winter Jacket";
+		displayName = "Winter Jacket (M90)";
 		picture = "\PB_Main\ui\SWE\PB_M90_JACKET_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -304,8 +303,8 @@ class cfgWeapons
 	class PB_M90_ACU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[M90] NCU";
+		author = "Kartsa, OokamiJamie";
+		displayName = "NCU (M90)";
 		picture = "\PB_Main\ui\SWE\PB_M90_ACU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -321,8 +320,8 @@ class cfgWeapons
 	class PB_M90_ACU_R: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[M90] NCU (Rolled-UP)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "NCU (M90/Rolled-UP)";
 		picture = "\PB_Main\ui\SWE\PB_M90_ACU_R_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -339,7 +338,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		author = "Kartsa";
-		displayName = "[M90] Combat Fatigues";
+		displayName = "Combat Fatigues (M90)";
 		picture = "\PB_MAIN\UI\SWE\PB_M90_U_CA.PAA";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -356,7 +355,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		author = "Kartsa";
-		displayName = "[M90] Combat Fatigues (Rolled-Up)";
+		displayName = "Combat Fatigues (M90/Rolled-Up)";
 		picture = "\PB_MAIN\UI\SWE\PB_M90_U_R_CA.PAA";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -375,7 +374,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[M90] Boonie Hat";
+		displayName = "Boonie Hat (M90)";
 		picture = "\PB_Main\ui\SWE\PB_M90_BOONIE_CA.paa";
 		model = "\A3\Characters_F\Common\booniehat";
 		hiddenSelections[] = {"camo"};
@@ -402,7 +401,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[M90] Military Cap";
+		displayName = "Military Cap (M90)";
 		picture = "\PB_Main\ui\SWE\PB_M90_CAP_CA.paa";
 		model = "\A3\Characters_F\Common\cappatrol";
 		hiddenSelections[] = {"camo"};
@@ -428,7 +427,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[M90] Beanie";
+		displayName = "Beanie (M90)";
 		weaponPoolAvailable = 1;
 		picture = "\PB_Main\ui\SWE\PB_M90_BEANIE_CA.paa";
 		model = "\A3\Characters_F\Common\woolhat";
@@ -459,7 +458,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		picture = "\PB_Main\ui\SWE\PB_M90_H_CA.paa";
-		displayName = "[M90] Helmet";
+		displayName = "Helmet (M90)";
 		allowedFacewear[] =
 		{
 			"rhs_googles_black", 1,  
@@ -512,7 +511,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		picture = "\PB_Main\ui\SWE\PB_M90_H_ESS_CA.paa";
-		displayName = "[M90] Helmet (ESS)";
+		displayName = "Helmet (M90/ESS)";
 		allowedFacewear[] =
 		{
 			"rhs_googles_black", 1,  
@@ -564,7 +563,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		picture = "\PB_Main\ui\SWE\PB_M90_H_HESS_CA.paa";
-		displayName = "[M90] Helmet (Headset/ESS)";
+		displayName = "Helmet (M90/Headset/ESS)";
 		model = "\rhsusf\addons\rhsusf_infantry\gear\head\lwh_wd_headset";
 		allowedFacewear[] =
 		{
@@ -617,7 +616,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[M90] Ops Core FAST";
+		displayName = "Ops Core FAST (M90)";
 		picture = "\PB_Main\ui\SWE\PB_M90_FAST_CA.paa";
 		model = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore.p3d";
 		hiddenSelections[] = {"opscore","comtac","NSW","contour","UNCOV_FLAG","ms2000"};
@@ -681,7 +680,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[M90] Ops Score FAST (Headset)";
+		displayName = "Ops Score FAST (M90/Headset)";
 		picture = "\PB_Main\ui\SWE\PB_M90_FAST_H_CA.paa";
 		model = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore.p3d";
 		hiddenSelections[] = {"opscore","comtac","NSW","contour","UNCOV_FLAG","ms2000"};
@@ -745,7 +744,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[M90] Ops Core FAST (Cover)";
+		displayName = "Ops Core FAST (M90/Cover)";
 		picture = "\PB_MAIN\UI\SWE\PB_M90_FAST_C_CA.PAA";
 		Model = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore_cover.p3d";
 		hiddenSelections[] = {"opscore","comtac","NSW","contour","cover","ms2000"};
@@ -809,7 +808,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[M90] Ops Score FAST (Cover/Headset)";
+		displayName = "Ops Score FAST (M90/Cover/Headset)";
 		picture = "\PB_MAIN\UI\SWE\PB_M90_FAST_C_H_CA.PAA";
 		Model = "\rhsusf\addons\rhsusf_infantry2\gear\head\opscore\opscore_cover.p3d";
 		hiddenSelections[] = {"opscore","comtac","NSW","contour","cover","ms2000"};
@@ -873,7 +872,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[M90] Modular Carrier Lite";
+		displayName = "Modular Carrier Lite (M90)";
 		picture = "\PB_Main\ui\SWE\PB_M90_MODULAR_LITE_CA.paa";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_light_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -915,7 +914,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[M90] Modular Carrier Vest";
+		displayName = "Modular Carrier Vest (M90)";
 		picture = "\PB_Main\ui\SWE\PB_M90_MODULAR_CA.paa";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -958,7 +957,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[M90] Modular Carrier GL";
+		displayName = "Modular Carrier GL (M90)";
 		picture = "\PB_Main\ui\SWE\PB_M90_MODULAR_GL_CA.paa";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_heavy_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -1004,7 +1003,7 @@ class cfgWeapons
 		author = "Kartsa";
 		picture = "\PB_Main\ui\SWE\PB_M90_CARRIER_LITE_CA.paa";
 		Model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
-		displayName = "[M90] Carrier Lite";
+		displayName = "Carrier Lite (M90)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_Swedish_Kit\data\M90_carrierlite_co.paa"};
 		class ItemInfo: VestItem
@@ -1048,7 +1047,7 @@ class cfgWeapons
 		author = "Kartsa";
 		picture = "\PB_Main\ui\SWE\PB_M90_CARRIER_RIG_CA.paa";
 		Model = "\A3\Characters_F\BLUFOR\equip_b_vest01";
-		displayName = "[M90] Carrier Rig";
+		displayName = "Carrier Rig (M90)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_Swedish_Kit\data\M90_carrierlite_co.paa"};
 		class ItemInfo: VestItem

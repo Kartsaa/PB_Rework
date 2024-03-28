@@ -51,7 +51,7 @@ class CfgVehicles
 	class PB_ESTDCU_ACU_B: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_F.p3d";
 		picture = "\PB_Main\ui\EST\PB_ESTDCU_ACU_CA.paa";
 		hiddenSelections[] = {"camo","camo1","camo2"};
@@ -65,7 +65,7 @@ class CfgVehicles
 	class PB_ESTDCU_ACU_B_R: B_Soldier_base_F
 	{
 		scope = 1;
-		author = "Kartsa";
+		author = "Kartsa, OokamiJamie";
 		model = "\PB_M_Uniforms\A_CU\Aegis_OCombatUniform_02_F.p3d";;
 		picture = "\PB_Main\ui\EST\PB_ESTDCU_ACU_R_CA.paa";
 		hiddenSelections[] = {"camo","camo1","camo2"};
@@ -99,7 +99,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[ESTDCU] Medbag";
+		displayName = "Medbag (ESTDCU)";
 		picture = "\PB_Main\ui\EST\PB_Medbag_ESTDCU_CA.paa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast";
 		hiddenSelectionsTextures[] = {"PB_Estonian_Kit\data\ESTDCU_KB_CO.paa"};	
@@ -110,7 +110,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[ESTDCU] Kitbag";
+		displayName = "Kitbag (ESTDCU)";
 		picture = "\PB_Main\ui\EST\PB_Kitbag_ESTDCU_CA.paa";
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast";
 		hiddenSelectionsTextures[] = {"PB_Estonian_Kit\data\ESTDCU_KB_CO.paa"};	
@@ -121,7 +121,7 @@ class CfgVehicles
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[ESTDCU] Radiobag";
+		displayName = "Radiobag (ESTDCU)";
 		picture = "\PB_Main\ui\EST\PB_Radiobag_ESTDCU_CA.paa";
 		model = "a3\Supplies_F_Enoch\Bags\B_RadioBag_01_F.p3d";
 		hiddenSelections[] = {"camo1"};
@@ -161,7 +161,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		author = "Kartsa";
-		displayName = "[ESTDCU] Combat Fatigues";
+		displayName = "Combat Fatigues (ESTDCU)";
 		picture = "\PB_MAIN\UI\EST\PB_ESTDCU_U_CA.PAA";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -178,7 +178,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		author = "Kartsa";
-		displayName = "[ESTDCU] Combat Fatigues (Rolled-Up)";
+		displayName = "Combat Fatigues (ESTDCU/Rolled-Up)";
 		picture = "\PB_MAIN\UI\EST\PB_ESTDCU_U_CA.PAA";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -194,8 +194,8 @@ class cfgWeapons
 	class PB_ESTDCU_ACU: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[ESTDCU] Combat Uniform";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Combat Uniform (ESTDCU)";
 		picture = "\PB_Main\ui\EST\PB_ESTDCU_ACU_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -211,8 +211,8 @@ class cfgWeapons
 	class PB_ESTDCU_ACU_R: Uniform_Base
 	{
 		scope = 2;
-		author = "Kartsa";
-		displayName = "[ESTDCU] Combat Uniform (Rolled-Up)";
+		author = "Kartsa, OokamiJamie";
+		displayName = "Combat Uniform (ESTDCU/Rolled-Up)";
 		picture = "\PB_Main\ui\EST\PB_ESTDCU_ACU_R_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F";
 		class ItemInfo: UniformItem
@@ -231,7 +231,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[ESTDCU] Beanie";
+		displayName = "Beanie (ESTDCU)";
 		picture = "\PB_Main\ui\EST\PB_ESTDCU_Beanie_CA.paa";
 		model = "\A3\Characters_F\Common\woolhat";
 		hiddenSelections[] = {"camo"};
@@ -260,7 +260,7 @@ class cfgWeapons
 		author = "Kartsa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[ESTDCU] Boonie Hat";
+		displayName = "Boonie Hat (ESTDCU)";
 		picture = "\PB_Main\ui\EST\PB_ESTDCU_Boonie_CA.paa";
 		model = "\A3\Characters_F\Common\booniehat";
 		hiddenSelections[] = {"camo"};
@@ -286,7 +286,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[ESTDCU] Military Cap";
+		displayName = "Military Cap (ESTDCU)";
 		picture = "\PB_Main\ui\EST\PB_ESTDCU_Cap_CA.paa";
 		model = "\A3\Characters_F\Common\cappatrol";
 		hiddenSelections[] = {"camo"};
@@ -313,7 +313,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		picture = "\PB_Main\ui\EST\PB_ESTDCU_H_CA.paa";
-		displayName = "[ESTDCU] PASGT";
+		displayName = "PASGT (ESTDCU)";
 		scope = 2;
 		model = "rhsgref\addons\rhsgref_infantry\gear_tanoa\head\pasgt_helmet";
 		hiddenSelections[] = {"Camo"};
@@ -342,7 +342,7 @@ class cfgWeapons
 		author = "Kartsa";
 		picture = "\PB_Main\ui\EST\PB_ESTDCU_H_R_CA.paa";
 		scope = 2;
-		displayName = "[ESTDCU] PASGT (Rhino)";
+		displayName = "PASGT (ESTDCU/Rhino)";
 		model = "rhsgref\addons\rhsgref_infantry\gear_tanoa\head\pasgt_helmet_rhino";
 		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {"PB_Estonian_Kit\data\ESTDCU_pasgt_co.paa"};
@@ -370,7 +370,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[ESTDCU] Modular Carrier Lite";
+		displayName = "Modular Carrier Lite (ESTDCU)";
 		picture = "\PB_Main\ui\EST\PB_ESTDCU_Modular_Lite_CA.paa";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_light_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -412,7 +412,7 @@ class cfgWeapons
 	{
 		author = "Kartsa";
 		scope = 2;
-		displayName = "[ESTDCU] Modular Carrier Vest";
+		displayName = "Modular Carrier Vest (ESTDCU)";
 		picture = "\PB_Main\ui\EST\PB_ESTDCU_Modular_CA.paa";
 		model = "\A3\Characters_F_Enoch\Vests\V_CarrierRigKBT_01_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -457,7 +457,7 @@ class cfgWeapons
 		author = "Kartsa";
 		picture = "\PB_Main\ui\EST\PB_ESTDCU_Carrier_Lite_CA.paa";
 		Model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
-		displayName = "[ESTDCU] Carrier Lite";
+		displayName = "Carrier Lite (ESTDCU)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_Estonian_Kit\data\ESTDCU_carrierlite_co.paa"};
 		class ItemInfo: VestItem
@@ -501,7 +501,7 @@ class cfgWeapons
 		author = "Kartsa";
 		picture = "\PB_Main\ui\EST\PB_ESTDCU_Carrier_Rig_CA.paa";
 		Model = "\A3\Characters_F\BLUFOR\equip_b_vest01";
-		displayName = "[ESTDCU] Carrier Rig";
+		displayName = "Carrier Rig (ESTDCU)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"PB_Estonian_Kit\data\ESTDCU_carrierlite_co.paa"};
 		class ItemInfo: VestItem
