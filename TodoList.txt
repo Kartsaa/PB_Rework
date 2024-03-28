@@ -1,17 +1,13 @@
 TODO LIST:
 
 Countries:
- - France
  - Slovakia
  - Spain
  - Ukraine
 
 
 Icons:
-- Make new icons for all weapons
 - Bundeswehr insignia to black and white
-
-Go through credits for all added new things.
 
 Take New Screenshots
 

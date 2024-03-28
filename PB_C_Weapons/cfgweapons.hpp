@@ -93,7 +93,7 @@ class cfgweapons
         scope = 2;
         magazineReloadSwitchPhase = 0.5;
         model = "PB_M_Weapons\EF88\EF88.p3d";
-        picture = "PB_Main\ui\EF88\gear_auga3BLACK_x_ca.paa";
+        picture = "PB_Main\ui\wp\PB_EF88_CA.paa";
         maxRecoilSway = 0.0125;
         swayDecaySpeed = 1.25;
         ACE_barrelTwist = 228.6;
@@ -235,7 +235,7 @@ class cfgweapons
     {
         displayname = "Austeyr EF88 (ML40)";
         model = "PB_M_Weapons\EF88\EF88_M203.p3d";
-        picture = "\PB_Main\ui\EF88\gear_augglBLACK_x_ca.paa";
+        picture = "PB_Main\ui\wp\PB_EF88_GL_CA.paa";
         handanim[] = {"OFP2_ManSkeleton", "PB_A_Weapons\EF88\a3\auga3gl_hands"};
         muzzles[] = { "this", "PB_ML40_AUG" };
         hiddenSelections[] = { "Camo", "Vert" };
@@ -277,7 +277,7 @@ class cfgweapons
 		scope="2";
 		model = "\PB_M_Weapons\C8\C8.p3d";
         reloadAction = "RHS_GestureReloadAR15";
-        picture = "\PB_Main\ui\C8\PB_C8_CA.paa";
+        picture = "PB_Main\ui\wp\PB_C8_CA.paa";
 		baseWeapon="PB_C8";
 		displayName="C8A3";
 		discreteDistanceCameraPoint[] = { "eye_100","eye_200","eye_300","eye_400","eye_500","eye_600" };
@@ -367,7 +367,7 @@ class cfgweapons
 		author = "Toadie, Kartsa";
 		model = "\PB_M_Weapons\C9\C9A2.p3d";
 		displayName = "C9A2";
-		picture = "PB_Main\ui\C9\PB_C9_CA.paa";
+        picture = "PB_Main\ui\wp\PB_C9_CA.paa";
 		inertia = 0.69;
 		initspeed = -1;
 		modes[] = {"Single","FullAuto"};
@@ -512,7 +512,7 @@ class cfgweapons
 		dexterity = 1.41;
 		displayName = "C7A2 (M203)";
 		descriptionShort = "C7A2 with M203 Undermount";
-		picture = "TFC_CORE\addons\weapons_army\rifles\c7\Data\INV\tfc_w_c7a2_m203_x_ca.paa";
+        picture = "PB_Main\ui\wp\PB_C7M203_CA.paa";
 		UiPicture = "\A3\Weapons_F\Data\UI\icon_gl_CA.paa";
 		class Library
 		{
@@ -543,7 +543,7 @@ class cfgweapons
 		scopeCurator = 2;
 		displayname = "C7A2";
 		model = "TFC_CORE\addons\weapons_army\rifles\c7\tfc_w_c7a2.p3d";
-		picture = "TFC_CORE\addons\weapons_army\rifles\c7\Data\INV\tfc_w_c7a2_x_ca.paa";
+        picture = "PB_Main\ui\wp\PB_C7_CA.paa";
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
             class CowsSlot: asdg_OpticRail1913_short {
@@ -613,7 +613,7 @@ class cfgweapons
 		scope="2";
 		model = "\PB_M_Weapons\G36\G36_F.p3d";
         reloadAction = "RHS_GestureReloadAR15";
-        picture = "\PB_Main\ui\G36\icon_arifle_G36_F_X_CA.paa";
+        picture = "PB_Main\ui\wp\PB_G36_CA.paa";
 		baseWeapon="PB_G36";
 		displayName="G36K";
 		discreteDistance[] =
@@ -750,7 +750,7 @@ class cfgweapons
 	class PB_G36_GL: PB_G36 
 	{
 		model = "\PB_M_Weapons\G36\G36_GL_F.p3d";
-        picture = "\PB_Main\ui\G36\icon_arifle_G36_GL_F_X_CA.paa";
+        picture = "PB_Main\ui\wp\PB_G36_GL_CA.paa";
 		baseWeapon="PB_G36_GL";
 		displayName="G36K (GL)";
 		UiPicture = "\A3\Weapons_F\Data\UI\icon_gl_CA.paa";
@@ -857,7 +857,7 @@ class cfgweapons
 		model="\A3\Weapons_F_Mark\Machineguns\MMG_01\MMG_01_F.p3d";
 		displayName="MG5";
 		descriptionShort="MG5 7.62x51";
-		picture="\A3\Weapons_F_Mark\Machineguns\MMG_01\Data\UI\gear_MMG_01_tan_X_co.paa";
+        picture = "PB_Main\ui\wp\PB_MG5_CA.paa";
 		UIPicture="\A3\weapons_f\data\UI\icon_mg_CA.paa";
 		handAnim[]=
 		{
@@ -1106,7 +1106,7 @@ class cfgweapons
 			"\PB_T_Weapons\data\PzF3\PzF3_Trigger.rvmat",
 			"\PB_T_Weapons\data\PzF3\PzF3_Tube.rvmat"
 		};
-		picture = "\PB_Main\UI\PzF3\picture_PzF3_CA.paa";
+        picture = "PB_Main\ui\wp\PB_PZF3_CA.paa";
 		magazines[] =
 		{
 			"PB_DM12_HEAT_F",
@@ -1208,7 +1208,7 @@ class cfgweapons
 		drySound[] = {"A3\Sounds_F_Exp\arsenal\weapons\Rifles\Rifle_AK74\AK74_dry",0.17782794,1,10};
 		maxZeroing=600;
 		model="PB_M_Weapons\RK62M2\RK62m2.p3d";
-		picture="\PB_Main\ui\RK62\RK62M2_UI_CA.paa";
+        picture = "PB_Main\ui\wp\PB_RK62M2_CA.paa";
 		hiddenSelections[]={"camo1","camo2","camo3","camo4"};
 		hiddenSelectionsTextures[]={"PB_T_Weapons\data\RK62M2\stock_co.paa","PB_T_Weapons\data\RK62M2\rails_co.paa","PB_T_Weapons\data\RK62M2\grip_co.paa","PB_T_Weapons\data\RK62M2\frame_co.paa"};
 		handAnim[]={
@@ -1427,7 +1427,7 @@ class cfgweapons
 		drySound[]={"A3\Sounds_F_Exp\arsenal\weapons\Rifles\Rifle_AK47\AK47_dry",0.17782794,1,10};
 		maxZeroing=600;
 		model="PB_M_Weapons\RK62\KARRK62.p3d";
-		picture="\PB_Main\ui\RK62\RK62_UI_CA.paa";
+        picture = "PB_Main\ui\wp\PB_RK62_CA.paa";
 		hiddenSelections[]={"camo1","camo2"};
 		hiddenSelectionsTextures[]={"PB_T_Weapons\data\RK62\handguard_d_co.paa","PB_T_Weapons\data\RK62\rk62_d2_co.paa"};
 		handAnim[]={"OFP2_ManSkeleton","\PB_A_Weapons\RK62M2\handpose_ak12.rtm"};
@@ -1468,6 +1468,7 @@ class cfgweapons
 		aimTransitionSpeed = 0.5;
 		author = "Kartsa, Bohemia";
 		baseWeapon = "PB_PKM";
+        picture = "PB_Main\ui\wp\PB_PKM_CA.paa";
 		dexterity = 1.2;
 		discreteDistance[] = {100,200,300,400,500,600};
 		discreteDistanceCameraPoint[] = {"eye"};
@@ -1548,6 +1549,7 @@ class cfgweapons
 		aimTransitionSpeed = 0.5;
 		author = "Kartsa, Bohemia";
 		baseWeapon = "PB_PKP";
+        picture = "PB_Main\ui\wp\PB_PKP_CA.paa";
 		dexterity = 1.2;
 		discreteDistance[] = {100,200,300,400,500,600};
 		discreteDistanceCameraPoint[] = {"eye"};
@@ -1632,7 +1634,7 @@ class cfgweapons
 		magazines[] = {"30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag_green", "30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Green", "30Rnd_556x45_Stanag_Tracer_Yellow"};
 		magazineWell[] = {"CBA_556x45_STANAG","CBA_556x45_STANAG_L","CBA_556x45_STANAG_XL","CBA_556x45_STANAG_2D","CBA_556x45_STANAG_2D_XL","STANAG_556x45","STANAG_556x45_Large"};
 		magazineReloadSwitchPhase = 0.48;
-		picture = "\PB_Main\ui\famas\gear_famasG2_X_ca.paa";
+        picture = "PB_Main\ui\wp\PB_FAMAS_g2_CA.paa";
 		htMin = 8;
 		htMax = 920;
 		inertia = 0.5;
@@ -1842,7 +1844,7 @@ class cfgweapons
 		descriptionShort = "Famas G2 5.56x45 with Grip";
 		reloadMagazineSound[] = {"PB_A_Weapons\famas\snd\FAMAS_reload.ogg", 1, 1, 35};
 		handAnim[] = {"OFP2_ManSkeleton", "\PB_A_Weapons\famas\G2\famas_tact_high.rtm"};
-		picture = "\PB_Main\ui\famas\gear_famasG2grip_X_ca.paa";
+        picture = "PB_Main\ui\wp\PB_FAMAS_g2_GRIP_CA.paa";
 		hiddenSelections[] = 
 		{
 			"CamoG2_1", 
@@ -1882,7 +1884,7 @@ class cfgweapons
 		descriptionShort = "Famas G2 with M203 UBGL";
 		handAnim[] = {"OFP2_ManSkeleton", "\PB_A_Weapons\famas\g2\famas_new_gl.rtm"};
 		reloadMagazineSound[] = {"PB_A_Weapons\famas\snd\FAMAS_reload.ogg", 1, 1, 35};
-		picture = "\PB_Main\ui\famas\gear_famasG2m203_X_ca.paa";
+        picture = "PB_Main\ui\wp\PB_FAMAS_g2_M203_CA.paa";
 		hiddenSelections[] = 
 		{
 			"CamoG2_1", 
@@ -1941,7 +1943,7 @@ class cfgweapons
 		descriptionshort = "Famas F1 5.56x45 NATO";
 		scope = 2;		
 		handAnim[] = {"OFP2_ManSkeleton", "\PB_A_weapons\famas\F1\famas_new_high.rtm"};
-		picture = "\PB_Main\ui\famas\gear_famasf1_X_ca.paa";
+        picture = "PB_Main\ui\wp\PB_FAMAS_F1_CA.paa";
 		magazines[] = 
 		{
 			"PB_M855_Famas",
@@ -1996,7 +1998,7 @@ class cfgweapons
 		descriptionshort = "Famas F1 5.56x45 NATO with RIS";
 		scope = 2;		
 		handAnim[] = {"OFP2_ManSkeleton", "\PB_A_weapons\famas\F1\famas_new_high.rtm"};
-		picture = "\PB_Main\ui\famas\gear_famasf1ris_X_ca.paa";
+        picture = "PB_Main\ui\wp\PB_FAMAS_F1_RIS_CA.paa";
 		hiddenSelections[] = 
 		{
 			"CamoF1_1", 
@@ -2046,7 +2048,7 @@ class cfgweapons
 		descriptionShort = "Famas G1 with M203 UBGL";
 		handAnim[] = {"OFP2_ManSkeleton", "\PB_A_Weapons\famas\g2\famas_new_gl.rtm"};
 		reloadMagazineSound[] = {"PB_A_Weapons\famas\snd\FAMAS_reload.ogg", 1, 1, 35};
-		picture = "\PB_Main\ui\famas\gear_famasf1m203_X_ca.paa";
+        picture = "PB_Main\ui\wp\PB_FAMAS_F1_M203_CA.paa";
 		hiddenSelections[] = 
 		{
 			"CamoF1_1", 
@@ -2161,7 +2163,7 @@ class cfgweapons
 		magazineReloadSwitchPhase = 0.3;
 		maxRecoilSway = 0.0125;
 		swayDecaySpeed = 1.25;
-        picture = "\rhsafrf\addons\rhs_inventoryicons\data\weapons\rhs_weap_ak74m_ca.paa";
+        picture = "PB_Main\ui\wp\PB_ARM1_CA.paa";
 		baseWeapon="PB_ARM1";
 		displayName="AR-M1";
 		UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
@@ -2218,6 +2220,7 @@ class cfgweapons
 		author="Kartsa";
 		scope="2";
 		baseWeapon="PB_LMG556";
+        picture = "PB_Main\ui\wp\PB_LMG556_CA.paa";
 		displayName="Arsenal LMG 5.56x45";
 		magazines[]=
 		{
@@ -2260,7 +2263,7 @@ class cfgweapons
 	{
 		model = "\rhsafrf\addons\rhs_weapons\rhs_ak74m_gp25.p3d";
         reloadAction = "RHS_GestureReloadAK_1hand";
-		picture = "\rhsafrf\addons\rhs_inventoryicons\data\weapons\rhs_weap_ak74m_gp25_ca.paa";
+        picture = "PB_Main\ui\wp\PB_ARM1_GL_CA.paa";
 		baseWeapon="PB_ARM1_GL";
 		displayName="AR-M1 GP25";
 		weaponInfoType = "rhs_rscOptics_ak74m_gp25";
@@ -2311,7 +2314,7 @@ class cfgweapons
 		magazineReloadSwitchPhase = 0.3;
 		maxRecoilSway = 0.0125;
 		swayDecaySpeed = 1.25;
-		picture = "\rhsafrf\addons\rhs_inventoryicons\data\weapons\rhs_weap_ak74mr_ca.paa";
+        picture = "PB_Main\ui\wp\PB_ARM5_CA.paa";
 		baseWeapon="PB_ARM5";
 		displayName="AR-M5T";
 		UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
@@ -2425,7 +2428,7 @@ class cfgweapons
 		magazineReloadSwitchPhase = 0.3;
 		maxRecoilSway = 0.0125;
 		swayDecaySpeed = 1.25;
-		picture = "\A3\Weapons_F_Exp\Rifles\SPAR_01\Data\UI\arifle_SPAR_01_blk_F_X_CA.paa";
+        picture = "PB_Main\ui\wp\PB_RAHES_CA.paa";
 		descriptionShort = "5.56x45mm NATO LMT R-20 S Rahe";
 		baseWeapon="PB_RAHES";
 		displayName="LMT R-20 S Rahe";
@@ -2512,7 +2515,7 @@ class cfgweapons
 		magazineReloadSwitchPhase = 0.3;
 		maxRecoilSway = 0.0125;
 		swayDecaySpeed = 1.25;
-		picture = "\A3\Weapons_F_Exp\Rifles\SPAR_01\Data\UI\arifle_SPAR_01_GL_blk_F_X_CA.paa";
+        picture = "PB_Main\ui\wp\PB_RAHESGL_CA.paa";
 		descriptionShort = "5.56x45mm NATO LMT R-20 S M203 Rahe";
 		baseWeapon="PB_RAHESGL";
 		displayName="LMT R-20 Rahe (GL)";
@@ -2604,7 +2607,7 @@ class cfgweapons
 		magazineReloadSwitchPhase = 0.3;
 		maxRecoilSway = 0.0125;
 		swayDecaySpeed = 1.25;
-        picture = "\A3\Weapons_F_Exp\Rifles\SPAR_02\Data\UI\arifle_SPAR_02_blk_F_X_CA.paa";
+        picture = "PB_Main\ui\wp\PB_RAHE_CA.paa";
 		descriptionShort = "5.56x45mm NATO LMT R-20 Rahe";
 		baseWeapon="PB_RAHE";
 		displayName="LMT R-20 Rahe";
@@ -2686,7 +2689,7 @@ class cfgweapons
 		magazineReloadSwitchPhase = 0.3;
 		maxRecoilSway = 0.0125;
 		swayDecaySpeed = 1.25;
-		picture = "\A3\Weapons_F_Exp\Rifles\SPAR_03\Data\UI\arifle_SPAR_03_blk_F_X_CA.paa";
+        picture = "PB_Main\ui\wp\PB_RAHEL_CA.paa";
 		descriptionShort = "7.62x51mm NATO LMT R-20 L Rahe";
 		baseWeapon="PB_RAHEL";
 		displayName="LMT R-20 L Rahe";
@@ -2796,7 +2799,7 @@ class cfgweapons
 		reloadAction = "GestureReloadM200";
 		baseWeapon="PB_Negev";
 		displayName="Negev NG7 (Black)";
-		picture = "\A3\Weapons_F_Beta\Machineguns\Zafir\Data\UI\gear_Zafir_X_CA.paa";
+        picture = "PB_Main\ui\wp\PB_NEGEV_CA.paa";
 		UiPicture = "\A3\weapons_f\data\UI\icon_mg_CA.paa";
 		maxZeroing = 1400;
 		hiddenSelections[] = {"camo1","camo2"};
@@ -2819,26 +2822,26 @@ class cfgweapons
 		};
 		class Single: Single
 		{
-			class StandardSound: BaseSoundModeType
+			class StandardSound
 			{
-				soundSetShot[] = {"NIA_M60E4_NEW_Shot_SoundSet","M60E4_Tail_SoundSet"};
+				soundSetShot[] = {"RHSUSF_m240_Shot_SoundSet","RHSUSF_rifle_med_Tail_SoundSet","RHSUSF_m240_stereoLayer_SoundSet"};
 			};
-			class SilencedSound: BaseSoundModeType
+			class SilencedSound
 			{
-				soundSetShot[] = {"M60e4_silencerShot_SoundSet","M60e4_silencerTail_SoundSet"};
+				soundSetShot[] = {"RHSUSF_sd_m4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_m4_stereoLayer_SoundSet"};
 			};
 			reloadTime = 0.0923;
 			dispersion = 0.001518;
 		};
 		class FullAuto: FullAuto
 		{
-			class StandardSound: BaseSoundModeType
+			class StandardSound
 			{
-				soundSetShot[] = {"NIA_M60E4_NEW_Shot_SoundSet","M60E4_Tail_SoundSet"};
+				soundSetShot[] = {"RHSUSF_m240_Shot_SoundSet","RHSUSF_rifle_med_Tail_SoundSet","RHSUSF_m240_stereoLayer_SoundSet"};
 			};
-			class SilencedSound: BaseSoundModeType
+			class SilencedSound
 			{
-				soundSetShot[] = {"M60e4_silencerShot_SoundSet","M60e4_silencerTail_SoundSet"};
+				soundSetShot[] = {"RHSUSF_sd_m4_Shot_SoundSet","RHSUSF_sd_Rifle1_Tail_SoundSet","RHSUSF_sd_m4_stereoLayer_SoundSet"};
 			};
 			reloadTime = 0.0923;
 			dispersion = 0.001518;
@@ -2850,7 +2853,7 @@ class cfgweapons
 		scope="2";
 		model = "\rhsusf\addons\rhsusf_weapons2\HK416\rhs_hk416d10.p3d";
 		reloadAction = "RHS_GestureReloadAR15";
-		picture = "\A3\Weapons_F_Exp\Rifles\SPAR_01\Data\UI\arifle_SPAR_01_blk_F_X_CA.paa";
+        picture = "PB_Main\ui\wp\PB_MPT55_CA.paa";
 		baseWeapon="PB_MPT55";
 		displayName="MPT-55";
 		UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
@@ -2965,7 +2968,7 @@ class cfgweapons
 	{
 		author = "Kartsa, Holm";
 		model = "\rhsusf\addons\rhsusf_weapons2\HK416\rhs_hk416d145.p3d";
-		picture = "PB_Main\ui\MPT\PB_MPT76_CA.paa";
+        picture = "PB_Main\ui\wp\PB_MPT76_CA.paa";
 		displayName = "MPT-76";
 		hiddenSelections[] = {"camo1","camo2","camo3"};
 		hiddenSelectionsTextures[] = {"PB_T_Weapons\data\MPT\mpt76_body_co.paa","PB_T_Weapons\data\MPT\magazine_co.paa","PB_T_Weapons\data\MPT\buttstock2_TAF_co.paa"};
@@ -3080,7 +3083,7 @@ class cfgweapons
 		magazineReloadSwitchPhase = 0.3;
 		maxRecoilSway = 0.0125;
 		swayDecaySpeed = 1.25;
-		picture = "\A3\Weapons_F_Exp\Rifles\SPAR_01\Data\UI\arifle_SPAR_01_GL_blk_F_X_CA.paa";
+        picture = "PB_Main\ui\wp\PB_MPT55SGL_CA.paa";
 		baseWeapon="PB_MPT55SGL";
 		displayName="MPT-55 (M203)";
 		UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
@@ -3164,7 +3167,7 @@ class cfgweapons
 		author = "Aegis Team";
 		scope = 2;
 		displayName = "SCAR-L";
-		picture = "\PB_Main\ui\SCAR\icon_arifle_scar_L.paa";
+        picture = "PB_Main\ui\wp\PB_SCARL_CA.paa";
 		baseWeapon = PB_SCARL;
 		model = "\PB_M_Weapons\SCAR\SCAR_L_F.p3d";
 		descriptionShort = "SCAR-L 5.56x45 NATO";
@@ -3331,6 +3334,7 @@ class cfgweapons
 		scope = 2;
 		baseweapon = "PB_SCARL_GL";
 		displayname = "SCAR-L (GL)";
+        picture = "PB_Main\ui\wp\PB_SCARL_GL_CA.paa";
 		UiPicture = "\A3\Weapons_F\Data\UI\icon_gl_CA.paa";
 		model = "\PB_M_Weapons\SCAR\SCAR_L_GL_F.p3d";
 		hiddenSelections[] =
@@ -3443,6 +3447,7 @@ class cfgweapons
 		scope = 2;
 		baseweapon = "PB_SCARL_GRIP";
 		displayname = "SCAR-L (Grip)";
+        picture = "PB_Main\ui\wp\PB_SCARL_GRIP_CA.paa";
 		model = "\PB_M_Weapons\SCAR\SCAR_L_grip_F.p3d";
 		handAnim[] =
 		{
@@ -3517,7 +3522,7 @@ class cfgweapons
 		ACE_barrelLength = 292.1;
 		aidispersioncoefx = 4;
 		aidispersioncoefy = 6;
-		picture = "\PB_Main\ui\Grot\gear_rifle-black_ca.paa";
+        picture = "PB_Main\ui\wp\PB_MSBS_GROT_CA.paa";
 		magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag"};
 		magazineWell[] = {"CBA_556x45_STANAG"};
 		model = "PB_M_Weapons\Grot\ACR.p3d";
@@ -3652,6 +3657,7 @@ class cfgweapons
 		scope = 2;
 		author = "Toadie";
 		displayname = "Type 20";
+        picture = "PB_Main\ui\wp\PB_TYPE20_CA.paa";
 		hiddenSelections[] = { "Map1", "Map2","Receiver" };
 		hiddenSelectionsTextures[] = 
 		{ 
@@ -3720,7 +3726,7 @@ class cfgweapons
 		displayName="Daewoo K2";
 		descriptionShort="5.56NATO Rifle made in South korea";
 		model="\BRM_K2\Models\BRM_k2.p3d";
-		picture="\BRM_K2\ui\BRM_K2ui.paa";
+        picture = "PB_Main\ui\wp\PB_K2_CA.paa";
 		hiddenSelections[]=
 		{
 		    "camo1",
@@ -4011,7 +4017,7 @@ class cfgweapons
 		displayName="Daewoo K2GL";
 		descriptionShort="5.56NATO Rifle made in South korea with M203 grenade launcher";
 		model="\BRM_K2\Models\BRM_k2GL.p3d";
-		picture="\BRM_K2\ui\BRM_K2ui.paa";
+        picture = "PB_Main\ui\wp\PB_K2GL_CA.paa";
 		handAnim[] = {"OFP2_ManSkeleton","\BRM_K2\Anims\K2GL_handpos.rtm"};
 		muzzles[] = {this, EGLM};
 		hiddenSelections[]=
@@ -4072,7 +4078,7 @@ class cfgweapons
 		    displayName="Daewoo K2C1";
 		    descriptionShort="5.56NATO Rifle made in South korea upgraded to new standard";
 		    model="\BRM_K2\Models\BRM_k2c1.p3d";
-			picture="\BRM_K2\ui\BRM_K2C1ui.paa";
+        picture = "PB_Main\ui\wp\PB_K2C1_CA.paa";
 		    hiddenSelections[]=
 		    {
 			    "camo",
@@ -4359,8 +4365,8 @@ class cfgweapons
 		    displayName="Daewoo K2C1-M203";
 		    descriptionShort="5.56NATO Rifle made in South korea upgraded to new standard";
 		    model="\BRM_K2\Models\BRM_k2c1GL.p3d";
-			picture="\BRM_K2\ui\BRM_K2C1ui.paa";
-			muzzles[] = {this, EGLM};
+        picture = "PB_Main\ui\wp\PB_K2C1GL_CA.paa";
+			muzzles[] = {"this", "EGLM"};
 		    hiddenSelections[]=
 		    {
 			    "camo",
@@ -4425,7 +4431,7 @@ class cfgweapons
         AB_barrelLength = 17.7;
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 449.58;
-        picture = "\PB_Main\ui\g3\gear_g3a3_x_ca";
+        picture = "PB_Main\ui\wp\PB_G3_CA.paa";
         agm_bipod = 0;
         cse_bipod = 0;
         bg_bipod = 0;
@@ -4517,6 +4523,7 @@ class cfgweapons
 		baseWeapon = "PB_TAR21_Black";
 		scope = 2;
 		displayName = "TAR-21 (Black)";
+        picture = "PB_Main\ui\wp\PB_TAR21_Black_CA.paa";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\PB_T_Weapons\data\TAR-21\tar21_base_co.paa"};
 	};
@@ -4525,6 +4532,7 @@ class cfgweapons
 		author = "CapryCorn";
 		baseWeapon = "GTAR21_EGLM_Black";
 		scope = 2;
+        picture = "PB_Main\ui\wp\PB_GTAR21_EGLM_Black_CA.paa";
 		displayName = "GTAR-21 EGLM (Black)";
 		hiddenSelections[] = {"camo1"};
 		hiddenSelectionsTextures[] = {"\PB_T_Weapons\data\TAR-21\tar21_base_co.paa"};
@@ -4534,6 +4542,7 @@ class cfgweapons
 		author = "CapryCorn";
 		baseWeapon = "CTAR21_Black";
 		scope = 2;
+        picture = "PB_Main\ui\wp\PB_CTAR21_Black_CA.paa";
 		displayName = "CTAR-21 (Black)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\PB_T_Weapons\data\TAR-21\tar21_base_co.paa"};
@@ -4543,6 +4552,7 @@ class cfgweapons
 		author = "CapryCorn";
 		baseweapon = "PB_RPG32_Black";
 		displayName = "RPG-32 (Black)";
+        picture = "PB_Main\ui\wp\PB_RPG32_Black_CA.paa";
 		hiddenSelections[] = {"Camo_1","Camo_2"};
 		hiddenSelectionsTextures[] = {"PB_T_Weapons\data\RPG-32\Black_RPG_32_body_CO.paa","PB_T_Weapons\data\RPG-32\Olive_RPG_32_optics_CO.paa"};
 	};
@@ -4551,6 +4561,7 @@ class cfgweapons
 		author = "CapryCorn";
 		baseweapon = "PB_RPG32_Olive";
 		displayName = "RPG-32 (Olive)";
+        picture = "PB_Main\ui\wp\PB_RPG32_OLIVE_CA.paa";
 		hiddenSelections[] = {"Camo_1","Camo_2"};
 		hiddenSelectionsTextures[] = {"PB_T_Weapons\data\RPG-32\Olive_RPG_32_body_CO.paa","PB_T_Weapons\data\RPG-32\Olive_RPG_32_optics_CO.paa"};
 	};
@@ -4567,7 +4578,7 @@ class cfgweapons
         reloadAction = "PB_NIA_GestureReload416";
         scope = 2;
         model = "PB_M_Weapons\417\HK417.p3d";
-        picture = "\PB_Main\ui\417\gear_416d20_ca";
+        picture = "PB_Main\ui\wp\PB_HK417_CA.paa";
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
         displayName = "HK417";
         descriptionShort = "Heckler and Koch HK417 7.62x51mm";
@@ -4679,7 +4690,7 @@ class cfgweapons
 		scope="2";
 		model = "\rhsusf\addons\rhsusf_weapons3\M4BII\m4a1_blockII.p3d";
 		reloadAction = "RHS_GestureReloadAR15";
-		picture = "";
+        picture = "PB_Main\ui\wp\PB_GM10A4_CA.paa";
 		baseWeapon="PB_GM10A4";
 		displayName="Gevær M10 A4";
 		UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
@@ -4799,7 +4810,7 @@ class cfgweapons
 	class PB_GM10A4_M203: PB_GM10A4
 	{
 		author = "Kartsa";
-		picture = "\rhsusf\addons\rhsusf_inventoryicons\data\weapons\rhs_weap_m4a1_blockII_M203_ca.paa";
+        picture = "PB_Main\ui\wp\PB_GM10A4_M203_CA.paa";
 		displayName = "Gevær M10 A4 (M203)";
 		model = "\rhsusf\addons\rhsusf_weapons3\M4BII\m4a1_blockII_M203.p3d";
 		handAnim[] = {"OFP2_ManSkeleton","\rhsusf\addons\rhsusf_c_weapons\anims\rhs_hand_m16a4_m203.rtm"};
